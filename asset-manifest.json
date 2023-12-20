@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/cloudquizapp/static/css/main.87af20e8.css",
-    "main.js": "/cloudquizapp/static/js/main.3141e1bd.js",
+    "main.js": "/cloudquizapp/static/js/main.9011d7d8.js",
     "static/js/356.209b65ca.chunk.js": "/cloudquizapp/static/js/356.209b65ca.chunk.js",
     "static/js/572.336f24d7.chunk.js": "/cloudquizapp/static/js/572.336f24d7.chunk.js",
+    "static/js/767.0ae581c3.chunk.js": "/cloudquizapp/static/js/767.0ae581c3.chunk.js",
+    "static/js/893.aa783f93.chunk.js": "/cloudquizapp/static/js/893.aa783f93.chunk.js",
+    "static/js/658.1723bc69.chunk.js": "/cloudquizapp/static/js/658.1723bc69.chunk.js",
+    "static/js/257.1f94865a.chunk.js": "/cloudquizapp/static/js/257.1f94865a.chunk.js",
+    "static/js/156.3656f991.chunk.js": "/cloudquizapp/static/js/156.3656f991.chunk.js",
     "static/js/817.6ab15547.chunk.js": "/cloudquizapp/static/js/817.6ab15547.chunk.js",
     "index.html": "/cloudquizapp/index.html",
     "main.87af20e8.css.map": "/cloudquizapp/static/css/main.87af20e8.css.map",
-    "main.3141e1bd.js.map": "/cloudquizapp/static/js/main.3141e1bd.js.map"
+    "main.9011d7d8.js.map": "/cloudquizapp/static/js/main.9011d7d8.js.map"
   },
   "entrypoints": [
     "static/css/main.87af20e8.css",
-    "static/js/main.3141e1bd.js"
+    "static/js/main.9011d7d8.js"
   ]
 }
