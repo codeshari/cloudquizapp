@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="Navbar">CLOUD TRIVIA</div>
+      <div className="Navbar"><h2>CLOUD TRIVIA</h2></div>
 
 
       <div className="content-container">

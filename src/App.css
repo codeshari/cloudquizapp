@@ -59,12 +59,12 @@ body {
 
 /* Content container styles */
 .content-container {
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   width: 80%; /* Adjust the width as needed */
   max-width: 1200px; /* Add a max-width to prevent container from becoming too wide */
   margin-left: auto;
@@ -76,4 +76,40 @@ body {
   .content-container {
     width: 90%; /* Adjust the width for smaller screens */
   }
+}
+
+/* Example CSS for table cells */
+td {
+  font-size: 14px; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+  td {
+    font-size: 12px; /* Adjust for smaller screens */
+  }
+}
+
+/* Example CSS for table cells */
+td {
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+}
+
+@media (max-width: 768px) {
+  td {
+    white-space: normal; /* Allow text to wrap */
+    text-overflow: clip; /* Default behavior for smaller screens */
+  }
+}
+
+/* Example CSS for table cells */
+td {
+  height: 50px; /* Adjust as needed */
+}
+
+/* Example CSS for images in table cells */
+td img {
+  max-width: 100%;
+  height: auto;
 }

@@ -1,72 +1,76 @@
-/* Your existing styles for larger screens */
+/* General styles for larger screens */
 
 .result-container {
-    margin: 20px;
-    overflow-y: auto;
-    max-height: 600px;
+  margin: 20px;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  /* Adjust container margin and remove max-height for smaller screens */
+  .result-container {
+    margin: 10px;
+    max-height: none;
   }
-  
-  h2 {
-    text-align: center;
-  }
-  
+
+  /* Remove box shadow for smaller screens */
   table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
   }
-  
+
+  /* Adjust padding for table cells on smaller screens */
   th,
   td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
+    padding: 8px;
   }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .correct {
-    color: green;
-    font-weight: bold;
-  }
-  
-  .incorrect {
-    color: red;
-    font-weight: bold;
-  }
-  
+
+  /* Decrease font size for better readability on smaller screens */
   p {
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 16px;
   }
-  
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .result-container {
-      margin: 10px;
-      max-height: none;
-    }
-  
-    table {
-      box-shadow: none;
-    }
-  
-    th,
-    td {
-      padding: 8px;
-    }
-  
-    p {
-      font-size: 16px;
-    }
-  }
-  
+}
