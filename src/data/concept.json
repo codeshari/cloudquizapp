@@ -1,0 +1,24 @@
+[
+    { "id": 1, "displayName": "Identity and Authentication Management", "fileName": "IAM" },
+    { "id": 2, "displayName": "Elastic Compute Cloud (EC2)", "fileName": "EC2" },
+    { "id": 3, "displayName": "Simple Storage Service (S3)", "fileName": "S3" },
+    { "id": 4, "displayName": "Relational Database Service (RDS)", "fileName": "RDS" },
+    { "id": 5, "displayName": "Lambda", "fileName": "Lambda" },
+    { "id": 6, "displayName": "Virtual Private Cloud (VPC)", "fileName": "VPC" },
+    { "id": 7, "displayName": "Route 53", "fileName": "Route53" },
+    { "id": 8, "displayName": "Elastic Load Balancing (ELB)", "fileName": "ELB" },
+    { "id": 9, "displayName": "Amazon Redshift", "fileName": "Redshift" },
+    { "id": 10, "displayName": "Simple Notification Service (SNS)", "fileName": "SNS" },
+    { "id": 11, "displayName": "Simple Queue Service (SQS)", "fileName": "SQS" },
+    { "id": 12, "displayName": "DynamoDB", "fileName": "DynamoDB" },
+    { "id": 13, "displayName": "Elastic Container Service (ECS)", "fileName": "ECS" },
+    { "id": 14, "displayName": "Elastic Block Store (EBS)", "fileName": "EBS" },
+    { "id": 15, "displayName": "Glacier", "fileName": "Glacier" },
+    { "id": 16, "displayName": "Elastic File System (EFS)", "fileName": "EFS" },
+    { "id": 17, "displayName": "CloudFront", "fileName": "CloudFront" },
+    { "id": 18, "displayName": "Key Management Service (KMS)", "fileName": "KMS" },
+    { "id": 19, "displayName": "Elasticsearch Service", "fileName": "Elasticsearch" },
+    { "id": 20, "displayName": "AWS Organizations", "fileName": "Organizations" }
+
+  ]
+  

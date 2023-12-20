@@ -1,0 +1,92 @@
+/* src/App.css */
+
+/* Reset some default styles and add a box-sizing declaration */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+    font-family: 'Work Sans';  font-family: 'Work Sans';
+  margin: 0;
+}
+
+/* Navbar styles */
+.Navbar {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Navbar links */
+.Navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.Navbar a:hover {
+  background-color: #555;
+}
+
+/* Navbar logo and menu styles */
+.Navbar .logo {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.Navbar .menu {
+  display: inline-block;
+}
+
+.Navbar .menu a {
+  display: inline-block;
+}
+
+/* Content container styles */
+.content-container {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .Navbar {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+  .Navbar .logo {
+    margin: 0;
+    text-align: center;
+  }
+
+  .Navbar .menu {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .Navbar a {
+    display: block;
+    margin: 8px 0;
+  }
+}
+
