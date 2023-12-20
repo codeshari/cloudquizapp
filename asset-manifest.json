@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cloudquizapp/static/css/main.69c07d26.css",
-    "main.js": "/cloudquizapp/static/js/main.8d0bb5f7.js",
+    "main.css": "/cloudquizapp/static/css/main.0c2aecd5.css",
+    "main.js": "/cloudquizapp/static/js/main.f877a277.js",
     "static/js/356.209b65ca.chunk.js": "/cloudquizapp/static/js/356.209b65ca.chunk.js",
     "static/js/572.336f24d7.chunk.js": "/cloudquizapp/static/js/572.336f24d7.chunk.js",
     "static/js/817.6ab15547.chunk.js": "/cloudquizapp/static/js/817.6ab15547.chunk.js",
     "index.html": "/cloudquizapp/index.html",
-    "main.69c07d26.css.map": "/cloudquizapp/static/css/main.69c07d26.css.map",
-    "main.8d0bb5f7.js.map": "/cloudquizapp/static/js/main.8d0bb5f7.js.map"
+    "main.0c2aecd5.css.map": "/cloudquizapp/static/css/main.0c2aecd5.css.map",
+    "main.f877a277.js.map": "/cloudquizapp/static/js/main.f877a277.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c07d26.css",
-    "static/js/main.8d0bb5f7.js"
+    "static/css/main.0c2aecd5.css",
+    "static/js/main.f877a277.js"
   ]
 }
