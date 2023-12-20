@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cloudquizapp/static/css/main.f4f5bc42.css",
+    "main.css": "/cloudquizapp/static/css/main.87af20e8.css",
     "main.js": "/cloudquizapp/static/js/main.3141e1bd.js",
     "static/js/356.209b65ca.chunk.js": "/cloudquizapp/static/js/356.209b65ca.chunk.js",
     "static/js/572.336f24d7.chunk.js": "/cloudquizapp/static/js/572.336f24d7.chunk.js",
     "static/js/817.6ab15547.chunk.js": "/cloudquizapp/static/js/817.6ab15547.chunk.js",
     "index.html": "/cloudquizapp/index.html",
-    "main.f4f5bc42.css.map": "/cloudquizapp/static/css/main.f4f5bc42.css.map",
+    "main.87af20e8.css.map": "/cloudquizapp/static/css/main.87af20e8.css.map",
     "main.3141e1bd.js.map": "/cloudquizapp/static/js/main.3141e1bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4f5bc42.css",
+    "static/css/main.87af20e8.css",
     "static/js/main.3141e1bd.js"
   ]
 }
