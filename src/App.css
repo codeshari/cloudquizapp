@@ -1,40 +1,38 @@
 @media (max-width: 768px) {
-  .Navbar {
+  .Titlebar {
     padding: 15px;
     font-size: 1.2em;
     
   }
 
-  .Navbar .logo {
+  .Titlebar .logo {
     text-align: center;
   }
 
-  .Navbar .menu {
+  .Titlebar .menu {
     text-align: center;
     margin-top: 10px;
   }
 
-  .Navbar a {
+  .Titlebar a {
     display: block;
     margin: 8px 0;
   }
 
-  .content-container {
-    margin-top: 20px;
-  }
+
 }
 .Quiz {
   width: 100%; /* Adjust as needed */
   max-width: 600px; /* Adjust as needed */
   margin: 0 auto;
 }
-.Navbar {
+.Titlebar {
   padding: 20px;
   font-size: 1.5em;
 }
 
 @media (max-width: 768px) {
-  .Navbar {
+  .Titlebar {
     padding: 15px;
     font-size: 1.2em;
   }
@@ -45,12 +43,7 @@
   margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 
-}
 
 body {
   font-family: 'Work Sans';  font-family: 'Work Sans';
@@ -65,9 +58,9 @@ body {
   justify-content: center;
   margin: auto;
   align-items: center;
-  width: 80%; /* Adjust the width as needed */
+  width: 100%; /* Adjust the width as needed */
   max-width: 1200px; /* Add a max-width to prevent container from becoming too wide */
-  margin-top: 40px;
+
 }
 
 /* Responsive Styles */

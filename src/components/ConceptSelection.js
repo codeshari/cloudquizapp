@@ -14,16 +14,15 @@ const ConceptSelection = ({ concepts, onSelectConcept }) => {
       <div className="concepts-list">
         {/* Mapping through concepts and displaying each one */}
         {concepts.map((concept, index) => (
-          <div key={index}>
+          <div className='concept-item'  key={index}>
             {/* Concept item details */}
-            <div>
-              <td>{index + 1}. {concept.displayName}</td>
-              <td>
+
+              <td style={{border:"none", fontSize:"1rem"}} className='concept-title'>{index + 1}. {concept.displayName}</td>
+              <td style={{border:"none", fontSize:"1rem", width:"30%"}} className='concept-button'>
                 {/* Button to take the quiz for the selected concept */}
-                <button onClick={() => onSelectConcept(concept)}>Take Quiz</button>
+                <button className='take-quiz-button' onClick={() => onSelectConcept(concept)}>TAKE QUIZ</button>
                 
               </td>
-            </div>
           </div>
         ))}
       </div>

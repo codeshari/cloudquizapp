@@ -38,11 +38,15 @@ const App = () => {
     return <p>Loading...</p>;
   }
 
+  const handleTitleClick = () => {
+    // Reset selectedConcept and show ConceptSelection
+    setSelectedConcept(null);
+    setShowResult(false);
+  };
+
   return (
     <div>
-      <div className="Navbar"><h2>CLOUD TRIVIA</h2></div>
-
-
+      <div className="Titlebar" onClick={handleTitleClick}><h2>CLOUD TRIVIA</h2></div>
       <div className="content-container">
         {selectedConcept && !showResult ? (
           <Quiz questions={questions} conceptName={selectedConcept.name} concept = {selectedConcept}onFinishQuiz={handleFinishQuiz} />
