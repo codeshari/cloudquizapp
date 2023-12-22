@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cloudquizapp/static/css/main.5ab5a1fd.css",
+    "main.css": "/cloudquizapp/static/css/main.969853a4.css",
     "main.js": "/cloudquizapp/static/js/main.f2665366.js",
     "static/js/246.36405086.chunk.js": "/cloudquizapp/static/js/246.36405086.chunk.js",
     "static/js/130.1274c1b2.chunk.js": "/cloudquizapp/static/js/130.1274c1b2.chunk.js",
@@ -29,11 +29,11 @@
     "static/media/aws.png": "/cloudquizapp/static/media/aws.32eaaae9c85a46132ebb.png",
     "static/media/terraform.png": "/cloudquizapp/static/media/terraform.91c6b3f618d2186b47e0.png",
     "index.html": "/cloudquizapp/index.html",
-    "main.5ab5a1fd.css.map": "/cloudquizapp/static/css/main.5ab5a1fd.css.map",
+    "main.969853a4.css.map": "/cloudquizapp/static/css/main.969853a4.css.map",
     "main.f2665366.js.map": "/cloudquizapp/static/js/main.f2665366.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ab5a1fd.css",
+    "static/css/main.969853a4.css",
     "static/js/main.f2665366.js"
   ]
 }
