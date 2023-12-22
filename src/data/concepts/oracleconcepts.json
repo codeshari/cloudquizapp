@@ -1,0 +1,22 @@
+[
+    { "id": 1, "displayName": "Identity and Access Management (IAM)", "fileName": "IAM" },
+    { "id": 2, "displayName": "Compute", "fileName": "Compute" },
+    { "id": 3, "displayName": "Object Storage", "fileName": "ObjectStorage" },
+    { "id": 4, "displayName": "Autonomous Database", "fileName": "AutonomousDB" },
+    { "id": 5, "displayName": "Functions", "fileName": "Functions" },
+    { "id": 6, "displayName": "Virtual Cloud Network (VCN)", "fileName": "VCN" },
+    { "id": 7, "displayName": "DNS", "fileName": "DNS" },
+    { "id": 8, "displayName": "Load Balancing", "fileName": "LoadBalancing" },
+    { "id": 9, "displayName": "Oracle Database Cloud Service", "fileName": "OracleDBCloudService" },
+    { "id": 10, "displayName": "Notification Service", "fileName": "NotificationService" },
+    { "id": 11, "displayName": "Streaming", "fileName": "Streaming" },
+    { "id": 12, "displayName": "Oracle MySQL Database Service", "fileName": "MySQLDBService" },
+    { "id": 13, "displayName": "Container Engine for Kubernetes (OKE)", "fileName": "OKE" },
+    { "id": 14, "displayName": "Block Volume", "fileName": "BlockVolume" },
+    { "id": 15, "displayName": "Object Storage Archive", "fileName": "ObjectStorageArchive" },
+    { "id": 16, "displayName": "File Storage", "fileName": "FileStorage" },
+    { "id": 17, "displayName": "Content Delivery Network (CDN)", "fileName": "CDN" },
+    { "id": 18, "displayName": "Key Management", "fileName": "KeyManagement" },
+    { "id": 19, "displayName": "Oracle Exadata Cloud Service", "fileName": "ExadataCloudService" },
+    { "id": 20, "displayName": "Resource Manager", "fileName": "ResourceManager" }
+]

@@ -1,0 +1,22 @@
+[
+    { "id": 1, "displayName": "Providers", "fileName": "Providers" },
+    { "id": 2, "displayName": "Resources", "fileName": "Resources" },
+    { "id": 3, "displayName": "Data Sources", "fileName": "DataSources" },
+    { "id": 4, "displayName": "Variables", "fileName": "Variables" },
+    { "id": 5, "displayName": "Outputs", "fileName": "Outputs" },
+    { "id": 6, "displayName": "Modules", "fileName": "Modules" },
+    { "id": 7, "displayName": "State Management", "fileName": "StateManagement" },
+    { "id": 8, "displayName": "Providers Configuration", "fileName": "ProvidersConfiguration" },
+    { "id": 9, "displayName": "Resource Provisioning", "fileName": "ResourceProvisioning" },
+    { "id": 10, "displayName": "Variables and Expressions", "fileName": "VariablesAndExpressions" },
+    { "id": 11, "displayName": "Outputs and Dependencies", "fileName": "OutputsAndDependencies" },
+    { "id": 12, "displayName": "Module Composition", "fileName": "ModuleComposition" },
+    { "id": 13, "displayName": "Remote State Storage", "fileName": "RemoteStateStorage" },
+    { "id": 14, "displayName": "Provider Versioning", "fileName": "ProviderVersioning" },
+    { "id": 15, "displayName": "Resource Meta-Arguments", "fileName": "ResourceMetaArguments" },
+    { "id": 16, "displayName": "Conditional Expressions", "fileName": "ConditionalExpressions" },
+    { "id": 17, "displayName": "Loops and Count", "fileName": "LoopsAndCount" },
+    { "id": 18, "displayName": "Error Handling", "fileName": "ErrorHandling" },
+    { "id": 19, "displayName": "Terraform Cloud", "fileName": "TerraformCloud" },
+    { "id": 20, "displayName": "Terraform Enterprise", "fileName": "TerraformEnterprise" }
+]

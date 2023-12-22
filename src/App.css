@@ -124,3 +124,10 @@ td img {
   max-width: 100%;
   height: auto;
 }
+
+/* Change color of 'CLOUD TRIVIA' */
+.Titlebar {
+  background-color: #fff; /* Change to your desired color */
+  color: #252F3E; /* Change to your desired text color */
+}
+

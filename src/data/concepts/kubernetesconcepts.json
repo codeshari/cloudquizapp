@@ -1,0 +1,22 @@
+[
+    { "id": 1, "displayName": "Pods", "fileName": "Pods" },
+    { "id": 2, "displayName": "ReplicaSets", "fileName": "ReplicaSets" },
+    { "id": 3, "displayName": "Deployments", "fileName": "Deployments" },
+    { "id": 4, "displayName": "Services", "fileName": "Services" },
+    { "id": 5, "displayName": "ConfigMaps", "fileName": "ConfigMaps" },
+    { "id": 6, "displayName": "Secrets", "fileName": "Secrets" },
+    { "id": 7, "displayName": "Namespaces", "fileName": "Namespaces" },
+    { "id": 8, "displayName": "Persistent Volumes (PV)", "fileName": "PersistentVolumes" },
+    { "id": 9, "displayName": "Persistent Volume Claims (PVC)", "fileName": "PersistentVolumeClaims" },
+    { "id": 10, "displayName": "Ingress", "fileName": "Ingress" },
+    { "id": 11, "displayName": "Network Policies", "fileName": "NetworkPolicies" },
+    { "id": 12, "displayName": "Service Discovery", "fileName": "ServiceDiscovery" },
+    { "id": 13, "displayName": "Resource Quotas", "fileName": "ResourceQuotas" },
+    { "id": 14, "displayName": "Horizontal Pod Autoscaling (HPA)", "fileName": "HorizontalPodAutoscaling" },
+    { "id": 15, "displayName": "Taints and Tolerations", "fileName": "TaintsAndTolerations" },
+    { "id": 16, "displayName": "Pod Disruption Budgets (PDB)", "fileName": "PodDisruptionBudgets" },
+    { "id": 17, "displayName": "Kubernetes Operators", "fileName": "Operators" },
+    { "id": 18, "displayName": "Custom Resource Definitions (CRD)", "fileName": "CustomResourceDefinitions" },
+    { "id": 19, "displayName": "Kubeconfig", "fileName": "Kubeconfig" },
+    { "id": 20, "displayName": "Kubernetes API", "fileName": "KubernetesAPI" }
+]

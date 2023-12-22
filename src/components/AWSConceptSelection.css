@@ -140,3 +140,30 @@ ul {
   background-color: #252F3E;
   transform: scale(1.05);
 }
+
+
+.concepts-list {
+  scrollbar-width: thin;
+  scrollbar-color: #252F3E #f1f1f1;
+}
+
+/* Hide scrollbar in WebKit browsers */
+.concepts-list::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track styles */
+.concepts-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle styles */
+.concepts-list::-webkit-scrollbar-thumb {
+  background: #252F3E;
+  border-radius: 6px;
+}
+
+/* Handle on hover styles */
+.concepts-list::-webkit-scrollbar-thumb:hover {
+  background:  #FF9900;
+}

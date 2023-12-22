@@ -1,0 +1,22 @@
+[
+    { "id": 1, "displayName": "Azure Active Directory", "fileName": "AzureAD" },
+    { "id": 2, "displayName": "Azure Virtual Machines", "fileName": "AzureVM" },
+    { "id": 3, "displayName": "Azure Blob Storage", "fileName": "AzureBlobStorage" },
+    { "id": 4, "displayName": "Azure SQL Database", "fileName": "AzureSQLDatabase" },
+    { "id": 5, "displayName": "Azure Functions", "fileName": "AzureFunctions" },
+    { "id": 6, "displayName": "Virtual Network", "fileName": "VirtualNetwork" },
+    { "id": 7, "displayName": "Azure DNS", "fileName": "AzureDNS" },
+    { "id": 8, "displayName": "Azure Load Balancer", "fileName": "AzureLoadBalancer" },
+    { "id": 9, "displayName": "Azure Cosmos DB", "fileName": "AzureCosmosDB" },
+    { "id": 10, "displayName": "Azure Service Bus", "fileName": "AzureServiceBus" },
+    { "id": 11, "displayName": "Azure Logic Apps", "fileName": "AzureLogicApps" },
+    { "id": 12, "displayName": "Azure Database for MySQL", "fileName": "AzureDBMySQL" },
+    { "id": 13, "displayName": "Azure Kubernetes Service (AKS)", "fileName": "AKS" },
+    { "id": 14, "displayName": "Azure Managed Disks", "fileName": "AzureManagedDisks" },
+    { "id": 15, "displayName": "Azure Archive Storage", "fileName": "AzureArchiveStorage" },
+    { "id": 16, "displayName": "Azure File Storage", "fileName": "AzureFileStorage" },
+    { "id": 17, "displayName": "Azure Content Delivery Network (CDN)", "fileName": "AzureCDN" },
+    { "id": 18, "displayName": "Azure Key Vault", "fileName": "AzureKeyVault" },
+    { "id": 19, "displayName": "Azure Oracle Database", "fileName": "AzureOracleDB" },
+    { "id": 20, "displayName": "Azure Policy", "fileName": "AzurePolicy" }
+]

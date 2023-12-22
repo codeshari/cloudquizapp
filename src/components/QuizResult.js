@@ -24,8 +24,24 @@ const QuizResult = ({ questions, userAnswers, totalQuestions }) => {
 
   return (
     <div className="result-container">
-      <h2>Quiz Result</h2>
-      <p>Your Overall Score: {`${result.filter(item => item.isCorrect).length}/${totalQuestions}`}</p>
+      <div>
+      <div style={{marginTop:"15px", marginBottom:"15px", fontSize:"1.4rem"}}><h2>QUIZ <text style={{color:"#FF9900"}}>RESULT</text></h2></div>
+      <div style={{display: "flex", flexDirection:"row", width:"100%", height:"200px", flex:"space-between"}}>
+      <div style={{display:"flex", flexDirection:"column", width:"240px"}}>
+        <div style={{backgroundColor: "#252F3E", padding:"20px", color:"white", margin:"10px", marginTop:"-10px", textAlign:"center", borderRadius:"8px 8px 0px 0px", fontSize:"50px"}}> {`${result.filter(item => item.isCorrect).length}/${totalQuestions}`}</div>
+        <div style={{backgroundColor: "#ff9900", padding:"20px", color:"white", margin:"10px", marginTop:"-10px", textAlign:"center", borderRadius:"0px 0px 8px 8px", fontSize:"1.1 rem", height:"40px"}}>Overall Score</div>
+      </div>
+      <div style={{display:"flex", flexDirection:"column", width:"240px"}}>
+        <div style={{backgroundColor: "#252F3E", padding:"20px", color:"white", margin:"10px", marginTop:"-10px", textAlign:"center", borderRadius:"8px 8px 0px 0px", fontSize:"50px"}}>{`${totalQuestions - userAnswers.length}`}</div>
+        <div style={{backgroundColor: "#ff9900", padding:"20px", color:"white", margin:"10px", marginTop:"-10px", textAlign:"center", borderRadius:"0px 0px 8px 8px", fontSize:"1.1 rem", height:"40px"}}>Unattended Questions</div>
+      </div>
+      <div style={{display:"flex", flexDirection:"column", width:"240px"}}>
+        <div style={{backgroundColor: "#252F3E", padding:"20px", color:"white", margin:"10px", marginTop:"-10px", textAlign:"center", borderRadius:"8px 8px 0px 0px", fontSize:"50px"}}> {`${userAnswers.length}`}</div>
+        <div style={{backgroundColor: "#ff9900", padding:"20px", color:"white", margin:"10px", marginTop:"-10px", textAlign:"center", borderRadius:"0px 0px 8px 8px", fontSize:"1.1 rem", height:"40px"}}>Attended Questions</div>
+      </div>
+      </div>
+      </div>
+
       <table>
         <thead>
           <tr>

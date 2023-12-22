@@ -74,3 +74,54 @@ p {
     font-size: 16px;
   }
 }
+
+/* Medium screens */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Adjust container margin and remove max-height for medium screens */
+  .result-container {
+    margin: 15px;
+    max-height: none;
+  }
+
+  /* Remove box shadow for medium screens */
+  table {
+    box-shadow: none;
+  }
+
+  /* Adjust padding for table cells on medium screens */
+  th,
+  td {
+    padding: 10px;
+  }
+
+  /* Decrease font size for better readability on medium screens */
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Smaller screens */
+@media screen and (max-width: 480px) {
+  /* Adjust container margin and remove max-height for smaller screens */
+  .result-container {
+    margin: 10px;
+    max-height: none;
+  }
+
+  /* Remove box shadow for smaller screens */
+  table {
+    box-shadow: none;
+  }
+
+  /* Adjust padding for table cells on smaller screens */
+  th,
+  td {
+    padding: 8px;
+    word-wrap: break-word; /* Allow text to wrap */
+  }
+
+  /* Decrease font size for better readability on smaller screens */
+  p {
+    font-size: 14px;
+  }
+}

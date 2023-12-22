@@ -1,0 +1,268 @@
+/* src/components/CloudSelection.css */
+
+.cloud-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.cloud-selection {
+  display: flex;
+  justify-content: space-evenly; /* Adjust this based on your preference */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cloud-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Adjust the width based on your preference */
+  margin: 10px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* AWS */
+.aws {
+  background-color: #252F3E;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.aws img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.aws-label {
+  background-color: #ff9900;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.aws:hover {
+  transform: scale(1.04);
+}
+
+/* GCP */
+.gcp {
+  background-color: #252F3E;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.gcp:hover {
+  transform: scale(1.04);
+}
+
+.gcp img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.gcp-label {
+  background-color: #4285F4;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+/* Azure */
+.azure {
+  background-color: #252F3E;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.azure:hover {
+  transform: scale(1.04);
+}
+
+.azure img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.azure-label {
+  background-color: #0079BF;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+/*Oracle Cloud*/
+.oracle {
+  background-color: #252F3E;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.oracle:hover {
+  transform: scale(1.04);
+}
+
+.oracle img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.oracle-label {
+  background-color: #f80000;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+
+/*Terraform*/
+.terraform {
+  background-color: #252F3E;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.terraform:hover {
+  transform: scale(1.04);
+}
+
+.terraform img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.terraform-label {
+  background-color: #6239e5;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+/*Kubernetes*/
+.kubernetes {
+  background-color: #252F3E;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.kubernetes:hover {
+  transform: scale(1.04);
+}
+
+.kubernetes img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.kubernetes-label {
+  background-color: #3970e4;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+
+  .cloud-container {
+    height:auto;
+  }
+
+  .cloud-selection {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cloud-option {
+    width: 60%;
+  }
+
+
+}
+
+/* src/components/CloudSelection.css */
+
+.cloud-option a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px; /* Adjust padding to your preference */
+}
+
+.cloud-option a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.cloud-option .aws-label,
+.cloud-option .gcp-label,
+.cloud-option .azure-label,
+.cloud-option .oracle-label {
+  margin-top: 8px; /* Adjust margin to your preference */
+}

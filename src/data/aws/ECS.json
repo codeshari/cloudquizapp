@@ -1,0 +1,516 @@
+[
+    {
+      "question": "What is Amazon Elastic Container Service (ECS)?",
+      "answers": [
+        { "text": "A managed Kubernetes service", "isCorrect": false },
+        { "text": "A container orchestration service", "isCorrect": false },
+        { "text": "A fully managed container service for running Docker containers", "isCorrect": true },
+        { "text": "A serverless computing service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How are tasks defined in Amazon ECS?",
+      "answers": [
+        { "text": "By defining EC2 instances", "isCorrect": false },
+        { "text": "By defining IAM roles", "isCorrect": false },
+        { "text": "By defining container definitions in a task definition", "isCorrect": true },
+        { "text": "By defining networking configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a task definition in Amazon ECS?",
+      "answers": [
+        { "text": "A set of IAM policies for tasks", "isCorrect": false },
+        { "text": "A blueprint for defining containers and their parameters", "isCorrect": true },
+        { "text": "A set of VPC configurations for tasks", "isCorrect": false },
+        { "text": "A security group for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an Amazon ECS cluster?",
+      "answers": [
+        { "text": "A group of EC2 instances", "isCorrect": true },
+        { "text": "A set of IAM roles", "isCorrect": false },
+        { "text": "A networking configuration", "isCorrect": false },
+        { "text": "A container definition", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How are tasks scheduled in Amazon ECS?",
+      "answers": [
+        { "text": "Manually by the user", "isCorrect": false },
+        { "text": "Automatically by Amazon ECS service scheduler", "isCorrect": true },
+        { "text": "Through IAM policies", "isCorrect": false },
+        { "text": "Through AWS Lambda functions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS service scheduler?",
+      "answers": [
+        { "text": "To define IAM roles for ECS services", "isCorrect": false },
+        { "text": "To define container definitions", "isCorrect": false },
+        { "text": "To place tasks on container instances", "isCorrect": true },
+        { "text": "To create VPC configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an Amazon ECS service?",
+      "answers": [
+        { "text": "A set of IAM policies for tasks", "isCorrect": false },
+        { "text": "A security group for tasks", "isCorrect": false },
+        { "text": "A way to run and maintain a specified number of tasks", "isCorrect": true },
+        { "text": "A networking configuration for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS auto scaling?",
+      "answers": [
+        { "text": "To automatically create VPC configurations", "isCorrect": false },
+        { "text": "To automatically scale tasks based on demand", "isCorrect": true },
+        { "text": "To automatically define IAM roles for tasks", "isCorrect": false },
+        { "text": "To automatically define container definitions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the difference between Amazon ECS tasks and services?",
+      "answers": [
+        { "text": "Tasks are used for one-time executions, while services are long-running", "isCorrect": true },
+        { "text": "Tasks and services are interchangeable terms", "isCorrect": false },
+        { "text": "Tasks are used for container definitions, while services are for IAM roles", "isCorrect": false },
+        { "text": "Tasks are used for IAM roles, while services are for container definitions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Amazon ECS manage container instances in a cluster?",
+      "answers": [
+        { "text": "By creating IAM roles for each container instance", "isCorrect": false },
+        { "text": "By using Amazon CloudWatch Alarms", "isCorrect": false },
+        { "text": "By automatically placing tasks on container instances", "isCorrect": true },
+        { "text": "By defining VPC configurations for each container instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS CLI?",
+      "answers": [
+        { "text": "To define IAM roles for tasks", "isCorrect": false },
+        { "text": "To create VPC configurations", "isCorrect": false },
+        { "text": "To manage Amazon ECS clusters, tasks, and services from the command line", "isCorrect": true },
+        { "text": "To define container definitions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Amazon ECS agent?",
+      "answers": [
+        { "text": "A container definition in a task definition", "isCorrect": false },
+        { "text": "A security group for tasks", "isCorrect": false },
+        { "text": "A process that runs on each container instance in an Amazon ECS cluster", "isCorrect": true },
+        { "text": "A VPC configuration for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Amazon ECS support integration with other AWS services?",
+      "answers": [
+        { "text": "Through IAM roles only", "isCorrect": false },
+        { "text": "By using only Amazon S3 for data storage", "isCorrect": false },
+        { "text": "Through integration with services like AWS Fargate, AWS Lambda, and Amazon ECR", "isCorrect": true },
+        { "text": "By defining VPC configurations for each integration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS integration with AWS Identity and Access Management (IAM)?",
+      "answers": [
+        { "text": "To define VPC configurations for tasks", "isCorrect": false },
+        { "text": "To automatically scale tasks based on demand", "isCorrect": false },
+        { "text": "To manage permissions for Amazon ECS resources", "isCorrect": true },
+        { "text": "To create IAM roles for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is AWS Fargate in the context of Amazon ECS?",
+      "answers": [
+        { "text": "A security group for tasks", "isCorrect": false },
+        { "text": "A container instance type", "isCorrect": false },
+        { "text": "A serverless compute engine for containers that allows running containers without managing the underlying infrastructure", "isCorrect": true },
+        { "text": "An Amazon ECS task definition parameter", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does AWS Fargate differ from EC2 launch type in Amazon ECS?",
+      "answers": [
+        { "text": "AWS Fargate is a legacy version of EC2 launch type", "isCorrect": false },
+        { "text": "EC2 launch type requires managing the underlying infrastructure, while AWS Fargate is serverless", "isCorrect": true },
+        { "text": "Both AWS Fargate and EC2 launch type are identical", "isCorrect": false },
+        { "text": "AWS Fargate is specific to Windows containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an Amazon ECS repository in the context of container images?",
+      "answers": [
+        { "text": "A VPC configuration for tasks", "isCorrect": false },
+        { "text": "An AWS Identity and Access Management (IAM) role for ECS services", "isCorrect": false },
+        { "text": "A storage location for Docker images used in Amazon ECS task definitions", "isCorrect": true },
+        { "text": "A container instance type", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you secure containerized applications in Amazon ECS?",
+      "answers": [
+        { "text": "By using only AWS Identity and Access Management (IAM) roles", "isCorrect": false },
+        { "text": "By configuring security groups for each container instance", "isCorrect": false },
+        { "text": "By implementing security best practices, using AWS Secrets Manager, and configuring IAM roles", "isCorrect": true },
+        { "text": "By relying on the security features of the underlying EC2 instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS Event Stream?",
+      "answers": [
+        { "text": "To define VPC configurations for tasks", "isCorrect": false },
+        { "text": "To monitor network traffic between containers", "isCorrect": false },
+        { "text": "To provide a near real-time stream of events from your Amazon ECS resources", "isCorrect": true },
+        { "text": "To automatically scale tasks based on demand", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Amazon ECS handle application versioning?",
+      "answers": [
+        { "text": "By manually updating each container instance", "isCorrect": false },
+        { "text": "By using only AWS Identity and Access Management (IAM) roles", "isCorrect": false },
+        { "text": "By associating application versions with task definitions and updating the service to use a new task definition", "isCorrect": true },
+        { "text": "By using only Amazon CloudWatch for versioning", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS Task Metadata Endpoint?",
+      "answers": [
+        { "text": "To provide access to Docker images", "isCorrect": false },
+        { "text": "To define IAM roles for tasks", "isCorrect": false },
+        { "text": "To provide access to task metadata, such as task ARN and container ID", "isCorrect": true },
+        { "text": "To define networking configurations for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is AWS Copilot in the context of Amazon ECS?",
+      "answers": [
+        { "text": "An EC2 instance type", "isCorrect": false },
+        { "text": "A security group for tasks", "isCorrect": false },
+        { "text": "An open-source container management tool for Amazon ECS", "isCorrect": true },
+        { "text": "A container definition parameter", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Amazon ECS integrate with Amazon CloudWatch?",
+      "answers": [
+        { "text": "By defining IAM roles for tasks", "isCorrect": false },
+        { "text": "By automatically scaling tasks based on CloudWatch Alarms", "isCorrect": false },
+        { "text": "By providing container-level and task-level metrics to CloudWatch", "isCorrect": true },
+        { "text": "By creating VPC configurations for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Amazon ECS Deep Learning Containers?",
+      "answers": [
+        { "text": "To create VPC configurations for tasks", "isCorrect": false },
+        { "text": "To define IAM roles for tasks", "isCorrect": false },
+        { "text": "To provide Docker images optimized for deep learning workloads", "isCorrect": true },
+        { "text": "To create security groups for tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an Amazon ECS capacity provider?",
+      "answers": [
+        { "text": "A container instance type", "isCorrect": false },
+        { "text": "An EC2 instance type", "isCorrect": false },
+        { "text": "A way to specify the launch type, instance type, and AWS Fargate platform version for tasks", "isCorrect": true },
+        { "text": "An Amazon ECS task definition parameter", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you achieve blue/green deployments in Amazon ECS?",
+      "answers": [
+        { "text": "By using only AWS Identity and Access Management (IAM) roles", "isCorrect": false },
+        { "text": "By updating the existing task definition with the new version and updating the Amazon ECS service", "isCorrect": true },
+        { "text": "By creating a new Amazon ECS cluster for each deployment", "isCorrect": false },
+        { "text": "By modifying the container instances directly", "isCorrect": false }
+      ]
+  },
+  {
+    "question": "What is the purpose of an Amazon ECS cluster?",
+    "answers": [
+      { "text": "To organize tasks in a multi-region setup", "isCorrect": false },
+      { "text": "To group container instances and tasks based on resource requirements", "isCorrect": true },
+      { "text": "To provide high availability for containerized applications", "isCorrect": false },
+      { "text": "To manage networking for Amazon ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does Amazon ECS manage task placement?",
+    "answers": [
+      { "text": "Based on random selection of container instances", "isCorrect": false },
+      { "text": "Using round-robin allocation", "isCorrect": false },
+      { "text": "By considering task placement constraints and resource requirements", "isCorrect": true },
+      { "text": "By prioritizing the oldest tasks", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is an Amazon ECS service?",
+    "answers": [
+      { "text": "A security group for Amazon ECS instances", "isCorrect": false },
+      { "text": "A way to manage container images in Amazon ECR", "isCorrect": false },
+      { "text": "A scalable and load-balanced set of tasks", "isCorrect": true },
+      { "text": "A configuration file for Amazon ECS clusters", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How can you scale an Amazon ECS service?",
+    "answers": [
+      { "text": "By manually adjusting the desired task count in the AWS Management Console", "isCorrect": false },
+      { "text": "By modifying the Amazon ECS task definition", "isCorrect": false },
+      { "text": "By updating the desired task count in the Amazon ECS service", "isCorrect": true },
+      { "text": "By creating a new Amazon ECS cluster", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of Amazon ECS Auto Scaling?",
+    "answers": [
+      { "text": "To automatically adjust the number of container instances based on demand", "isCorrect": true },
+      { "text": "To automatically update the Amazon ECS service task definition", "isCorrect": false },
+      { "text": "To automatically deploy new versions of container images", "isCorrect": false },
+      { "text": "To automatically create Amazon ECS clusters", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does Amazon ECS manage container orchestration?",
+    "answers": [
+      { "text": "It uses Kubernetes for container orchestration", "isCorrect": false },
+      { "text": "It has its native orchestration capabilities", "isCorrect": true },
+      { "text": "It relies on Apache Mesos for orchestration", "isCorrect": false },
+      { "text": "It uses Docker Swarm for container orchestration", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the Amazon ECS agent?",
+    "answers": [
+      { "text": "To manage Amazon RDS databases for ECS services", "isCorrect": false },
+      { "text": "To secure communication between ECS tasks", "isCorrect": false },
+      { "text": "To register container instances with the Amazon ECS cluster", "isCorrect": true },
+      { "text": "To control access to ECS task logs", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the difference between an ECS task and an ECS service?",
+    "answers": [
+      { "text": "Tasks are individual containers, and services are groups of tasks", "isCorrect": true },
+      { "text": "Tasks are virtual machines, and services are containers", "isCorrect": false },
+      { "text": "Tasks run on-premises, and services run in the cloud", "isCorrect": false },
+      { "text": "Tasks are stateless, and services are stateful", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the ECS execution role?",
+    "answers": [
+      { "text": "To execute commands on ECS container instances", "isCorrect": false },
+      { "text": "To manage Amazon S3 buckets for ECS tasks", "isCorrect": false },
+      { "text": "To grant permissions for ECS tasks to access other AWS services", "isCorrect": true },
+      { "text": "To configure networking for ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is an ECS cluster?",
+    "answers": [
+      { "text": "A group of EC2 instances that host containers", "isCorrect": true },
+      { "text": "A storage solution for ECS tasks", "isCorrect": false },
+      { "text": "A security group for ECS services", "isCorrect": false },
+      { "text": "A namespace for ECS tasks", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does ECS manage task placement?",
+    "answers": [
+      { "text": "It randomly selects an instance for each task", "isCorrect": false },
+      { "text": "It places tasks based on the host's CPU utilization", "isCorrect": false },
+      { "text": "It uses task definitions and constraints to place tasks on container instances", "isCorrect": true },
+      { "text": "It places tasks on instances with the least available memory", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of ECS task placement constraints?",
+    "answers": [
+      { "text": "To limit the number of tasks in a cluster", "isCorrect": false },
+      { "text": "To define the task launch type", "isCorrect": false },
+      { "text": "To control where tasks are placed based on attributes like instance type or availability zone", "isCorrect": true },
+      { "text": "To specify the duration of a task", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is an ECS service?",
+    "answers": [
+      { "text": "A one-time execution of a task", "isCorrect": false },
+      { "text": "A scalable and long-running application in ECS", "isCorrect": true },
+      { "text": "A group of ECS container instances", "isCorrect": false },
+      { "text": "A task definition in ECS", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How can you scale an ECS service?",
+    "answers": [
+      { "text": "By manually adjusting the number of tasks", "isCorrect": true },
+      { "text": "By updating the task definition", "isCorrect": false },
+      { "text": "By changing the ECS cluster size", "isCorrect": false },
+      { "text": "By modifying the execution role of the service", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is an ECS repository?",
+    "answers": [
+      { "text": "A storage location for ECS tasks", "isCorrect": false },
+      { "text": "A container image registry for ECS", "isCorrect": true },
+      { "text": "A version control system for ECS task definitions", "isCorrect": false },
+      { "text": "A security group for ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you share ECS task definitions between accounts?",
+    "answers": [
+      { "text": "By copying the task definition JSON manually", "isCorrect": false },
+      { "text": "By exporting and importing task definitions using Amazon S3", "isCorrect": true },
+      { "text": "By creating a new ECS repository", "isCorrect": false },
+      { "text": "By updating the task definition in both accounts", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is ECS Fargate?",
+    "answers": [
+      { "text": "A container orchestration service", "isCorrect": false },
+      { "text": "A serverless compute engine for containers", "isCorrect": true },
+      { "text": "An ECS cluster management tool", "isCorrect": false },
+      { "text": "A storage solution for ECS tasks", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of ECS Fargate launch type?",
+    "answers": [
+      { "text": "To launch tasks on EC2 instances", "isCorrect": false },
+      { "text": "To use AWS Lambda for ECS tasks", "isCorrect": false },
+      { "text": "To run tasks without managing the underlying infrastructure", "isCorrect": true },
+      { "text": "To deploy tasks on-premises", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does ECS handle service discovery?",
+    "answers": [
+      { "text": "By using Amazon Route 53", "isCorrect": false },
+      { "text": "By integrating with AWS Lambda", "isCorrect": false },
+      { "text": "By utilizing the Amazon ECS Service Discovery service", "isCorrect": true },
+      { "text": "By relying on external DNS providers", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of ECS task networking?",
+    "answers": [
+      { "text": "To manage task permissions", "isCorrect": false },
+      { "text": "To enable inter-container communication within a task", "isCorrect": true },
+      { "text": "To configure ECS service scaling", "isCorrect": false },
+      { "text": "To control task placement on specific instances", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does ECS handle secrets?",
+    "answers": [
+      { "text": "By storing secrets in ECS task definitions", "isCorrect": false },
+      { "text": "By using AWS Identity and Access Management (IAM) roles", "isCorrect": false },
+      { "text": "By integrating with AWS Secrets Manager or AWS Systems Manager Parameter Store", "isCorrect": true },
+      { "text": "By exposing secrets as environment variables", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is an ECS task role?",
+    "answers": [
+      { "text": "A role assigned to an entire ECS cluster", "isCorrect": false },
+      { "text": "A role for a specific ECS task that grants permissions to access AWS resources", "isCorrect": true },
+      { "text": "A security group for ECS tasks", "isCorrect": false },
+      { "text": "A networking configuration for ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How can you troubleshoot ECS tasks?",
+    "answers": [
+      { "text": "By updating the task definition", "isCorrect": false },
+      { "text": "By checking CloudWatch Logs for container output", "isCorrect": true },
+      { "text": "By scaling the ECS service", "isCorrect": false },
+      { "text": "By modifying the ECS cluster", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the ECS CLI?",
+    "answers": [
+      { "text": "To manage Amazon S3 buckets for ECS tasks", "isCorrect": false },
+      { "text": "To deploy ECS services on-premises", "isCorrect": false },
+      { "text": "To simplify interactions with ECS from the command line", "isCorrect": true },
+      { "text": "To configure networking for ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How can you monitor ECS tasks and services?",
+    "answers": [
+      { "text": "By using Amazon RDS", "isCorrect": false },
+      { "text": "By enabling AWS CloudTrail", "isCorrect": false },
+      { "text": "By integrating with AWS X-Ray for application tracing", "isCorrect": false },
+      { "text": "By using Amazon CloudWatch for metrics and logs", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "What is the purpose of the ECS managed tags?",
+    "answers": [
+      { "text": "To label EC2 instances in an ECS cluster", "isCorrect": false },
+      { "text": "To specify the desired task launch type", "isCorrect": false },
+      { "text": "To assign metadata to ECS resources for organization and tracking", "isCorrect": true },
+      { "text": "To control access to ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does ECS integrate with AWS Identity and Access Management (IAM)?",
+    "answers": [
+      { "text": "By storing IAM credentials in ECS task definitions", "isCorrect": false },
+      { "text": "By using IAM roles for tasks to grant permissions", "isCorrect": true },
+      { "text": "By relying on ECS-specific IAM policies", "isCorrect": false },
+      { "text": "By integrating with AWS Security Token Service (STS)", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of ECS resource groups?",
+    "answers": [
+      { "text": "To create logical partitions within an ECS cluster", "isCorrect": false },
+      { "text": "To group and manage ECS resources for easier navigation", "isCorrect": true },
+      { "text": "To define IAM policies for ECS tasks", "isCorrect": false },
+      { "text": "To configure VPC peering for ECS services", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How can you deploy an ECS service using AWS CloudFormation?",
+    "answers": [
+      { "text": "By manually updating the ECS service", "isCorrect": false },
+      { "text": "By creating an ECS repository", "isCorrect": false },
+      { "text": "By defining ECS resources in a CloudFormation template", "isCorrect": true },
+      { "text": "By using ECS CLI commands", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the ECS App Runner service?",
+    "answers": [
+      { "text": "To manage application routing in ECS", "isCorrect": false },
+      { "text": "To orchestrate containers on ECS clusters", "isCorrect": false },
+      { "text": "To deploy and scale containerized applications without managing the underlying infrastructure", "isCorrect": true },
+      { "text": "To create ECS task definitions", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How does ECS App Runner differ from ECS Fargate?",
+    "answers": [
+      { "text": "ECS App Runner does not support containerized applications", "isCorrect": false },
+      { "text": "ECS Fargate allows more granular control over the underlying infrastructure", "isCorrect": false },
+      { "text": "ECS App Runner abstracts away infrastructure management for developers", "isCorrect": true },
+      { "text": "ECS Fargate is designed for serverless applications only", "isCorrect": false }
+    ]
+  }
+]
+

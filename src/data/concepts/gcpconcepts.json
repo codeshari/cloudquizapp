@@ -1,0 +1,22 @@
+[
+    { "id": 1, "displayName": "Identity and Access Management (IAM)", "fileName": "IAM" },
+    { "id": 2, "displayName": "Compute Engine", "fileName": "ComputeEngine" },
+    { "id": 3, "displayName": "Cloud Storage", "fileName": "CloudStorage" },
+    { "id": 4, "displayName": "Cloud SQL", "fileName": "CloudSQL" },
+    { "id": 5, "displayName": "Cloud Functions", "fileName": "CloudFunctions" },
+    { "id": 6, "displayName": "Virtual Private Cloud (VPC)", "fileName": "VPC" },
+    { "id": 7, "displayName": "Cloud DNS", "fileName": "CloudDNS" },
+    { "id": 8, "displayName": "Load Balancing", "fileName": "LoadBalancing" },
+    { "id": 9, "displayName": "BigQuery", "fileName": "BigQuery" },
+    { "id": 10, "displayName": "Cloud Pub/Sub", "fileName": "CloudPubSub" },
+    { "id": 11, "displayName": "Cloud Tasks", "fileName": "CloudTasks" },
+    { "id": 12, "displayName": "Cloud Firestore", "fileName": "CloudFirestore" },
+    { "id": 13, "displayName": "Google Kubernetes Engine (GKE)", "fileName": "GKE" },
+    { "id": 14, "displayName": "Persistent Disks", "fileName": "PersistentDisks" },
+    { "id": 15, "displayName": "Cloud Storage Coldline", "fileName": "CloudStorageColdline" },
+    { "id": 16, "displayName": "Cloud Filestore", "fileName": "CloudFilestore" },
+    { "id": 17, "displayName": "Cloud CDN", "fileName": "CloudCDN" },
+    { "id": 18, "displayName": "Cloud Key Management Service (KMS)", "fileName": "CloudKMS" },
+    { "id": 19, "displayName": "Cloud Spanner", "fileName": "CloudSpanner" },
+    { "id": 20, "displayName": "Google Cloud Organization Policies", "fileName": "OrganizationPolicies" }
+]

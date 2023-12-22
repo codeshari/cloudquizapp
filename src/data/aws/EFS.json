@@ -1,0 +1,479 @@
+[
+    {
+      "question": "What is AWS EFS?",
+      "answers": [
+        { "text": "Elastic File System", "isCorrect": true },
+        { "text": "Elastic File Server", "isCorrect": false },
+        { "text": "Elastic File Storage", "isCorrect": false },
+        { "text": "Elastic File Solution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which AWS service does EFS integrate with for authentication and authorization?",
+      "answers": [
+        { "text": "AWS IAM", "isCorrect": true },
+        { "text": "Amazon RDS", "isCorrect": false },
+        { "text": "Amazon S3", "isCorrect": false },
+        { "text": "Amazon EC2", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum file size supported by AWS EFS?",
+      "answers": [
+        { "text": "5 TB", "isCorrect": false },
+        { "text": "16 TB", "isCorrect": true },
+        { "text": "10 TB", "isCorrect": false },
+        { "text": "20 TB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How many file systems can you create in an AWS region within an AWS account by default?",
+      "answers": [
+        { "text": "5", "isCorrect": false },
+        { "text": "10", "isCorrect": false },
+        { "text": "20", "isCorrect": false },
+        { "text": "None (It's unlimited)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which NFS version does AWS EFS support?",
+      "answers": [
+        { "text": "NFSv2", "isCorrect": false },
+        { "text": "NFSv3", "isCorrect": true },
+        { "text": "NFSv4", "isCorrect": false },
+        { "text": "NFSv5", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the minimum storage capacity (in GiB) provisioned when creating a new EFS file system?",
+      "answers": [
+        { "text": "5 GiB", "isCorrect": false },
+        { "text": "10 GiB", "isCorrect": false },
+        { "text": "20 GiB", "isCorrect": true },
+        { "text": "50 GiB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In which Availability Zones is an EFS file system replicated by default?",
+      "answers": [
+        { "text": "All Availability Zones in the region", "isCorrect": true },
+        { "text": "Only one randomly selected Availability Zone", "isCorrect": false },
+        { "text": "No replication is done by default", "isCorrect": false },
+        { "text": "Only in the first two Availability Zones", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the durability of data stored in AWS EFS?",
+      "answers": [
+        { "text": "99.9%", "isCorrect": false },
+        { "text": "99.99%", "isCorrect": true },
+        { "text": "99.999%", "isCorrect": false },
+        { "text": "99%", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which EFS class provides the lowest latency and highest throughput performance?",
+      "answers": [
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Infrequent Access", "isCorrect": false },
+        { "text": "One Zone", "isCorrect": false },
+        { "text": "Performance-Mode", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of EFS Lifecycle Management?",
+      "answers": [
+        { "text": "Automatic scaling of file systems", "isCorrect": true },
+        { "text": "Managing user access to the file system", "isCorrect": false },
+        { "text": "Data encryption at rest", "isCorrect": false },
+        { "text": "Managing backups of the file system", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which AWS CLI command is used to create an EFS file system?",
+      "answers": [
+        { "text": "aws efs create", "isCorrect": true },
+        { "text": "aws create-efs", "isCorrect": false },
+        { "text": "aws fs create", "isCorrect": false },
+        { "text": "aws efs new", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum throughput (in MiB/s) for a single EFS file system?",
+      "answers": [
+        { "text": "1 MiB/s", "isCorrect": false },
+        { "text": "10 MiB/s", "isCorrect": false },
+        { "text": "100 MiB/s", "isCorrect": false },
+        { "text": "1000 MiB/s", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which AWS service provides a fully managed file transfer solution for EFS?",
+      "answers": [
+        { "text": "Amazon S3", "isCorrect": false },
+        { "text": "AWS Transfer Family", "isCorrect": true },
+        { "text": "Amazon EBS", "isCorrect": false },
+        { "text": "AWS Direct Connect", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the EFS mount target?",
+      "answers": [
+        { "text": "To create additional file systems", "isCorrect": false },
+        { "text": "To enable cross-region replication", "isCorrect": false },
+        { "text": "To provide connectivity from EC2 instances to the EFS file system", "isCorrect": true },
+        { "text": "To configure access control for EFS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which AWS SDK supports the EFS File Sync feature?",
+      "answers": [
+        { "text": "AWS SDK for Java", "isCorrect": false },
+        { "text": "AWS SDK for Python", "isCorrect": false },
+        { "text": "AWS SDK for .NET", "isCorrect": true },
+        { "text": "AWS SDK for Ruby", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the EFS Access Point?",
+      "answers": [
+        { "text": "To provide direct access to AWS support", "isCorrect": false },
+        { "text": "To establish a VPN connection", "isCorrect": false },
+        { "text": "To simplify managing application access to EFS", "isCorrect": true },
+        { "text": "To configure cross-region replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does EFS achieve high availability and durability?",
+      "answers": [
+        { "text": "By replicating data across multiple regions", "isCorrect": false },
+        { "text": "By replicating data across multiple Availability Zones", "isCorrect": true },
+        { "text": "By using serverless computing", "isCorrect": false },
+        { "text": "By creating multiple file systems", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which AWS service can be used to monitor EFS performance and access patterns?",
+      "answers": [
+        { "text": "Amazon CloudWatch", "isCorrect": true },
+        { "text": "AWS Config", "isCorrect": false },
+        { "text": "AWS CloudTrail", "isCorrect": false },
+        { "text": "AWS X-Ray", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum number of mount targets allowed for an EFS file system by default?",
+      "answers": [
+        { "text": "5", "isCorrect": false },
+        { "text": "10", "isCorrect": false },
+        { "text": "20", "isCorrect": false },
+        { "text": "None (It's unlimited)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which EFS class provides the lowest cost per GB but with a lower level of performance?",
+      "answers": [
+        { "text": "Standard", "isCorrect": true },
+        { "text": "Infrequent Access", "isCorrect": false },
+        { "text": "One Zone", "isCorrect": false },
+        { "text": "Performance-Mode", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the EFS Performance-Mode?",
+      "answers": [
+        { "text": "To optimize for low-latency", "isCorrect": false },
+        { "text": "To optimize for high-throughput", "isCorrect": true },
+        { "text": "To optimize for cost savings", "isCorrect": false },
+        { "text": "To optimize for cross-region access", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the EFS Infrequent Access storage class?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To optimize for high-performance workloads", "isCorrect": false },
+        { "text": "To reduce storage costs for infrequently accessed files", "isCorrect": true },
+        { "text": "To replicate data across multiple regions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which AWS service provides a way to migrate data from on-premises servers to EFS?",
+      "answers": [
+        { "text": "AWS Snowball", "isCorrect": false },
+        { "text": "AWS DataSync", "isCorrect": true },
+        { "text": "AWS Database Migration Service", "isCorrect": false },
+        { "text": "AWS Server Migration Service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you enable encryption for data at rest in EFS?",
+      "answers": [
+        { "text": "Enable it during file system creation", "isCorrect": true },
+        { "text": "Use AWS Key Management Service (KMS) to encrypt each file individually", "isCorrect": false },
+        { "text": "It is always enabled by default", "isCorrect": false },
+        { "text": "Encryption at rest is not available for EFS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which EFS storage class provides the lowest cost per GB but stores data in a single Availability Zone?",
+      "answers": [
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Infrequent Access", "isCorrect": false },
+        { "text": "One Zone", "isCorrect": true },
+        { "text": "Performance-Mode", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the EFS Access Point?",
+      "answers": [
+        { "text": "To provide direct access to AWS support", "isCorrect": false },
+        { "text": "To establish a VPN connection", "isCorrect": false },
+        { "text": "To simplify managing application access to EFS", "isCorrect": true },
+        { "text": "To configure cross-region replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which EFS class is designed for workloads that are less sensitive to latency and offer a lower cost per GB?",
+      "answers": [
+        { "text": "Standard", "isCorrect": true },
+        { "text": "Infrequent Access", "isCorrect": false },
+        { "text": "One Zone", "isCorrect": false },
+        { "text": "Performance-Mode", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you optimize EFS performance for a large number of files in a directory?",
+      "answers": [
+        { "text": "Use a different EFS storage class", "isCorrect": false },
+        { "text": "Enable EFS Accelerator", "isCorrect": false },
+        { "text": "Use provisioned throughput for the file system", "isCorrect": false },
+        { "text": "Spread files across multiple subdirectories", "isCorrect": true }
+      ]
+    },
+    {
+        "question": "What is the purpose of the EFS Intelligent-Tiering storage class?",
+        "answers": [
+          { "text": "To archive data for long-term retention", "isCorrect": false },
+          { "text": "To optimize for high-performance access", "isCorrect": false },
+          { "text": "To automatically move files between access tiers based on changing access patterns", "isCorrect": true },
+          { "text": "To prioritize cost over performance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How does AWS EFS provide file system access?",
+        "answers": [
+          { "text": "Through a block-based interface", "isCorrect": false },
+          { "text": "Through a RESTful API", "isCorrect": false },
+          { "text": "Through standard file-based interfaces such as NFSv4", "isCorrect": true },
+          { "text": "Through a proprietary protocol", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the maximum number of file systems that can be created in an AWS account?",
+        "answers": [
+          { "text": "5", "isCorrect": false },
+          { "text": "10", "isCorrect": false },
+          { "text": "50", "isCorrect": false },
+          { "text": "No fixed limit", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "How does AWS EFS handle data durability?",
+        "answers": [
+          { "text": "By replicating data within a single Availability Zone", "isCorrect": false },
+          { "text": "By storing data across multiple Availability Zones", "isCorrect": true },
+          { "text": "By using tape backups", "isCorrect": false },
+          { "text": "By relying on customers for data backups", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which AWS service can be used to automatically mount an EFS file system on Amazon EC2 instances?",
+        "answers": [
+          { "text": "AWS Systems Manager", "isCorrect": false },
+          { "text": "AWS Elastic Beanstalk", "isCorrect": false },
+          { "text": "AWS Identity and Access Management (IAM)", "isCorrect": false },
+          { "text": "Amazon Elastic File System (EFS) Mount Helper", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "What is the purpose of EFS lifecycle management?",
+        "answers": [
+          { "text": "To manage the lifecycle of Amazon EC2 instances", "isCorrect": false },
+          { "text": "To automate the movement of files to different storage classes based on access patterns", "isCorrect": true },
+          { "text": "To control the lifecycle of AWS Lambda functions", "isCorrect": false },
+          { "text": "To automate EFS backups", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which NFS version does AWS EFS support?",
+        "answers": [
+          { "text": "NFSv2", "isCorrect": false },
+          { "text": "NFSv3", "isCorrect": false },
+          { "text": "NFSv4", "isCorrect": true },
+          { "text": "NFSv5", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the maximum size of a single file in an EFS file system?",
+        "answers": [
+          { "text": "5 terabytes", "isCorrect": false },
+          { "text": "16 terabytes", "isCorrect": true },
+          { "text": "50 terabytes", "isCorrect": false },
+          { "text": "100 terabytes", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How does AWS EFS manage file locks?",
+        "answers": [
+          { "text": "EFS does not support file locks", "isCorrect": false },
+          { "text": "File locks are managed using Amazon S3", "isCorrect": false },
+          { "text": "EFS automatically manages file locks", "isCorrect": true },
+          { "text": "File locks are manually configured by users", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the minimum storage capacity of an EFS file system?",
+        "answers": [
+          { "text": "100 GB", "isCorrect": false },
+          { "text": "1 TB", "isCorrect": true },
+          { "text": "10 TB", "isCorrect": false },
+          { "text": "No minimum capacity", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of AWS EFS Access Points?",
+        "answers": [
+          { "text": "To restrict access to an entire EFS file system", "isCorrect": false },
+          { "text": "To create a private network connection to EFS", "isCorrect": false },
+          { "text": "To provide customized file system access for applications", "isCorrect": true },
+          { "text": "To enable cross-region replication for EFS", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How does EFS support data encryption?",
+        "answers": [
+          { "text": "EFS does not support data encryption", "isCorrect": false },
+          { "text": "Data is automatically encrypted using AWS Key Management Service (KMS)", "isCorrect": true },
+          { "text": "Users must manually encrypt data before storing it in EFS", "isCorrect": false },
+          { "text": "Data is encrypted using an external encryption service", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which Amazon EC2 instance types are supported for mounting an EFS file system?",
+        "answers": [
+          { "text": "Only instances with local instance storage", "isCorrect": false },
+          { "text": "Instances in the T2 family", "isCorrect": false },
+          { "text": "Instances in any family and size", "isCorrect": true },
+          { "text": "Instances in the C5 family", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of EFS Provisioned Throughput?",
+        "answers": [
+          { "text": "To limit the number of EC2 instances that can access an EFS file system", "isCorrect": false },
+          { "text": "To allocate a specific amount of throughput for an EFS file system", "isCorrect": true },
+          { "text": "To configure automatic scaling for EFS", "isCorrect": false },
+          { "text": "To reserve capacity for future EFS growth", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How can you control access to an EFS file system?",
+        "answers": [
+          { "text": "Access to EFS is always public and cannot be restricted", "isCorrect": false },
+          { "text": "Access is controlled through IAM policies", "isCorrect": false },
+          { "text": "Access is controlled through network ACLs", "isCorrect": false },
+          { "text": "Access is controlled through POSIX-compliant user and group permissions", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "What is the purpose of EFS file system policies?",
+        "answers": [
+          { "text": "To define rules for accessing EFS data from the internet", "isCorrect": false },
+          { "text": "To manage IAM users and roles", "isCorrect": false },
+          { "text": "To control access to EFS file systems using IAM policies", "isCorrect": true },
+          { "text": "To configure encryption settings for EFS", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How does EFS support data consistency?",
+        "answers": [
+          { "text": "EFS does not provide data consistency", "isCorrect": false },
+          { "text": "Data consistency is achieved through eventual consistency", "isCorrect": true },
+          { "text": "Data consistency is guaranteed through strict consistency", "isCorrect": false },
+          { "text": "Data consistency is managed through manual synchronization", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which AWS service can be used to monitor EFS performance?",
+        "answers": [
+          { "text": "Amazon CloudWatch", "isCorrect": true },
+          { "text": "AWS Config", "isCorrect": false },
+          { "text": "AWS CloudTrail", "isCorrect": false },
+          { "text": "Amazon Elastic Block Store (EBS)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of EFS Throughput Modes?",
+        "answers": [
+          { "text": "To limit the number of concurrent file system connections", "isCorrect": false },
+          { "text": "To control access to EFS file systems based on user roles", "isCorrect": false },
+          { "text": "To allocate file system throughput between readers and writers", "isCorrect": true },
+          { "text": "To configure encryption settings for EFS", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How can you enable encryption for data at rest in an EFS file system?",
+        "answers": [
+          { "text": "Encryption is not supported for data at rest in EFS", "isCorrect": false },
+          { "text": "Enable server-side encryption using AWS Key Management Service (KMS)", "isCorrect": true },
+          { "text": "Manually encrypt files before storing them in EFS", "isCorrect": false },
+          { "text": "Enable client-side encryption for each file in EFS", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the EFS mount helper?",
+        "answers": [
+          { "text": "To mount EFS file systems on Windows instances", "isCorrect": false },
+          { "text": "To automate the mounting of EFS file systems on Linux instances", "isCorrect": true },
+          { "text": "To manage EFS file system policies", "isCorrect": false },
+          { "text": "To configure EFS access points", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How does EFS support data deduplication?",
+        "answers": [
+          { "text": "EFS does not support data deduplication", "isCorrect": true },
+          { "text": "Data deduplication is automatic and occurs at the block level", "isCorrect": false },
+          { "text": "Users must manually enable data deduplication for each file", "isCorrect": false },
+          { "text": "Data deduplication is managed through AWS Config", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which AWS service can be used to automate the creation and deletion of EFS backups?",
+        "answers": [
+          { "text": "AWS Backup", "isCorrect": true },
+          { "text": "AWS Glacier", "isCorrect": false },
+          { "text": "AWS Storage Gateway", "isCorrect": false },
+          { "text": "AWS DataSync", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the EFS Performance Mode?",
+        "answers": [
+          { "text": "To control the maximum number of EC2 instances that can access an EFS file system", "isCorrect": false },
+          { "text": "To optimize for high-performance access", "isCorrect": true },
+          { "text": "To allocate specific throughput for an EFS file system", "isCorrect": false },
+          { "text": "To reserve capacity for future EFS growth", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How does AWS EFS support bursting throughput?",
+        "answers": [
+          { "text": "Bursting throughput is not supported in EFS", "isCorrect": false },
+          { "text": "Bursting throughput is automatically enabled for all EFS file systems", "isCorrect": false },
+          { "text": "Bursting throughput is enabled based on a credit system", "isCorrect": true },
+          { "text": "Bursting throughput is configurable by users", "isCorrect": false }
+        ]
+      }
+    ]
