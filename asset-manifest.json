@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cloudquizapp/static/css/main.5ab5a1fd.css",
-    "main.js": "/cloudquizapp/static/js/main.fc7ead48.js",
+    "main.js": "/cloudquizapp/static/js/main.f2665366.js",
     "static/js/246.36405086.chunk.js": "/cloudquizapp/static/js/246.36405086.chunk.js",
     "static/js/130.1274c1b2.chunk.js": "/cloudquizapp/static/js/130.1274c1b2.chunk.js",
     "static/js/379.f4157089.chunk.js": "/cloudquizapp/static/js/379.f4157089.chunk.js",
@@ -22,12 +22,18 @@
     "static/js/694.5c5c28e7.chunk.js": "/cloudquizapp/static/js/694.5c5c28e7.chunk.js",
     "static/js/462.c85f0246.chunk.js": "/cloudquizapp/static/js/462.c85f0246.chunk.js",
     "static/js/8.263b7733.chunk.js": "/cloudquizapp/static/js/8.263b7733.chunk.js",
+    "static/media/azure.png": "/cloudquizapp/static/media/azure.5a694f18b0e4f276ce48.png",
+    "static/media/gcp.png": "/cloudquizapp/static/media/gcp.e3c95f14d9c11b3802e9.png",
+    "static/media/kubernetes.png": "/cloudquizapp/static/media/kubernetes.df0d0ef852c49e73f12a.png",
+    "static/media/oracle.png": "/cloudquizapp/static/media/oracle.a1084e41ad50b7ad532d.png",
+    "static/media/aws.png": "/cloudquizapp/static/media/aws.32eaaae9c85a46132ebb.png",
+    "static/media/terraform.png": "/cloudquizapp/static/media/terraform.91c6b3f618d2186b47e0.png",
     "index.html": "/cloudquizapp/index.html",
     "main.5ab5a1fd.css.map": "/cloudquizapp/static/css/main.5ab5a1fd.css.map",
-    "main.fc7ead48.js.map": "/cloudquizapp/static/js/main.fc7ead48.js.map"
+    "main.f2665366.js.map": "/cloudquizapp/static/js/main.f2665366.js.map"
   },
   "entrypoints": [
     "static/css/main.5ab5a1fd.css",
-    "static/js/main.fc7ead48.js"
+    "static/js/main.f2665366.js"
   ]
 }
