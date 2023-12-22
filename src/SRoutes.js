@@ -3,20 +3,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import App from './App';
-import AWSConceptSelection from './components/AWSConceptSelection';
+import AWSConceptSelection from './components/concept-selection/aws/AWSConceptSelection';
 import CloudSelection from './components/CloudSelection';
-import AWSHome from './components/AWSHome';
-import GCPHome from './components/GCPHome';
-import GCPConceptSelection from './components/GCPConceptSelection';
+import AWSHome from './components/concept-selection/aws/AWSHome';
+import GCPHome from './components/concept-selection/gcp/GCPHome';
+import GCPConceptSelection from './components/concept-selection/gcp/GCPConceptSelection';
 import Layout from './components/Layout';
-import AzureHome from './components/AzureHome';
-import AzureConceptSelection from './components/AzureConceptSelection';
-import OracleConceptSelection from './components/OracleConceptSelection';
-import OracleHome from './components/OracleHome';
-import TerraformConceptSelection from './components/TerraformConceptSelection';
-import TerraformHome from './components/TerraformHome';
-import KubernetesConceptSelection from './components/KubernetesConceptSelection';
-import KubernetesHome from './components/KubernetesHome';
+import AzureHome from './components/concept-selection/azure/AzureHome';
+import AzureConceptSelection from './components/concept-selection/azure/AzureConceptSelection';
+import OracleConceptSelection from './components/concept-selection/oracle/OracleConceptSelection';
+import OracleHome from './components/concept-selection/oracle/OracleHome';
+import TerraformConceptSelection from './components/concept-selection/terraform/TerraformConceptSelection';
+import TerraformHome from './components/concept-selection/terraform/TerraformHome';
+import KubernetesConceptSelection from './components/concept-selection/kubernetes/KubernetesConceptSelection';
+import KubernetesHome from './components/concept-selection/kubernetes/KubernetesHome';
 
 const SRoutes = () => {
   return (
@@ -37,7 +37,6 @@ const SRoutes = () => {
         <Route path="/kubernetesconceptselection" exact element={<Layout><KubernetesConceptSelection/></Layout>} />
         <Route path="/kuberneteshome" exact element={<Layout><KubernetesHome/></Layout>} />
         <Route path="/cloudselection" exact element={<CloudSelection/>} />
-        
       </Routes>
     </Router>
   );

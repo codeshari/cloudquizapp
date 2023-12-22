@@ -1,12 +1,12 @@
-// src/components/GCPHome.js
+// src/components/KubernetesHome.js
 
 import React, { useState, useEffect } from 'react';
-import conceptsData from '../data/concepts/gcpconcepts.json'; // Adjust the path accordingly
-import Quiz from './Quiz';
-import QuizResult from './QuizResult';
-import GCPConceptSelection from './GCPConceptSelection';
+import conceptsData from '../../../data/concepts/kubernetesconcepts.json'; // Adjust the path accordingly
+import Quiz from '../../Quiz';
+import QuizResult from '../../QuizResult';
+import KubernetesConceptSelection from './KubernetesConceptSelection';
 
-const GCPHome = () => {
+const KubernetesHome = () => {
     const [concepts, setConcepts] = useState([]);
     const [selectedConcept, setSelectedConcept] = useState(null);
     const [questions, setQuestions] = useState([]);
@@ -21,7 +21,7 @@ const GCPHome = () => {
         setSelectedConcept(concept);
 
         // Load quiz data dynamically based on the selected concept name
-        import(`../data/gcp/${concept.fileName}.json`)
+        import(`../../../data/kubernetes/${concept.fileName}.json`)
             .then((quizData) => setQuestions(quizData.default))
             .catch((error) => console.error('Error loading quiz data:', error));
 
@@ -44,11 +44,11 @@ const GCPHome = () => {
                 ) : showResult ? (
                     <QuizResult questions={questions} userAnswers={[]} totalQuestions={questions.length} />
                 ) : (
-                    <GCPConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
+                    <KubernetesConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
                 )}
             </div>
         </div>
     );
 };
 
-export default GCPHome;
+export default KubernetesHome;

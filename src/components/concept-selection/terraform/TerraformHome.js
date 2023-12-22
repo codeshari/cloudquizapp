@@ -1,12 +1,12 @@
-// src/components/AWSHome.js
+// src/components/TerraformHome.js
 
 import React, { useState, useEffect } from 'react';
-import conceptsData from '../data/concepts/awsconcepts.json'; // Adjust the path accordingly
-import Quiz from './Quiz';
-import QuizResult from './QuizResult';
-import AWSConceptSelection from './AWSConceptSelection';
+import conceptsData from '../../../data/concepts/terraformconcepts.json'; // Adjust the path accordingly
+import Quiz from '../../Quiz';
+import QuizResult from '../../QuizResult';
+import TerraformConceptSelection from './TerraformConceptSelection';
 
-const AWSHome = () => {
+const TerraformHome = () => {
     const [concepts, setConcepts] = useState([]);
     const [selectedConcept, setSelectedConcept] = useState(null);
     const [questions, setQuestions] = useState([]);
@@ -21,7 +21,7 @@ const AWSHome = () => {
         setSelectedConcept(concept);
 
         // Load quiz data dynamically based on the selected concept name
-        import(`../data/aws/${concept.fileName}.json`)
+        import(`../../../data/terraform/${concept.fileName}.json`)
             .then((quizData) => setQuestions(quizData.default))
             .catch((error) => console.error('Error loading quiz data:', error));
 
@@ -44,11 +44,11 @@ const AWSHome = () => {
                 ) : showResult ? (
                     <QuizResult questions={questions} userAnswers={[]} totalQuestions={questions.length} />
                 ) : (
-                    <AWSConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
+                    <TerraformConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
                 )}
             </div>
         </div>
     );
 };
 
-export default AWSHome;
+export default TerraformHome;

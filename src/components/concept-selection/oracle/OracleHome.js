@@ -1,12 +1,12 @@
-// src/components/KubernetesHome.js
+// src/components/OracleHome.js
 
 import React, { useState, useEffect } from 'react';
-import conceptsData from '../data/concepts/kubernetesconcepts.json'; // Adjust the path accordingly
-import Quiz from './Quiz';
-import QuizResult from './QuizResult';
-import KubernetesConceptSelection from './KubernetesConceptSelection';
+import conceptsData from '../../../data/concepts/oracleconcepts.json'; // Adjust the path accordingly
+import Quiz from '../../Quiz';
+import QuizResult from '../../QuizResult';
+import OracleConceptSelection from './OracleConceptSelection';
 
-const KubernetesHome = () => {
+const OracleHome = () => {
     const [concepts, setConcepts] = useState([]);
     const [selectedConcept, setSelectedConcept] = useState(null);
     const [questions, setQuestions] = useState([]);
@@ -21,7 +21,7 @@ const KubernetesHome = () => {
         setSelectedConcept(concept);
 
         // Load quiz data dynamically based on the selected concept name
-        import(`../data/kubernetes/${concept.fileName}.json`)
+        import(`../../../data/${concept.fileName}.json`)
             .then((quizData) => setQuestions(quizData.default))
             .catch((error) => console.error('Error loading quiz data:', error));
 
@@ -44,11 +44,11 @@ const KubernetesHome = () => {
                 ) : showResult ? (
                     <QuizResult questions={questions} userAnswers={[]} totalQuestions={questions.length} />
                 ) : (
-                    <KubernetesConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
+                    <OracleConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
                 )}
             </div>
         </div>
     );
 };
 
-export default KubernetesHome;
+export default OracleHome;

@@ -1,12 +1,12 @@
-// src/components/OracleHome.js
+// src/components/GCPHome.js
 
 import React, { useState, useEffect } from 'react';
-import conceptsData from '../data/concepts/oracleconcepts.json'; // Adjust the path accordingly
-import Quiz from './Quiz';
-import QuizResult from './QuizResult';
-import OracleConceptSelection from './OracleConceptSelection';
+import conceptsData from '../../../data/concepts/gcpconcepts.json'; // Adjust the path accordingly
+import Quiz from '../../Quiz';
+import QuizResult from '../../QuizResult';
+import GCPConceptSelection from './GCPConceptSelection';
 
-const OracleHome = () => {
+const GCPHome = () => {
     const [concepts, setConcepts] = useState([]);
     const [selectedConcept, setSelectedConcept] = useState(null);
     const [questions, setQuestions] = useState([]);
@@ -21,7 +21,7 @@ const OracleHome = () => {
         setSelectedConcept(concept);
 
         // Load quiz data dynamically based on the selected concept name
-        import(`../data/${concept.fileName}.json`)
+        import(`../../../data/gcp/${concept.fileName}.json`)
             .then((quizData) => setQuestions(quizData.default))
             .catch((error) => console.error('Error loading quiz data:', error));
 
@@ -44,11 +44,11 @@ const OracleHome = () => {
                 ) : showResult ? (
                     <QuizResult questions={questions} userAnswers={[]} totalQuestions={questions.length} />
                 ) : (
-                    <OracleConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
+                    <GCPConceptSelection concepts={concepts} onSelectConcept={handleConceptSelection} />
                 )}
             </div>
         </div>
     );
 };
 
-export default OracleHome;
+export default GCPHome;

@@ -1,9 +1,9 @@
 // src/components/AzureHome.js
 
 import React, { useState, useEffect } from 'react';
-import conceptsData from '../data/concepts/azureconcepts.json'; // Adjust the path accordingly
-import Quiz from './Quiz';
-import QuizResult from './QuizResult';
+import conceptsData from '../../../data/concepts/azureconcepts.json'; // Adjust the path accordingly
+import Quiz from '../../Quiz';
+import QuizResult from '../../QuizResult';
 import AzureConceptSelection from './AzureConceptSelection';
 
 const AzureHome = () => {
@@ -21,7 +21,7 @@ const AzureHome = () => {
         setSelectedConcept(concept);
 
         // Load quiz data dynamically based on the selected concept name
-        import(`../data/azure/${concept.fileName}.json`)
+        import(`../../../data/azure/${concept.fileName}.json`)
             .then((quizData) => setQuestions(quizData.default))
             .catch((error) => console.error('Error loading quiz data:', error));
 
