@@ -1,3 +1,5 @@
+// src/components/Quiz.js
+
 import React, { useState, useEffect } from 'react';
 import ScorePopup from './ScorePopup';
 import QuizResult from './QuizResult';
@@ -11,10 +13,14 @@ const Quiz = ({ questions, onConceptChange }) => {
   const [showReport, setShowReport] = useState(false);
   const [timer, setTimer] = useState(30 * questions.length); // 30 seconds per question
   const [quizFinished, setQuizFinished] = useState(false);
+  const [shuffledQuestions, setShuffledQuestions] = useState([]);
 
   useEffect(() => {
+    // Shuffle the array of questions when the component mounts or when the concept changes
+    setShuffledQuestions(shuffleArray([...questions]));
+
     // Reset the timer when the component mounts or when the concept changes
-    setTimer(30 * questions.length);
+    setTimer(30 * shuffledQuestions.length);
     setQuizFinished(false);
   }, [questions, onConceptChange]);
 
@@ -31,12 +37,16 @@ const Quiz = ({ questions, onConceptChange }) => {
   }, [quizFinished]);
 
   const handleAnswerClick = (isCorrect, answerIndex) => {
-    if (questions && answerIndex >= 0 && answerIndex < questions[currentQuestion]?.answers.length) {
+    setUserAnswers((prevAnswers) => {
+      const newAnswers = [...prevAnswers];
+      newAnswers[currentQuestion] = answerIndex;
+
       if (isCorrect) {
-        setScore(score + 1);
+        setScore((prevScore) => prevScore + 1);
       }
-      setUserAnswers([...userAnswers.slice(0, currentQuestion), answerIndex, ...userAnswers.slice(currentQuestion + 1)]);
-    }
+
+      return newAnswers;
+    });
   };
 
   const handleNext = () => {
@@ -54,7 +64,7 @@ const Quiz = ({ questions, onConceptChange }) => {
   const resetQuiz = () => {
     setCurrentQuestion(0);
     setScore(0);
-    setUserAnswers(Array(questions?.length).fill(null));
+    setUserAnswers(Array(shuffledQuestions.length).fill(null));
     setShowScorePopup(false);
     setShowReport(false);
   };
@@ -71,11 +81,16 @@ const Quiz = ({ questions, onConceptChange }) => {
 
   const calculateProgress = () => {
     const answeredQuestions = userAnswers.filter((answer) => answer !== null).length;
-    const progress = (answeredQuestions / questions.length) * 100;
+    const progress = (answeredQuestions / shuffledQuestions.length) * 100;
     return progress;
   };
 
-  if (!questions || questions.length === 0) {
+  const shuffleArray = (array) => {
+    const shuffledArray = [...array].sort(() => Math.random() - 0.5);
+    return shuffledArray;
+  };
+
+  if (!shuffledQuestions || shuffledQuestions.length === 0) {
     return <p>Loading...</p>;
   }
 
@@ -88,19 +103,19 @@ const Quiz = ({ questions, onConceptChange }) => {
         <p>Time Left: {Math.floor(timer / 60)}:{(timer % 60).toLocaleString('en-US', { minimumIntegerDigits: 2 })}</p>
       </div>
       {showReport ? (
-        <QuizResult questions={questions} userAnswers={userAnswers} totalQuestions={questions.length} />
+        <QuizResult questions={shuffledQuestions} userAnswers={userAnswers} totalQuestions={shuffledQuestions.length} />
       ) : (
         <>
           <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "15px" }}>
-            <div className="qno-container">{currentQuestion + 1} / {questions.length}</div>
+            <div className="qno-container">{currentQuestion + 1} / {shuffledQuestions.length}</div>
             <div className="button-container">
               {currentQuestion > 0 && <button onClick={handlePrevious}>Previous</button>}
             </div>
           </div>
           <div>
-            <p>{questions[currentQuestion]?.question}</p>
+            <p>{shuffledQuestions[currentQuestion]?.question}</p>
             <ul>
-              {questions[currentQuestion]?.answers.map((answer, index) => (
+              {shuffledQuestions[currentQuestion]?.answers.map((answer, index) => (
                 <li
                   key={index}
                   onClick={() => handleAnswerClick(answer.isCorrect, index)}
@@ -114,13 +129,13 @@ const Quiz = ({ questions, onConceptChange }) => {
             </ul>
           </div>
           <div className="right-button-container">
-            {currentQuestion < questions.length - 1 && (
+            {currentQuestion < shuffledQuestions.length - 1 && (
               <button onClick={handleNext} disabled={userAnswers[currentQuestion] === null}>
                 Next
               </button>
             )}
           </div>
-          {currentQuestion === questions.length - 1 && (
+          {currentQuestion === shuffledQuestions.length - 1 && (
             <div className="right-button-container">
               <button className='nextButton' onClick={showQuizReport}>Finish</button>
             </div>
@@ -128,7 +143,7 @@ const Quiz = ({ questions, onConceptChange }) => {
         </>
       )}
       {showScorePopup && (
-        <ScorePopup score={score} totalQuestions={questions.length} onReset={resetQuiz} />
+        <ScorePopup score={score} totalQuestions={shuffledQuestions.length} onReset={resetQuiz} />
       )}
     </div>
   );
