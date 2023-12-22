@@ -20,7 +20,7 @@ const Quiz = ({ questions, onConceptChange }) => {
     setShuffledQuestions(shuffleArray([...questions]));
 
     // Reset the timer when the component mounts or when the concept changes
-    setTimer(30 * shuffledQuestions.length);
+    setTimer(30 * questions.length);
     setQuizFinished(false);
   }, [questions, onConceptChange]);
 
