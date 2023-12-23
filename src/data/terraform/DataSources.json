@@ -1,0 +1,335 @@
+[
+    {
+      "question": "What is a Terraform data source?",
+      "answers": [
+        { "text": "A resource definition", "isCorrect": false },
+        { "text": "A module declaration", "isCorrect": false },
+        { "text": "A way to fetch and reference external data in Terraform", "isCorrect": true },
+        { "text": "A variable assignment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to declare a data source in Terraform?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "data", "isCorrect": true },
+        { "text": "module", "isCorrect": false },
+        { "text": "variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of using data sources in Terraform?",
+      "answers": [
+        { "text": "To create resources", "isCorrect": false },
+        { "text": "To define variables", "isCorrect": false },
+        { "text": "To fetch and reference external information", "isCorrect": true },
+        { "text": "To declare modules", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform block is used to configure a data source?",
+      "answers": [
+        { "text": "settings", "isCorrect": false },
+        { "text": "configuration", "isCorrect": false },
+        { "text": "source", "isCorrect": false },
+        { "text": "data", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What information does a typical data source configuration block include?",
+      "answers": [
+        { "text": "Resource name", "isCorrect": false },
+        { "text": "Provider details", "isCorrect": false },
+        { "text": "Query parameters for the external resource", "isCorrect": true },
+        { "text": "Resource dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is the result of a data source query accessed in Terraform?",
+      "answers": [
+        { "text": "By using the `output` block", "isCorrect": false },
+        { "text": "Through interpolation syntax like `${data.source.output}`", "isCorrect": true },
+        { "text": "By directly referencing it using the source name", "isCorrect": false },
+        { "text": "By using the `result` keyword", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to specify the external provider for a data source?",
+      "answers": [
+        { "text": "external", "isCorrect": false },
+        { "text": "provider", "isCorrect": false },
+        { "text": "data", "isCorrect": false },
+        { "text": "data source", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What does the `depends_on` argument in a data source block indicate?",
+      "answers": [
+        { "text": "Resource dependencies", "isCorrect": false },
+        { "text": "Order of execution", "isCorrect": false },
+        { "text": "Explicit dependencies that affect the order of resource creation", "isCorrect": true },
+        { "text": "Provider dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to refresh the state of data sources?",
+      "answers": [
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": true },
+        { "text": "terraform refresh", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `reconfigure` argument in a data source block?",
+      "answers": [
+        { "text": "To modify the resource configuration", "isCorrect": false },
+        { "text": "To force the data source to be reconfigured during the next `terraform apply`", "isCorrect": true },
+        { "text": "To disable the data source", "isCorrect": false },
+        { "text": "To specify additional configuration parameters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is a dynamic block used in a data source configuration?",
+      "answers": [
+        { "text": "To declare variables", "isCorrect": false },
+        { "text": "To define output values", "isCorrect": false },
+        { "text": "To create multiple instances of a block with different configurations", "isCorrect": true },
+        { "text": "To conditionally include/exclude blocks based on a condition", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to refer to the current instance in a dynamic block?",
+      "answers": [
+        { "text": "current", "isCorrect": true },
+        { "text": "instance", "isCorrect": false },
+        { "text": "this", "isCorrect": false },
+        { "text": "self", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `count` argument in a dynamic block?",
+      "answers": [
+        { "text": "To define the number of resources to create", "isCorrect": false },
+        { "text": "To enable or disable a block based on a condition", "isCorrect": false },
+        { "text": "To specify how many instances of the block should be created", "isCorrect": true },
+        { "text": "To control the ordering of resource creation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is a sensitive value defined in the output block of a data source?",
+      "answers": [
+        { "text": "sensitive = true", "isCorrect": true },
+        { "text": "secure = true", "isCorrect": false },
+        { "text": "private = true", "isCorrect": false },
+        { "text": "hidden = true", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to fetch information about an AWS S3 bucket named 'my-terraform-bucket'. Which Terraform data source would you use?",
+      "answers": [
+        { "text": "aws_bucket", "isCorrect": false },
+        { "text": "aws_s3_bucket", "isCorrect": false },
+        { "text": "aws_s3_bucket_object", "isCorrect": false },
+        { "text": "aws_s3_bucket", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain information about an AWS EC2 instance named 'web-server-01'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "aws_instance_info", "isCorrect": false },
+        { "text": "aws_ec2_instance", "isCorrect": true },
+        { "text": "aws_instance_data", "isCorrect": false },
+        { "text": "aws_instance_info", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to retrieve details about a Google Cloud Storage bucket named 'my-gcs-bucket'. Which Terraform data source is appropriate?",
+      "answers": [
+        { "text": "google_storage_bucket", "isCorrect": true },
+        { "text": "google_cloud_storage", "isCorrect": false },
+        { "text": "google_bucket_info", "isCorrect": false },
+        { "text": "google_gcs_bucket", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain information about a Google Cloud SQL database instance named 'my-sql-instance'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "google_sql_database_instance", "isCorrect": true },
+        { "text": "google_cloudsql_instance", "isCorrect": false },
+        { "text": "google_sql_db_instance", "isCorrect": false },
+        { "text": "google_sql_info", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to fetch information about an Azure Resource Group named 'my-rg'. Which Terraform data source is suitable?",
+      "answers": [
+        { "text": "azure_rg_info", "isCorrect": false },
+        { "text": "azurerm_resource_group", "isCorrect": true },
+        { "text": "azure_resource_group", "isCorrect": false },
+        { "text": "azurerm_rg_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an Azure Virtual Machine named 'my-vm'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "azure_vm_info", "isCorrect": false },
+        { "text": "azurerm_virtual_machine", "isCorrect": true },
+        { "text": "azure_virtual_machine", "isCorrect": false },
+        { "text": "azurerm_vm_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to retrieve information about an OpenStack Swift container named 'my-swift-container'. Which Terraform data source is appropriate?",
+      "answers": [
+        { "text": "openstack_swift_container_info", "isCorrect": false },
+        { "text": "openstack_object_storage_container", "isCorrect": true },
+        { "text": "openstack_swift_info", "isCorrect": false },
+        { "text": "openstack_container_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an OpenStack Nova server instance named 'my-nova-instance'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "openstack_nova_server_info", "isCorrect": false },
+        { "text": "openstack_compute_instance_v2", "isCorrect": true },
+        { "text": "openstack_server_data", "isCorrect": false },
+        { "text": "openstack_instance_info", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to fetch information about a vSphere virtual machine named 'my-vm'. Which Terraform data source is suitable?",
+      "answers": [
+        { "text": "vsphere_virtual_machine_info", "isCorrect": false },
+        { "text": "vsphere_vm", "isCorrect": true },
+        { "text": "vsphere_vm_info", "isCorrect": false },
+        { "text": "vsphere_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an Alibaba Cloud ECS instance named 'my-ecs-instance'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "alicloud_instance_info", "isCorrect": false },
+        { "text": "alicloud_ecs_instance", "isCorrect": true },
+        { "text": "alicloud_info", "isCorrect": false },
+        { "text": "alicloud_compute_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to retrieve information about a DigitalOcean Droplet named 'my-droplet'. Which Terraform data source is appropriate?",
+      "answers": [
+        { "text": "digitalocean_droplet_info", "isCorrect": false },
+        { "text": "digitalocean_droplet", "isCorrect": true },
+        { "text": "digitalocean_info", "isCorrect": false },
+        { "text": "digitalocean_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an IBM Cloud Virtual Server Instance named 'my-vsi'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "ibmcloud_virtual_server_instance_info", "isCorrect": false },
+        { "text": "ibm_compute_instance", "isCorrect": true },
+        { "text": "ibmcloud_info", "isCorrect": false },
+        { "text": "ibm_instance_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to fetch information about an Oracle Cloud Compute Instance named 'my-oci-instance'. Which Terraform data source is suitable?",
+      "answers": [
+        { "text": "oracle_compute_instance_info", "isCorrect": false },
+        { "text": "oci_core_instance", "isCorrect": true },
+        { "text": "oracle_cloud_info", "isCorrect": false },
+        { "text": "oci_instance_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about a VMware NSX Logical Router named 'my-logical-router'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "vmware_nsx_logical_router_info", "isCorrect": false },
+        { "text": "nsxt_logical_router", "isCorrect": true },
+        { "text": "vmware_info", "isCorrect": false },
+        { "text": "nsx_router_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to retrieve information about an AWS RDS instance named 'my-rds-instance'. Which Terraform data source is appropriate?",
+      "answers": [
+        { "text": "aws_rds_instance_info", "isCorrect": false },
+        { "text": "aws_db_instance", "isCorrect": true },
+        { "text": "aws_rds_info", "isCorrect": false },
+        { "text": "aws_db_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an AWS Lambda function named 'my-lambda-function'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "aws_lambda_function_info", "isCorrect": false },
+        { "text": "aws_lambda_function", "isCorrect": true },
+        { "text": "aws_lambda_info", "isCorrect": false },
+        { "text": "aws_lambda_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to fetch information about a Google Cloud Pub/Sub topic named 'my-pubsub-topic'. Which Terraform data source is suitable?",
+      "answers": [
+        { "text": "google_pubsub_topic_info", "isCorrect": false },
+        { "text": "google_pubsub_topic", "isCorrect": true },
+        { "text": "google_pubsub_info", "isCorrect": false },
+        { "text": "google_pubsub_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about a Google Cloud SQL database named 'my-sql-database'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "google_sql_database_info", "isCorrect": false },
+        { "text": "google_sql_database", "isCorrect": true },
+        { "text": "google_sql_info", "isCorrect": false },
+        { "text": "google_sql_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to retrieve information about an Azure Blob Storage container named 'my-container'. Which Terraform data source is appropriate?",
+      "answers": [
+        { "text": "azure_blob_storage_container_info", "isCorrect": false },
+        { "text": "azurerm_storage_container", "isCorrect": true },
+        { "text": "azure_blob_info", "isCorrect": false },
+        { "text": "azurerm_blob_container_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an Azure SQL Database named 'my-sql-db'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "azure_sql_database_info", "isCorrect": false },
+        { "text": "azurerm_mssql_database", "isCorrect": true },
+        { "text": "azure_sql_db_info", "isCorrect": false },
+        { "text": "azurerm_sql_db_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to fetch information about an OpenStack Keystone project named 'my-project'. Which Terraform data source is suitable?",
+      "answers": [
+        { "text": "openstack_keystone_project_info", "isCorrect": false },
+        { "text": "openstack_identity_project", "isCorrect": true },
+        { "text": "openstack_project_info", "isCorrect": false },
+        { "text": "openstack_project_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to obtain details about an OpenStack Cinder volume named 'my-volume'. Which Terraform data source should you use?",
+      "answers": [
+        { "text": "openstack_cinder_volume_info", "isCorrect": false },
+        { "text": "openstack_blockstorage_volume_v2", "isCorrect": true },
+        { "text": "openstack_volume_info", "isCorrect": false },
+        { "text": "openstack_volume_data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to retrieve information about a vSphere Datastore named 'my-datastore'. Which Terraform data source is appropriate?",
+      "answers": [
+        { "text": "vsphere_datastore_info", "isCorrect": false },
+        { "text": "vsphere_datastore", "isCorrect": true },
+        { "text": "vsphere_datastore_data", "isCorrect": false },
+        { "text": "vsphere_storage_info", "isCorrect": false }
+      ]
+    }
+]

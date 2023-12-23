@@ -1,0 +1,300 @@
+[
+    {
+      "question": "What is Terraform?",
+      "answers": [
+        { "text": "A programming language", "isCorrect": false },
+        { "text": "A configuration management tool", "isCorrect": false },
+        { "text": "An infrastructure as code tool", "isCorrect": true },
+        { "text": "A cloud service provider", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform block is used to declare variables?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "provider", "isCorrect": false },
+        { "text": "variable", "isCorrect": true },
+        { "text": "output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform init' command?",
+      "answers": [
+        { "text": "Initialize a new Terraform configuration", "isCorrect": true },
+        { "text": "Apply changes to the infrastructure", "isCorrect": false },
+        { "text": "Destroy the infrastructure", "isCorrect": false },
+        { "text": "Generate Terraform documentation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which block is used to define the configuration for a specific provider?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "provider", "isCorrect": true },
+        { "text": "variable", "isCorrect": false },
+        { "text": "output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform apply' command?",
+      "answers": [
+        { "text": "Initialize a new Terraform configuration", "isCorrect": false },
+        { "text": "Apply changes to the infrastructure", "isCorrect": true },
+        { "text": "Destroy the infrastructure", "isCorrect": false },
+        { "text": "Generate Terraform documentation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what is a resource?",
+      "answers": [
+        { "text": "A variable", "isCorrect": false },
+        { "text": "A provider", "isCorrect": false },
+        { "text": "A piece of infrastructure", "isCorrect": true },
+        { "text": "An output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which block is used to define the configuration for a specific resource?",
+      "answers": [
+        { "text": "resource", "isCorrect": true },
+        { "text": "provider", "isCorrect": false },
+        { "text": "variable", "isCorrect": false },
+        { "text": "output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform plan' command do?",
+      "answers": [
+        { "text": "Initialize a new Terraform configuration", "isCorrect": false },
+        { "text": "Apply changes to the infrastructure", "isCorrect": false },
+        { "text": "Preview changes before applying them", "isCorrect": true },
+        { "text": "Generate Terraform documentation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which block is used to define the configuration for a specific output?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "provider", "isCorrect": false },
+        { "text": "variable", "isCorrect": false },
+        { "text": "output", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform destroy' command?",
+      "answers": [
+        { "text": "Initialize a new Terraform configuration", "isCorrect": false },
+        { "text": "Apply changes to the infrastructure", "isCorrect": false },
+        { "text": "Destroy the infrastructure", "isCorrect": true },
+        { "text": "Generate Terraform documentation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to provision a virtual machine on AWS using Terraform. What Terraform block would you use to define this resource?",
+      "answers": [
+        { "text": "instance", "isCorrect": false },
+        { "text": "ec2", "isCorrect": false },
+        { "text": "resource \"aws_instance\"", "isCorrect": true },
+        { "text": "virtual_machine", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to provision a security group on GCP using Terraform. Which Terraform block is suitable for defining this resource?",
+      "answers": [
+        { "text": "gcp_security_group", "isCorrect": false },
+        { "text": "google_security_group", "isCorrect": true },
+        { "text": "resource \"gcp_security_group\"", "isCorrect": false },
+        { "text": "gcp_network_security_group", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are tasked with provisioning an S3 bucket on AWS. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "resource \"s3_bucket\"", "isCorrect": true },
+        { "text": "aws_s3_bucket", "isCorrect": true },
+        { "text": "s3", "isCorrect": false },
+        { "text": "bucket \"aws_s3_bucket\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your project requires provisioning a managed Kubernetes cluster on Google Cloud using Terraform. Which block is appropriate for defining this resource?",
+      "answers": [
+        { "text": "gke_cluster", "isCorrect": false },
+        { "text": "resource \"gcp_container_cluster\"", "isCorrect": true },
+        { "text": "google_kubernetes_cluster", "isCorrect": false },
+        { "text": "container_cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to provision a virtual network on Azure using Terraform. What Terraform block is suitable for declaring this resource?",
+      "answers": [
+        { "text": "azure_network", "isCorrect": false },
+        { "text": "resource \"azurerm_virtual_network\"", "isCorrect": true },
+        { "text": "azure_virtual_network", "isCorrect": false },
+        { "text": "network \"azurerm_virtual_network\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application requires a PostgreSQL database on AWS. What Terraform block is appropriate for defining this resource?",
+      "answers": [
+        { "text": "aws_postgresql_database", "isCorrect": false },
+        { "text": "resource \"aws_db_instance\" ", "isCorrect": true },
+        { "text": "aws_database", "isCorrect": false },
+        { "text": "database \"aws_db_instance\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are responsible for provisioning a load balancer on Google Cloud using Terraform. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "load_balancer \"gcp_lb\"", "isCorrect": false },
+        { "text": "gcp_load_balancer", "isCorrect": false },
+        { "text": "resource \"google_compute_backend_service\"", "isCorrect": true },
+        { "text": "google_lb", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your infrastructure needs include provisioning an Azure Blob Storage. What Terraform block is suitable for defining this resource?",
+      "answers": [
+        { "text": "azurerm_blob_storage", "isCorrect": false },
+        { "text": "azure_blob_storage", "isCorrect": false },
+        { "text": "resource \"azurerm_storage_account\"", "isCorrect": true },
+        { "text": "blob_storage \"azurerm_storage_account\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are tasked with provisioning a Google Cloud Pub/Sub topic. Which Terraform block is appropriate for defining this resource?",
+      "answers": [
+        { "text": "gcp_pubsub_topic", "isCorrect": false },
+        { "text": "resource \"google_pubsub_topic\"", "isCorrect": true },
+        { "text": "pubsub_topic", "isCorrect": false },
+        { "text": "google_cloud_topic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your project requires provisioning an AWS Lambda function. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "lambda_function", "isCorrect": false },
+        { "text": "resource \"aws_lambda_function\"", "isCorrect": true },
+        { "text": "aws_function", "isCorrect": false },
+        { "text": "function \"aws_lambda_function\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to provision a virtual machine scale set on Azure. What Terraform block is suitable for defining this resource?",
+      "answers": [
+        { "text": "resource \"azure_vm_scale_set\"", "isCorrect": true },
+        { "text": "azure_virtual_machine_scale_set", "isCorrect": false },
+        { "text": "azurerm_vm_scale_set", "isCorrect": false },
+        { "text": "vm_scale_set", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your infrastructure requires provisioning an AWS RDS instance. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "rds_instance", "isCorrect": false },
+        { "text": "resource \"aws_db_instance\"", "isCorrect": true },
+        { "text": "aws_database_instance", "isCorrect": false },
+        { "text": "database_instance \"aws_db_instance\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are responsible for provisioning a Google Cloud SQL database. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "gcp_sql_database", "isCorrect": false },
+        { "text": "resource \"google_sql_database\"", "isCorrect": true },
+        { "text": "google_cloud_sql_database", "isCorrect": false },
+        { "text": "sql_database \"google_sql_database\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your project requires provisioning an AWS SNS topic. What Terraform block is appropriate for defining this resource?",
+      "answers": [
+        { "text": "resource \"aws_sns_topic\"", "isCorrect": true },
+        { "text": "aws_sns_topic", "isCorrect": false },
+        { "text": "sns_topic", "isCorrect": false },
+        { "text": "aws_notification_topic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to provision a Google Cloud Dataproc cluster. What Terraform block is suitable for defining this resource?",
+      "answers": [
+        { "text": "dataproc_cluster", "isCorrect": false },
+        { "text": "resource \"google_dataproc_cluster\"", "isCorrect": true },
+        { "text": "gcp_dataproc_cluster", "isCorrect": false },
+        { "text": "google_cloud_dataproc_cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application requires provisioning an AWS ECS cluster. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "ecs_cluster", "isCorrect": false },
+        { "text": "resource \"aws_ecs_cluster\"", "isCorrect": true },
+        { "text": "aws_ecs_cluster", "isCorrect": false },
+        { "text": "cluster \"aws_ecs_cluster\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are tasked with provisioning an Azure App Service. Which Terraform block is appropriate for defining this resource?",
+      "answers": [
+        { "text": "app_service \"azurerm_app_service\"", "isCorrect": false },
+        { "text": "azurerm_app_service", "isCorrect": false },
+        { "text": "resource \"azurerm_app_service\"", "isCorrect": true },
+        { "text": "azure_app_service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your infrastructure needs include provisioning an AWS DynamoDB table. What Terraform block is suitable for defining this resource?",
+      "answers": [
+        { "text": "resource \"aws_dynamodb_table\"", "isCorrect": true },
+        { "text": "dynamodb_table", "isCorrect": false },
+        { "text": "aws_table", "isCorrect": false },
+        { "text": "table \"aws_dynamodb_table\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to provision a Google Cloud Memorystore (Redis) instance. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "gcp_redis_instance", "isCorrect": false },
+        { "text": "resource \"google_redis_instance\"", "isCorrect": true },
+        { "text": "google_memorystore_redis", "isCorrect": false },
+        { "text": "memorystore_instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your project requires provisioning an AWS CloudFront distribution. What Terraform block is appropriate for defining this resource?",
+      "answers": [
+        { "text": "cloudfront_distribution", "isCorrect": false },
+        { "text": "resource \"aws_cloudfront_distribution\"", "isCorrect": true },
+        { "text": "aws_distribution", "isCorrect": false },
+        { "text": "distribution \"aws_cloudfront_distribution\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are responsible for provisioning a Google Cloud Bigtable instance. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "bigtable_instance", "isCorrect": false },
+        { "text": "resource \"google_bigtable_instance\"", "isCorrect": true },
+        { "text": "gcp_bigtable_instance", "isCorrect": false },
+        { "text": "google_cloud_bigtable_instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your infrastructure needs include provisioning an AWS Kinesis stream. What Terraform block is suitable for defining this resource?",
+      "answers": [
+        { "text": "kinesis_stream", "isCorrect": false },
+        { "text": "resource \"aws_kinesis_stream\"", "isCorrect": true },
+        { "text": "aws_stream", "isCorrect": false },
+        { "text": "stream \"aws_kinesis_stream\"", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to provision a Google Cloud Spanner instance. What Terraform block should you use to declare this resource?",
+      "answers": [
+        { "text": "spanner_instance", "isCorrect": false },
+        { "text": "resource \"google_spanner_instance\"", "isCorrect": true },
+        { "text": "gcp_spanner_instance", "isCorrect": false },
+        { "text": "google_cloud_spanner_instance", "isCorrect": false }
+      ]
+    }
+  ]
+  

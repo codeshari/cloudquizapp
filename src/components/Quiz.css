@@ -150,3 +150,24 @@ li:hover {
     padding: 10px 15px;
   }
 }
+
+@media screen and (max-width: 575.98px) {
+  /* Styles for extra small devices */
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for medium devices */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for medium devices */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for medium devices */
+}

@@ -1,0 +1,444 @@
+[
+    {
+      "question": "What is Terraform?",
+      "answers": [
+        { "text": "A configuration management tool", "isCorrect": false },
+        { "text": "An infrastructure as code (IaC) tool", "isCorrect": false },
+        { "text": "A provisioning tool by HashiCorp", "isCorrect": false },
+        { "text": "All of the above", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What does the term 'provider' refer to in Terraform?",
+      "answers": [
+        { "text": "The person who writes Terraform code", "isCorrect": false },
+        { "text": "A plugin responsible for managing a specific type of infrastructure", "isCorrect": true },
+        { "text": "A built-in function in Terraform scripting", "isCorrect": false },
+        { "text": "A reserved keyword for defining resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is a Terraform configuration file typically named?",
+      "answers": [
+        { "text": "main.tf", "isCorrect": true },
+        { "text": "terraform.config", "isCorrect": false },
+        { "text": "infra.tf", "isCorrect": false },
+        { "text": "config.tf", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What command is used to initialize a new or existing Terraform configuration?",
+      "answers": [
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform init", "isCorrect": true },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does 'terraform plan' do?",
+      "answers": [
+        { "text": "Applies the changes to the infrastructure", "isCorrect": false },
+        { "text": "Prints the execution plan", "isCorrect": true },
+        { "text": "Initializes the Terraform configuration", "isCorrect": false },
+        { "text": "Validates the Terraform configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command applies the changes to the infrastructure?",
+      "answers": [
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": true },
+        { "text": "terraform destroy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a Terraform resource block used for?",
+      "answers": [
+        { "text": "Defining variables", "isCorrect": false },
+        { "text": "Declaring providers", "isCorrect": false },
+        { "text": "Describing infrastructure objects and their properties", "isCorrect": true },
+        { "text": "Creating local variables", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command checks and reports syntax errors in the configuration files?",
+      "answers": [
+        { "text": "terraform validate", "isCorrect": true },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform init", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a Terraform variable?",
+      "answers": [
+        { "text": "A constant value", "isCorrect": false },
+        { "text": "A placeholder for values in Terraform configurations", "isCorrect": true },
+        { "text": "A reserved keyword for defining resources", "isCorrect": false },
+        { "text": "A predefined provider in Terraform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you define a variable in Terraform?",
+      "answers": [
+        { "text": "Using the 'variable' keyword", "isCorrect": false },
+        { "text": "Inside a resource block", "isCorrect": false },
+        { "text": "In a separate variable file or directly in the configuration", "isCorrect": true },
+        { "text": "Using the 'var' keyword", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to pass values to variables when running 'terraform apply'?",
+      "answers": [
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform apply -var", "isCorrect": true },
+        { "text": "terraform validate", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a Terraform output?",
+      "answers": [
+        { "text": "An error message", "isCorrect": false },
+        { "text": "A value to be displayed after applying the configuration", "isCorrect": true },
+        { "text": "A log file", "isCorrect": false },
+        { "text": "A variable definition", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to destroy the resources created by the configuration?",
+      "answers": [
+        { "text": "terraform clean", "isCorrect": false },
+        { "text": "terraform stop", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": true },
+        { "text": "terraform remove", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform.tfstate' file?",
+      "answers": [
+        { "text": "To store sensitive information", "isCorrect": false },
+        { "text": "To store the current state of the infrastructure", "isCorrect": true },
+        { "text": "To define Terraform variables", "isCorrect": false },
+        { "text": "To log Terraform commands", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you prevent accidental resource deletion in Terraform?",
+      "answers": [
+        { "text": "By using the 'terraform stop' command", "isCorrect": false },
+        { "text": "By setting the 'prevent_destroy' attribute to true in resource blocks", "isCorrect": true },
+        { "text": "By enabling multi-factor authentication", "isCorrect": false },
+        { "text": "By using the 'terraform protect' command", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform console' command do?",
+      "answers": [
+        { "text": "Applies changes to the infrastructure", "isCorrect": false },
+        { "text": "Opens an interactive console for evaluating expressions", "isCorrect": true },
+        { "text": "Validates Terraform configuration files", "isCorrect": false },
+        { "text": "Initiates a new Terraform configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you handle errors in Terraform configurations?",
+      "answers": [
+        { "text": "By ignoring errors and proceeding with 'terraform apply'", "isCorrect": false },
+        { "text": "By using the 'ignore_errors' attribute in resource blocks", "isCorrect": false },
+        { "text": "By addressing errors and re-running 'terraform apply'", "isCorrect": true },
+        { "text": "By running 'terraform error-handling enable'", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'count' attribute in Terraform?",
+      "answers": [
+        { "text": "To specify the number of resources to create", "isCorrect": true },
+        { "text": "To define the resource name", "isCorrect": false },
+        { "text": "To set the resource type", "isCorrect": false },
+        { "text": "To apply conditional logic to resource creation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to create an execution plan without applying the changes?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": true },
+        { "text": "terraform init", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'resource_address' field in Terraform error messages?",
+      "answers": [
+        { "text": "To identify the error type", "isCorrect": false },
+        { "text": "To specify the resource name", "isCorrect": false },
+        { "text": "To indicate the location of the error in the configuration", "isCorrect": true },
+        { "text": "To provide a detailed error description", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to apply a saved Terraform execution plan?",
+      "answers": [
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": true },
+        { "text": "terraform execute", "isCorrect": false },
+        { "text": "terraform deploy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'refresh' command in Terraform?",
+      "answers": [
+        { "text": "To refresh the browser window", "isCorrect": false },
+        { "text": "To force a re-read of the current state", "isCorrect": true },
+        { "text": "To revert changes made in the current session", "isCorrect": false },
+        { "text": "To update Terraform to the latest version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you use the 'ignore_changes' attribute in a Terraform resource block?",
+      "answers": [
+        { "text": "To skip resource creation", "isCorrect": false },
+        { "text": "To ignore any changes in the resource", "isCorrect": true },
+        { "text": "To disable error messages for the resource", "isCorrect": false },
+        { "text": "To mark the resource for destruction", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'backend' configuration in Terraform?",
+      "answers": [
+        { "text": "To configure the Terraform CLI", "isCorrect": false },
+        { "text": "To define the provider for the Terraform configuration", "isCorrect": false },
+        { "text": "To specify the location where Terraform stores its state", "isCorrect": true },
+        { "text": "To set the Terraform working directory", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the 'local-exec' provisioner used for in Terraform?",
+      "answers": [
+        { "text": "To execute commands on the local machine", "isCorrect": true },
+        { "text": "To provision resources on the local machine", "isCorrect": false },
+        { "text": "To define local variables", "isCorrect": false },
+        { "text": "To configure local providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform import' command do?",
+      "answers": [
+        { "text": "Imports resources from one Terraform state to another", "isCorrect": true },
+        { "text": "Exports resources from Terraform to another system", "isCorrect": false },
+        { "text": "Imports resources from a remote server to Terraform", "isCorrect": false },
+        { "text": "Exports resources from one Terraform state to another", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform show' command?",
+      "answers": [
+        { "text": "To display the current Terraform version", "isCorrect": false },
+        { "text": "To show the execution plan", "isCorrect": false },
+        { "text": "To display the Terraform state", "isCorrect": true },
+        { "text": "To show resource dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to create a lock on the state file for exclusive access?",
+      "answers": [
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform lock", "isCorrect": false },
+        { "text": "terraform apply -lock", "isCorrect": true },
+        { "text": "terraform state lock", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'remote' backend in Terraform?",
+      "answers": [
+        { "text": "To store the Terraform state locally", "isCorrect": false },
+        { "text": "To interact with a version control system", "isCorrect": false },
+        { "text": "To store the Terraform state remotely", "isCorrect": true },
+        { "text": "To enable remote execution of Terraform scripts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are running 'terraform apply,' and Terraform encounters an error during the execution. What should you do?",
+      "answers": [
+        { "text": "Ignore the error and proceed with the execution.", "isCorrect": false },
+        { "text": "Manually fix the error in the Terraform configuration files and re-run 'terraform apply.'", "isCorrect": true },
+        { "text": "Abort the execution and abandon the changes.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to revert the changes and eliminate the error.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You encounter a 'Resource not found' error while applying changes. What could be the possible cause?",
+      "answers": [
+        { "text": "Incorrect syntax in Terraform configuration files.", "isCorrect": false },
+        { "text": "Resource was deleted manually outside of Terraform.", "isCorrect": true },
+        { "text": "Provider credentials are invalid.", "isCorrect": false },
+        { "text": "Terraform state is corrupted.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A 'conflict' error occurs when applying changes due to a naming conflict. How can you resolve this issue?",
+      "answers": [
+        { "text": "Ignore the conflict, and Terraform will automatically resolve it.", "isCorrect": false },
+        { "text": "Manually update the resource names to resolve the conflict.", "isCorrect": true },
+        { "text": "Run 'terraform destroy' to remove conflicting resources.", "isCorrect": false },
+        { "text": "Change the Terraform provider to resolve the conflict.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: During 'terraform apply,' you encounter an 'Invalid value' error for a variable. What action should you take?",
+      "answers": [
+        { "text": "Ignore the error; it won't impact the execution.", "isCorrect": false },
+        { "text": "Manually correct the variable value in the Terraform configuration.", "isCorrect": true },
+        { "text": "Abort the execution and review the Terraform logs for more information.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to revert changes and fix the variable value.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: While executing 'terraform plan,' you receive a 'Resource not supported' error. What could be a likely cause?",
+      "answers": [
+        { "text": "Outdated Terraform version.", "isCorrect": false },
+        { "text": "Incorrect provider configuration.", "isCorrect": true },
+        { "text": "Missing variable values in the Terraform configuration.", "isCorrect": false },
+        { "text": "Insufficient permissions for the specified resource.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Terraform displays a 'Provider not found' error. How can you resolve this issue?",
+      "answers": [
+        { "text": "Manually install the required provider.", "isCorrect": false },
+        { "text": "Specify the correct provider version in the Terraform configuration.", "isCorrect": true },
+        { "text": "Ignore the error; it won't impact the execution.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove the provider-related resources.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: During 'terraform apply,' you encounter a 'Terraform state lock' error. How should you handle this situation?",
+      "answers": [
+        { "text": "Ignore the error; it will automatically resolve itself.", "isCorrect": false },
+        { "text": "Manually release the lock using 'terraform force-unlock.'", "isCorrect": true },
+        { "text": "Abort the execution and re-run 'terraform apply' after some time.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove the lock-related resources.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You encounter a 'Provider configuration not present' error during 'terraform apply.' How can you fix this?",
+      "answers": [
+        { "text": "Run 'terraform init' to initialize the provider configuration.", "isCorrect": true },
+        { "text": "Manually update the provider configuration in the Terraform files.", "isCorrect": false },
+        { "text": "Ignore the error; it will resolve itself in the next execution.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove the problematic provider resources.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You receive a 'Variable not set' error during 'terraform apply' due to a missing variable. How can you address this?",
+      "answers": [
+        { "text": "Ignore the error; Terraform will use default values for missing variables.", "isCorrect": false },
+        { "text": "Manually provide values for missing variables using command-line flags.", "isCorrect": true },
+        { "text": "Abort the execution and fix the missing variable in the Terraform configuration.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to revert changes and fix the variable in configuration files.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: 'terraform apply' fails with a 'Rate limit exceeded' error. What could be a potential solution?",
+      "answers": [
+        { "text": "Ignore the error; it will resolve itself after some time.", "isCorrect": false },
+        { "text": "Manually adjust the rate-limited resource configuration.", "isCorrect": false },
+        { "text": "Implement rate limiting in the Terraform configuration files.", "isCorrect": false },
+        { "text": "Review the provider's documentation for rate limit information and adjust accordingly.", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: During 'terraform apply,' you encounter a 'Variable validation failed' error. How can you address this?",
+      "answers": [
+        { "text": "Ignore the error; Terraform will use default values for variables.", "isCorrect": false },
+        { "text": "Manually update the variable values to pass validation.", "isCorrect": true },
+        { "text": "Abort the execution and review the Terraform logs for more information.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to revert changes and fix variable values.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You encounter a 'State file locked' error during 'terraform apply.' What is a recommended course of action?",
+      "answers": [
+        { "text": "Ignore the error; it will automatically resolve itself.", "isCorrect": false },
+        { "text": "Manually release the state file lock using 'terraform force-unlock.'", "isCorrect": true },
+        { "text": "Abort the execution and re-run 'terraform apply' after some time.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove the state lock-related resources.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You receive a 'Duplicate provider configuration' error during 'terraform apply.' How can you resolve this issue?",
+      "answers": [
+        { "text": "Manually update the provider configurations to be unique.", "isCorrect": true },
+        { "text": "Ignore the error; it won't impact the execution.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove the duplicate provider configurations.", "isCorrect": false },
+        { "text": "Abort the execution and revert changes to resolve the duplication.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: 'terraform apply' fails with a 'Quota exceeded' error. How can you address this?",
+      "answers": [
+        { "text": "Ignore the error; it will automatically resolve itself.", "isCorrect": false },
+        { "text": "Manually request a quota increase from the cloud provider.", "isCorrect": true },
+        { "text": "Adjust the Terraform configuration to use fewer resources.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove resources and resolve the quota issue.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: 'terraform apply' fails with an 'Invalid character' error in the Terraform configuration files. How can you fix this?",
+      "answers": [
+        { "text": "Ignore the error; Terraform will automatically handle invalid characters.", "isCorrect": false },
+        { "text": "Manually review and fix the invalid characters in the Terraform files.", "isCorrect": true },
+        { "text": "Abort the execution and re-run 'terraform apply' after fixing the syntax issue.", "isCorrect": false },
+        { "text": "Run 'terraform destroy' to remove resources and address the invalid character issue.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: 'terraform apply' fails with a 'Provider version requirements not satisfied' error. How can you resolve this?",
+      "answers": [
+        { "text": "Ignore the error; it won't impact the execution.", "isCorrect": false },
+        { "text": "Manually update the provider version in the Terraform configuration files.", "isCorrect": true },
+        { "text": "Run 'terraform destroy' to remove resources and address the provider version issue.", "isCorrect": false },
+        { "text": "Abort the execution and revert changes to satisfy the provider version requirements.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: During 'terraform apply,' you encounter a 'State file not found' error. What might be the cause?",
+      "answers": [
+        { "text": "Incorrect provider configuration.", "isCorrect": false },
+        { "text": "Corrupted Terraform state.", "isCorrect": false },
+        { "text": "Terraform state file is deleted or moved.", "isCorrect": true },
+        { "text": "Outdated Terraform version.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You encounter an 'Unauthorized' error during 'terraform apply.' What could be a likely cause?",
+      "answers": [
+        { "text": "Incorrect syntax in Terraform configuration files.", "isCorrect": false },
+        { "text": "Invalid provider credentials.", "isCorrect": true },
+        { "text": "Outdated Terraform version.", "isCorrect": false },
+        { "text": "Corrupted Terraform state.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: 'terraform apply' fails with a 'Timeout waiting for creation' error. How can you address this issue?",
+      "answers": [
+        { "text": "Ignore the error; it will resolve itself after some time.", "isCorrect": false },
+        { "text": "Manually investigate and fix the resource creation timeout issue.", "isCorrect": true },
+        { "text": "Run 'terraform destroy' to remove resources and retry the creation.", "isCorrect": false },
+        { "text": "Abort the execution and revert changes to address the timeout problem.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: 'terraform apply' fails with a 'Backend not found' error. What could be a potential cause?",
+      "answers": [
+        { "text": "Incorrect provider configuration.", "isCorrect": false },
+        { "text": "Corrupted Terraform state.", "isCorrect": false },
+        { "text": "Invalid backend configuration in Terraform files.", "isCorrect": true },
+        { "text": "Outdated Terraform version.", "isCorrect": false }
+      ]
+    }
+]
+  

@@ -1,0 +1,398 @@
+[
+    {
+      "question": "What is the purpose of Terraform outputs?",
+      "answers": [
+        { "text": "To define resources", "isCorrect": false },
+        { "text": "To store sensitive data", "isCorrect": false },
+        { "text": "To provide values from the Terraform configuration", "isCorrect": true },
+        { "text": "To configure provider settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to declare an output in Terraform configuration?",
+      "answers": [
+        { "text": "output", "isCorrect": true },
+        { "text": "result", "isCorrect": false },
+        { "text": "value", "isCorrect": false },
+        { "text": "export", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the syntax for declaring an output in Terraform?",
+      "answers": [
+        { "text": "output = \"value\"", "isCorrect": false },
+        { "text": "output { value = \"result\" }", "isCorrect": false },
+        { "text": "output \"result\" { value = \"value\" }", "isCorrect": true },
+        { "text": "result = output(\"value\")", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what does the 'value' attribute specify in an output block?",
+      "answers": [
+        { "text": "The name of the output", "isCorrect": false },
+        { "text": "The data type of the output", "isCorrect": false },
+        { "text": "The value to be exposed by the output", "isCorrect": true },
+        { "text": "The description of the output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you reference an output value from another resource in Terraform?",
+      "answers": [
+        { "text": "Using the 'export' keyword", "isCorrect": false },
+        { "text": "By specifying dependencies in the 'depends_on' attribute", "isCorrect": false },
+        { "text": "Using the 'output' function", "isCorrect": true },
+        { "text": "By defining a variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'depends_on' attribute in Terraform?",
+      "answers": [
+        { "text": "To declare resource dependencies", "isCorrect": true },
+        { "text": "To set output dependencies", "isCorrect": false },
+        { "text": "To define variable dependencies", "isCorrect": false },
+        { "text": "To specify provider dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform block is used to specify resource dependencies?",
+      "answers": [
+        { "text": "dependency", "isCorrect": false },
+        { "text": "require", "isCorrect": false },
+        { "text": "depends_on", "isCorrect": true },
+        { "text": "relationship", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Terraform handle resource dependencies without the 'depends_on' attribute?",
+      "answers": [
+        { "text": "Automatically resolves dependencies", "isCorrect": false },
+        { "text": "Throws an error", "isCorrect": false },
+        { "text": "Runs resources concurrently", "isCorrect": true },
+        { "text": "Uses alphabetical order to determine dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what is the purpose of the 'output' function?",
+      "answers": [
+        { "text": "To display log output", "isCorrect": false },
+        { "text": "To declare output variables", "isCorrect": false },
+        { "text": "To reference output values from other resources", "isCorrect": true },
+        { "text": "To export values to external systems", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which attribute is used in the 'output' function to reference another resource?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "depends_on", "isCorrect": false },
+        { "text": "ref", "isCorrect": true },
+        { "text": "output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you create a dependency between two resources in Terraform without using the 'depends_on' attribute?",
+      "answers": [
+        { "text": "By using the 'dependency' block", "isCorrect": false },
+        { "text": "By specifying dependencies in the 'output' block", "isCorrect": false },
+        { "text": "By referencing one resource in the configuration of another", "isCorrect": true },
+        { "text": "By creating a custom variable for dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What happens if a Terraform resource's output is referenced without being defined?",
+      "answers": [
+        { "text": "Terraform automatically creates an output for the resource", "isCorrect": false },
+        { "text": "Terraform throws an error during the plan phase", "isCorrect": false },
+        { "text": "Terraform ignores the reference and continues", "isCorrect": false },
+        { "text": "Terraform fails during the apply phase", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'sensitive' attribute in a Terraform output block?",
+      "answers": [
+        { "text": "To hide the output value in the plan and apply output", "isCorrect": true },
+        { "text": "To specify that the output is confidential", "isCorrect": false },
+        { "text": "To encrypt the output value", "isCorrect": false },
+        { "text": "To mark the output as sensitive during variable interpolation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to view the outputs of a Terraform configuration after applying?",
+      "answers": [
+        { "text": "terraform list", "isCorrect": false },
+        { "text": "terraform show", "isCorrect": true },
+        { "text": "terraform inspect", "isCorrect": false },
+        { "text": "terraform output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what is the purpose of the 'terraform refresh' command?",
+      "answers": [
+        { "text": "To apply changes to the infrastructure", "isCorrect": false },
+        { "text": "To validate the Terraform configuration", "isCorrect": false },
+        { "text": "To update the state file with the current state of resources", "isCorrect": true },
+        { "text": "To destroy all resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you reference a sensitive output value in Terraform?",
+      "answers": [
+        { "text": "By using the 'value' attribute", "isCorrect": false },
+        { "text": "By using the 'terraform output' command with a flag", "isCorrect": false },
+        { "text": "By using the 'sensitive' attribute in the 'terraform output' command", "isCorrect": true },
+        { "text": "By decrypting the value in the Terraform configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to destroy resources and remove the Terraform-managed infrastructure?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": true },
+        { "text": "terraform stop", "isCorrect": false },
+        { "text": "terraform remove", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform import' command?",
+      "answers": [
+        { "text": "To export Terraform configurations", "isCorrect": false },
+        { "text": "To import existing resources into Terraform state", "isCorrect": true },
+        { "text": "To import outputs from other Terraform configurations", "isCorrect": false },
+        { "text": "To import providers into the Terraform configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what does the 'terraform state' command do?",
+      "answers": [
+        { "text": "Displays the current state of resources", "isCorrect": true },
+        { "text": "Applies changes to the infrastructure", "isCorrect": false },
+        { "text": "Imports resources from other configurations", "isCorrect": false },
+        { "text": "Refreshes the Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to re-run the provisioning steps without making any changes to the infrastructure?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform refresh", "isCorrect": true },
+        { "text": "terraform output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform taint' command?",
+      "answers": [
+        { "text": "To tag resources in the Terraform state", "isCorrect": false },
+        { "text": "To mark a resource for recreation during the next 'terraform apply'", "isCorrect": true },
+        { "text": "To encrypt sensitive resource data", "isCorrect": false },
+        { "text": "To enforce resource dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what is the purpose of the 'terraform console' command?",
+      "answers": [
+        { "text": "To open a web-based Terraform console", "isCorrect": false },
+        { "text": "To interactively explore and manipulate Terraform expressions", "isCorrect": true },
+        { "text": "To execute Terraform configurations", "isCorrect": false },
+        { "text": "To import external data into the Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform workspace' command?",
+      "answers": [
+        { "text": "To create a new Terraform configuration", "isCorrect": false },
+        { "text": "To switch between Terraform workspaces", "isCorrect": true },
+        { "text": "To import external modules", "isCorrect": false },
+        { "text": "To create a new Terraform project", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify the Terraform workspace when running commands?",
+      "answers": [
+        { "text": "Using the '-w' flag", "isCorrect": false },
+        { "text": "Using the '-workspace' flag", "isCorrect": true },
+        { "text": "By setting the 'TF_WORKSPACE' environment variable", "isCorrect": false },
+        { "text": "By specifying the workspace name after the command", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform validate' command?",
+      "answers": [
+        { "text": "To check the syntax of Terraform configurations", "isCorrect": true },
+        { "text": "To apply changes to the infrastructure", "isCorrect": false },
+        { "text": "To import existing resources into Terraform state", "isCorrect": false },
+        { "text": "To display the current state of resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to create an execution plan?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": true },
+        { "text": "terraform show", "isCorrect": false },
+        { "text": "terraform import", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify the name of the Terraform execution plan file?",
+      "answers": [
+        { "text": "Using the '-plan-file' flag", "isCorrect": true },
+        { "text": "Using the '-o' flag", "isCorrect": false },
+        { "text": "By setting the 'TF_PLAN_FILE' environment variable", "isCorrect": false },
+        { "text": "By specifying the plan file name after the 'terraform plan' command", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform graph' command?",
+      "answers": [
+        { "text": "To generate a visual representation of the Terraform configuration", "isCorrect": false },
+        { "text": "To display the current state of resources", "isCorrect": false },
+        { "text": "To show a dependency graph of Terraform resources", "isCorrect": true },
+        { "text": "To execute Terraform configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys a virtual machine. What is the purpose of defining an output for the public IP address of the virtual machine?",
+      "answers": [
+        { "text": "To store API keys", "isCorrect": false },
+        { "text": "To configure provider settings", "isCorrect": false },
+        { "text": "To make the public IP address accessible to other Terraform configurations", "isCorrect": true },
+        { "text": "To define resource dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: In your Terraform project, you have a module that creates an S3 bucket. How can you reference the output of this module in the root module?",
+      "answers": [
+        { "text": "Using variable interpolation", "isCorrect": false },
+        { "text": "By specifying dependencies in the 'depends_on' attribute", "isCorrect": false },
+        { "text": "Through the 'module' block and the output variable name", "isCorrect": true },
+        { "text": "By using the 'depends_on' meta-argument", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to provision infrastructure on AWS. You have a VPC and multiple EC2 instances. How can you use Terraform outputs to display the private IP addresses of the EC2 instances after applying the configuration?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying the private IP addresses in the 'outputs' block", "isCorrect": true },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By updating the EC2 instances' tags", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that creates a load balancer and several EC2 instances. How can you ensure that the EC2 instances are created before the load balancer?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying dependencies in the 'depends_on' attribute", "isCorrect": true },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By updating the load balancer's configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage a set of resources, and you want to output the DNS name of an AWS RDS instance. What is the correct way to define this output in your Terraform configuration?",
+      "answers": [
+        { "text": "output 'dns_name' { value = aws_rds_instance.endpoint }", "isCorrect": true },
+        { "text": "output 'dns_name' { value = aws_rds_instance.dns_name }", "isCorrect": false },
+        { "text": "output 'dns_name' { value = aws_rds_instance.address }", "isCorrect": false },
+        { "text": "output 'dns_name' { value = aws_rds_instance.connection.endpoint }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that creates an Azure Virtual Network and multiple virtual machines. How can you use Terraform outputs to display the private IP addresses of the virtual machines after applying the configuration?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying the private IP addresses in the 'outputs' block", "isCorrect": true },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By updating the virtual machines' configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage AWS resources, and you want to create an output that displays the URL of an S3 bucket. Which Terraform code snippet accomplishes this?",
+      "answers": [
+        { "text": "output 'bucket_url' { value = aws_s3_bucket.bucket_name }", "isCorrect": false },
+        { "text": "output 'bucket_url' { value = aws_s3_bucket.website_endpoint }", "isCorrect": true },
+        { "text": "output 'bucket_url' { value = aws_s3_bucket.bucket_domain_name }", "isCorrect": false },
+        { "text": "output 'bucket_url' { value = aws_s3_bucket.website_domain }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys an AWS Lambda function and an S3 bucket. The Lambda function reads data from the S3 bucket. How can you ensure that the S3 bucket is created before the Lambda function?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying dependencies in the 'depends_on' attribute", "isCorrect": true },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By updating the Lambda function's configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage GCP resources, and you want to output the external IP address of a Google Compute Engine instance. What is the correct way to define this output in your Terraform configuration?",
+      "answers": [
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].access_config[0].nat_ip }", "isCorrect": true },
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].address }", "isCorrect": false },
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].nat_ip }", "isCorrect": false },
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].external_ip }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that creates an AWS VPC, subnets, and EC2 instances. How can you use Terraform outputs to display the private IP addresses of the EC2 instances within a specific subnet?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying the private IP addresses in the 'outputs' block", "isCorrect": false },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By specifying a subnet-specific output variable and using a 'for_each' expression", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage Azure resources, and you want to output the public IP address of a virtual machine. What is the correct way to define this output in your Terraform configuration?",
+      "answers": [
+        { "text": "output 'public_ip' { value = azurerm_virtual_machine.vm.public_ip_address }", "isCorrect": true },
+        { "text": "output 'public_ip' { value = azurerm_public_ip.vm.ip_address }", "isCorrect": false },
+        { "text": "output 'public_ip' { value = azurerm_network_interface.vm.public_ip_address }", "isCorrect": false },
+        { "text": "output 'public_ip' { value = azurerm_network_interface.vm.ip_configuration[0].public_ip_address }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: In your Terraform configuration, you have a module that creates an AWS S3 bucket. How can you ensure that the S3 bucket is created before an AWS Lambda function that uses the bucket?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying dependencies in the 'depends_on' attribute", "isCorrect": true },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By updating the Lambda function's configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to provision resources on Google Cloud Platform (GCP). You want to output the URL of a Google Cloud Storage bucket. What is the correct way to define this output in your Terraform configuration?",
+      "answers": [
+        { "text": "output 'bucket_url' { value = google_storage_bucket.bucket.url }", "isCorrect": true },
+        { "text": "output 'bucket_url' { value = google_storage_bucket.bucket.name }", "isCorrect": false },
+        { "text": "output 'bucket_url' { value = google_storage_bucket.bucket.self_link }", "isCorrect": false },
+        { "text": "output 'bucket_url' { value = google_storage_bucket.bucket.project }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys an Azure Kubernetes Service (AKS) cluster and associated resources. How can you use Terraform outputs to display the kubeconfig content for connecting to the AKS cluster?",
+      "answers": [
+        { "text": "By using the 'terraform apply' command", "isCorrect": false },
+        { "text": "By specifying the kubeconfig content in the 'outputs' block", "isCorrect": true },
+        { "text": "By using the 'terraform show' command", "isCorrect": false },
+        { "text": "By updating the AKS cluster's configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage resources on AWS. You want to output the DNS name of an Amazon RDS instance. What is the correct way to define this output in your Terraform configuration?",
+      "answers": [
+        { "text": "output 'dns_name' { value = aws_db_instance.db_instance.endpoint }", "isCorrect": true },
+        { "text": "output 'dns_name' { value = aws_db_instance.db_instance.dns_name }", "isCorrect": false },
+        { "text": "output 'dns_name' { value = aws_db_instance.db_instance.address }", "isCorrect": false },
+        { "text": "output 'dns_name' { value = aws_db_instance.db_instance.connection.endpoint }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage GCP resources, and you want to output the external IP address of a Google Compute Engine instance. What is the correct way to define this output in your Terraform configuration?",
+      "answers": [
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].access_config[0].nat_ip }", "isCorrect": true },
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].address }", "isCorrect": false },
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].nat_ip }", "isCorrect": false },
+        { "text": "output 'external_ip' { value = google_compute_instance.instance.network_interface[0].external_ip }", "isCorrect": false }
+      ]
+    }
+]

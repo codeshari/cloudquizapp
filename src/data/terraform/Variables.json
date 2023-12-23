@@ -1,0 +1,264 @@
+[
+    {
+      "question": "What is the purpose of Terraform variables?",
+      "answers": [
+        { "text": "To define resource names", "isCorrect": false },
+        { "text": "To store sensitive information", "isCorrect": false },
+        { "text": "To parameterize configurations", "isCorrect": true },
+        { "text": "To execute shell commands", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you declare a variable in Terraform?",
+      "answers": [
+        { "text": "Using the `variable` keyword", "isCorrect": true },
+        { "text": "Using the `resource` keyword", "isCorrect": false },
+        { "text": "Using the `output` keyword", "isCorrect": false },
+        { "text": "Using the `provider` keyword", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the syntax for declaring a variable in Terraform?",
+      "answers": [
+        { "text": "variable = \"value\"", "isCorrect": false },
+        { "text": "variable 'name' { default = 'value' }", "isCorrect": false },
+        { "text": "variable \"name\" { default = \"value\" }", "isCorrect": true },
+        { "text": "var name = 'value'", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to set a default value for a Terraform variable?",
+      "answers": [
+        { "text": "default", "isCorrect": true },
+        { "text": "value", "isCorrect": false },
+        { "text": "initial", "isCorrect": false },
+        { "text": "default_value", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you reference a variable in Terraform configuration?",
+      "answers": [
+        { "text": "Reference using $variable_name", "isCorrect": false },
+        { "text": "Reference using ${variable_name}", "isCorrect": true },
+        { "text": "Reference using %variable_name%", "isCorrect": false },
+        { "text": "Reference using #variable_name#", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `-var` flag in the `terraform apply` command?",
+      "answers": [
+        { "text": "To specify the provider", "isCorrect": false },
+        { "text": "To define a variable value", "isCorrect": true },
+        { "text": "To output variable values", "isCorrect": false },
+        { "text": "To destroy resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a valid way to pass variable values to Terraform?",
+      "answers": [
+        { "text": "Environment variables", "isCorrect": true },
+        { "text": "Inline variable declaration", "isCorrect": false },
+        { "text": "Terraform files only", "isCorrect": false },
+        { "text": "Command-line arguments only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you organize Terraform variables into separate files?",
+      "answers": [
+        { "text": "Separate folders for each variable", "isCorrect": false },
+        { "text": "Using the `variables` block in the main configuration", "isCorrect": false },
+        { "text": "Using variable files with a .tfvars extension", "isCorrect": true },
+        { "text": "Embedding variables in resource blocks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `-var-file` flag in the `terraform apply` command?",
+      "answers": [
+        { "text": "To apply a specific variable file", "isCorrect": true },
+        { "text": "To override variable values", "isCorrect": false },
+        { "text": "To delete a variable file", "isCorrect": false },
+        { "text": "To display variable file contents", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you use a variable defined in one Terraform module in another module?",
+      "answers": [
+        { "text": "Not possible, variables are module-specific", "isCorrect": false },
+        { "text": "Using data sources", "isCorrect": true },
+        { "text": "Copying the variable definition", "isCorrect": false },
+        { "text": "Exporting variables from one module to another", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `count` parameter in Terraform variables?",
+      "answers": [
+        { "text": "To specify the number of variables", "isCorrect": false },
+        { "text": "To set the count limit for variables", "isCorrect": false },
+        { "text": "To create multiple instances of a resource based on a variable", "isCorrect": true },
+        { "text": "To loop through variable values", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which interpolation syntax is used to reference a list element in Terraform?",
+      "answers": [
+        { "text": "${list[index]}", "isCorrect": true },
+        { "text": "${list[index]}", "isCorrect": false },
+        { "text": "${list.index}", "isCorrect": false },
+        { "text": "${list[index]}", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you define a map variable in Terraform?",
+      "answers": [
+        { "text": "variable \"map\" { type = \"map\" }", "isCorrect": true },
+        { "text": "variable map { type = \"map\" }", "isCorrect": false },
+        { "text": "variable = { type = \"map\" }", "isCorrect": false },
+        { "text": "variable { type = \"map\" }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `type` parameter in a Terraform variable declaration?",
+      "answers": [
+        { "text": "To specify the variable's default value", "isCorrect": false },
+        { "text": "To set the variable's data type", "isCorrect": true },
+        { "text": "To determine the variable's scope", "isCorrect": false },
+        { "text": "To define the variable's usage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify a description for a Terraform variable?",
+      "answers": [
+        { "text": "variable \"name\" { description = \"Description\" }", "isCorrect": true },
+        { "text": "variable \"name\" { comment = \"Description\" }", "isCorrect": false },
+        { "text": "variable \"name\" { desc = \"Description\" }", "isCorrect": false },
+        { "text": "variable \"name\" { help = \"Description\" }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `validation` block in Terraform variable declarations?",
+      "answers": [
+        { "text": "To specify the variable's default value", "isCorrect": false },
+        { "text": "To define the variable's data type", "isCorrect": false },
+        { "text": "To enforce constraints on variable values", "isCorrect": true },
+        { "text": "To disable variable validation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which validation rule can be used to ensure a variable is not an empty string?",
+      "answers": [
+        { "text": "min", "isCorrect": false },
+        { "text": "max", "isCorrect": false },
+        { "text": "length", "isCorrect": false },
+        { "text": "nonempty", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `sensitive` parameter in Terraform variable declarations?",
+      "answers": [
+        { "text": "To hide the variable value in logs", "isCorrect": true },
+        { "text": "To encrypt the variable value", "isCorrect": false },
+        { "text": "To mark the variable as secret", "isCorrect": false },
+        { "text": "To disable the variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you use a variable defined in Terraform in an external script?",
+      "answers": [
+        { "text": "Export the variable from Terraform and import in the script", "isCorrect": false },
+        { "text": "Use environment variables to pass values", "isCorrect": true },
+        { "text": "Embed the variable directly in the script", "isCorrect": false },
+        { "text": "Use Terraform CLI to pass variable values to the script", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to view the values of defined variables?",
+      "answers": [
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform show", "isCorrect": false },
+        { "text": "terraform console", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `-var` flag in the `terraform console` command?",
+      "answers": [
+        { "text": "To define a variable interactively", "isCorrect": false },
+        { "text": "To override variable values", "isCorrect": false },
+        { "text": "To display the value of a specific variable", "isCorrect": true },
+        { "text": "To delete a variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to validate variable syntax and configuration?",
+      "answers": [
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": true },
+        { "text": "terraform destroy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you use variables in Terraform to create reusable modules?",
+      "answers": [
+        { "text": "Variables cannot be used in modules", "isCorrect": false },
+        { "text": "Variables must be hard-coded in modules", "isCorrect": false },
+        { "text": "Variables can be passed as arguments to modules", "isCorrect": true },
+        { "text": "Modules automatically inherit variables from the root configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `locals` block in Terraform?",
+      "answers": [
+        { "text": "To define global variables", "isCorrect": false },
+        { "text": "To declare module variables", "isCorrect": false },
+        { "text": "To create named expressions", "isCorrect": true },
+        { "text": "To set environment-specific variables", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which interpolation syntax is used to reference a local value in Terraform?",
+      "answers": [
+        { "text": "${local.name}", "isCorrect": true },
+        { "text": "${locals.name}", "isCorrect": false },
+        { "text": "${local[name]}", "isCorrect": false },
+        { "text": "${locals[name]}", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `for_each` parameter in Terraform variables?",
+      "answers": [
+        { "text": "To loop through a list of values", "isCorrect": false },
+        { "text": "To iterate over a map of values", "isCorrect": true },
+        { "text": "To enforce constraints on variable values", "isCorrect": false },
+        { "text": "To define a variable as a set", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to apply changes to the infrastructure?",
+      "answers": [
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `-var` flag in the `terraform plan` command?",
+      "answers": [
+        { "text": "To specify the provider", "isCorrect": false },
+        { "text": "To define a variable value", "isCorrect": true },
+        { "text": "To output variable values", "isCorrect": false },
+        { "text": "To destroy resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to destroy all resources in the configuration?",
+      "answers": [
+        { "text": "terraform delete", "isCorrect": false },
+        { "text": "terraform clean", "isCorrect": false },
+        { "text": "terraform remove", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": true }
+      ]
+    }
+]
+  

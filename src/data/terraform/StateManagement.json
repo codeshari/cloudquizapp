@@ -1,0 +1,300 @@
+[
+    {
+      "question": "What is Terraform?",
+      "answers": [
+        { "text": "A programming language", "isCorrect": false },
+        { "text": "A configuration management tool", "isCorrect": true },
+        { "text": "A cloud provider", "isCorrect": false },
+        { "text": "A version control system", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Terraform state?",
+      "answers": [
+        { "text": "The geographical location of infrastructure", "isCorrect": false },
+        { "text": "Information about the created resources and their dependencies", "isCorrect": true },
+        { "text": "A set of predefined variables", "isCorrect": false },
+        { "text": "The execution plan of Terraform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Where is Terraform state stored by default?",
+      "answers": [
+        { "text": "In the Terraform configuration files", "isCorrect": false },
+        { "text": "In the cloud provider's storage", "isCorrect": false },
+        { "text": "Locally on the machine where Terraform is run", "isCorrect": true },
+        { "text": "In a separate centralized database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Terraform state?",
+      "answers": [
+        { "text": "To store secret keys", "isCorrect": false },
+        { "text": "To manage the order of resource creation", "isCorrect": false },
+        { "text": "To track the current state of infrastructure", "isCorrect": true },
+        { "text": "To define the desired infrastructure configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you protect sensitive information in Terraform state?",
+      "answers": [
+        { "text": "By encrypting the Terraform configuration files", "isCorrect": false },
+        { "text": "By using a version control system", "isCorrect": false },
+        { "text": "By enabling state locking", "isCorrect": true },
+        { "text": "By defining variables in the configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of `terraform init`?",
+      "answers": [
+        { "text": "To initialize a new Terraform project", "isCorrect": true },
+        { "text": "To create a new resource", "isCorrect": false },
+        { "text": "To apply changes to existing infrastructure", "isCorrect": false },
+        { "text": "To destroy all resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to apply the changes defined in Terraform configuration?",
+      "answers": [
+        { "text": "terraform destroy", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": true },
+        { "text": "terraform plan", "isCorrect": false },
+        { "text": "terraform refresh", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the `terraform plan` command do?",
+      "answers": [
+        { "text": "Applies the changes to the infrastructure", "isCorrect": false },
+        { "text": "Displays the execution plan for changes", "isCorrect": true },
+        { "text": "Rolls back the changes", "isCorrect": false },
+        { "text": "Deletes the Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you manage remote Terraform state?",
+      "answers": [
+        { "text": "By keeping it only locally", "isCorrect": false },
+        { "text": "By using a distributed version control system", "isCorrect": false },
+        { "text": "By storing it in a remote backend", "isCorrect": true },
+        { "text": "By embedding it in the Terraform configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Terraform backend?",
+      "answers": [
+        { "text": "To define variables in Terraform configuration", "isCorrect": false },
+        { "text": "To store the Terraform state remotely", "isCorrect": true },
+        { "text": "To initialize a new Terraform project", "isCorrect": false },
+        { "text": "To apply changes to existing infrastructure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which backend type is commonly used for remote Terraform state storage?",
+      "answers": [
+        { "text": "Local backend", "isCorrect": false },
+        { "text": "S3 backend", "isCorrect": true },
+        { "text": "Azure backend", "isCorrect": false },
+        { "text": "GCS backend", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a Terraform project to deploy infrastructure on AWS. What is the purpose of Terraform state?",
+      "answers": [
+        { "text": "To store AWS credentials", "isCorrect": false },
+        { "text": "To store the state of managed infrastructure", "isCorrect": true },
+        { "text": "To define resource dependencies", "isCorrect": false },
+        { "text": "To initialize Terraform configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is using Terraform to manage resources on Google Cloud. Which backend type is commonly used for storing Terraform state remotely on GCP?",
+      "answers": [
+        { "text": "Local", "isCorrect": false },
+        { "text": "S3", "isCorrect": false },
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Google Cloud Storage (GCS)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a project with multiple team members using Terraform. How can you prevent conflicts when multiple people are applying changes simultaneously?",
+      "answers": [
+        { "text": "By using a shared Terraform state file", "isCorrect": false },
+        { "text": "By using remote backends with locking mechanisms", "isCorrect": true },
+        { "text": "By avoiding parallel execution of Terraform commands", "isCorrect": false },
+        { "text": "By storing sensitive information in Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are provisioning AWS resources using Terraform. What command is used to initialize a Terraform working directory and download providers?",
+      "answers": [
+        { "text": "terraform create", "isCorrect": false },
+        { "text": "terraform init", "isCorrect": true },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform setup", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is using Terraform to manage infrastructure across different environments. How can you use Terraform workspaces to achieve this?",
+      "answers": [
+        { "text": "By creating separate Terraform configuration files for each environment", "isCorrect": false },
+        { "text": "By using variable interpolation for different environments", "isCorrect": false },
+        { "text": "By creating and selecting different Terraform workspaces", "isCorrect": true },
+        { "text": "By storing environment-specific information in separate state files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage Azure resources. What is the purpose of the 'terraform.tfstate' file?",
+      "answers": [
+        { "text": "To store API keys", "isCorrect": false },
+        { "text": "To manage provider configurations", "isCorrect": false },
+        { "text": "To store the state of managed infrastructure", "isCorrect": true },
+        { "text": "To define resource dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is working on a Terraform project, and you want to share the same Terraform state between multiple environments. How can you achieve this?",
+      "answers": [
+        { "text": "By copying the state file manually", "isCorrect": false },
+        { "text": "By using remote backends with shared state", "isCorrect": true },
+        { "text": "By storing state files in a version control system", "isCorrect": false },
+        { "text": "By using different state files for each environment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing resources on AWS using Terraform. What command is used to create an execution plan (without applying it) in Terraform?",
+      "answers": [
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": true },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform project uses variables to define input values. How can you securely pass sensitive information, such as API keys, to Terraform?",
+      "answers": [
+        { "text": "By hardcoding sensitive information in configuration files", "isCorrect": false },
+        { "text": "By using environment variables", "isCorrect": false },
+        { "text": "By prompting users during Terraform apply", "isCorrect": false },
+        { "text": "By using sensitive input variables and the 'sensitive' argument in resource blocks", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing infrastructure on GCP with Terraform. What is the recommended way to organize Terraform configurations for different projects within your organization?",
+      "answers": [
+        { "text": "By using a single monolithic Terraform configuration file", "isCorrect": false },
+        { "text": "By using separate directories for each project", "isCorrect": true },
+        { "text": "By embedding project-specific variables in a single configuration file", "isCorrect": false },
+        { "text": "By using separate state files for each project", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to delete all resources managed by Terraform in a specific environment. What command can be used for this purpose?",
+      "answers": [
+        { "text": "terraform clean", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": true },
+        { "text": "terraform remove", "isCorrect": false },
+        { "text": "terraform delete", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is using Terraform to manage AWS resources, and you want to create multiple instances of a resource. Which meta-argument can you use in a resource block to specify the number of replicas?",
+      "answers": [
+        { "text": "replicas", "isCorrect": false },
+        { "text": "count", "isCorrect": true },
+        { "text": "instances", "isCorrect": false },
+        { "text": "number", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a Terraform project, and you want to create a visual representation of resource dependencies. What command can be used for this purpose?",
+      "answers": [
+        { "text": "terraform visualize", "isCorrect": false },
+        { "text": "terraform graph", "isCorrect": true },
+        { "text": "terraform diagram", "isCorrect": false },
+        { "text": "terraform dependency", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration uses sensitive information, such as private keys. How can you prevent this information from being displayed in the console output during Terraform apply?",
+      "answers": [
+        { "text": "By using the 'terraform apply -sensitive' command", "isCorrect": false },
+        { "text": "By configuring a specific provider for sensitive resources", "isCorrect": false },
+        { "text": "By using the 'sensitive' argument in resource blocks", "isCorrect": true },
+        { "text": "By setting environment variables for sensitive information", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform modules to structure your configurations. How can you reference the output of one Terraform module in another?",
+      "answers": [
+        { "text": "By using variable interpolation", "isCorrect": false },
+        { "text": "By hardcoding the output values in the configuration", "isCorrect": false },
+        { "text": "By using the 'depends_on' attribute", "isCorrect": false },
+        { "text": "By using module outputs directly", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You want to import existing infrastructure into Terraform state. What command can be used for this purpose?",
+      "answers": [
+        { "text": "terraform import", "isCorrect": true },
+        { "text": "terraform integrate", "isCorrect": false },
+        { "text": "terraform include", "isCorrect": false },
+        { "text": "terraform attach", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is working on a project with multiple environments, each requiring different configurations. How can you use Terraform workspaces to manage this efficiently?",
+      "answers": [
+        { "text": "By creating separate repositories for each environment", "isCorrect": false },
+        { "text": "By using conditional expressions in Terraform configurations", "isCorrect": false },
+        { "text": "By creating a workspace for each environment and selecting the workspace during Terraform commands", "isCorrect": true },
+        { "text": "By hardcoding environment-specific information in configuration files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing resources on Azure using Terraform. What is the purpose of the 'terraform.tfstate.backup' file?",
+      "answers": [
+        { "text": "To store backups of Terraform configurations", "isCorrect": false },
+        { "text": "To store previous versions of Terraform state", "isCorrect": true },
+        { "text": "To store provider configurations", "isCorrect": false },
+        { "text": "To store sensitive information", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to organize your Terraform configurations into reusable modules. How can you achieve this?",
+      "answers": [
+        { "text": "By using a single monolithic Terraform configuration file", "isCorrect": false },
+        { "text": "By creating separate directories for each module", "isCorrect": true },
+        { "text": "By embedding module-specific variables in a single configuration file", "isCorrect": false },
+        { "text": "By using separate state files for each module", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform to manage AWS resources. What is the purpose of the 'terraform.tfstate.lock' file?",
+      "answers": [
+        { "text": "To store backups of Terraform configurations", "isCorrect": false },
+        { "text": "To store previous versions of Terraform state", "isCorrect": false },
+        { "text": "To store a lock on the state file during operations", "isCorrect": true },
+        { "text": "To store provider configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is working on a Terraform project, and you want to share sensitive information securely between team members. How can you achieve this?",
+      "answers": [
+        { "text": "By using a shared Terraform state file", "isCorrect": false },
+        { "text": "By storing sensitive information in plaintext in configuration files", "isCorrect": false },
+        { "text": "By using encrypted variables and backends with encryption support", "isCorrect": true },
+        { "text": "By using environment variables for sensitive information", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing resources on GCP using Terraform. What command is used to format Terraform configuration files?",
+      "answers": [
+        { "text": "terraform clean", "isCorrect": false },
+        { "text": "terraform prettify", "isCorrect": false },
+        { "text": "terraform beautify", "isCorrect": false },
+        { "text": "terraform fmt", "isCorrect": true }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,488 @@
+[
+    {
+      "question": "What is a Terraform provider?",
+      "answers": [
+        { "text": "A programming language", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A plugin that manages resources in a specific infrastructure platform", "isCorrect": true },
+        { "text": "A version control system", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to initialize a Terraform working directory?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform init", "isCorrect": true },
+        { "text": "terraform create", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, what is the purpose of the 'provider' block in the configuration?",
+      "answers": [
+        { "text": "To define variables", "isCorrect": false },
+        { "text": "To declare resources", "isCorrect": false },
+        { "text": "To specify the infrastructure platform and its configuration", "isCorrect": true },
+        { "text": "To create output values", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to apply the changes defined in the configuration?",
+      "answers": [
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": true },
+        { "text": "terraform refresh", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a Terraform provider in the Terraform workflow?",
+      "answers": [
+        { "text": "To define variables", "isCorrect": false },
+        { "text": "To interpret Terraform configuration files", "isCorrect": true },
+        { "text": "To execute shell scripts", "isCorrect": false },
+        { "text": "To create output values", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to generate an execution plan?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": true },
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration file, what does a provider block typically include?",
+      "answers": [
+        { "text": "Resource definitions", "isCorrect": false },
+        { "text": "Variable definitions", "isCorrect": false },
+        { "text": "Backend configuration", "isCorrect": false },
+        { "text": "Provider configuration and authentication details", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'alias' attribute in a Terraform provider block?",
+      "answers": [
+        { "text": "To create a unique identifier for the provider", "isCorrect": true },
+        { "text": "To specify the provider version", "isCorrect": false },
+        { "text": "To define custom variables", "isCorrect": false },
+        { "text": "To enable provider debugging", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to check and report syntax errors in the configuration?",
+      "answers": [
+        { "text": "terraform check", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": true },
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'version' attribute in a Terraform provider block?",
+      "answers": [
+        { "text": "To specify the Terraform version", "isCorrect": false },
+        { "text": "To specify the provider version", "isCorrect": true },
+        { "text": "To define custom variables", "isCorrect": false },
+        { "text": "To enable provider debugging", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which configuration block is used to specify the authentication details for a Terraform provider?",
+      "answers": [
+        { "text": "terraform", "isCorrect": false },
+        { "text": "provider", "isCorrect": false },
+        { "text": "authentication", "isCorrect": false },
+        { "text": "credentials", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'required_providers' block in a Terraform configuration?",
+      "answers": [
+        { "text": "To define variables", "isCorrect": false },
+        { "text": "To specify required provider versions", "isCorrect": true },
+        { "text": "To create output values", "isCorrect": false },
+        { "text": "To enable provider debugging", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to format the configuration files for readability?",
+      "answers": [
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform fmt", "isCorrect": true },
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Terraform, how are provider-specific resource blocks named?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "provider_resource", "isCorrect": false },
+        { "text": "provider_resource_type", "isCorrect": true },
+        { "text": "resource_type", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform refresh' command do?",
+      "answers": [
+        { "text": "Applies the changes defined in the configuration", "isCorrect": false },
+        { "text": "Generates an execution plan", "isCorrect": false },
+        { "text": "Updates the state file with real-world infrastructure", "isCorrect": true },
+        { "text": "Destroys all resources defined in the configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'override' attribute in a Terraform provider configuration block?",
+      "answers": [
+        { "text": "To override provider version constraints", "isCorrect": false },
+        { "text": "To override resource settings", "isCorrect": false },
+        { "text": "To override provider configuration settings", "isCorrect": true },
+        { "text": "To override variable values", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'backend' block in a Terraform configuration?",
+      "answers": [
+        { "text": "To specify the provider version", "isCorrect": false },
+        { "text": "To define custom variables", "isCorrect": false },
+        { "text": "To configure backend settings for storing Terraform state", "isCorrect": true },
+        { "text": "To enable provider debugging", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to create an execution plan without applying the changes?",
+      "answers": [
+        { "text": "terraform plan", "isCorrect": true },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform init", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'reconfigure' command in Terraform?",
+      "answers": [
+        { "text": "To destroy all resources", "isCorrect": false },
+        { "text": "To apply changes to the infrastructure", "isCorrect": false },
+        { "text": "To change the configuration interactively", "isCorrect": true },
+        { "text": "To import existing resources into the Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a valid provider block in Terraform?",
+      "answers": [
+        { "text": "provider \"aws\" { region = \"us-west-2\" }", "isCorrect": true },
+        { "text": "resource \"aws_instance\" { ami = \"ami-12345678\" }", "isCorrect": false },
+        { "text": "variable \"region\" { type = string }", "isCorrect": false },
+        { "text": "output \"instance_ip\" { value = aws_instance.public_ip }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following attributes is commonly found in a provider configuration block?",
+      "answers": [
+        { "text": "resource", "isCorrect": false },
+        { "text": "region", "isCorrect": true },
+        { "text": "variable", "isCorrect": false },
+        { "text": "output", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform import' command do?",
+      "answers": [
+        { "text": "Imports existing resources into the Terraform state", "isCorrect": true },
+        { "text": "Generates an execution plan", "isCorrect": false },
+        { "text": "Applies the changes defined in the configuration", "isCorrect": false },
+        { "text": "Updates the state file with real-world infrastructure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify provider credentials in a Terraform configuration?",
+      "answers": [
+        { "text": "Use environment variables", "isCorrect": true },
+        { "text": "Embed credentials in the configuration file", "isCorrect": false },
+        { "text": "Use a separate credentials file", "isCorrect": false },
+        { "text": "Specify credentials interactively during runtime", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform console' command?",
+      "answers": [
+        { "text": "Generates an execution plan", "isCorrect": false },
+        { "text": "Interactive console for evaluating expressions", "isCorrect": true },
+        { "text": "Destroys all resources defined in the configuration", "isCorrect": false },
+        { "text": "Updates the state file with real-world infrastructure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify a specific provider version in Terraform?",
+      "answers": [
+        { "text": "Use the 'version' attribute in the provider block", "isCorrect": true },
+        { "text": "Use the 'provider_version' attribute in the configuration", "isCorrect": false },
+        { "text": "Use the 'terraform version' command", "isCorrect": false },
+        { "text": "Use the 'backend' block in the configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'alias' attribute in a Terraform resource block?",
+      "answers": [
+        { "text": "To define custom variables", "isCorrect": false },
+        { "text": "To create a unique identifier for the resource", "isCorrect": true },
+        { "text": "To specify the provider version", "isCorrect": false },
+        { "text": "To enable resource debugging", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you enable debugging for Terraform providers?",
+      "answers": [
+        { "text": "Use the 'debug' attribute in the provider block", "isCorrect": true },
+        { "text": "Use the 'terraform debug' command", "isCorrect": false },
+        { "text": "Use the 'backend' block in the configuration", "isCorrect": false },
+        { "text": "Use the 'terraform trace' command", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform state' command?",
+      "answers": [
+        { "text": "Generate an execution plan", "isCorrect": false },
+        { "text": "Update the Terraform state", "isCorrect": false },
+        { "text": "Operate on Terraform state", "isCorrect": true },
+        { "text": "Destroy all resources defined in the configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify a custom alias for a Terraform provider?",
+      "answers": [
+        { "text": "Use the 'provider_alias' attribute in the provider block", "isCorrect": false },
+        { "text": "Use the 'alias' attribute in the provider block", "isCorrect": true },
+        { "text": "Use the 'terraform alias' command", "isCorrect": false },
+        { "text": "Use the 'terraform provider' command", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are configuring an AWS EC2 instance using Terraform. Which resource block should you use to define the EC2 instance?",
+      "answers": [
+        { "text": "aws_instance", "isCorrect": true },
+        { "text": "ec2_instance", "isCorrect": false },
+        { "text": "aws_ec2", "isCorrect": false },
+        { "text": "instance_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you want to create a virtual machine. Which resource block should you use?",
+      "answers": [
+        { "text": "gcp_vm", "isCorrect": false },
+        { "text": "google_compute_instance", "isCorrect": true },
+        { "text": "gcloud_instance", "isCorrect": false },
+        { "text": "google_vm", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are defining an Azure Storage Account in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azure_storage_account", "isCorrect": false },
+        { "text": "az_storage", "isCorrect": false },
+        { "text": "azurerm_storage_account", "isCorrect": true },
+        { "text": "azure_account_storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create an IAM user in AWS using Terraform. What resource block should you use?",
+      "answers": [
+        { "text": "aws_user", "isCorrect": true },
+        { "text": "iam_user_aws", "isCorrect": false },
+        { "text": "aws_iam_user", "isCorrect": false },
+        { "text": "user_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you need to create a Cloud SQL Database. What is the appropriate resource block?",
+      "answers": [
+        { "text": "gcp_sql_database", "isCorrect": false },
+        { "text": "google_sql_db_instance", "isCorrect": true },
+        { "text": "gcloud_sql_database", "isCorrect": false },
+        { "text": "google_cloud_sql_db", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are configuring an Azure Virtual Network in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azurerm_virtual_network", "isCorrect": true },
+        { "text": "azure_virtual_network", "isCorrect": false },
+        { "text": "azure_net", "isCorrect": false },
+        { "text": "az_virtual_network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create an S3 bucket in AWS using Terraform. What resource type should you use?",
+      "answers": [
+        { "text": "aws_bucket", "isCorrect": false },
+        { "text": "s3_bucket", "isCorrect": false },
+        { "text": "aws_s3_bucket", "isCorrect": true },
+        { "text": "bucket_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you want to define a Cloud Function. Which resource block should you use?",
+      "answers": [
+        { "text": "google_function", "isCorrect": false },
+        { "text": "gcloud_function", "isCorrect": false },
+        { "text": "google_cloud_function", "isCorrect": true },
+        { "text": "gcp_function", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are configuring an Azure App Service in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azure_app_service", "isCorrect": false },
+        { "text": "azurerm_app_service", "isCorrect": true },
+        { "text": "az_app_service", "isCorrect": false },
+        { "text": "azure_service_app", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create an AWS RDS instance in Terraform. What is the appropriate resource block?",
+      "answers": [
+        { "text": "rds_instance_aws", "isCorrect": false },
+        { "text": "aws_rds", "isCorrect": false },
+        { "text": "aws_db_instance", "isCorrect": true },
+        { "text": "rds_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you want to create a Cloud Pub/Sub topic. What resource block should you use?",
+      "answers": [
+        { "text": "google_pubsub_topic", "isCorrect": true },
+        { "text": "gcp_pubsub_topic", "isCorrect": false },
+        { "text": "gcloud_pubsub_topic", "isCorrect": false },
+        { "text": "google_cloud_pubsub_topic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are defining an Azure Resource Group in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azurerm_resource_group", "isCorrect": true },
+        { "text": "azure_resource_group", "isCorrect": false },
+        { "text": "az_resource_group", "isCorrect": false },
+        { "text": "azure_group", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create an AWS Lambda function in Terraform. What resource block should you use?",
+      "answers": [
+        { "text": "lambda_function_aws", "isCorrect": false },
+        { "text": "aws_lambda", "isCorrect": false },
+        { "text": "aws_lambda_function", "isCorrect": true },
+        { "text": "lambda_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you need to create a Cloud Storage bucket. What is the appropriate resource block?",
+      "answers": [
+        { "text": "google_storage_bucket", "isCorrect": true },
+        { "text": "gcp_storage_bucket", "isCorrect": false },
+        { "text": "gcloud_storage_bucket", "isCorrect": false },
+        { "text": "google_cloud_storage_bucket", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are configuring an Azure Virtual Machine Scale Set in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "az_vm_scale_set", "isCorrect": false },
+        { "text": "azurerm_virtual_machine_scale_set", "isCorrect": true },
+        { "text": "azure_vm_scale_set", "isCorrect": false },
+        { "text": "azure_scale_set", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create an AWS DynamoDB table in Terraform. What is the appropriate resource block?",
+      "answers": [
+        { "text": "aws_table", "isCorrect": false },
+        { "text": "dynamodb_table_aws", "isCorrect": false },
+        { "text": "aws_dynamodb_table", "isCorrect": true },
+        { "text": "table_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you want to define a Cloud Run service. Which resource block should you use?",
+      "answers": [
+        { "text": "google_run_service", "isCorrect": true },
+        { "text": "gcp_run_service", "isCorrect": false },
+        { "text": "gcloud_run_service", "isCorrect": false },
+        { "text": "google_cloud_run_service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are defining an Azure Container Registry in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azurerm_container_registry", "isCorrect": true },
+        { "text": "azure_container_registry", "isCorrect": false },
+        { "text": "az_container_registry", "isCorrect": false },
+        { "text": "azure_registry", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create an AWS SNS topic in Terraform. What resource block should you use?",
+      "answers": [
+        { "text": "aws_sns_topic", "isCorrect": true },
+        { "text": "sns_topic_aws", "isCorrect": false },
+        { "text": "aws_topic", "isCorrect": false },
+        { "text": "topic_aws", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you need to create a Cloud Bigtable instance. What is the appropriate resource block?",
+      "answers": [
+        { "text": "google_bigtable_instance", "isCorrect": true },
+        { "text": "gcp_bigtable_instance", "isCorrect": false },
+        { "text": "gcloud_bigtable_instance", "isCorrect": false },
+        { "text": "google_cloud_bigtable_instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are configuring an Azure Kubernetes Service (AKS) cluster in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azurerm_aks_cluster", "isCorrect": true },
+        { "text": "azure_aks_cluster", "isCorrect": false },
+        { "text": "az_aks_cluster", "isCorrect": false },
+        { "text": "azure_k8s_cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create an AWS Elastic Beanstalk environment in Terraform. What is the appropriate resource block?",
+      "answers": [
+        { "text": "aws_beanstalk_environment", "isCorrect": true },
+        { "text": "elastic_beanstalk_aws", "isCorrect": false },
+        { "text": "beanstalk_aws", "isCorrect": false },
+        { "text": "aws_environment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Terraform configuration for Google Cloud, you want to create a Cloud Spanner instance. Which resource block should you use?",
+      "answers": [
+        { "text": "google_spanner_instance", "isCorrect": true },
+        { "text": "gcp_spanner_instance", "isCorrect": false },
+        { "text": "gcloud_spanner_instance", "isCorrect": false },
+        { "text": "google_cloud_spanner_instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are defining an Azure Logic App in Terraform. What is the correct resource type to use?",
+      "answers": [
+        { "text": "azurerm_logic_app", "isCorrect": true },
+        { "text": "azure_logic_app", "isCorrect": false },
+        { "text": "az_logic_app", "isCorrect": false },
+        { "text": "azure_app_logic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create an AWS VPC in Terraform. What resource block should you use?",
+      "answers": [
+        { "text": "aws_vpc", "isCorrect": true },
+        { "text": "vpc_aws", "isCorrect": false },
+        { "text": "aws_network", "isCorrect": false },
+        { "text": "network_aws", "isCorrect": false }
+      ]
+    }
+]

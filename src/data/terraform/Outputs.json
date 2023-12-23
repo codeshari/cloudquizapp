@@ -1,0 +1,255 @@
+[
+    {
+      "question": "What is the purpose of Terraform outputs?",
+      "answers": [
+        { "text": "To define input variables", "isCorrect": false },
+        { "text": "To specify resource dependencies", "isCorrect": false },
+        { "text": "To display values computed during the execution", "isCorrect": true },
+        { "text": "To control the execution order of resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform keyword is used to define outputs?",
+      "answers": [
+        { "text": "output", "isCorrect": true },
+        { "text": "result", "isCorrect": false },
+        { "text": "outcome", "isCorrect": false },
+        { "text": "display", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the syntax for declaring a Terraform output?",
+      "answers": [
+        { "text": "output 'output_name' {}", "isCorrect": false },
+        { "text": "output 'output_name' = {}", "isCorrect": true },
+        { "text": "output { 'output_name' {} }", "isCorrect": false },
+        { "text": "output = { 'output_name' {} }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to view outputs?",
+      "answers": [
+        { "text": "terraform display", "isCorrect": false },
+        { "text": "terraform show", "isCorrect": true },
+        { "text": "terraform output", "isCorrect": false },
+        { "text": "terraform view", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you reference an output value in another Terraform configuration?",
+      "answers": [
+        { "text": "${output.output_name}", "isCorrect": true },
+        { "text": "${terraform.output_name}", "isCorrect": false },
+        { "text": "${var.output_name}", "isCorrect": false },
+        { "text": "${module.output_name}", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'description' attribute in a Terraform output?",
+      "answers": [
+        { "text": "To define the output's data type", "isCorrect": false },
+        { "text": "To specify a custom display name for the output", "isCorrect": false },
+        { "text": "To provide additional information about the output", "isCorrect": true },
+        { "text": "To set the output's default value", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform data type is commonly used for output values?",
+      "answers": [
+        { "text": "list", "isCorrect": false },
+        { "text": "string", "isCorrect": true },
+        { "text": "boolean", "isCorrect": false },
+        { "text": "map", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What happens if an output is marked as sensitive?",
+      "answers": [
+        { "text": "It becomes invisible in the Terraform state file", "isCorrect": false },
+        { "text": "It is not displayed in the console output", "isCorrect": true },
+        { "text": "It is encrypted before storage in the state file", "isCorrect": false },
+        { "text": "It cannot be referenced in other configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you use interpolation functions in Terraform outputs?",
+      "answers": [
+        { "text": "${output.output_name}", "isCorrect": true },
+        { "text": "$(output.output_name)", "isCorrect": false },
+        { "text": "{output.output_name}", "isCorrect": false },
+        { "text": "[output.output_name]", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to destroy resources and their associated outputs?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform destroy", "isCorrect": true },
+        { "text": "terraform output", "isCorrect": false },
+        { "text": "terraform refresh", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys an EC2 instance. What is the purpose of the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To initialize the EC2 instance", "isCorrect": false },
+        { "text": "To define input variables for the EC2 instance", "isCorrect": false },
+        { "text": "To output information about the deployed EC2 instance", "isCorrect": true },
+        { "text": "To configure provider settings for the EC2 instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: In your Terraform configuration, you have defined an output variable named 'instance_ip'. How can you reference this output in another Terraform configuration?",
+      "answers": [
+        { "text": "Through hardcoding the IP address", "isCorrect": false },
+        { "text": "Using variable interpolation", "isCorrect": false },
+        { "text": "By directly using 'instance_ip' in the other configuration", "isCorrect": false },
+        { "text": "Through Terraform remote state or data source", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are deploying multiple instances using Terraform, and you want to output the public IP addresses of all instances. How would you structure the 'output' block for this scenario?",
+      "answers": [
+        { "text": "Define multiple 'output' blocks for each instance", "isCorrect": true },
+        { "text": "Use a single 'output' block with a list of IP addresses", "isCorrect": false },
+        { "text": "Hardcode the IP addresses in the 'output' block", "isCorrect": false },
+        { "text": "Use a variable for the IP addresses in the 'output' block", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to display the DNS name of an S3 bucket that is created by Terraform. How can you achieve this using the 'output' block?",
+      "answers": [
+        { "text": "Use the 'aws_s3_bucket' resource name directly in the 'output' block", "isCorrect": false },
+        { "text": "Hardcode the DNS name in the 'output' block", "isCorrect": false },
+        { "text": "Reference the output variable of the 'aws_s3_bucket' resource in the 'output' block", "isCorrect": true },
+        { "text": "Use a separate variable for the DNS name in the 'output' block", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys a VPC, subnets, and EC2 instances. How can you use the 'output' block to display the IDs of the created resources?",
+      "answers": [
+        { "text": "Create a separate 'output' block for each resource type", "isCorrect": true },
+        { "text": "Use a single 'output' block with a list of resource IDs", "isCorrect": false },
+        { "text": "Hardcode the resource IDs in the 'output' block", "isCorrect": false },
+        { "text": "Use a variable for the resource IDs in the 'output' block", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that creates an S3 bucket and a DynamoDB table. How can you output the names of both resources?",
+      "answers": [
+        { "text": "Use a single 'output' block with a list of resource names", "isCorrect": false },
+        { "text": "Create a separate 'output' block for each resource", "isCorrect": true },
+        { "text": "Hardcode the resource names in the 'output' block", "isCorrect": false },
+        { "text": "Use a variable for the resource names in the 'output' block", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration deploys an Auto Scaling Group and a Load Balancer. What is a suitable use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To configure the Auto Scaling Group", "isCorrect": false },
+        { "text": "To define input variables for the Load Balancer", "isCorrect": false },
+        { "text": "To output the DNS name or IP address of the Load Balancer", "isCorrect": true },
+        { "text": "To output the scaling policies of the Auto Scaling Group", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that provisions an RDS instance. What could be a valid use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To initialize the RDS instance", "isCorrect": false },
+        { "text": "To define input variables for the RDS instance", "isCorrect": false },
+        { "text": "To output the endpoint address of the RDS instance", "isCorrect": true },
+        { "text": "To configure provider settings for the RDS instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys a Kubernetes cluster using EKS. How could you use the 'output' block to provide information about the cluster?",
+      "answers": [
+        { "text": "To initialize the Kubernetes cluster", "isCorrect": false },
+        { "text": "To define input variables for the cluster", "isCorrect": false },
+        { "text": "To output the cluster endpoint or ARN", "isCorrect": true },
+        { "text": "To configure provider settings for the Kubernetes cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration provisions a set of IAM roles and policies. What is a suitable use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To define input variables for the IAM roles", "isCorrect": false },
+        { "text": "To output the ARNs of the created IAM roles", "isCorrect": true },
+        { "text": "To configure provider settings for IAM roles", "isCorrect": false },
+        { "text": "To output the policies attached to the IAM roles", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that creates a set of custom tags for resources. How could you use the 'output' block to display the generated tags?",
+      "answers": [
+        { "text": "To initialize the custom tags", "isCorrect": false },
+        { "text": "To define input variables for the custom tags", "isCorrect": false },
+        { "text": "To output the names and values of the created tags", "isCorrect": true },
+        { "text": "To configure provider settings for the custom tags", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration deploys a set of Lambda functions and an API Gateway. What is a valid use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To define input variables for the Lambda functions", "isCorrect": false },
+        { "text": "To output the ARNs of the created Lambda functions", "isCorrect": true },
+        { "text": "To configure provider settings for the Lambda functions", "isCorrect": false },
+        { "text": "To output the API Gateway endpoint", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that deploys a set of security groups and network ACLs. What is a suitable use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To initialize the security groups", "isCorrect": false },
+        { "text": "To define input variables for the network ACLs", "isCorrect": false },
+        { "text": "To output the IDs and names of the created security groups", "isCorrect": true },
+        { "text": "To configure provider settings for the security groups", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration provisions an SNS topic and several SQS queues. What could be a valid use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To define input variables for the SNS topic", "isCorrect": false },
+        { "text": "To output the ARN of the SNS topic", "isCorrect": true },
+        { "text": "To configure provider settings for the SQS queues", "isCorrect": false },
+        { "text": "To output the names and URLs of the created SQS queues", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that creates a set of EBS volumes and attaches them to EC2 instances. How could you use the 'output' block to display information about the volumes?",
+      "answers": [
+        { "text": "To initialize the EBS volumes", "isCorrect": false },
+        { "text": "To define input variables for the EC2 instances", "isCorrect": false },
+        { "text": "To output the volume IDs and sizes of the created volumes", "isCorrect": true },
+        { "text": "To configure provider settings for the EBS volumes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration deploys a set of RDS Aurora database clusters. What is a valid use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To define input variables for the RDS clusters", "isCorrect": false },
+        { "text": "To output the connection strings or endpoint addresses of the RDS clusters", "isCorrect": true },
+        { "text": "To configure provider settings for the RDS clusters", "isCorrect": false },
+        { "text": "To output the replication settings of the Aurora clusters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that provisions a set of CloudWatch Alarms and SNS topics for alerting. What could be a valid use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To define input variables for the CloudWatch Alarms", "isCorrect": false },
+        { "text": "To output the ARNs of the created CloudWatch Alarms", "isCorrect": true },
+        { "text": "To configure provider settings for the SNS topics", "isCorrect": false },
+        { "text": "To output the names and URLs of the created SNS topics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform configuration deploys a set of CloudFront distributions and S3 buckets. What is a suitable use case for the 'output' block in this scenario?",
+      "answers": [
+        { "text": "To define input variables for the CloudFront distributions", "isCorrect": false },
+        { "text": "To output the domain names or distribution IDs of the CloudFront distributions", "isCorrect": true },
+        { "text": "To configure provider settings for the S3 buckets", "isCorrect": false },
+        { "text": "To output the names and URLs of the created S3 buckets", "isCorrect": false }
+      ]
+    }
+  ]
+  

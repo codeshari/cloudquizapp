@@ -1,0 +1,416 @@
+[
+    {
+      "question": "What is Terraform?",
+      "answers": [
+        { "text": "A programming language", "isCorrect": false },
+        { "text": "A configuration management tool", "isCorrect": true },
+        { "text": "A cloud service provider", "isCorrect": false },
+        { "text": "An operating system", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Terraform provider?",
+      "answers": [
+        { "text": "To write Terraform configurations", "isCorrect": false },
+        { "text": "To define infrastructure resources", "isCorrect": true },
+        { "text": "To manage Git repositories", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is a Terraform provider version specified in a configuration?",
+      "answers": [
+        { "text": "provider 'aws' { version = '2.0' }", "isCorrect": true },
+        { "text": "provider 'aws' { v2.0 }", "isCorrect": false },
+        { "text": "version '2.0' { provider 'aws' }", "isCorrect": false },
+        { "text": "provider 'aws' { version '2.0' }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the Terraform provider 'required_version' block specify?",
+      "answers": [
+        { "text": "The version of the Terraform CLI", "isCorrect": true },
+        { "text": "The required version of the operating system", "isCorrect": false },
+        { "text": "The version of the cloud provider", "isCorrect": false },
+        { "text": "The required version of the Terraform provider", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to initialize a Terraform configuration and install providers?",
+      "answers": [
+        { "text": "terraform init", "isCorrect": true },
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify a version constraint for a Terraform provider?",
+      "answers": [
+        { "text": "provider 'aws' { version = '>=2.0' }", "isCorrect": true },
+        { "text": "provider 'aws' { v2.0 }", "isCorrect": false },
+        { "text": "version '2.0' { provider 'aws' }", "isCorrect": false },
+        { "text": "provider 'aws' { version '2.0' }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the caret (^) symbol indicate in a Terraform provider version constraint?",
+      "answers": [
+        { "text": "Greater than or equal to", "isCorrect": false },
+        { "text": "Exact version match", "isCorrect": false },
+        { "text": "Compatible with the specified version", "isCorrect": true },
+        { "text": "Less than or equal to", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform command is used to upgrade providers to the latest compatible versions?",
+      "answers": [
+        { "text": "terraform upgrade", "isCorrect": false },
+        { "text": "terraform update", "isCorrect": true },
+        { "text": "terraform install", "isCorrect": false },
+        { "text": "terraform apply", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform lock' file in provider versioning?",
+      "answers": [
+        { "text": "To lock the Terraform CLI version", "isCorrect": false },
+        { "text": "To lock the provider versions", "isCorrect": true },
+        { "text": "To lock the operating system version", "isCorrect": false },
+        { "text": "To lock the Terraform configuration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'source' attribute in the provider block specify?",
+      "answers": [
+        { "text": "The provider's GitHub repository", "isCorrect": true },
+        { "text": "The provider's website", "isCorrect": false },
+        { "text": "The provider's documentation URL", "isCorrect": false },
+        { "text": "The provider's version history", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a valid Terraform provider version constraint?",
+      "answers": [
+        { "text": ">=2.0, <=3.0", "isCorrect": true },
+        { "text": "~2.0", "isCorrect": false },
+        { "text": "=2.0", "isCorrect": false },
+        { "text": ">2.0", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you prevent automatic provider upgrades when running 'terraform init'?",
+      "answers": [
+        { "text": "Use 'terraform upgrade --lock=false'", "isCorrect": false },
+        { "text": "Use 'terraform init --upgrade=false'", "isCorrect": false },
+        { "text": "Set 'provider_upgrade' to 'false' in 'terraform.rc'", "isCorrect": true },
+        { "text": "Use 'terraform init --lock=false'", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'provider_installation' block in Terraform configurations?",
+      "answers": [
+        { "text": "To install a new provider", "isCorrect": false },
+        { "text": "To specify the provider version", "isCorrect": false },
+        { "text": "To customize provider installation settings", "isCorrect": true },
+        { "text": "To uninstall a provider", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which file contains the list of providers and their versions installed for a Terraform configuration?",
+      "answers": [
+        { "text": ".terraformrc", "isCorrect": false },
+        { "text": "terraform.json", "isCorrect": false },
+        { "text": "terraform.lock.hcl", "isCorrect": true },
+        { "text": ".tfstate", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform init -reconfigure' command do?",
+      "answers": [
+        { "text": "Reconfigures the Terraform CLI", "isCorrect": false },
+        { "text": "Reconfigures the Terraform providers", "isCorrect": true },
+        { "text": "Reconfigures the Terraform workspace", "isCorrect": false },
+        { "text": "Reconfigures the Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Terraform determine which provider version to use when no version is specified?",
+      "answers": [
+        { "text": "It uses the latest version available", "isCorrect": true },
+        { "text": "It prompts the user to choose a version", "isCorrect": false },
+        { "text": "It uses the provider version from the previous state", "isCorrect": false },
+        { "text": "It raises an error and stops execution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which file stores the resolved provider versions and their dependencies?",
+      "answers": [
+        { "text": "terraform.tfstate", "isCorrect": false },
+        { "text": "terraform.lock.hcl", "isCorrect": true },
+        { "text": ".terraformrc", "isCorrect": false },
+        { "text": ".tfconfig", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'provider_mirror' configuration in Terraform?",
+      "answers": [
+        { "text": "To mirror provider source code", "isCorrect": false },
+        { "text": "To specify an alternative provider registry URL", "isCorrect": true },
+        { "text": "To disable provider updates", "isCorrect": false },
+        { "text": "To configure provider authentication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the 'terraform providers lock' command do?",
+      "answers": [
+        { "text": "Locks the provider versions", "isCorrect": false },
+        { "text": "Locks the Terraform CLI version", "isCorrect": false },
+        { "text": "Locks the provider source code", "isCorrect": false },
+        { "text": "Locks the provider source code and versions", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How can you specify a provider version constraint with an upper and lower limit?",
+      "answers": [
+        { "text": "provider 'aws' { version = '>=2.0, <=3.0' }", "isCorrect": true },
+        { "text": "provider 'aws' { version = '~2.0' }", "isCorrect": false },
+        { "text": "provider 'aws' { version = '=2.0' }", "isCorrect": false },
+        { "text": "provider 'aws' { version = '>2.0' }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform init -upgrade' command?",
+      "answers": [
+        { "text": "Upgrades the Terraform CLI", "isCorrect": false },
+        { "text": "Upgrades the Terraform providers", "isCorrect": true },
+        { "text": "Upgrades the Terraform workspace", "isCorrect": false },
+        { "text": "Upgrades the Terraform state", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a valid provider version constraint using the tilde (~) symbol?",
+      "answers": [
+        { "text": "~2.0", "isCorrect": true },
+        { "text": ">=2.0", "isCorrect": false },
+        { "text": "=2.0", "isCorrect": false },
+        { "text": ">2.0", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform providers lock -platform' command?",
+      "answers": [
+        { "text": "Locks the provider versions", "isCorrect": false },
+        { "text": "Locks the Terraform CLI version", "isCorrect": false },
+        { "text": "Locks the provider source code", "isCorrect": false },
+        { "text": "Locks the provider versions for a specific platform", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How can you configure a provider to use a custom mirror URL?",
+      "answers": [
+        { "text": "provider 'aws' { mirror = 'https://my-mirror-url' }", "isCorrect": true },
+        { "text": "provider 'aws' { mirror_url = 'https://my-mirror-url' }", "isCorrect": false },
+        { "text": "provider 'aws' { mirror 'https://my-mirror-url' }", "isCorrect": false },
+        { "text": "provider 'aws' { mirror = 'my-mirror-url' }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform init -get-plugins=false' command?",
+      "answers": [
+        { "text": "Disables downloading provider plugins", "isCorrect": true },
+        { "text": "Enables downloading provider plugins", "isCorrect": false },
+        { "text": "Deletes existing provider plugins", "isCorrect": false },
+        { "text": "Reconfigures the Terraform workspace", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you specify an exact version match for a Terraform provider?",
+      "answers": [
+        { "text": "provider 'aws' { version = '2.0' }", "isCorrect": true },
+        { "text": "provider 'aws' { v2.0 }", "isCorrect": false },
+        { "text": "version '2.0' { provider 'aws' }", "isCorrect": false },
+        { "text": "provider 'aws' { version '2.0' }", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'provider_upgrade' configuration in Terraform CLI?",
+      "answers": [
+        { "text": "To enable automatic provider upgrades", "isCorrect": true },
+        { "text": "To disable automatic provider upgrades", "isCorrect": false },
+        { "text": "To configure provider installation settings", "isCorrect": false },
+        { "text": "To specify the provider version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing infrastructure using Terraform, and you need to upgrade the AWS provider to the latest version. What command would you use?",
+      "answers": [
+        { "text": "terraform update", "isCorrect": false },
+        { "text": "terraform get -update", "isCorrect": false },
+        { "text": "terraform init -upgrade", "isCorrect": false },
+        { "text": "terraform init -upgrade=true", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform configuration that uses the Google Cloud provider. How can you check for the latest available version of the Google Cloud provider?",
+      "answers": [
+        { "text": "terraform get -update", "isCorrect": false },
+        { "text": "terraform provider -check", "isCorrect": false },
+        { "text": "terraform init -upgrade", "isCorrect": true },
+        { "text": "terraform providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to specify a specific version of the Azure provider in your Terraform configuration. How can you achieve this?",
+      "answers": [
+        { "text": "terraform init -upgrade", "isCorrect": false },
+        { "text": "terraform provider -version", "isCorrect": false },
+        { "text": "terraform init -from-module", "isCorrect": false },
+        { "text": "terraform init -version=<version>", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are collaborating on a Terraform project with a team. To ensure consistency, you want to enforce a specific version of the AWS provider for all team members. How can you achieve this?",
+      "answers": [
+        { "text": "Hardcode the provider version in each configuration file", "isCorrect": false },
+        { "text": "Use the 'terraform version' command to set the version", "isCorrect": false },
+        { "text": "Specify the provider version in a required_providers block", "isCorrect": true },
+        { "text": "Use the 'terraform init -lock=true' command", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are maintaining a Terraform module that uses the Azure provider. How can you ensure that users of your module get a specific version of the Azure provider when using your module?",
+      "answers": [
+        { "text": "Include a 'required_providers' block in your module", "isCorrect": true },
+        { "text": "Provide a separate README file with the required version information", "isCorrect": false },
+        { "text": "Encourage users to run 'terraform init -upgrade' before using the module", "isCorrect": false },
+        { "text": "Embed the provider version directly in the module code", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization has a policy to use only LTS (Long-Term Support) versions of Terraform providers. How can you enforce this policy in your Terraform configurations?",
+      "answers": [
+        { "text": "Include a 'version' argument in each resource block", "isCorrect": false },
+        { "text": "Use the 'terraform version' command to set the version", "isCorrect": false },
+        { "text": "Include a 'required_providers' block with version constraints", "isCorrect": true },
+        { "text": "Hardcode the provider version in each configuration file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a Terraform project that uses multiple providers, and you want to check for updates for all providers. What command would you use?",
+      "answers": [
+        { "text": "terraform init -upgrade", "isCorrect": true },
+        { "text": "terraform providers -check", "isCorrect": false },
+        { "text": "terraform update", "isCorrect": false },
+        { "text": "terraform get -update", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to use a specific version of the AWS provider and automatically download it during 'terraform init.' How can you achieve this?",
+      "answers": [
+        { "text": "terraform init -upgrade", "isCorrect": false },
+        { "text": "Include a 'required_providers' block with the desired version", "isCorrect": false },
+        { "text": "terraform init -from-module", "isCorrect": true },
+        { "text": "Hardcode the provider version in each configuration file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing a Terraform configuration that uses the Kubernetes provider. How can you ensure that the provider is automatically updated to the latest version during 'terraform init'?",
+      "answers": [
+        { "text": "terraform init -upgrade", "isCorrect": true },
+        { "text": "terraform providers -update", "isCorrect": false },
+        { "text": "Include a 'required_providers' block without specifying a version", "isCorrect": false },
+        { "text": "Hardcode the provider version in each configuration file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a Terraform project, and you want to explicitly specify a minimum version of the Terraform CLI required for the project. Where would you define this requirement?",
+      "answers": [
+        { "text": "In the 'required_version' block in the root module", "isCorrect": true },
+        { "text": "In the 'terraform' block within each configuration file", "isCorrect": false },
+        { "text": "In the 'terraform' block in a separate version file", "isCorrect": false },
+        { "text": "As a comment in the main Terraform configuration file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is using Terraform Cloud to manage infrastructure, and you want to ensure that all team members are using a specific version of the AWS provider. How can you achieve this?",
+      "answers": [
+        { "text": "Use the 'terraform version' command to set the version", "isCorrect": false },
+        { "text": "Include a 'required_providers' block in each configuration file", "isCorrect": false },
+        { "text": "Set the provider version in the Terraform Cloud workspace settings", "isCorrect": true },
+        { "text": "Encourage team members to manually update the provider version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization follows a practice of using only the latest stable release of Terraform providers. How can you enforce this policy across all projects?",
+      "answers": [
+        { "text": "Use the 'terraform version' command to set the version", "isCorrect": false },
+        { "text": "Include a 'required_providers' block without specifying a version", "isCorrect": false },
+        { "text": "Use the 'terraform init -upgrade' command in each project", "isCorrect": false },
+        { "text": "Create a shared module that includes a 'required_providers' block with the desired version", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a Terraform configuration that uses a custom provider. How can you specify the provider source and version in the configuration?",
+      "answers": [
+        { "text": "terraform init -upgrade", "isCorrect": false },
+        { "text": "terraform provider -version", "isCorrect": false },
+        { "text": "Include a 'required_providers' block with the desired version and source", "isCorrect": true },
+        { "text": "Hardcode the provider source and version in each configuration file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is working on a project with multiple environments (dev, staging, prod). Each environment has specific requirements for Terraform provider versions. How can you manage this in your project?",
+      "answers": [
+        { "text": "Use the same provider version across all environments", "isCorrect": false },
+        { "text": "Include a 'required_providers' block with version constraints in each environment's configuration", "isCorrect": true },
+        { "text": "Define environment-specific provider versions in a separate version file", "isCorrect": false },
+        { "text": "Encourage team members to manually update provider versions as needed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform project uses multiple providers (AWS, Azure, Google Cloud). How can you ensure that all providers are automatically updated to their latest versions during 'terraform init'?",
+      "answers": [
+        { "text": "Include a 'required_providers' block for each provider without specifying a version", "isCorrect": false },
+        { "text": "Hardcode the provider versions in each configuration file", "isCorrect": false },
+        { "text": "Use the 'terraform init -upgrade' command", "isCorrect": true },
+        { "text": "Run 'terraform providers -check' before 'terraform init'", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using a custom Terraform provider that your team developed. How can you ensure that all team members use the correct version of the custom provider?",
+      "answers": [
+        { "text": "Include a 'required_providers' block with version constraints in each configuration file", "isCorrect": true },
+        { "text": "Encourage team members to manually download and install the custom provider", "isCorrect": false },
+        { "text": "Hardcode the provider version in the team's shared documentation", "isCorrect": false },
+        { "text": "Include a 'provider' block in the main Terraform configuration file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your Terraform project uses several modules from the Terraform Registry. You want to ensure that the modules always use the latest provider versions. How can you achieve this?",
+      "answers": [
+        { "text": "Specify provider versions directly in each module", "isCorrect": false },
+        { "text": "Include a 'required_providers' block in each module without specifying a version", "isCorrect": true },
+        { "text": "Hardcode the provider versions in the main Terraform configuration file", "isCorrect": false },
+        { "text": "Run 'terraform init -upgrade' before using each module", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is using Terraform Cloud, and you want to ensure that all runs in Terraform Cloud use a specific version of the AWS provider. How can you enforce this?",
+      "answers": [
+        { "text": "Specify the provider version in the Terraform Cloud workspace settings", "isCorrect": true },
+        { "text": "Use the 'terraform version' command to set the version", "isCorrect": false },
+        { "text": "Include a 'required_providers' block with version constraints in each configuration file", "isCorrect": false },
+        { "text": "Encourage team members to manually update the provider version in Terraform Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization is using a mix of public and private Terraform providers. How can you manage the versioning of both types of providers in your configurations?",
+      "answers": [
+        { "text": "Include a 'required_providers' block for each provider with the desired version and source", "isCorrect": true },
+        { "text": "Use the 'terraform providers -check' command", "isCorrect": false },
+        { "text": "Hardcode the provider versions in the main Terraform configuration file", "isCorrect": false },
+        { "text": "Run 'terraform init -upgrade' before each run", "isCorrect": false }
+      ]
+    }
+]

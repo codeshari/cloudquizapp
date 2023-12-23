@@ -1,0 +1,488 @@
+[
+    {
+      "question": "What is the purpose of the 'provider' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Specify the resource name", "isCorrect": false },
+        { "text": "Declare the resource type", "isCorrect": false },
+        { "text": "Define the provider alias", "isCorrect": false },
+        { "text": "Associate the resource with a provider configuration", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to set the unique identifier for a resource in Terraform?",
+      "answers": [
+        { "text": "id", "isCorrect": false },
+        { "text": "name", "isCorrect": false },
+        { "text": "tags", "isCorrect": false },
+        { "text": "lifecycle", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'count' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Specify resource dependencies", "isCorrect": false },
+        { "text": "Set the resource name", "isCorrect": false },
+        { "text": "Define the resource type", "isCorrect": false },
+        { "text": "Create multiple instances of a resource", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to control how Terraform handles changes to a resource?",
+      "answers": [
+        { "text": "depends_on", "isCorrect": false },
+        { "text": "provisioner", "isCorrect": false },
+        { "text": "lifecycle", "isCorrect": true },
+        { "text": "connection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'depends_on' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Set resource dependencies", "isCorrect": true },
+        { "text": "Define resource variables", "isCorrect": false },
+        { "text": "Specify the provider configuration", "isCorrect": false },
+        { "text": "Set the resource name", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to specify inline sensitivity annotations for sensitive values?",
+      "answers": [
+        { "text": "sensitive", "isCorrect": true },
+        { "text": "provisioner", "isCorrect": false },
+        { "text": "connection", "isCorrect": false },
+        { "text": "depends_on", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'lifecycle' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Set resource dependencies", "isCorrect": false },
+        { "text": "Specify provider configurations", "isCorrect": false },
+        { "text": "Control resource behavior during creation and updates", "isCorrect": true },
+        { "text": "Set the resource name", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to define connection details for provisioners in a Terraform resource block?",
+      "answers": [
+        { "text": "connection", "isCorrect": true },
+        { "text": "provisioner", "isCorrect": false },
+        { "text": "lifecycle", "isCorrect": false },
+        { "text": "depends_on", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'provisioner' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Define the resource type", "isCorrect": false },
+        { "text": "Set resource dependencies", "isCorrect": false },
+        { "text": "Define connection details for provisioners", "isCorrect": false },
+        { "text": "Specify how to create or destroy a resource", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to apply a custom name to a resource instance in Terraform?",
+      "answers": [
+        { "text": "name", "isCorrect": false },
+        { "text": "count", "isCorrect": false },
+        { "text": "tags", "isCorrect": false },
+        { "text": "for_each", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'for_each' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Define connection details for provisioners", "isCorrect": false },
+        { "text": "Create multiple instances of a resource with unique identifiers", "isCorrect": true },
+        { "text": "Set resource dependencies", "isCorrect": false },
+        { "text": "Specify how to create or destroy a resource", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to specify tags for a Terraform resource?",
+      "answers": [
+        { "text": "name", "isCorrect": false },
+        { "text": "tags", "isCorrect": true },
+        { "text": "count", "isCorrect": false },
+        { "text": "for_each", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'module' meta-argument in a Terraform resource block?",
+      "answers": [
+        { "text": "Set resource dependencies", "isCorrect": false },
+        { "text": "Create a module alias", "isCorrect": true },
+        { "text": "Define connection details for provisioners", "isCorrect": false },
+        { "text": "Specify provider configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to specify the sensitivity of a variable in a Terraform resource?",
+      "answers": [
+        { "text": "sensitive", "isCorrect": true },
+        { "text": "provisioner", "isCorrect": false },
+        { "text": "connection", "isCorrect": false },
+        { "text": "depends_on", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'provider' meta-argument in a Terraform module block?",
+      "answers": [
+        { "text": "Set module dependencies", "isCorrect": false },
+        { "text": "Declare the module type", "isCorrect": false },
+        { "text": "Define the provider alias", "isCorrect": false },
+        { "text": "Associate the module with a provider configuration", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to set the version of a Terraform provider in a module?",
+      "answers": [
+        { "text": "version", "isCorrect": true },
+        { "text": "source", "isCorrect": false },
+        { "text": "required_providers", "isCorrect": false },
+        { "text": "providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'source' meta-argument in a Terraform module block?",
+      "answers": [
+        { "text": "Set module dependencies", "isCorrect": false },
+        { "text": "Specify the module version", "isCorrect": false },
+        { "text": "Define the module type", "isCorrect": false },
+        { "text": "Set the module source location", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to set the input variables for a Terraform module?",
+      "answers": [
+        { "text": "source", "isCorrect": false },
+        { "text": "input", "isCorrect": true },
+        { "text": "output", "isCorrect": false },
+        { "text": "variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'output' meta-argument in a Terraform module block?",
+      "answers": [
+        { "text": "Set module dependencies", "isCorrect": false },
+        { "text": "Define the module type", "isCorrect": false },
+        { "text": "Specify the module version", "isCorrect": false },
+        { "text": "Expose values from the module", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to define the required providers for a Terraform module?",
+      "answers": [
+        { "text": "source", "isCorrect": false },
+        { "text": "required_providers", "isCorrect": true },
+        { "text": "version", "isCorrect": false },
+        { "text": "providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'required_providers' meta-argument in a Terraform module block?",
+      "answers": [
+        { "text": "Define the module type", "isCorrect": false },
+        { "text": "Set module dependencies", "isCorrect": false },
+        { "text": "Specify the module version", "isCorrect": false },
+        { "text": "Declare required provider configurations", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to set the version constraints for required providers in a Terraform module?",
+      "answers": [
+        { "text": "version", "isCorrect": true },
+        { "text": "source", "isCorrect": false },
+        { "text": "required_version", "isCorrect": false },
+        { "text": "providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'backend' meta-argument in a Terraform configuration block?",
+      "answers": [
+        { "text": "Set configuration dependencies", "isCorrect": false },
+        { "text": "Define the configuration type", "isCorrect": false },
+        { "text": "Specify the configuration version", "isCorrect": false },
+        { "text": "Configure a backend for remote state storage", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to set the version of a Terraform configuration?",
+      "answers": [
+        { "text": "version", "isCorrect": true },
+        { "text": "source", "isCorrect": false },
+        { "text": "required_providers", "isCorrect": false },
+        { "text": "backend", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'locals' meta-argument in a Terraform configuration block?",
+      "answers": [
+        { "text": "Define variables with global scope", "isCorrect": false },
+        { "text": "Set configuration dependencies", "isCorrect": false },
+        { "text": "Specify the configuration version", "isCorrect": false },
+        { "text": "Define named values that can be reused within the configuration", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to define input variables for a Terraform configuration?",
+      "answers": [
+        { "text": "locals", "isCorrect": false },
+        { "text": "input", "isCorrect": true },
+        { "text": "variable", "isCorrect": false },
+        { "text": "version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'outputs' meta-argument in a Terraform configuration block?",
+      "answers": [
+        { "text": "Set configuration dependencies", "isCorrect": false },
+        { "text": "Define the configuration type", "isCorrect": false },
+        { "text": "Specify the configuration version", "isCorrect": false },
+        { "text": "Expose values from the configuration", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to configure the provider alias in a Terraform configuration block?",
+      "answers": [
+        { "text": "provider", "isCorrect": false },
+        { "text": "alias", "isCorrect": true },
+        { "text": "version", "isCorrect": false },
+        { "text": "backend", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'terraform' meta-argument in a Terraform configuration block?",
+      "answers": [
+        { "text": "Set configuration dependencies", "isCorrect": false },
+        { "text": "Configure the Terraform CLI behavior", "isCorrect": true },
+        { "text": "Define the configuration type", "isCorrect": false },
+        { "text": "Specify the configuration version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which meta-argument is used to configure backend-specific settings in a Terraform configuration?",
+      "answers": [
+        { "text": "backend", "isCorrect": true },
+        { "text": "terraform", "isCorrect": false },
+        { "text": "alias", "isCorrect": false },
+        { "text": "version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are setting up a Terraform configuration for a project, and you want to store the state remotely. Which meta-argument is used to specify the backend type?",
+      "answers": [
+        { "text": "backend_type", "isCorrect": false },
+        { "text": "remote", "isCorrect": false },
+        { "text": "backend", "isCorrect": true },
+        { "text": "remote_type", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to use Amazon S3 as the backend for storing Terraform state remotely. What meta-argument would you use to specify the S3 bucket name?",
+      "answers": [
+        { "text": "bucket_name", "isCorrect": true },
+        { "text": "s3_bucket", "isCorrect": false },
+        { "text": "backend_bucket", "isCorrect": false },
+        { "text": "remote_bucket", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring the remote backend, and you want to encrypt the state files. Which meta-argument is used to specify the encryption settings for the backend?",
+      "answers": [
+        { "text": "encryption", "isCorrect": false },
+        { "text": "backend_encryption", "isCorrect": false },
+        { "text": "encrypt", "isCorrect": false },
+        { "text": "encrypt_sensitive_data", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Azure Storage as the backend, and you want to set a custom endpoint for it. Which meta-argument is used to specify the custom endpoint?",
+      "answers": [
+        { "text": "storage_endpoint", "isCorrect": true },
+        { "text": "azure_endpoint", "isCorrect": false },
+        { "text": "backend_endpoint", "isCorrect": false },
+        { "text": "custom_endpoint", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring the remote backend for Google Cloud Storage. What meta-argument is used to specify the name of the GCS bucket?",
+      "answers": [
+        { "text": "gcs_bucket", "isCorrect": false },
+        { "text": "bucket", "isCorrect": false },
+        { "text": "backend_bucket", "isCorrect": true },
+        { "text": "remote_bucket", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to configure the remote backend for Terraform, and you need to set a prefix for all the objects stored in the backend. Which meta-argument is used for this purpose?",
+      "answers": [
+        { "text": "object_prefix", "isCorrect": true },
+        { "text": "backend_prefix", "isCorrect": false },
+        { "text": "remote_prefix", "isCorrect": false },
+        { "text": "prefix", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are setting up a remote backend, and you want to enable versioning for the stored Terraform state. Which meta-argument is used to enable versioning?",
+      "answers": [
+        { "text": "enable_versioning", "isCorrect": false },
+        { "text": "versioning", "isCorrect": true },
+        { "text": "backend_versioning", "isCorrect": false },
+        { "text": "remote_versioning", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to configure a remote backend using HTTP. Which meta-argument is used to specify the HTTP address of the backend?",
+      "answers": [
+        { "text": "backend_address", "isCorrect": false },
+        { "text": "http_address", "isCorrect": false },
+        { "text": "remote_address", "isCorrect": false },
+        { "text": "address", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are setting up a remote backend, and you want to enable locking to prevent concurrent state operations. Which meta-argument is used to enable locking?",
+      "answers": [
+        { "text": "locking", "isCorrect": true },
+        { "text": "enable_locking", "isCorrect": false },
+        { "text": "backend_locking", "isCorrect": false },
+        { "text": "remote_locking", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend, and you want to specify a service account key file for authentication. Which meta-argument is used for this purpose?",
+      "answers": [
+        { "text": "service_account_key", "isCorrect": true },
+        { "text": "backend_key", "isCorrect": false },
+        { "text": "remote_key", "isCorrect": false },
+        { "text": "key_file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend for Terraform, and you want to configure a custom header for requests. Which meta-argument is used to set custom headers?",
+      "answers": [
+        { "text": "headers", "isCorrect": true },
+        { "text": "custom_headers", "isCorrect": false },
+        { "text": "backend_headers", "isCorrect": false },
+        { "text": "remote_headers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are setting up a remote backend, and you want to specify a path within the backend to store state files. Which meta-argument is used to specify the path?",
+      "answers": [
+        { "text": "backend_path", "isCorrect": false },
+        { "text": "remote_path", "isCorrect": false },
+        { "text": "path", "isCorrect": true },
+        { "text": "state_path", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring the remote backend for Terraform, and you want to use a specific HTTP method for requests. Which meta-argument is used to set the HTTP method?",
+      "answers": [
+        { "text": "method", "isCorrect": true },
+        { "text": "http_method", "isCorrect": false },
+        { "text": "backend_method", "isCorrect": false },
+        { "text": "remote_method", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are setting up a remote backend, and you want to specify a timeout for HTTP requests to the backend. Which meta-argument is used to set the timeout?",
+      "answers": [
+        { "text": "timeout", "isCorrect": true },
+        { "text": "http_timeout", "isCorrect": false },
+        { "text": "backend_timeout", "isCorrect": false },
+        { "text": "remote_timeout", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to configure a remote backend using a custom protocol. Which meta-argument is used to specify the protocol?",
+      "answers": [
+        { "text": "protocol", "isCorrect": true },
+        { "text": "backend_protocol", "isCorrect": false },
+        { "text": "remote_protocol", "isCorrect": false },
+        { "text": "custom_protocol", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend, and you want to specify a proxy address for requests. Which meta-argument is used to set the proxy address?",
+      "answers": [
+        { "text": "proxy", "isCorrect": true },
+        { "text": "backend_proxy", "isCorrect": false },
+        { "text": "remote_proxy", "isCorrect": false },
+        { "text": "proxy_address", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to use a remote backend and configure a secure connection using HTTPS. Which meta-argument is used to specify the protocol?",
+      "answers": [
+        { "text": "secure", "isCorrect": false },
+        { "text": "tls", "isCorrect": false },
+        { "text": "https", "isCorrect": true },
+        { "text": "ssl", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend, and you want to specify a maximum number of retries for HTTP requests. Which meta-argument is used to set the maximum number of retries?",
+      "answers": [
+        { "text": "max_retries", "isCorrect": true },
+        { "text": "http_retries", "isCorrect": false },
+        { "text": "backend_retries", "isCorrect": false },
+        { "text": "remote_retries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to configure a remote backend, and you need to set a custom user agent for requests. Which meta-argument is used to specify the user agent?",
+      "answers": [
+        { "text": "user_agent", "isCorrect": true },
+        { "text": "backend_user_agent", "isCorrect": false },
+        { "text": "remote_user_agent", "isCorrect": false },
+        { "text": "custom_user_agent", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend, and you want to enable request logging. Which meta-argument is used to enable logging?",
+      "answers": [
+        { "text": "log_requests", "isCorrect": false },
+        { "text": "enable_logging", "isCorrect": false },
+        { "text": "backend_logging", "isCorrect": false },
+        { "text": "remote_logging", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You want to use a remote backend, and you need to specify headers for HTTP requests. Which meta-argument is used to set headers?",
+      "answers": [
+        { "text": "headers", "isCorrect": true },
+        { "text": "backend_headers", "isCorrect": false },
+        { "text": "remote_headers", "isCorrect": false },
+        { "text": "http_headers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend for Terraform, and you want to specify a timeout for locking operations. Which meta-argument is used to set the timeout for locking?",
+      "answers": [
+        { "text": "locking_timeout", "isCorrect": false },
+        { "text": "backend_locking_timeout", "isCorrect": false },
+        { "text": "remote_locking_timeout", "isCorrect": false },
+        { "text": "lock_timeout", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are configuring a remote backend, and you want to enable server-side encryption for stored state files. Which meta-argument is used to enable server-side encryption?",
+      "answers": [
+        { "text": "enable_server_encryption", "isCorrect": false },
+        { "text": "backend_server_encryption", "isCorrect": false },
+        { "text": "remote_server_encryption", "isCorrect": false },
+        { "text": "server_encryption", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You want to use a remote backend, and you need to specify a username for HTTP authentication. Which meta-argument is used to set the username?",
+      "answers": [
+        { "text": "username", "isCorrect": true },
+        { "text": "backend_username", "isCorrect": false },
+        { "text": "remote_username", "isCorrect": false },
+        { "text": "http_username", "isCorrect": false }
+      ]
+    }
+]

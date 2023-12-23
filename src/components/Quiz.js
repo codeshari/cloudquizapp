@@ -1,7 +1,6 @@
 // src/components/Quiz.js
 
 import React, { useState, useEffect } from 'react';
-import ScorePopup from './ScorePopup';
 import QuizResult from './QuizResult';
 import './Quiz.css';
 
@@ -142,9 +141,7 @@ const Quiz = ({ questions, onConceptChange }) => {
           )}
         </>
       )}
-      {showScorePopup && (
-        <ScorePopup score={score} totalQuestions={shuffledQuestions.length} onReset={resetQuiz} />
-      )}
+
     </div>
   );
 };

@@ -23,7 +23,6 @@ const SRoutes = () => {
     <Router>
       <Routes>
         <Route path="/" exact element={<App/>} />
-        <Route path="/cloudquizapp" exact element={<App/>} />
         <Route path="/awsconceptselection" exact element={<Layout><AWSConceptSelection/></Layout>} />
         <Route path="/awshome" exact element={<Layout><AWSHome/></Layout>} />
         <Route path="/gcpconceptselection" exact element={<Layout><GCPConceptSelection/></Layout>} />

@@ -1,0 +1,291 @@
+[
+    {
+      "question": "What is Terraform Cloud?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A version control system", "isCorrect": false },
+        { "text": "A hosted service for Terraform workflows", "isCorrect": true },
+        { "text": "A cloud computing platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Terraform Cloud workspaces?",
+      "answers": [
+        { "text": "To store Terraform configurations locally", "isCorrect": false },
+        { "text": "To organize and manage Terraform configurations", "isCorrect": true },
+        { "text": "To provide access to cloud storage buckets", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Terraform Cloud component is responsible for storing and versioning configurations?",
+      "answers": [
+        { "text": "Terraform CLI", "isCorrect": false },
+        { "text": "State file", "isCorrect": false },
+        { "text": "Workspace", "isCorrect": true },
+        { "text": "Module registry", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of a Terraform Cloud organization?",
+      "answers": [
+        { "text": "It represents a cloud provider organization", "isCorrect": false },
+        { "text": "It is a logical grouping of Terraform Cloud workspaces", "isCorrect": true },
+        { "text": "It defines Terraform provider configurations", "isCorrect": false },
+        { "text": "It represents a user organization in Terraform CLI", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Terraform Cloud manage remote state?",
+      "answers": [
+        { "text": "Stores it locally on the user's machine", "isCorrect": false },
+        { "text": "Stores it in a version control system", "isCorrect": false },
+        { "text": "Stores it in a backend service and locks it during operations", "isCorrect": true },
+        { "text": "Shares it publicly on the Terraform Module Registry", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Terraform Cloud Sentinel policy?",
+      "answers": [
+        { "text": "To manage API keys", "isCorrect": false },
+        { "text": "To enforce governance and compliance rules", "isCorrect": true },
+        { "text": "To define provider configurations", "isCorrect": false },
+        { "text": "To create custom Terraform providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication method is commonly used for Terraform Cloud?",
+      "answers": [
+        { "text": "Username and password", "isCorrect": false },
+        { "text": "API tokens", "isCorrect": true },
+        { "text": "SSH keys", "isCorrect": false },
+        { "text": "OAuth 2.0", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Terraform Cloud's VCS (Version Control System) integration?",
+      "answers": [
+        { "text": "To store Terraform configurations", "isCorrect": false },
+        { "text": "To integrate with cloud providers", "isCorrect": false },
+        { "text": "To manage Terraform state files", "isCorrect": false },
+        { "text": "To link workspaces with a version control repository", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Terraform Cloud feature enables collaboration on Terraform configurations?",
+      "answers": [
+        { "text": "State locking", "isCorrect": false },
+        { "text": "Collaborator access", "isCorrect": true },
+        { "text": "API tokens", "isCorrect": false },
+        { "text": "Module registry", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary benefit of using Terraform Cloud workspaces?",
+      "answers": [
+        { "text": "Local development and testing", "isCorrect": false },
+        { "text": "Isolation of configurations and state", "isCorrect": true },
+        { "text": "Access to cloud provider APIs", "isCorrect": false },
+        { "text": "Automatic infrastructure deployment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are using Terraform Cloud to manage your infrastructure. What is the primary purpose of Terraform Cloud?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To store and manage Terraform state remotely", "isCorrect": true },
+        { "text": "To execute Terraform configurations locally", "isCorrect": false },
+        { "text": "To define resource dependencies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: In Terraform Cloud, what is a workspace?",
+      "answers": [
+        { "text": "A folder on your local machine", "isCorrect": false },
+        { "text": "An isolated environment for Terraform configurations", "isCorrect": true },
+        { "text": "A data storage location for Terraform state", "isCorrect": false },
+        { "text": "A directory containing Terraform configuration files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to collaborate with a team using Terraform Cloud. What feature allows multiple users to work on the same set of Terraform configurations?",
+      "answers": [
+        { "text": "Terraform Spaces", "isCorrect": false },
+        { "text": "Terraform Teams", "isCorrect": true },
+        { "text": "Terraform Groups", "isCorrect": false },
+        { "text": "Terraform Collaboration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have sensitive information such as API keys in your Terraform configuration. How can you handle this in Terraform Cloud?",
+      "answers": [
+        { "text": "Hardcode the sensitive information in the configuration", "isCorrect": false },
+        { "text": "Use the 'sensitive' argument in resource blocks", "isCorrect": false },
+        { "text": "Store sensitive information as environment variables in Terraform Cloud", "isCorrect": true },
+        { "text": "Encrypt the Terraform configuration files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to trigger a Terraform run automatically whenever a new commit is pushed to a specific branch in your version control system. What feature of Terraform Cloud can you leverage?",
+      "answers": [
+        { "text": "Webhooks", "isCorrect": true },
+        { "text": "Triggers", "isCorrect": false },
+        { "text": "Automation Rules", "isCorrect": false },
+        { "text": "Continuous Integration (CI)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have made changes to your Terraform configuration, and you want to preview the changes before applying them. Which command should you use in Terraform Cloud?",
+      "answers": [
+        { "text": "terraform apply", "isCorrect": false },
+        { "text": "terraform plan", "isCorrect": true },
+        { "text": "terraform validate", "isCorrect": false },
+        { "text": "terraform preview", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: In Terraform Cloud, you want to define a variable that can be set differently for each workspace. Which type of variable should you use?",
+      "answers": [
+        { "text": "Environment variable", "isCorrect": false },
+        { "text": "Input variable", "isCorrect": false },
+        { "text": "Workspace variable", "isCorrect": true },
+        { "text": "Local variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a project with multiple environments (e.g., dev, staging, prod) in Terraform Cloud. What is the recommended way to manage configuration differences between environments?",
+      "answers": [
+        { "text": "Use conditional statements in Terraform configurations", "isCorrect": false },
+        { "text": "Create separate Terraform configurations for each environment", "isCorrect": false },
+        { "text": "Use Terraform workspaces and workspace-specific variables", "isCorrect": true },
+        { "text": "Hardcode environment-specific values in Terraform configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to enforce a policy that requires manual approval before applying changes in Terraform Cloud. Which feature allows you to achieve this?",
+      "answers": [
+        { "text": "Terraform Policy as Code (PaC)", "isCorrect": false },
+        { "text": "Terraform Approval Workflow", "isCorrect": true },
+        { "text": "Terraform Governance Rules", "isCorrect": false },
+        { "text": "Terraform Manual Apply", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a large infrastructure managed by Terraform Cloud, and you want to categorize resources for better organization. What feature can you use?",
+      "answers": [
+        { "text": "Terraform Labels", "isCorrect": true },
+        { "text": "Terraform Tags", "isCorrect": false },
+        { "text": "Terraform Categories", "isCorrect": false },
+        { "text": "Terraform Resource Groups", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to share Terraform state across multiple workspaces in Terraform Cloud. What backend type should you use for storing Terraform state?",
+      "answers": [
+        { "text": "Local", "isCorrect": false },
+        { "text": "S3", "isCorrect": false },
+        { "text": "Terraform Cloud (Remote)", "isCorrect": true },
+        { "text": "Azure Blob Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to destroy resources managed by Terraform Cloud, but you want to preview the changes first. Which command should you use?",
+      "answers": [
+        { "text": "terraform destroy", "isCorrect": false },
+        { "text": "terraform plan -destroy", "isCorrect": false },
+        { "text": "terraform plan -destroy -out=destroy.tfplan", "isCorrect": true },
+        { "text": "terraform apply -destroy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to automate the provisioning of infrastructure in Terraform Cloud using a CI/CD pipeline. What integration method can you use for this purpose?",
+      "answers": [
+        { "text": "Manual integration using webhooks", "isCorrect": false },
+        { "text": "Terraform CLI integration", "isCorrect": false },
+        { "text": "API-driven integration", "isCorrect": true },
+        { "text": "Terraform Jenkins plugin", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a large project in Terraform Cloud with multiple teams. What is the recommended way to share common configurations and modules across teams?",
+      "answers": [
+        { "text": "Use shared Git repositories", "isCorrect": false },
+        { "text": "Create a centralized Terraform Cloud organization", "isCorrect": false },
+        { "text": "Use Terraform Registry modules", "isCorrect": true },
+        { "text": "Share configurations via email", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to enforce a policy that requires specific tags on resources in Terraform Cloud. What feature allows you to implement tag policies?",
+      "answers": [
+        { "text": "Terraform Resource Policies", "isCorrect": false },
+        { "text": "Terraform Tags Enforcement", "isCorrect": false },
+        { "text": "Terraform Governance Rules", "isCorrect": true },
+        { "text": "Terraform Tagging Module", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have multiple teams working on different parts of the infrastructure in Terraform Cloud. How can you enforce that each team can only modify their designated workspaces?",
+      "answers": [
+        { "text": "Use Terraform ACLs (Access Control Lists)", "isCorrect": false },
+        { "text": "Assign specific users to each workspace", "isCorrect": false },
+        { "text": "Use Terraform Sentinel Policies", "isCorrect": false },
+        { "text": "Use Terraform Workspace Permissions", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You want to integrate Terraform Cloud with your existing CI/CD pipeline that uses Jenkins. What steps would you take?",
+      "answers": [
+        { "text": "Manually trigger Terraform runs from Jenkins", "isCorrect": false },
+        { "text": "Use Jenkins Terraform plugin for direct integration", "isCorrect": false },
+        { "text": "Set up a webhook in Terraform Cloud and configure Jenkins to listen for events", "isCorrect": true },
+        { "text": "Use Terraform CLI commands in Jenkins pipeline scripts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are setting up Terraform Cloud for a project with multiple environments. How can you ensure that each environment has its own set of variables in Terraform Cloud?",
+      "answers": [
+        { "text": "Use environment-specific variable files", "isCorrect": false },
+        { "text": "Define variables in each workspace", "isCorrect": true },
+        { "text": "Use the same variables for all workspaces", "isCorrect": false },
+        { "text": "Hardcode environment-specific values in Terraform configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Terraform Cloud workspace that deploys resources to both AWS and Azure. How can you manage provider-specific configurations for this workspace?",
+      "answers": [
+        { "text": "Use conditional statements in Terraform configurations", "isCorrect": false },
+        { "text": "Create separate workspaces for AWS and Azure", "isCorrect": true },
+        { "text": "Use provider-specific variable files", "isCorrect": false },
+        { "text": "Hardcode provider-specific values in Terraform configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to enforce a policy that prohibits the use of specific resources in Terraform Cloud. What feature allows you to implement resource blacklisting?",
+      "answers": [
+        { "text": "Terraform Resource Policies", "isCorrect": true },
+        { "text": "Terraform Governance Rules", "isCorrect": false },
+        { "text": "Terraform Blacklist Module", "isCorrect": false },
+        { "text": "Terraform Sentinel Policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are working on a project where certain resources need to be created manually before applying Terraform configurations. How can you achieve this in Terraform Cloud?",
+      "answers": [
+        { "text": "Use Terraform Manual Apply", "isCorrect": false },
+        { "text": "Manually create resources before running Terraform", "isCorrect": false },
+        { "text": "Use Terraform Workspace Dependencies", "isCorrect": true },
+        { "text": "Use Terraform Post-Apply Scripts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that specific policies are enforced for each workspace in Terraform Cloud. What feature allows you to define and manage these policies?",
+      "answers": [
+        { "text": "Terraform Workspace Policies", "isCorrect": false },
+        { "text": "Terraform Governance Policies", "isCorrect": false },
+        { "text": "Terraform Sentinel Policies", "isCorrect": true },
+        { "text": "Terraform Workspace Rules", "isCorrect": false }
+      ]
+    }
+  ]
+  
