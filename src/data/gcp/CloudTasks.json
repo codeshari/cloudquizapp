@@ -1,0 +1,245 @@
+[
+    {
+        "question": "What is Google Cloud Tasks?",
+        "answers": [
+            { "text": "A cloud-based file storage service", "isCorrect": false },
+            { "text": "A managed task execution service", "isCorrect": true },
+            { "text": "A cloud-based virtual machine service", "isCorrect": false },
+            { "text": "A cloud networking service", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which messaging service is integrated with Google Cloud Tasks?",
+        "answers": [
+            { "text": "Cloud Storage", "isCorrect": false },
+            { "text": "Cloud Pub/Sub", "isCorrect": true },
+            { "text": "Cloud SQL", "isCorrect": false },
+            { "text": "Cloud Firestore", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the maximum allowed task size in Google Cloud Tasks?",
+        "answers": [
+            { "text": "1 MB", "isCorrect": false },
+            { "text": "5 MB", "isCorrect": true },
+            { "text": "10 MB", "isCorrect": false },
+            { "text": "50 MB", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which HTTP method can be used to create a task in Google Cloud Tasks?",
+        "answers": [
+            { "text": "GET", "isCorrect": false },
+            { "text": "POST", "isCorrect": true },
+            { "text": "PUT", "isCorrect": false },
+            { "text": "DELETE", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Cloud Tasks pull queue?",
+        "answers": [
+            { "text": "To push tasks to subscribers", "isCorrect": false },
+            { "text": "To pull tasks from the queue", "isCorrect": true },
+            { "text": "To manage Cloud Storage objects", "isCorrect": false },
+            { "text": "To execute SQL queries in the cloud", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which authentication method is used by default for Cloud Tasks?",
+        "answers": [
+            { "text": "API keys", "isCorrect": false },
+            { "text": "OAuth 2.0 tokens", "isCorrect": true },
+            { "text": "Identity and Access Management (IAM)", "isCorrect": false },
+            { "text": "Firebase authentication", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the maximum retention period for a task in a Cloud Tasks queue?",
+        "answers": [
+            { "text": "1 day", "isCorrect": false },
+            { "text": "7 days", "isCorrect": true },
+            { "text": "30 days", "isCorrect": false },
+            { "text": "90 days", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "How are Cloud Tasks queues created?",
+        "answers": [
+            { "text": "Automatically when a new task is added", "isCorrect": false },
+            { "text": "Through the Cloud Tasks API or Console", "isCorrect": true },
+            { "text": "By defining them in the application code", "isCorrect": false },
+            { "text": "By using predefined templates", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Cloud Tasks App Engine handler?",
+        "answers": [
+            { "text": "To manage DNS records for tasks", "isCorrect": false },
+            { "text": "To handle tasks from Cloud Tasks in App Engine", "isCorrect": true },
+            { "text": "To deploy Cloud Functions for task execution", "isCorrect": false },
+            { "text": "To create virtual machines for task processing", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "How does Cloud Tasks handle retries for failed tasks?",
+        "answers": [
+            { "text": "It retries tasks indefinitely until they succeed", "isCorrect": false },
+            { "text": "It retries tasks with exponential backoff", "isCorrect": true },
+            { "text": "It discards failed tasks without retries", "isCorrect": false },
+            { "text": "It waits for manual intervention to retry tasks", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which parameter is used to specify the target URL for a Cloud Tasks HTTP request?",
+        "answers": [
+            { "text": "task_url", "isCorrect": false },
+            { "text": "request_url", "isCorrect": false },
+            { "text": "target_url", "isCorrect": true },
+            { "text": "endpoint_url", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of Cloud Tasks' Cloud Storage handler?",
+        "answers": [
+            { "text": "To store tasks in a Cloud Storage bucket", "isCorrect": false },
+            { "text": "To process tasks stored in Cloud Storage", "isCorrect": true },
+            { "text": "To trigger Cloud Tasks from Cloud Storage events", "isCorrect": false },
+            { "text": "To manage Cloud Storage permissions for tasks", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which Google Cloud service is suitable for scheduling and running background tasks in a serverless environment?",
+        "answers": [
+            { "text": "Cloud Scheduler", "isCorrect": false },
+            { "text": "Cloud Functions", "isCorrect": false },
+            { "text": "Cloud Tasks", "isCorrect": true },
+            { "text": "Cloud Workflows", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the primary use case for Cloud Tasks' Cloud SQL handler?",
+        "answers": [
+            { "text": "To manage Cloud SQL instances", "isCorrect": false },
+            { "text": "To store tasks in Cloud SQL databases", "isCorrect": true },
+            { "text": "To create Cloud SQL backups for tasks", "isCorrect": false },
+            { "text": "To trigger tasks based on Cloud SQL events", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which parameter is used to set the maximum retry duration for a task in Cloud Tasks?",
+        "answers": [
+            { "text": "max_retry_duration", "isCorrect": true },
+            { "text": "retry_timeout", "isCorrect": false },
+            { "text": "task_retry_duration", "isCorrect": false },
+            { "text": "max_task_retry", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of Cloud Tasks' Cloud Pub/Sub handler?",
+        "answers": [
+            { "text": "To publish tasks to Cloud Pub/Sub topics", "isCorrect": false },
+            { "text": "To consume tasks from Cloud Pub/Sub subscriptions", "isCorrect": true },
+            { "text": "To manage Cloud Pub/Sub access for tasks", "isCorrect": false },
+            { "text": "To trigger tasks based on Cloud Pub/Sub events", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In Cloud Tasks, what is the role of a worker in the context of task execution?",
+        "answers": [
+            { "text": "A user with administrative privileges", "isCorrect": false },
+            { "text": "A process or function that executes tasks", "isCorrect": true },
+            { "text": "A task scheduling algorithm", "isCorrect": false },
+            { "text": "A component for task monitoring", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "How does Cloud Tasks handle task deduplication?",
+        "answers": [
+            { "text": "It does not support task deduplication", "isCorrect": false },
+            { "text": "By automatically deduplicating tasks with the same ID", "isCorrect": false },
+            { "text": "By using a deduplication interval specified in the queue settings", "isCorrect": true },
+            { "text": "By requiring explicit deduplication API calls", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which parameter is used to specify the maximum task dispatch rate for a Cloud Tasks queue?",
+        "answers": [
+            { "text": "max_dispatch_rate", "isCorrect": true },
+            { "text": "task_rate_limit", "isCorrect": false },
+            { "text": "dispatch_speed", "isCorrect": false },
+            { "text": "queue_throughput_limit", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of Cloud Tasks' Cloud Firestore handler?",
+        "answers": [
+            { "text": "To manage Cloud Firestore documents", "isCorrect": false },
+            { "text": "To store tasks in Cloud Firestore collections", "isCorrect": true },
+            { "text": "To trigger tasks based on Cloud Firestore events", "isCorrect": false },
+            { "text": "To perform SQL queries on Cloud Firestore data", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which parameter is used to set the maximum task dispatch rate for a Cloud Tasks queue?",
+        "answers": [
+            { "text": "max_dispatch_rate", "isCorrect": true },
+            { "text": "task_rate_limit", "isCorrect": false },
+            { "text": "dispatch_speed", "isCorrect": false },
+            { "text": "queue_throughput_limit", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In Cloud Tasks, what is the purpose of the target type parameter?",
+        "answers": [
+            { "text": "To specify the type of payload in a task", "isCorrect": false },
+            { "text": "To define the type of authentication used for a task", "isCorrect": false },
+            { "text": "To indicate the type of the task target (e.g., HTTP or App Engine)", "isCorrect": true },
+            { "text": "To set the content type for task payloads", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of Cloud Tasks' Cloud Functions handler?",
+        "answers": [
+            { "text": "To create and manage Cloud Functions", "isCorrect": false },
+            { "text": "To execute Cloud Functions in response to tasks", "isCorrect": true },
+            { "text": "To deploy Cloud Functions for task processing", "isCorrect": false },
+            { "text": "To trigger Cloud Tasks based on Cloud Functions events", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which parameter is used to specify the maximum task dispatch rate for a Cloud Tasks queue?",
+        "answers": [
+            { "text": "max_dispatch_rate", "isCorrect": true },
+            { "text": "task_rate_limit", "isCorrect": false },
+            { "text": "dispatch_speed", "isCorrect": false },
+            { "text": "queue_throughput_limit", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Cloud Tasks Cloud Spanner handler?",
+        "answers": [
+            { "text": "To manage Cloud Spanner databases", "isCorrect": false },
+            { "text": "To store tasks in Cloud Spanner tables", "isCorrect": true },
+            { "text": "To execute SQL queries on Cloud Spanner data", "isCorrect": false },
+            { "text": "To trigger tasks based on Cloud Spanner events", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "Which parameter is used to specify the maximum task size for a Cloud Tasks queue?",
+        "answers": [
+            { "text": "max_task_size", "isCorrect": true },
+            { "text": "task_size_limit", "isCorrect": false },
+            { "text": "max_payload_size", "isCorrect": false },
+            { "text": "payload_limit", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Cloud Tasks Cloud Bigtable handler?",
+        "answers": [
+            { "text": "To manage Cloud Bigtable clusters", "isCorrect": false },
+            { "text": "To store tasks in Cloud Bigtable tables", "isCorrect": true },
+            { "text": "To execute SQL queries on Cloud Bigtable data", "isCorrect": false },
+            { "text": "To trigger tasks based on Cloud Bigtable events", "isCorrect": false }
+        ]
+    }
+]

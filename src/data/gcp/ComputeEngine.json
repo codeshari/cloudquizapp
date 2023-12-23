@@ -1,0 +1,454 @@
+[
+    {
+      "question": "What is Google Compute Engine?",
+      "answers": [
+        { "text": "A cloud-based development platform", "isCorrect": false },
+        { "text": "A scalable and flexible virtual machine service", "isCorrect": true },
+        { "text": "A serverless computing service", "isCorrect": false },
+        { "text": "A content delivery network service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of virtualization does Compute Engine use?",
+      "answers": [
+        { "text": "Paravirtualization", "isCorrect": false },
+        { "text": "Hardware-assisted virtualization", "isCorrect": true },
+        { "text": "Full virtualization", "isCorrect": false },
+        { "text": "Software-based virtualization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which operating systems are officially supported on Google Compute Engine?",
+      "answers": [
+        { "text": "Windows only", "isCorrect": false },
+        { "text": "Linux only", "isCorrect": false },
+        { "text": "Both Windows and Linux", "isCorrect": true },
+        { "text": "macOS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud Project?",
+      "answers": [
+        { "text": "To organize resources in a hierarchical structure", "isCorrect": false },
+        { "text": "To set up billing and manage access to Google Cloud resources", "isCorrect": true },
+        { "text": "To deploy applications", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the minimum size of a persistent disk on Compute Engine?",
+      "answers": [
+        { "text": "100 GB", "isCorrect": false },
+        { "text": "1 GB", "isCorrect": false },
+        { "text": "10 GB", "isCorrect": true },
+        { "text": "50 GB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following machine types is not predefined on Compute Engine?",
+      "answers": [
+        { "text": "n1-standard", "isCorrect": false },
+        { "text": "f1-micro", "isCorrect": false },
+        { "text": "g1-small", "isCorrect": false },
+        { "text": "m2-xlarge", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is a preemptible VM on Google Compute Engine?",
+      "answers": [
+        { "text": "A VM with a fixed, predictable cost", "isCorrect": false },
+        { "text": "A VM that runs on a predefined schedule", "isCorrect": false },
+        { "text": "A short-lived, cost-effective VM with no availability guarantees", "isCorrect": true },
+        { "text": "A VM with enhanced security features", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a custom image on Compute Engine?",
+      "answers": [
+        { "text": "An image with a unique file extension", "isCorrect": false },
+        { "text": "A publicly available image on the internet", "isCorrect": false },
+        { "text": "A user-created image that can be used to create VM instances", "isCorrect": true },
+        { "text": "An image with enhanced security features", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Compute Engine charge for preemptible VM instances?",
+      "answers": [
+        { "text": "Charged at a flat rate per hour", "isCorrect": false },
+        { "text": "Charged only when the instance is running", "isCorrect": false },
+        { "text": "Charged at a lower price compared to regular instances", "isCorrect": true },
+        { "text": "Charged based on the number of vCPUs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a Google Cloud Region?",
+      "answers": [
+        { "text": "A physical location where Google Cloud resources are stored", "isCorrect": true },
+        { "text": "A specific instance type on Compute Engine", "isCorrect": false },
+        { "text": "A type of virtual network", "isCorrect": false },
+        { "text": "A billing unit on Google Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you connect to a VM instance on Compute Engine?",
+      "answers": [
+        { "text": "Using a web browser only", "isCorrect": false },
+        { "text": "Using SSH or RDP protocols", "isCorrect": true },
+        { "text": "Using a direct physical connection", "isCorrect": false },
+        { "text": "Using a virtual console provided by Google Cloud Console", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud Identity and Access Management (IAM) in Compute Engine?",
+      "answers": [
+        { "text": "To manage the identity of VM instances", "isCorrect": false },
+        { "text": "To configure virtual networks", "isCorrect": false },
+        { "text": "To control access to Google Cloud resources", "isCorrect": true },
+        { "text": "To deploy applications on VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the default network type for VM instances on Compute Engine?",
+      "answers": [
+        { "text": "VPN (Virtual Private Network)", "isCorrect": false },
+        { "text": "VPC (Virtual Private Cloud)", "isCorrect": true },
+        { "text": "VLAN (Virtual Local Area Network)", "isCorrect": false },
+        { "text": "VDC (Virtual Data Center)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud Firewall?",
+      "answers": [
+        { "text": "To filter internet traffic for end-users", "isCorrect": false },
+        { "text": "To control access to VM instances based on IP addresses and ports", "isCorrect": true },
+        { "text": "To prevent distributed denial-of-service (DDoS) attacks", "isCorrect": false },
+        { "text": "To configure DNS settings for VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Google Cloud Deployment Manager?",
+      "answers": [
+        { "text": "A tool for managing Google Cloud billing", "isCorrect": false },
+        { "text": "A service for deploying and managing applications using templates", "isCorrect": true },
+        { "text": "A tool for creating custom VM images", "isCorrect": false },
+        { "text": "A service for monitoring VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud Snapshot?",
+      "answers": [
+        { "text": "A backup of a VM instance's RAM", "isCorrect": false },
+        { "text": "A backup of a VM instance's boot disk", "isCorrect": true },
+        { "text": "A snapshot of network traffic", "isCorrect": false },
+        { "text": "A snapshot of CPU usage metrics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum number of persistent disks that can be attached to a VM instance?",
+      "answers": [
+        { "text": "10", "isCorrect": false },
+        { "text": "25", "isCorrect": true },
+        { "text": "5", "isCorrect": false },
+        { "text": "Unlimited", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Google Kubernetes Engine (GKE)?",
+      "answers": [
+        { "text": "A managed machine learning service", "isCorrect": false },
+        { "text": "A managed Kubernetes service", "isCorrect": true },
+        { "text": "A service for managing databases", "isCorrect": false },
+        { "text": "A tool for analyzing big data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an instance template on Compute Engine?",
+      "answers": [
+        { "text": "To create custom VM images", "isCorrect": false },
+        { "text": "To store backups of VM instances", "isCorrect": false },
+        { "text": "To define the properties of VM instances", "isCorrect": true },
+        { "text": "To manage network traffic between VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Google Cloud's live migration feature?",
+      "answers": [
+        { "text": "A feature for automatically updating applications", "isCorrect": false },
+        { "text": "A feature for migrating VM instances across regions", "isCorrect": false },
+        { "text": "A feature for moving VM instances to other hosts without downtime", "isCorrect": true },
+        { "text": "A feature for scaling applications dynamically", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud Load Balancer?",
+      "answers": [
+        { "text": "To balance the load between physical servers in a data center", "isCorrect": false },
+        { "text": "To distribute traffic across multiple VM instances", "isCorrect": true },
+        { "text": "To optimize network latency for end-users", "isCorrect": false },
+        { "text": "To manage DNS settings for applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the difference between a regional and zonal Google Cloud Load Balancer?",
+      "answers": [
+        { "text": "Regional Load Balancer balances traffic across multiple regions, while Zonal Load Balancer operates within a single region", "isCorrect": false },
+        { "text": "Regional Load Balancer operates within a single region, while Zonal Load Balancer balances traffic across multiple regions", "isCorrect": false },
+        { "text": "Both Regional and Zonal Load Balancers operate within a single region", "isCorrect": false },
+        { "text": "Both Regional and Zonal Load Balancers balance traffic across multiple regions", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud CDN?",
+      "answers": [
+        { "text": "To control access to VM instances", "isCorrect": false },
+        { "text": "To optimize network latency for end-users by caching content at the edge", "isCorrect": true },
+        { "text": "To manage security policies for applications", "isCorrect": false },
+        { "text": "To monitor network traffic between VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Google Cloud handle data encryption for VM instances?",
+      "answers": [
+        { "text": "Data encryption is not supported on Google Cloud", "isCorrect": false },
+        { "text": "Data encryption is handled automatically for all VM instances", "isCorrect": false },
+        { "text": "Data encryption is a manual process that needs to be configured for each VM instance", "isCorrect": true },
+        { "text": "Data encryption is only available for specific machine types", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's managed instance groups?",
+      "answers": [
+        { "text": "To manually group VM instances for easier management", "isCorrect": false },
+        { "text": "To automatically scale the number of VM instances based on demand", "isCorrect": true },
+        { "text": "To create custom images from multiple VM instances", "isCorrect": false },
+        { "text": "To distribute traffic across multiple regions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of a preemptible VM instance's maximum 24-hour runtime?",
+      "answers": [
+        { "text": "Preemptible instances can only run for a maximum of 24 hours each day", "isCorrect": false },
+        { "text": "Preemptible instances are limited to 24 hours of runtime per week", "isCorrect": false },
+        { "text": "Preemptible instances can be terminated by Google Cloud after running for a maximum of 24 hours", "isCorrect": true },
+        { "text": "Preemptible instances have a guaranteed runtime of 24 hours", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's instance templates?",
+      "answers": [
+        { "text": "To create custom VM images", "isCorrect": false },
+        { "text": "To store backups of VM instances", "isCorrect": false },
+        { "text": "To define the properties of VM instances for use in managed instance groups", "isCorrect": true },
+        { "text": "To configure network settings for VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Google Cloud's live migration feature minimize downtime during maintenance?",
+      "answers": [
+        { "text": "By pausing VM instances during maintenance", "isCorrect": false },
+        { "text": "By migrating VM instances to other hosts without stopping them", "isCorrect": true },
+        { "text": "By scheduling maintenance only during non-business hours", "isCorrect": false },
+        { "text": "By automatically creating backups before maintenance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's health checks for load balancers?",
+      "answers": [
+        { "text": "To monitor the health of physical servers in a data center", "isCorrect": false },
+        { "text": "To monitor the health of individual VM instances in a load balancer pool", "isCorrect": true },
+        { "text": "To prevent DDoS attacks on load balancers", "isCorrect": false },
+        { "text": "To configure SSL certificates for load balancers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Google Cloud service is designed for running containerized applications?",
+      "answers": [
+        { "text": "Google Cloud Storage", "isCorrect": false },
+        { "text": "Google Cloud Pub/Sub", "isCorrect": false },
+        { "text": "Google Kubernetes Engine (GKE)", "isCorrect": true },
+        { "text": "Google Cloud Bigtable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud Snapshot?",
+      "answers": [
+        { "text": "A backup of a VM instance's RAM", "isCorrect": false },
+        { "text": "A backup of a VM instance's boot disk", "isCorrect": true },
+        { "text": "A snapshot of network traffic", "isCorrect": false },
+        { "text": "A snapshot of CPU usage metrics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a valid use case for preemptible VM instances?",
+      "answers": [
+        { "text": "Running mission-critical production workloads", "isCorrect": false },
+        { "text": "Running short-lived, fault-tolerant batch jobs", "isCorrect": true },
+        { "text": "Running databases with high availability requirements", "isCorrect": false },
+        { "text": "Running long-term, continuous services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Google Cloud's recommendation for improving the reliability of applications deployed on VM instances?",
+      "answers": [
+        { "text": "Deploy applications in a single zone for simplicity", "isCorrect": false },
+        { "text": "Use regional resources and distribute them across multiple zones", "isCorrect": true },
+        { "text": "Rely on preemptible VM instances for cost savings", "isCorrect": false },
+        { "text": "Disable automatic scaling to avoid unexpected changes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud VPC (Virtual Private Cloud)?",
+      "answers": [
+        { "text": "To provide physical servers for customers to manage", "isCorrect": false },
+        { "text": "To establish a secure connection to on-premises data centers", "isCorrect": true },
+        { "text": "To store large datasets for analysis", "isCorrect": false },
+        { "text": "To manage access control for Google Cloud Console", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Google Cloud Identity and Access Management (IAM) help secure resources on Compute Engine?",
+      "answers": [
+        { "text": "By encrypting data stored on persistent disks", "isCorrect": false },
+        { "text": "By preventing unauthorized access to VM instances", "isCorrect": true },
+        { "text": "By automatically creating secure backups of VM instances", "isCorrect": false },
+        { "text": "By monitoring network traffic between VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's Cloud DNS service?",
+      "answers": [
+        { "text": "To provide DNS services for on-premises data centers", "isCorrect": false },
+        { "text": "To manage IAM permissions for virtual machines", "isCorrect": false },
+        { "text": "To configure DNS settings for applications running on Google Cloud", "isCorrect": true },
+        { "text": "To optimize network latency for end-users", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Google Cloud service provides a fully managed, serverless data warehouse?",
+      "answers": [
+        { "text": "Google Cloud SQL", "isCorrect": false },
+        { "text": "Google Cloud Storage", "isCorrect": false },
+        { "text": "Google Cloud Bigtable", "isCorrect": false },
+        { "text": "Google BigQuery", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's managed instance groups?",
+      "answers": [
+        { "text": "To manually group VM instances for easier management", "isCorrect": false },
+        { "text": "To automatically scale the number of VM instances based on demand", "isCorrect": true },
+        { "text": "To create custom images from multiple VM instances", "isCorrect": false },
+        { "text": "To distribute traffic across multiple regions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of a preemptible VM instance's maximum 24-hour runtime?",
+      "answers": [
+        { "text": "Preemptible instances can only run for a maximum of 24 hours each day", "isCorrect": false },
+        { "text": "Preemptible instances are limited to 24 hours of runtime per week", "isCorrect": false },
+        { "text": "Preemptible instances can be terminated by Google Cloud after running for a maximum of 24 hours", "isCorrect": true },
+        { "text": "Preemptible instances have a guaranteed runtime of 24 hours", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's instance templates?",
+      "answers": [
+        { "text": "To create custom VM images", "isCorrect": false },
+        { "text": "To store backups of VM instances", "isCorrect": false },
+        { "text": "To define the properties of VM instances for use in managed instance groups", "isCorrect": true },
+        { "text": "To configure network settings for VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Google Cloud's live migration feature minimize downtime during maintenance?",
+      "answers": [
+        { "text": "By pausing VM instances during maintenance", "isCorrect": false },
+        { "text": "By migrating VM instances to other hosts without stopping them", "isCorrect": true },
+        { "text": "By scheduling maintenance only during non-business hours", "isCorrect": false },
+        { "text": "By automatically creating backups before maintenance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's health checks for load balancers?",
+      "answers": [
+        { "text": "To monitor the health of physical servers in a data center", "isCorrect": false },
+        { "text": "To monitor the health of individual VM instances in a load balancer pool", "isCorrect": true },
+        { "text": "To prevent DDoS attacks on load balancers", "isCorrect": false },
+        { "text": "To configure SSL certificates for load balancers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Google Cloud service is designed for running containerized applications?",
+      "answers": [
+        { "text": "Google Cloud Storage", "isCorrect": false },
+        { "text": "Google Cloud Pub/Sub", "isCorrect": false },
+        { "text": "Google Kubernetes Engine (GKE)", "isCorrect": true },
+        { "text": "Google Cloud Bigtable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud Snapshot?",
+      "answers": [
+        { "text": "A backup of a VM instance's RAM", "isCorrect": false },
+        { "text": "A backup of a VM instance's boot disk", "isCorrect": true },
+        { "text": "A snapshot of network traffic", "isCorrect": false },
+        { "text": "A snapshot of CPU usage metrics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a valid use case for preemptible VM instances?",
+      "answers": [
+        { "text": "Running mission-critical production workloads", "isCorrect": false },
+        { "text": "Running short-lived, fault-tolerant batch jobs", "isCorrect": true },
+        { "text": "Running databases with high availability requirements", "isCorrect": false },
+        { "text": "Running long-term, continuous services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Google Cloud's recommendation for improving the reliability of applications deployed on VM instances?",
+      "answers": [
+        { "text": "Deploy applications in a single zone for simplicity", "isCorrect": false },
+        { "text": "Use regional resources and distribute them across multiple zones", "isCorrect": true },
+        { "text": "Rely on preemptible VM instances for cost savings", "isCorrect": false },
+        { "text": "Disable automatic scaling to avoid unexpected changes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Google Cloud VPC (Virtual Private Cloud)?",
+      "answers": [
+        { "text": "To provide physical servers for customers to manage", "isCorrect": false },
+        { "text": "To establish a secure connection to on-premises data centers", "isCorrect": true },
+        { "text": "To store large datasets for analysis", "isCorrect": false },
+        { "text": "To manage access control for Google Cloud Console", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Google Cloud Identity and Access Management (IAM) help secure resources on Compute Engine?",
+      "answers": [
+        { "text": "By encrypting data stored on persistent disks", "isCorrect": false },
+        { "text": "By preventing unauthorized access to VM instances", "isCorrect": true },
+        { "text": "By automatically creating secure backups of VM instances", "isCorrect": false },
+        { "text": "By monitoring network traffic between VM instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Google Cloud's Cloud DNS service?",
+      "answers": [
+        { "text": "To provide DNS services for on-premises data centers", "isCorrect": false },
+        { "text": "To manage IAM permissions for virtual machines", "isCorrect": false },
+        { "text": "To configure DNS settings for applications running on Google Cloud", "isCorrect": true },
+        { "text": "To optimize network latency for end-users", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Google Cloud service provides a fully managed, serverless data warehouse?",
+      "answers": [
+        { "text": "Google Cloud SQL", "isCorrect": false },
+        { "text": "Google Cloud Storage", "isCorrect": false },
+        { "text": "Google Cloud Bigtable", "isCorrect": false },
+        { "text": "Google BigQuery", "isCorrect": true }
+      ]
+    }
+    ]
+    
+  

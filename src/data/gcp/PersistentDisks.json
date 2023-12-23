@@ -1,0 +1,506 @@
+[
+    {
+      "question": "What type of storage do GCP Persistent Disks provide?",
+      "answers": [
+        { "text": "Object storage", "isCorrect": false },
+        { "text": "Block storage", "isCorrect": true },
+        { "text": "File storage", "isCorrect": false },
+        { "text": "NoSQL storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of Persistent Disk offers lower latency and higher throughput?",
+      "answers": [
+        { "text": "Standard persistent disk", "isCorrect": false },
+        { "text": "SSD persistent disk", "isCorrect": true },
+        { "text": "Local SSD", "isCorrect": false },
+        { "text": "Snapshot", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum size of a single Persistent Disk in GCP?",
+      "answers": [
+        { "text": "1 TB", "isCorrect": false },
+        { "text": "10 TB", "isCorrect": false },
+        { "text": "64 TB", "isCorrect": true },
+        { "text": "100 TB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What happens to the data on a GCP Persistent Disk when you delete the associated instance?",
+      "answers": [
+        { "text": "Data is retained", "isCorrect": false },
+        { "text": "Data is deleted", "isCorrect": false },
+        { "text": "Data is moved to Cloud Storage", "isCorrect": false },
+        { "text": "Depends on the disk type", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which encryption option is available for GCP Persistent Disks?",
+      "answers": [
+        { "text": "Encryption at rest not supported", "isCorrect": false },
+        { "text": "Customer-Supplied Encryption Keys (CSEK)", "isCorrect": false },
+        { "text": "Google-managed encryption keys", "isCorrect": true },
+        { "text": "Only encryption in transit is supported", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a GCP Persistent Disk snapshot?",
+      "answers": [
+        { "text": "Create a new disk", "isCorrect": false },
+        { "text": "Back up data", "isCorrect": true },
+        { "text": "Increase disk size", "isCorrect": false },
+        { "text": "Encrypt the disk", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of GCP Persistent Disk can be dynamically resized?",
+      "answers": [
+        { "text": "Standard persistent disk", "isCorrect": false },
+        { "text": "SSD persistent disk", "isCorrect": false },
+        { "text": "Local SSD", "isCorrect": false },
+        { "text": "Regional persistent disk", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the maximum number of read IOPS for a GCP Standard persistent disk?",
+      "answers": [
+        { "text": "500 IOPS", "isCorrect": false },
+        { "text": "1,000 IOPS", "isCorrect": true },
+        { "text": "5,000 IOPS", "isCorrect": false },
+        { "text": "10,000 IOPS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In which GCP region is Persistent Disk data encrypted by default?",
+      "answers": [
+        { "text": "You must manually enable encryption", "isCorrect": false },
+        { "text": "Only in the us-central1 region", "isCorrect": false },
+        { "text": "In all regions", "isCorrect": true },
+        { "text": "Only in the europe-west1 region", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of Persistent Disk is suitable for high-performance databases and analytics workloads?",
+      "answers": [
+        { "text": "Standard persistent disk", "isCorrect": false },
+        { "text": "SSD persistent disk", "isCorrect": true },
+        { "text": "Local SSD", "isCorrect": false },
+        { "text": "Regional persistent disk", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of GCP Persistent Disk snapshots?",
+      "answers": [
+        { "text": "Back up data", "isCorrect": true },
+        { "text": "Increase disk size", "isCorrect": false },
+        { "text": "Encrypt the disk", "isCorrect": false },
+        { "text": "Move data to a different region", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which API can be used to manage GCP Persistent Disks programmatically?",
+      "answers": [
+        { "text": "Compute Engine API", "isCorrect": true },
+        { "text": "Storage API", "isCorrect": false },
+        { "text": "Networking API", "isCorrect": false },
+        { "text": "Disk API", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'forceAttach' flag when attaching a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Forcefully detach the disk", "isCorrect": false },
+        { "text": "Ignore read-only mode", "isCorrect": false },
+        { "text": "Forcefully attach the disk even if it's already attached", "isCorrect": true },
+        { "text": "Enable encryption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum number of write IOPS for a GCP SSD persistent disk?",
+      "answers": [
+        { "text": "500 IOPS", "isCorrect": false },
+        { "text": "1,000 IOPS", "isCorrect": false },
+        { "text": "5,000 IOPS", "isCorrect": true },
+        { "text": "10,000 IOPS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'mode' parameter when attaching a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Read-only mode", "isCorrect": true },
+        { "text": "Write-only mode", "isCorrect": false },
+        { "text": "Encryption mode", "isCorrect": false },
+        { "text": "Compression mode", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What happens to the data on a GCP Persistent Disk when the disk is deleted?",
+      "answers": [
+        { "text": "Data is retained", "isCorrect": false },
+        { "text": "Data is deleted", "isCorrect": true },
+        { "text": "Data is moved to Cloud Storage", "isCorrect": false },
+        { "text": "Depends on the disk type", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which GCP service allows you to take automatic snapshots of Persistent Disks?",
+      "answers": [
+        { "text": "Cloud Storage", "isCorrect": false },
+        { "text": "Compute Engine", "isCorrect": true },
+        { "text": "Cloud SQL", "isCorrect": false },
+        { "text": "Cloud Monitoring", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'deviceName' parameter when attaching a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Specify the device type", "isCorrect": false },
+        { "text": "Set the disk label", "isCorrect": false },
+        { "text": "Set the disk size", "isCorrect": false },
+        { "text": "Assign a unique name to the device", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which GCP command-line tool can be used to create a new Persistent Disk?",
+      "answers": [
+        { "text": "gcloud compute regions create-disk", "isCorrect": false },
+        { "text": "gcloud compute disks create", "isCorrect": true },
+        { "text": "gcloud storage create disk", "isCorrect": false },
+        { "text": "gcloud compute disk new", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'sourceSnapshot' parameter when creating a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Specify the disk size", "isCorrect": false },
+        { "text": "Copy data from an existing snapshot", "isCorrect": true },
+        { "text": "Enable encryption", "isCorrect": false },
+        { "text": "Set the disk label", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which GCP Persistent Disk type provides the highest durability?",
+      "answers": [
+        { "text": "Standard persistent disk", "isCorrect": false },
+        { "text": "SSD persistent disk", "isCorrect": false },
+        { "text": "Regional persistent disk", "isCorrect": false },
+        { "text": "Snapshot", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'type' parameter when creating a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Set the disk size", "isCorrect": false },
+        { "text": "Specify the disk type", "isCorrect": true },
+        { "text": "Enable encryption", "isCorrect": false },
+        { "text": "Set the disk label", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which GCP API can be used to retrieve information about Persistent Disks?",
+      "answers": [
+        { "text": "Compute Engine API", "isCorrect": true },
+        { "text": "Storage API", "isCorrect": false },
+        { "text": "Networking API", "isCorrect": false },
+        { "text": "Disk API", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'autoDelete' parameter when attaching a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Automatically delete the disk when the instance is deleted", "isCorrect": true },
+        { "text": "Automatically delete the instance when the disk is deleted", "isCorrect": false },
+        { "text": "Enable automatic encryption", "isCorrect": false },
+        { "text": "Enable automatic snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which GCP region provides the highest availability for Persistent Disks?",
+      "answers": [
+        { "text": "us-central1", "isCorrect": false },
+        { "text": "asia-southeast1", "isCorrect": false },
+        { "text": "europe-west1", "isCorrect": false },
+        { "text": "global", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'replicaZones' parameter when creating a Regional Persistent Disk?",
+      "answers": [
+        { "text": "Set the disk size", "isCorrect": false },
+        { "text": "Specify the number of replicas", "isCorrect": false },
+        { "text": "Specify the zones for replicas", "isCorrect": true },
+        { "text": "Enable encryption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which GCP command-line tool can be used to resize a Persistent Disk?",
+      "answers": [
+        { "text": "gcloud compute disks resize", "isCorrect": true },
+        { "text": "gcloud storage resize disk", "isCorrect": false },
+        { "text": "gcloud disk resize", "isCorrect": false },
+        { "text": "gcloud compute disks update", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'labels' parameter when creating a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Assign a unique name to the device", "isCorrect": false },
+        { "text": "Specify the disk type", "isCorrect": false },
+        { "text": "Set custom metadata for the disk", "isCorrect": true },
+        { "text": "Enable encryption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which GCP service allows you to take automatic snapshots of Persistent Disks at scheduled intervals?",
+      "answers": [
+        { "text": "Cloud Storage", "isCorrect": false },
+        { "text": "Compute Engine", "isCorrect": true },
+        { "text": "Cloud SQL", "isCorrect": false },
+        { "text": "Cloud Monitoring", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'boot' flag when attaching a GCP Persistent Disk?",
+      "answers": [
+        { "text": "Mark the disk as a bootable device", "isCorrect": true },
+        { "text": "Enable encryption", "isCorrect": false },
+        { "text": "Automatically delete the disk when the instance is deleted", "isCorrect": false },
+        { "text": "Enable automatic snapshots", "isCorrect": false }
+      ]
+    },
+    {
+        "question": "You need to ensure high-performance storage for a database workload in Google Cloud. Which type of Persistent Disk is most suitable?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In a scenario where you require balanced performance and cost for storage in Google Cloud, which Persistent Disk type should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": true },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to optimize storage costs by choosing a cost-effective but slower storage option in Google Cloud. Which Persistent Disk type should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": true },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "How can you resize a Persistent Disk in Google Cloud after it has been created?",
+        "answers": [
+            { "text": "Resize is not supported for Persistent Disks", "isCorrect": false },
+            { "text": "Use the Google Cloud Console to manually change the size", "isCorrect": true },
+            { "text": "Detach the disk, modify the size, and reattach it to the instance", "isCorrect": false },
+            { "text": "Run a command within the instance to dynamically resize the disk", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You have an application that requires low-latency storage with high IOPS (Input/Output Operations Per Second) in Google Cloud. Which Persistent Disk type is recommended?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to persist data even if the associated instance is deleted in Google Cloud, what type of storage should you use?",
+        "answers": [
+            { "text": "Local SSD", "isCorrect": false },
+            { "text": "Standard Persistent Disk", "isCorrect": true },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to improve the read and write performance of storage for your virtual machine in Google Cloud. Which action should you take?",
+        "answers": [
+            { "text": "Increase the number of vCPUs for the instance", "isCorrect": false },
+            { "text": "Use a faster network connection for the instance", "isCorrect": false },
+            { "text": "Upgrade to an SSD Persistent Disk", "isCorrect": true },
+            { "text": "Add more memory (RAM) to the instance", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of a Snapshot in Google Cloud Persistent Disk?",
+        "answers": [
+            { "text": "To create a duplicate of the entire disk", "isCorrect": false },
+            { "text": "To capture a point-in-time copy of the disk's data", "isCorrect": true },
+            { "text": "To convert the disk to a different disk type", "isCorrect": false },
+            { "text": "To share the disk with another project", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to create a backup of a Persistent Disk in Google Cloud that can be used to create a new disk in a different region. What feature should you use?",
+        "answers": [
+            { "text": "Snapshot", "isCorrect": true },
+            { "text": "Persistent Disk Replication", "isCorrect": false },
+            { "text": "Disk Cloning", "isCorrect": false },
+            { "text": "Data Transfer Service", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "How can you share a Snapshot of a Persistent Disk in Google Cloud with another project?",
+        "answers": [
+            { "text": "Manually copy the Snapshot to the other project", "isCorrect": false },
+            { "text": "Export the Snapshot to Cloud Storage and share the link", "isCorrect": false },
+            { "text": "Share the Snapshot with the other project using Cloud Identity and Access Management (IAM)", "isCorrect": true },
+            { "text": "Make the Snapshot public and accessible to all projects", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You need to encrypt the data on a Persistent Disk in Google Cloud to enhance security. What encryption option is available for Persistent Disks?",
+        "answers": [
+            { "text": "Encryption is not supported for Persistent Disks", "isCorrect": false },
+            { "text": "Use of a third-party encryption tool", "isCorrect": false },
+            { "text": "Customer-Supplied Encryption Keys (CSEK)", "isCorrect": true },
+            { "text": "Only encryption at rest with default keys", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to ensure that your data is stored redundantly in multiple locations to prevent data loss in Google Cloud. Which option should you choose when creating a Persistent Disk?",
+        "answers": [
+            { "text": "Regional Persistent Disk", "isCorrect": false },
+            { "text": "Zonal Persistent Disk", "isCorrect": true },
+            { "text": "Multi-Regional Persistent Disk", "isCorrect": false },
+            { "text": "Global Persistent Disk", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to balance cost and high availability for storage in Google Cloud, which option should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": true },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You are planning to deploy an application that requires extremely low-latency storage with high IOPS (Input/Output Operations Per Second) in Google Cloud. What type of storage should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You need to deploy an application in Google Cloud that requires both high IOPS (Input/Output Operations Per Second) and large storage capacity. What storage type should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Use a combination of SSD Persistent Disk and Standard Persistent Disk", "isCorrect": true }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to minimize latency for a storage-intensive workload in Google Cloud, what option should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to improve the performance of a disk in Google Cloud by using a high-speed, temporary block storage device. What type of storage should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": true }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to optimize storage costs while maintaining high performance in Google Cloud, what storage option should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": true },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to create a Persistent Disk in Google Cloud that provides high durability and availability. What storage type should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Regional Persistent Disk", "isCorrect": true }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to balance cost and high availability for storage in Google Cloud, which option should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": true },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to minimize the risk of data loss due to a regional failure in Google Cloud. What storage option should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Multi-Regional Persistent Disk", "isCorrect": true }
+        ]
+    },
+    {
+        "question": "You need to create a read-intensive storage solution for a big data analytics workload in Google Cloud. What storage type should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to store data that requires the lowest possible cost in Google Cloud, what storage option should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": true },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "You want to create a high-performance storage solution for a machine learning training workload in Google Cloud. What storage type should you choose?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "In a scenario where you need to store data that requires the highest durability and availability in Google Cloud, what storage option should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": false },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Regional Persistent Disk", "isCorrect": true }
+        ]
+    },
+    {
+        "question": "You need to deploy an application that requires extremely low-latency storage with high IOPS (Input/Output Operations Per Second) in Google Cloud. What type of storage should you consider?",
+        "answers": [
+            { "text": "Standard Persistent Disk", "isCorrect": false },
+            { "text": "SSD Persistent Disk", "isCorrect": true },
+            { "text": "HDD Persistent Disk", "isCorrect": false },
+            { "text": "Local SSD", "isCorrect": false }
+        ]
+    }
+]

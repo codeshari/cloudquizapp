@@ -1,0 +1,372 @@
+[
+    {
+      "question": "What is Google Cloud Spanner?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A relational database service", "isCorrect": true },
+        { "text": "A machine learning platform", "isCorrect": false },
+        { "text": "A serverless computing service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of database is Google Cloud Spanner classified as?",
+      "answers": [
+        { "text": "NoSQL database", "isCorrect": false },
+        { "text": "Document database", "isCorrect": false },
+        { "text": "Relational database", "isCorrect": true },
+        { "text": "Graph database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the key benefit of Google Cloud Spanner's global distribution?",
+      "answers": [
+        { "text": "Lower storage costs", "isCorrect": false },
+        { "text": "Improved data consistency", "isCorrect": false },
+        { "text": "Low-latency access to data worldwide", "isCorrect": true },
+        { "text": "Simplified data modeling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which consistency model does Google Cloud Spanner provide?",
+      "answers": [
+        { "text": "Eventual consistency", "isCorrect": false },
+        { "text": "Strong consistency", "isCorrect": true },
+        { "text": "Causal consistency", "isCorrect": false },
+        { "text": "Bounded staleness consistency", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum number of nodes (instances) in a Google Cloud Spanner instance?",
+      "answers": [
+        { "text": "10 nodes", "isCorrect": false },
+        { "text": "50 nodes", "isCorrect": false },
+        { "text": "100 nodes", "isCorrect": true },
+        { "text": "500 nodes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which query language is used in Google Cloud Spanner?",
+      "answers": [
+        { "text": "SQL", "isCorrect": true },
+        { "text": "NoSQL", "isCorrect": false },
+        { "text": "GraphQL", "isCorrect": false },
+        { "text": "Cypher", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a interleaved table in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Store non-relational data", "isCorrect": false },
+        { "text": "Improve query performance", "isCorrect": true },
+        { "text": "Enable horizontal scaling", "isCorrect": false },
+        { "text": "Replicate data across regions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Google Cloud service is integrated with Google Cloud Spanner for identity and access management?",
+      "answers": [
+        { "text": "Cloud Storage", "isCorrect": false },
+        { "text": "Cloud Identity Platform", "isCorrect": false },
+        { "text": "Cloud IAM", "isCorrect": true },
+        { "text": "Cloud Identity-Aware Proxy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of sharding in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Store backup copies of data", "isCorrect": false },
+        { "text": "Improve query performance", "isCorrect": false },
+        { "text": "Enable data distribution across nodes", "isCorrect": true },
+        { "text": "Encrypt data at rest", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of indexes are automatically created for primary key columns in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Secondary indexes", "isCorrect": false },
+        { "text": "Unique indexes", "isCorrect": false },
+        { "text": "B-tree indexes", "isCorrect": true },
+        { "text": "Bitmap indexes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the COMMIT timestamp in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Timestamp when the transaction starts", "isCorrect": false },
+        { "text": "Timestamp when the transaction ends", "isCorrect": false },
+        { "text": "Timestamp assigned to committed data", "isCorrect": true },
+        { "text": "Timestamp indicating data deletion", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which factor contributes to the global distribution of data in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Data partitioning", "isCorrect": false },
+        { "text": "Data sharding", "isCorrect": false },
+        { "text": "Replication across zones", "isCorrect": true },
+        { "text": "Use of NoSQL databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'instanceConfig' parameter when creating a Google Cloud Spanner instance?",
+      "answers": [
+        { "text": "Configure data retention policies", "isCorrect": false },
+        { "text": "Specify the machine type for nodes", "isCorrect": false },
+        { "text": "Set the instance configuration", "isCorrect": true },
+        { "text": "Enable multi-region replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which resource in Google Cloud Spanner is used to define the schema of a database?",
+      "answers": [
+        { "text": "Table", "isCorrect": false },
+        { "text": "Instance", "isCorrect": false },
+        { "text": "Database", "isCorrect": true },
+        { "text": "Index", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'staleness' parameter in a Google Cloud Spanner read request?",
+      "answers": [
+        { "text": "Specify the data consistency level", "isCorrect": false },
+        { "text": "Define the schema for the read operation", "isCorrect": false },
+        { "text": "Set the maximum allowed data staleness", "isCorrect": true },
+        { "text": "Enable transactional reads", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Google Cloud command-line tool can be used to interact with Google Cloud Spanner?",
+      "answers": [
+        { "text": "gcloud compute", "isCorrect": false },
+        { "text": "gsutil", "isCorrect": false },
+        { "text": "gcloud spanner", "isCorrect": true },
+        { "text": "gcloud storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'PARTITION BY' clause in a Google Cloud Spanner query?",
+      "answers": [
+        { "text": "Define data partitions for sharding", "isCorrect": false },
+        { "text": "Specify the instance partitioning strategy", "isCorrect": false },
+        { "text": "Set the partitioning key for a table", "isCorrect": false },
+        { "text": "Define the partitioning of result rows", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Google Cloud service is used for horizontal scaling of applications accessing Google Cloud Spanner?",
+      "answers": [
+        { "text": "Cloud Run", "isCorrect": false },
+        { "text": "App Engine", "isCorrect": false },
+        { "text": "Cloud Functions", "isCorrect": false },
+        { "text": "Compute Engine", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'NUMERIC' data type in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Store whole numbers", "isCorrect": false },
+        { "text": "Store decimal numbers", "isCorrect": false },
+        { "text": "Store floating-point numbers", "isCorrect": false },
+        { "text": "Store arbitrary-precision decimal numbers", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'INTERLEAVE IN PARENT' clause when creating tables in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Define foreign key relationships", "isCorrect": false },
+        { "text": "Specify the parent table", "isCorrect": false },
+        { "text": "Enable data interleaving", "isCorrect": true },
+        { "text": "Set the primary key for the table", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication method is commonly used for securing access to Google Cloud Spanner?",
+      "answers": [
+        { "text": "API keys", "isCorrect": false },
+        { "text": "OAuth 2.0", "isCorrect": true },
+        { "text": "Service accounts", "isCorrect": false },
+        { "text": "Access tokens", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'IAM roles' in Google Cloud Spanner?",
+      "answers": [
+        { "text": "Configure data partitioning", "isCorrect": false },
+        { "text": "Define schema for tables", "isCorrect": false },
+        { "text": "Control access to resources", "isCorrect": true },
+        { "text": "Set up replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum duration for a transaction in Google Cloud Spanner?",
+      "answers": [
+        { "text": "5 seconds", "isCorrect": false },
+        { "text": "10 seconds", "isCorrect": false },
+        { "text": "30 seconds", "isCorrect": true },
+        { "text": "1 minute", "isCorrect": false}
+      ]
+    },
+    {
+        "question": "An organization needs a globally distributed database with strong consistency. How can Google Cloud Spanner meet this requirement?",
+        "answers": [
+            { "text": "By using a traditional relational database with sharding", "isCorrect": false },
+            { "text": "By relying on eventual consistency for better performance", "isCorrect": false },
+            { "text": "By utilizing Google Cloud Spanner's globally distributed and strongly consistent architecture", "isCorrect": true },
+            { "text": "By replicating data across multiple regions without consistency guarantees", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company has a large dataset that requires horizontal scaling and global distribution. How does Google Cloud Spanner address the scalability and distribution needs of this dataset?",
+        "answers": [
+            { "text": "By using a single-node database with vertical scaling", "isCorrect": false },
+            { "text": "By relying on sharding for data distribution", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's automatic sharding and global distribution capabilities", "isCorrect": true },
+            { "text": "By storing the entire dataset in a single data center", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A financial institution needs a database that can handle complex transactions and provide ACID compliance. How can Google Cloud Spanner support the transactional requirements of the financial institution?",
+        "answers": [
+            { "text": "By using a NoSQL database with eventual consistency", "isCorrect": false },
+            { "text": "By implementing manual sharding for transactional data", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's support for distributed transactions and ACID compliance", "isCorrect": true },
+            { "text": "By replicating data across multiple regions without transactional support", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company wants to ensure high availability and disaster recovery for its database. How can Google Cloud Spanner contribute to achieving these goals?",
+        "answers": [
+            { "text": "By relying on a single-node database for simplicity", "isCorrect": false },
+            { "text": "By using a traditional relational database without global distribution", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's automatic replication and global distribution for high availability and disaster recovery", "isCorrect": true },
+            { "text": "By manually replicating data across multiple data centers", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "An e-commerce platform needs to handle peak traffic during sales events while maintaining low-latency access to its product catalog. How can Google Cloud Spanner assist in handling peak loads and providing low-latency access?",
+        "answers": [
+            { "text": "By relying on a single-node database with vertical scaling", "isCorrect": false },
+            { "text": "By using Google Cloud Spanner's horizontal scaling to handle peak loads", "isCorrect": true },
+            { "text": "By manually sharding the product catalog data", "isCorrect": false },
+            { "text": "By using a non-relational database with eventual consistency", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company has regulatory requirements to store and analyze historical data for auditing purposes. How can Google Cloud Spanner support the retention and analysis of historical data?",
+        "answers": [
+            { "text": "By using a database without support for versioning", "isCorrect": false },
+            { "text": "By manually archiving data for historical purposes", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's versioning feature for historical data retention", "isCorrect": true },
+            { "text": "By replicating data across multiple regions without versioning support", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "An organization has geographically distributed teams that need fast access to a centralized database. How can Google Cloud Spanner support the data access needs of geographically distributed teams?",
+        "answers": [
+            { "text": "By using a non-relational database without global distribution", "isCorrect": false },
+            { "text": "By manually replicating data across multiple data centers", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's global distribution for fast access by distributed teams", "isCorrect": true },
+            { "text": "By relying on a traditional relational database with a single data center", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company is migrating its existing database to the cloud and needs a solution that supports a hybrid cloud environment. How can Google Cloud Spanner facilitate the migration and support hybrid cloud scenarios?",
+        "answers": [
+            { "text": "By using a traditional relational database without cloud support", "isCorrect": false },
+            { "text": "By manually replicating data between on-premises and cloud databases", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's multi-region support for hybrid cloud scenarios", "isCorrect": true },
+            { "text": "By relying on a non-relational database with limited cloud integration", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A development team wants to use a database that supports both SQL queries and NoSQL-style schema flexibility. How can Google Cloud Spanner accommodate the SQL and NoSQL requirements of the development team?",
+        "answers": [
+            { "text": "By using separate databases for SQL and NoSQL data", "isCorrect": false },
+            { "text": "By manually partitioning data for SQL and NoSQL access", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's support for SQL queries and schema flexibility", "isCorrect": true },
+            { "text": "By relying on a non-relational database for both SQL and NoSQL data", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "An organization has a complex data model with relationships between entities. How can Google Cloud Spanner handle complex relationships and provide efficient queries?",
+        "answers": [
+            { "text": "By using denormalized data for simplified relationships", "isCorrect": false },
+            { "text": "By manually managing relationships between entities", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's support for complex data models and relationships", "isCorrect": true },
+            { "text": "By relying on a non-relational database with limited support for relationships", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company wants to ensure that its database can scale to accommodate future growth without significant manual intervention. How can Google Cloud Spanner support the scalability needs of the company?",
+        "answers": [
+            { "text": "By relying on a single-node database with vertical scaling", "isCorrect": false },
+            { "text": "By manually sharding data for horizontal scaling", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's automatic sharding and horizontal scaling capabilities", "isCorrect": true },
+            { "text": "By using a traditional relational database with limited scalability options", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "An organization wants to minimize the operational overhead of database management. How can Google Cloud Spanner help in reducing operational complexity?",
+        "answers": [
+            { "text": "By requiring manual management of data distribution and replication", "isCorrect": false },
+            { "text": "By using a traditional relational database with limited automation", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's fully managed and automated infrastructure", "isCorrect": true },
+            { "text": "By relying on a non-relational database with manual scaling and replication tasks", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company needs to perform complex analytical queries on its database. How can Google Cloud Spanner support analytical queries while maintaining transactional consistency?",
+        "answers": [
+            { "text": "By using a separate analytical database for complex queries", "isCorrect": false },
+            { "text": "By manually replicating data to a dedicated analytical data warehouse", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's support for complex analytical queries with transactional consistency", "isCorrect": true },
+            { "text": "By relying on a non-relational database with limited support for analytical queries", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A development team wants to use a database that provides both strong consistency for transactions and low-latency access for read operations. How can Google Cloud Spanner meet these dual requirements?",
+        "answers": [
+            { "text": "By relying on eventual consistency for better performance", "isCorrect": false },
+            { "text": "By using separate databases for transactional and read-heavy workloads", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's globally distributed architecture with strong consistency for both transactions and reads", "isCorrect": true },
+            { "text": "By manually tuning consistency settings for different workloads", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "An organization needs a database that can seamlessly integrate with other Google Cloud services for data analytics and machine learning. How can Google Cloud Spanner facilitate integration with these services?",
+        "answers": [
+            { "text": "By relying on a traditional relational database with limited cloud integrations", "isCorrect": false },
+            { "text": "By manually exporting data to other Google Cloud services", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's native integrations with other Google Cloud services for analytics and machine learning", "isCorrect": true },
+            { "text": "By using a non-relational database with limited support for cloud service integrations", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company wants to implement a multi-region disaster recovery strategy for its database. How can Google Cloud Spanner contribute to a robust disaster recovery plan?",
+        "answers": [
+            { "text": "By relying on a single-region database for simplicity", "isCorrect": false },
+            { "text": "By manually replicating data to a secondary region for disaster recovery", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's automatic replication across multiple regions for built-in disaster recovery", "isCorrect": true },
+            { "text": "By using a non-relational database without disaster recovery capabilities", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A company wants to enforce fine-grained access control for different user roles in its database. How can Google Cloud Spanner support granular access control and permissions?",
+        "answers": [
+            { "text": "By using a database without support for role-based access control", "isCorrect": false },
+            { "text": "By manually managing access control through custom scripts", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's integration with IAM for fine-grained access control", "isCorrect": true },
+            { "text": "By relying on a non-relational database with limited access control options", "isCorrect": false }
+        ]
+    },
+    {
+        "question": "A development team needs to implement real-time collaborative features in its application. How can Google Cloud Spanner support real-time collaboration and concurrent updates?",
+        "answers": [
+            { "text": "By relying on eventual consistency for collaborative features", "isCorrect": false },
+            { "text": "By manually managing conflicts in concurrent updates", "isCorrect": false },
+            { "text": "By leveraging Google Cloud Spanner's support for strong consistency and automatic conflict resolution", "isCorrect": true },
+            { "text": "By using a non-relational database with limited support for real-time collaboration", "isCorrect": false }
+        ]
+    }
+]
+  

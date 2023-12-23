@@ -14,7 +14,7 @@
     { "id": 13, "displayName": "Google Kubernetes Engine (GKE)", "fileName": "GKE" },
     { "id": 14, "displayName": "Persistent Disks", "fileName": "PersistentDisks" },
     { "id": 15, "displayName": "Cloud Storage Coldline", "fileName": "CloudStorageColdline" },
-    { "id": 16, "displayName": "Cloud Filestore", "fileName": "CloudFilestore" },
+    { "id": 16, "displayName": "Cloud Monitoring", "fileName": "CloudMonitoring"},
     { "id": 17, "displayName": "Cloud CDN", "fileName": "CloudCDN" },
     { "id": 18, "displayName": "Cloud Key Management Service (KMS)", "fileName": "CloudKMS" },
     { "id": 19, "displayName": "Cloud Spanner", "fileName": "CloudSpanner" },
