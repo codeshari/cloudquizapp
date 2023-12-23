@@ -1,0 +1,425 @@
+[
+    {
+      "question": "What is Azure File Storage?",
+      "answers": [
+        { "text": "A relational database service", "isCorrect": false },
+        { "text": "A file-based storage service in Microsoft Azure", "isCorrect": true },
+        { "text": "An object storage service", "isCorrect": false },
+        { "text": "A NoSQL database service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol is used by Azure File Storage?",
+      "answers": [
+        { "text": "FTP", "isCorrect": false },
+        { "text": "SMB (Server Message Block)", "isCorrect": true },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "SSH", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum size for a single file in Azure File Storage?",
+      "answers": [
+        { "text": "1 GB", "isCorrect": false },
+        { "text": "5 TB", "isCorrect": true },
+        { "text": "100 MB", "isCorrect": false },
+        { "text": "10 TB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure File Storage?",
+      "answers": [
+        { "text": "To host virtual machines", "isCorrect": false },
+        { "text": "To store and share files in the cloud", "isCorrect": true },
+        { "text": "To provide block-level storage", "isCorrect": false },
+        { "text": "To serve as a content delivery network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service can be integrated with Azure File Storage for serverless compute?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure Functions", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of access does Azure File Storage provide for file shares?",
+      "answers": [
+        { "text": "Read-only access", "isCorrect": false },
+        { "text": "Write-only access", "isCorrect": false },
+        { "text": "Read and write access", "isCorrect": true },
+        { "text": "Execute-only access", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you mount an Azure File Share on a Windows VM?",
+      "answers": [
+        { "text": "Using FTP", "isCorrect": false },
+        { "text": "Using Azure PowerShell", "isCorrect": false },
+        { "text": "Using SMB (Server Message Block)", "isCorrect": true },
+        { "text": "Using SCP (Secure Copy Protocol)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Access Control List (ACL)' in Azure File Storage?",
+      "answers": [
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To define file share access permissions", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To enable secure remote access to on-premises applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure role is required to manage Azure File Storage?",
+      "answers": [
+        { "text": "Storage Account Contributor", "isCorrect": true },
+        { "text": "Network Contributor", "isCorrect": false },
+        { "text": "Virtual Machine Contributor", "isCorrect": false },
+        { "text": "Application Administrator", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure File Sync?",
+      "answers": [
+        { "text": "To synchronize Azure Blob Storage", "isCorrect": false },
+        { "text": "To synchronize on-premises file servers with Azure File Storage", "isCorrect": true },
+        { "text": "To synchronize Azure Table Storage", "isCorrect": false },
+        { "text": "To synchronize Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using Azure File Sync?",
+      "answers": [
+        { "text": "Reduced storage costs", "isCorrect": false },
+        { "text": "Improved data transfer speed", "isCorrect": false },
+        { "text": "Hybrid cloud file sharing and synchronization", "isCorrect": true },
+        { "text": "Enhanced security features", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Soft Delete' feature in Azure File Storage?",
+      "answers": [
+        { "text": "To recover accidentally deleted files within a retention period", "isCorrect": true },
+        { "text": "To permanently delete files", "isCorrect": false },
+        { "text": "To compress files for efficient storage", "isCorrect": false },
+        { "text": "To encrypt files at rest", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which storage redundancy option is available for Azure File Storage?",
+      "answers": [
+        { "text": "Locally Redundant Storage (LRS)", "isCorrect": false },
+        { "text": "Geo-Redundant Storage (GRS)", "isCorrect": false },
+        { "text": "Zone-Redundant Storage (ZRS)", "isCorrect": false },
+        { "text": "All of the above", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure File Storage Snapshots?",
+      "answers": [
+        { "text": "To create instant backups of the entire storage account", "isCorrect": false },
+        { "text": "To capture the state of a file share at a specific point in time", "isCorrect": true },
+        { "text": "To replicate data between Azure regions", "isCorrect": false },
+        { "text": "To synchronize on-premises file servers with Azure File Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is commonly used with Azure File Storage to create a fully managed file system in the cloud?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure NetApp Files", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Storage Explorer' tool for Azure File Storage?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To visualize and interact with Azure storage resources", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To enable secure remote access to on-premises applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure File Storage feature allows you to manage access control for file shares?",
+      "answers": [
+        { "text": "Azure AD Integration", "isCorrect": false },
+        { "text": "Storage Account Firewall and Virtual Networks", "isCorrect": false },
+        { "text": "Azure RBAC (Role-Based Access Control)", "isCorrect": true },
+        { "text": "Storage Account Keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'File Change Notifications' feature in Azure File Storage?",
+      "answers": [
+        { "text": "To receive notifications about changes in file share access", "isCorrect": false },
+        { "text": "To enable real-time file synchronization", "isCorrect": false },
+        { "text": "To receive notifications when files or directories are added, modified, or deleted", "isCorrect": true },
+        { "text": "To trigger Azure Functions based on file changes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is data transferred to and from Azure File Storage encrypted?",
+      "answers": [
+        { "text": "Using Azure AD Integration", "isCorrect": false },
+        { "text": "Using HTTPS (SSL/TLS)", "isCorrect": true },
+        { "text": "Using Azure RBAC (Role-Based Access Control)", "isCorrect": false },
+        { "text": "Using Storage Account Keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Premium' performance tier in Azure File Storage?",
+      "answers": [
+        { "text": "To provide the highest level of redundancy", "isCorrect": false },
+        { "text": "To optimize for infrequent access", "isCorrect": false },
+        { "text": "To deliver high throughput and low latency", "isCorrect": true },
+        { "text": "To support large-scale data analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you monitor and analyze the performance of Azure File Storage?",
+      "answers": [
+        { "text": "Using Azure AD Integration", "isCorrect": false },
+        { "text": "Using Azure Monitor", "isCorrect": true },
+        { "text": "Using Azure RBAC (Role-Based Access Control)", "isCorrect": false },
+        { "text": "Using Storage Explorer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company needs a scalable file share in the cloud that can be accessed by multiple Azure virtual machines. Which Azure service would you recommend?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure File Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to mount a file share from an Azure virtual machine running Windows. Which protocol would you use?",
+      "answers": [
+        { "text": "FTP", "isCorrect": false },
+        { "text": "SMB (Server Message Block)", "isCorrect": true },
+        { "text": "NFS (Network File System)", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application needs a shared storage solution in Azure that supports both Windows and Linux operating systems. Which Azure service would you choose?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure File Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that your Azure File Storage account is accessible only from specific on-premises networks. What should you configure?",
+      "answers": [
+        { "text": "Service Endpoints", "isCorrect": false },
+        { "text": "Firewall Rules", "isCorrect": true },
+        { "text": "Virtual Network Service Endpoints", "isCorrect": false },
+        { "text": "Authentication settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization needs to implement Azure File Sync to synchronize an on-premises file server with Azure File Storage. What should you deploy?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure File Sync Service", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a large number of small files that need to be stored in Azure with efficient read and write access. What Azure service is optimized for this scenario?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure File Storage", "isCorrect": false },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your development team requires a shared storage solution that supports RESTful interfaces and is suitable for unstructured data. Which Azure service should you choose?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": true },
+        { "text": "Azure File Storage", "isCorrect": false },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that your Azure File Storage account is accessible only over a private network and not over the public internet. What should you configure?",
+      "answers": [
+        { "text": "Firewall Rules", "isCorrect": true },
+        { "text": "SMB Protocol Settings", "isCorrect": false },
+        { "text": "Shared Access Signatures", "isCorrect": false },
+        { "text": "Virtual Network Service Endpoints", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to track changes made to files in your Azure File Storage. What feature should you enable?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": false },
+        { "text": "Azure Audit Logs", "isCorrect": true },
+        { "text": "Azure Activity Logs", "isCorrect": false },
+        { "text": "Azure File Change Tracking", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application running on Azure virtual machines needs shared access to a file system. Each VM should be able to access files concurrently. What Azure service should you use?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure File Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to restrict access to your Azure File Storage account to specific Azure virtual machines within the same region. What should you configure?",
+      "answers": [
+        { "text": "Firewall Rules", "isCorrect": false },
+        { "text": "SMB Protocol Settings", "isCorrect": false },
+        { "text": "Shared Access Signatures", "isCorrect": false },
+        { "text": "Virtual Network Service Endpoints", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to share files across multiple Azure subscriptions. What feature should you use in Azure File Storage?",
+      "answers": [
+        { "text": "Cross-Origin Resource Sharing (CORS)", "isCorrect": false },
+        { "text": "Azure File Sync", "isCorrect": false },
+        { "text": "Shared Access Signatures", "isCorrect": true },
+        { "text": "Azure Virtual Network Peering", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company is storing sensitive data in Azure File Storage, and you want to enhance security by encrypting data at rest. What feature should you enable?",
+      "answers": [
+        { "text": "Azure Active Directory integration", "isCorrect": false },
+        { "text": "Azure Key Vault integration", "isCorrect": false },
+        { "text": "Azure File Sync", "isCorrect": false },
+        { "text": "Server-Side Encryption", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You need to access your Azure File Storage account securely from an on-premises network. What should you configure?",
+      "answers": [
+        { "text": "Firewall Rules", "isCorrect": true },
+        { "text": "SMB Protocol Settings", "isCorrect": false },
+        { "text": "Shared Access Signatures", "isCorrect": false },
+        { "text": "Azure Active Directory integration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your development team is using Linux-based virtual machines in Azure, and you need to provide shared storage using Azure File Storage. What protocol should you use for mounting?",
+      "answers": [
+        { "text": "FTP", "isCorrect": false },
+        { "text": "SMB (Server Message Block)", "isCorrect": false },
+        { "text": "NFS (Network File System)", "isCorrect": true },
+        { "text": "HTTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization wants to enable seamless access to Azure File Storage from on-premises networks without using a VPN or ExpressRoute. What feature should you use?",
+      "answers": [
+        { "text": "Virtual Network Service Endpoints", "isCorrect": false },
+        { "text": "Azure File Sync", "isCorrect": false },
+        { "text": "Azure File Share Snapshot", "isCorrect": false },
+        { "text": "Azure File Storage DirectConnect", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your company is planning to use Azure File Storage for a large number of small files. Which tier is most cost-effective for this scenario?",
+      "answers": [
+        { "text": "Hot", "isCorrect": false },
+        { "text": "Cool", "isCorrect": false },
+        { "text": "Premium", "isCorrect": false },
+        { "text": "Transaction Optimized", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your application needs to share files among multiple Azure virtual machines using Azure File Storage. What is the maximum size of a file that you can store in Azure File Storage?",
+      "answers": [
+        { "text": "1 TB", "isCorrect": false },
+        { "text": "5 TB", "isCorrect": true },
+        { "text": "10 TB", "isCorrect": false },
+        { "text": "100 GB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to enable versioning for files stored in Azure File Storage. What feature should you enable?",
+      "answers": [
+        { "text": "File Snapshots", "isCorrect": false },
+        { "text": "Soft Delete", "isCorrect": false },
+        { "text": "File Share Snapshot", "isCorrect": true },
+        { "text": "Versioned Files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization requires fine-grained access control to files stored in Azure File Storage. What should you implement?",
+      "answers": [
+        { "text": "Role-Based Access Control (RBAC)", "isCorrect": false },
+        { "text": "Shared Access Signatures", "isCorrect": false },
+        { "text": "Azure Active Directory integration", "isCorrect": true },
+        { "text": "Firewall Rules", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that your Azure File Storage account is highly available and fault-tolerant. What replication option should you choose?",
+      "answers": [
+        { "text": "Locally Redundant Storage (LRS)", "isCorrect": false },
+        { "text": "Geo-Redundant Storage (GRS)", "isCorrect": false },
+        { "text": "Read-Access Geo-Redundant Storage (RA-GRS)", "isCorrect": false },
+        { "text": "Zone-Redundant Storage (ZRS)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization wants to monitor and analyze access to files stored in Azure File Storage. What should you enable?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": false },
+        { "text": "Azure Security Center", "isCorrect": false },
+        { "text": "Azure File Storage Analytics", "isCorrect": true },
+        { "text": "Azure Activity Logs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company is planning to store a large number of infrequently accessed files in Azure File Storage. What storage tier would be most cost-effective for this scenario?",
+      "answers": [
+        { "text": "Hot", "isCorrect": false },
+        { "text": "Cool", "isCorrect": true },
+        { "text": "Premium", "isCorrect": false },
+        { "text": "Transaction Optimized", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application needs to recover previous versions of files stored in Azure File Storage. What feature should you enable?",
+      "answers": [
+        { "text": "File Snapshots", "isCorrect": false },
+        { "text": "Soft Delete", "isCorrect": false },
+        { "text": "File Share Snapshot", "isCorrect": false },
+        { "text": "Versioning", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization requires a multi-protocol storage solution to support both block and file storage. Which Azure service would you choose?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": true },
+        { "text": "Azure File Storage", "isCorrect": false },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application running on Azure virtual machines requires shared storage with a hierarchical file system. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure File Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    }
+]

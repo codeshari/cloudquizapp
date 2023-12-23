@@ -1,0 +1,380 @@
+[
+    {
+      "question": "What is Microsoft Azure Service Bus?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A messaging service for connecting applications and services", "isCorrect": true },
+        { "text": "A machine learning platform", "isCorrect": false },
+        { "text": "A serverless computing service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What are the key messaging patterns supported by Azure Service Bus?",
+      "answers": [
+        { "text": "Point-to-point only", "isCorrect": false },
+        { "text": "Publish/subscribe only", "isCorrect": false },
+        { "text": "Both point-to-point and publish/subscribe", "isCorrect": true },
+        { "text": "Request/response only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol is used by Azure Service Bus for communication?",
+      "answers": [
+        { "text": "FTP", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "AMQP (Advanced Message Queuing Protocol)", "isCorrect": true },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Queue' messaging entity in Azure Service Bus?",
+      "answers": [
+        { "text": "To provide direct communication between two services", "isCorrect": true },
+        { "text": "To enable publish/subscribe communication", "isCorrect": false },
+        { "text": "To store messages temporarily", "isCorrect": false },
+        { "text": "To manage authentication and authorization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Topic' messaging entity in Azure Service Bus?",
+      "answers": [
+        { "text": "To provide direct communication between two services", "isCorrect": false },
+        { "text": "To enable publish/subscribe communication", "isCorrect": true },
+        { "text": "To store messages temporarily", "isCorrect": false },
+        { "text": "To manage authentication and authorization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum size of a message that can be sent to Azure Service Bus?",
+      "answers": [
+        { "text": "1 MB", "isCorrect": false },
+        { "text": "2 MB", "isCorrect": false },
+        { "text": "256 KB", "isCorrect": false },
+        { "text": "1 GB", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which feature allows messages to be automatically forwarded from one Azure Service Bus entity to another?",
+      "answers": [
+        { "text": "Service Bus Connect", "isCorrect": false },
+        { "text": "Message Routing", "isCorrect": true },
+        { "text": "Queue Mirroring", "isCorrect": false },
+        { "text": "Topic Subscriptions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Dead-Lettering' in Azure Service Bus?",
+      "answers": [
+        { "text": "To permanently delete messages", "isCorrect": false },
+        { "text": "To automatically reprocess failed messages", "isCorrect": false },
+        { "text": "To move messages that cannot be delivered to a special queue", "isCorrect": true },
+        { "text": "To prioritize messages for faster delivery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which feature of Azure Service Bus allows messages to be scheduled for future delivery?",
+      "answers": [
+        { "text": "Message Correlation", "isCorrect": false },
+        { "text": "Message Sessions", "isCorrect": false },
+        { "text": "Scheduled Messaging", "isCorrect": true },
+        { "text": "Message Forwarding", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Partitioning' in Azure Service Bus?",
+      "answers": [
+        { "text": "To increase the message size limit", "isCorrect": false },
+        { "text": "To spread load evenly across multiple message brokers", "isCorrect": true },
+        { "text": "To encrypt messages in transit", "isCorrect": false },
+        { "text": "To store messages in separate storage accounts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming languages are officially supported by Azure Service Bus SDKs?",
+      "answers": [
+        { "text": "C# only", "isCorrect": false },
+        { "text": "Java only", "isCorrect": false },
+        { "text": "Python only", "isCorrect": false },
+        { "text": "C#, Java, Python, and others", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Auto Forwarding' in Azure Service Bus?",
+      "answers": [
+        { "text": "To automatically forward messages to another entity after a delay", "isCorrect": false },
+        { "text": "To automatically forward messages to another entity without delay", "isCorrect": true },
+        { "text": "To automatically forward messages to a dead-letter queue", "isCorrect": false },
+        { "text": "To automatically forward messages to a topic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus feature enables ordered message processing within a partition?",
+      "answers": [
+        { "text": "Message Correlation", "isCorrect": false },
+        { "text": "Message Sessions", "isCorrect": true },
+        { "text": "Scheduled Messaging", "isCorrect": false },
+        { "text": "Message Forwarding", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Relay' messaging entity in Azure Service Bus?",
+      "answers": [
+        { "text": "To provide direct communication between two services", "isCorrect": true },
+        { "text": "To enable publish/subscribe communication", "isCorrect": false },
+        { "text": "To store messages temporarily", "isCorrect": false },
+        { "text": "To manage authentication and authorization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum retention period for messages in Azure Service Bus?",
+      "answers": [
+        { "text": "1 day", "isCorrect": false },
+        { "text": "7 days", "isCorrect": true },
+        { "text": "30 days", "isCorrect": false },
+        { "text": "60 days", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus feature allows you to lock a message during processing to prevent it from being processed by other receivers?",
+      "answers": [
+        { "text": "Message Correlation", "isCorrect": false },
+        { "text": "Message Sessions", "isCorrect": false },
+        { "text": "Scheduled Messaging", "isCorrect": false },
+        { "text": "Peek Lock", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Message Sessions' in Azure Service Bus?",
+      "answers": [
+        { "text": "To group messages into batches", "isCorrect": false },
+        { "text": "To correlate messages based on content", "isCorrect": false },
+        { "text": "To enable ordered message processing within a session", "isCorrect": true },
+        { "text": "To schedule messages for future delivery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Peek Lock' mechanism in Azure Service Bus?",
+      "answers": [
+        { "text": "To allow messages to be consumed by multiple receivers simultaneously", "isCorrect": false },
+        { "text": "To prevent messages from being processed by other receivers while being processed by one", "isCorrect": true },
+        { "text": "To automatically forward messages to another entity without delay", "isCorrect": false },
+        { "text": "To prioritize messages for faster delivery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Message Correlation' feature in Azure Service Bus?",
+      "answers": [
+        { "text": "To group related messages together", "isCorrect": false },
+        { "text": "To enable ordered message processing within a partition", "isCorrect": false },
+        { "text": "To correlate messages based on content", "isCorrect": true },
+        { "text": "To schedule messages for future delivery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Duplicate Detection' in Azure Service Bus?",
+      "answers": [
+        { "text": "To prevent unauthorized access to messages", "isCorrect": false },
+        { "text": "To detect and remove duplicate messages", "isCorrect": true },
+        { "text": "To enable ordered message processing within a session", "isCorrect": false },
+        { "text": "To automatically forward messages to another entity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus feature allows you to scale out by distributing load across multiple message brokers?",
+      "answers": [
+        { "text": "Partitioning", "isCorrect": true },
+        { "text": "Auto Forwarding", "isCorrect": false },
+        { "text": "Message Sessions", "isCorrect": false },
+        { "text": "Message Correlation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Microsoft Azure Service Bus?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A message-oriented middleware service", "isCorrect": true },
+        { "text": "A machine learning service", "isCorrect": false },
+        { "text": "A virtual machine service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which messaging patterns are supported by Azure Service Bus?",
+      "answers": [
+        { "text": "Publish/Subscribe only", "isCorrect": false },
+        { "text": "Point-to-Point only", "isCorrect": false },
+        { "text": "Both Publish/Subscribe and Point-to-Point", "isCorrect": true },
+        { "text": "Multicast only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a queue in Azure Service Bus?",
+      "answers": [
+        { "text": "A group of related resources", "isCorrect": false },
+        { "text": "A temporary storage location for messages", "isCorrect": true },
+        { "text": "A virtual machine", "isCorrect": false },
+        { "text": "A container for Azure Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol is commonly used for communication with Azure Service Bus?",
+      "answers": [
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "AMQP (Advanced Message Queuing Protocol)", "isCorrect": true },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a topic in Azure Service Bus?",
+      "answers": [
+        { "text": "A container for storage", "isCorrect": false },
+        { "text": "A mechanism for grouping related messages", "isCorrect": true },
+        { "text": "A virtual machine image", "isCorrect": false },
+        { "text": "A type of virtual network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a subscription in Azure Service Bus?",
+      "answers": [
+        { "text": "To define access control policies", "isCorrect": false },
+        { "text": "To define custom message properties", "isCorrect": false },
+        { "text": "To receive messages from a topic", "isCorrect": true },
+        { "text": "To create a new Azure Service Bus namespace", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus entity allows multiple recipients to receive the same message?",
+      "answers": [
+        { "text": "Queue", "isCorrect": false },
+        { "text": "Topic", "isCorrect": true },
+        { "text": "Subscription", "isCorrect": false },
+        { "text": "Relay", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of dead-lettering in Azure Service Bus?",
+      "answers": [
+        { "text": "To delete messages after processing", "isCorrect": false },
+        { "text": "To send messages to a backup queue or topic after a specified number of delivery attempts", "isCorrect": true },
+        { "text": "To mark messages as spam", "isCorrect": false },
+        { "text": "To forward messages to an external endpoint", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum message size supported by Azure Service Bus?",
+      "answers": [
+        { "text": "1 MB", "isCorrect": false },
+        { "text": "2 MB", "isCorrect": false },
+        { "text": "256 KB", "isCorrect": false },
+        { "text": "1.28 MB", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which authentication mechanism is used to connect to Azure Service Bus?",
+      "answers": [
+        { "text": "Username and password", "isCorrect": false },
+        { "text": "API key", "isCorrect": false },
+        { "text": "Shared Access Signature (SAS)", "isCorrect": true },
+        { "text": "OAuth", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Azure Service Bus Relay used for?",
+      "answers": [
+        { "text": "To relay messages between different Azure Service Bus namespaces", "isCorrect": false },
+        { "text": "To relay messages between on-premises and cloud-based applications", "isCorrect": true },
+        { "text": "To relay messages between virtual networks", "isCorrect": false },
+        { "text": "To relay messages between storage accounts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Lock Duration' setting in Azure Service Bus?",
+      "answers": [
+        { "text": "To specify the maximum message size", "isCorrect": false },
+        { "text": "To specify the maximum delivery count", "isCorrect": false },
+        { "text": "To define the duration for which a message is locked after being received", "isCorrect": true },
+        { "text": "To specify the time-to-live for a message", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Session' feature in Azure Service Bus?",
+      "answers": [
+        { "text": "To group messages based on custom properties", "isCorrect": false },
+        { "text": "To enable ordering of messages within a queue or subscription", "isCorrect": false },
+        { "text": "To enable processing of related messages in a specific order", "isCorrect": true },
+        { "text": "To create a new Azure Service Bus namespace", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus feature provides a high-availability option for messaging?",
+      "answers": [
+        { "text": "Geo-Disaster Recovery", "isCorrect": false },
+        { "text": "Backup and Restore", "isCorrect": false },
+        { "text": "Auto-Scaling", "isCorrect": false },
+        { "text": "Geo-Redundant Messaging", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Auto-Delete on Idle' setting in Azure Service Bus?",
+      "answers": [
+        { "text": "To automatically delete the namespace when idle", "isCorrect": false },
+        { "text": "To automatically delete a queue or topic when idle", "isCorrect": true },
+        { "text": "To automatically delete messages when idle", "isCorrect": false },
+        { "text": "To automatically delete subscriptions when idle", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the 'ForwardTo' property in Azure Service Bus?",
+      "answers": [
+        { "text": "To forward messages to an external endpoint", "isCorrect": false },
+        { "text": "To forward messages to a dead-letter queue", "isCorrect": false },
+        { "text": "To forward messages to another queue or topic", "isCorrect": true },
+        { "text": "To forward messages to a relay", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'EnableBatchedOperations' setting in Azure Service Bus?",
+      "answers": [
+        { "text": "To enable batch processing of messages in a queue or subscription", "isCorrect": true },
+        { "text": "To enable batching of messages within a session", "isCorrect": false },
+        { "text": "To enable batch processing of messages in a relay", "isCorrect": false },
+        { "text": "To enable batch processing of messages in a topic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus feature allows you to replicate data to a secondary namespace?",
+      "answers": [
+        { "text": "Geo-Disaster Recovery", "isCorrect": false },
+        { "text": "Backup and Restore", "isCorrect": false },
+        { "text": "Geo-Redundant Messaging", "isCorrect": true },
+        { "text": "Auto-Scaling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Duplicate Detection' feature in Azure Service Bus?",
+      "answers": [
+        { "text": "To detect duplicate messages and move them to a dead-letter queue", "isCorrect": false },
+        { "text": "To detect duplicate messages and automatically delete them", "isCorrect": false },
+        { "text": "To prevent the enqueueing of duplicate messages within a specified time window", "isCorrect": true },
+        { "text": "To detect duplicate messages and forward them to another queue", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Service Bus feature allows you to filter messages based on specific criteria?",
+      "answers": [
+        { "text": "Message Routing", "isCorrect": true },
+        { "text": "Message Encryption", "isCorrect": false },
+        { "text": "Message Compression", "isCorrect": false },
+        { "text": "Message Auditing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Message Time-To-Live' setting in Azure Service Bus?",
+      "answers": [
+        { "text": "To specify the maximum message size", "isCorrect": false },
+        { "text": "To specify the maximum delivery count", "isCorrect": false },
+        { "text": "To define the duration for which a message is valid", "isCorrect": true },
+        { "text": "To specify the time-to-live for a queue or topic", "isCorrect": false }
+      ]
+    }
+]

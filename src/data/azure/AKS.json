@@ -1,0 +1,407 @@
+[
+    {
+      "question": "What is Azure Database for MySQL?",
+      "answers": [
+        { "text": "A relational database management system", "isCorrect": false },
+        { "text": "A NoSQL database service", "isCorrect": false },
+        { "text": "A fully managed MySQL database service in Microsoft Azure", "isCorrect": true },
+        { "text": "A virtual machine running MySQL server", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which version of MySQL is supported by Azure Database for MySQL?",
+      "answers": [
+        { "text": "MySQL 5.0", "isCorrect": false },
+        { "text": "MySQL 5.5", "isCorrect": false },
+        { "text": "MySQL 5.6", "isCorrect": false },
+        { "text": "MySQL 5.7 and MySQL 8.0", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What deployment options are available for Azure Database for MySQL?",
+      "answers": [
+        { "text": "Single server only", "isCorrect": false },
+        { "text": "Flexible server only", "isCorrect": false },
+        { "text": "Both Single server and Flexible server", "isCorrect": true },
+        { "text": "Virtual machine only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Flexible server' deployment option in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To provide dedicated resources for high-performance workloads", "isCorrect": false },
+        { "text": "To enable serverless and auto-pause capabilities", "isCorrect": true },
+        { "text": "To deploy a single server instance", "isCorrect": false },
+        { "text": "To configure advanced security options", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure region should you choose for deploying Azure Database for MySQL to minimize latency for users in Europe?",
+      "answers": [
+        { "text": "East US", "isCorrect": false },
+        { "text": "West US", "isCorrect": false },
+        { "text": "North Europe", "isCorrect": true },
+        { "text": "East Asia", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'sslEnforcement' parameter in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enforce serverless capabilities", "isCorrect": false },
+        { "text": "To enforce SSL connections to the database", "isCorrect": true },
+        { "text": "To enforce server-side encryption", "isCorrect": false },
+        { "text": "To enforce strong password policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you scale resources (CPU, memory, storage) for a Flexible server in Azure Database for MySQL?",
+      "answers": [
+        { "text": "Manually adjust the parameters in the server configuration", "isCorrect": true },
+        { "text": "Scale resources automatically based on usage", "isCorrect": false },
+        { "text": "Submit a request to Azure support", "isCorrect": false },
+        { "text": "Scale resources using Azure PowerShell only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'readReplica' parameter in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enable serverless capabilities", "isCorrect": false },
+        { "text": "To create read-only replicas for read-heavy workloads", "isCorrect": true },
+        { "text": "To enforce strong password policies", "isCorrect": false },
+        { "text": "To configure advanced security options", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which tool or language can you use to interact with Azure Database for MySQL?",
+      "answers": [
+        { "text": "MySQL Workbench only", "isCorrect": false },
+        { "text": "SQL Server Management Studio (SSMS) only", "isCorrect": false },
+        { "text": "Both MySQL Workbench and SSMS", "isCorrect": false },
+        { "text": "Any MySQL client or programming language that supports MySQL protocols", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'firewallRules' parameter in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To configure serverless capabilities", "isCorrect": false },
+        { "text": "To define rules for allowing or denying connections to the database server", "isCorrect": true },
+        { "text": "To enforce SSL connections", "isCorrect": false },
+        { "text": "To configure replication settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication method is used by default for Azure Database for MySQL?",
+      "answers": [
+        { "text": "Username and password", "isCorrect": true },
+        { "text": "Active Directory integrated authentication", "isCorrect": false },
+        { "text": "X.509 certificates", "isCorrect": false },
+        { "text": "Kerberos authentication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Geo-Replication' feature in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enable serverless capabilities", "isCorrect": false },
+        { "text": "To replicate data across multiple regions for high availability", "isCorrect": true },
+        { "text": "To configure advanced security options", "isCorrect": false },
+        { "text": "To enforce SSL connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is data encrypted in transit in Azure Database for MySQL?",
+      "answers": [
+        { "text": "Using transparent data encryption (TDE)", "isCorrect": false },
+        { "text": "Using BitLocker encryption", "isCorrect": false },
+        { "text": "Using SSL/TLS encryption", "isCorrect": true },
+        { "text": "Using column-level encryption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'longTermRetention' feature in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enable serverless capabilities", "isCorrect": false },
+        { "text": "To automatically backup and retain data for a longer duration", "isCorrect": true },
+        { "text": "To enforce strong password policies", "isCorrect": false },
+        { "text": "To configure replication settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service can you use to monitor and manage the performance of Azure Database for MySQL?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": true },
+        { "text": "Azure Advisor", "isCorrect": false },
+        { "text": "Azure Security Center", "isCorrect": false },
+        { "text": "Azure Automation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'queryPerformanceInsight' feature in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enable serverless capabilities", "isCorrect": false },
+        { "text": "To monitor and optimize query performance", "isCorrect": true },
+        { "text": "To configure advanced security options", "isCorrect": false },
+        { "text": "To enforce SSL connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which pricing tier in Azure Database for MySQL offers automatic and manual backups, Geo-Replication, and long-term retention?",
+      "answers": [
+        { "text": "Basic tier", "isCorrect": false },
+        { "text": "General Purpose tier", "isCorrect": true },
+        { "text": "Memory Optimized tier", "isCorrect": false },
+        { "text": "Serverless tier", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'VNet service endpoint' feature in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enable serverless capabilities", "isCorrect": false },
+        { "text": "To allow secure communication between a virtual network and the database server", "isCorrect": true },
+        { "text": "To configure replication settings", "isCorrect": false },
+        { "text": "To enforce SSL connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command-line tool can you use to connect to Azure Database for MySQL from a terminal or command prompt?",
+      "answers": [
+        { "text": "Azure CLI", "isCorrect": true },
+        { "text": "Azure PowerShell", "isCorrect": false },
+        { "text": "MySQL Workbench CLI", "isCorrect": false },
+        { "text": "SQL Server Management Studio (SSMS)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'pointInTimeRestore' feature in Azure Database for MySQL?",
+      "answers": [
+        { "text": "To enable serverless capabilities", "isCorrect": false },
+        { "text": "To restore the database to a specific point in time", "isCorrect": true },
+        { "text": "To configure advanced security options", "isCorrect": false },
+        { "text": "To enforce SSL connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which parameter is used to configure the time zone for Azure Database for MySQL?",
+      "answers": [
+        { "text": "timezone", "isCorrect": true },
+        { "text": "timeoffset", "isCorrect": false },
+        { "text": "tz", "isCorrect": false },
+        { "text": "offset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are deploying a microservices application on Azure Kubernetes Service (AKS). What is the primary benefit of using AKS for this scenario?",
+      "answers": [
+        { "text": "Automated deployment of virtual machines", "isCorrect": false },
+        { "text": "Managed Kubernetes orchestration", "isCorrect": true },
+        { "text": "Direct deployment to Azure Container Instances (ACI)", "isCorrect": false },
+        { "text": "Manual configuration of containerized applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is concerned about managing the underlying infrastructure for the Kubernetes cluster. Which AKS feature addresses this concern?",
+      "answers": [
+        { "text": "Virtual Network Configuration", "isCorrect": false },
+        { "text": "Container Registry Integration", "isCorrect": false },
+        { "text": "Managed Cluster", "isCorrect": true },
+        { "text": "Custom Node Pools", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to scale your AKS cluster based on varying workloads. Which AKS feature allows you to dynamically adjust the number of nodes in the cluster?",
+      "answers": [
+        { "text": "Static Node Pools", "isCorrect": false },
+        { "text": "Auto-scaling Node Pools", "isCorrect": true },
+        { "text": "Manual Scaling", "isCorrect": false },
+        { "text": "Fixed Node Count", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization has a multi-region deployment strategy. Which AKS feature enables you to deploy a Kubernetes cluster across multiple Azure regions?",
+      "answers": [
+        { "text": "Node Pools", "isCorrect": false },
+        { "text": "Availability Zones", "isCorrect": false },
+        { "text": "Virtual Network Peering", "isCorrect": false },
+        { "text": "Multi-region Clusters", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your development team is using Helm charts to define, install, and upgrade even the most complex Kubernetes applications. How can you integrate Helm with AKS?",
+      "answers": [
+        { "text": "Use Azure CLI commands to manually deploy Helm charts", "isCorrect": false },
+        { "text": "Helm is not supported on AKS", "isCorrect": false },
+        { "text": "Use Azure Container Registry (ACR) integration with Helm", "isCorrect": true },
+        { "text": "Deploy Helm charts directly to AKS without integration", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization requires RBAC (Role-Based Access Control) for Kubernetes cluster access. How can you configure RBAC in AKS?",
+      "answers": [
+        { "text": "Enable RBAC during AKS cluster creation", "isCorrect": true },
+        { "text": "RBAC is not supported on AKS", "isCorrect": false },
+        { "text": "Use Azure AD for RBAC and manually configure roles", "isCorrect": false },
+        { "text": "RBAC is automatically configured in AKS clusters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is concerned about the security of containerized applications. Which AKS feature can help address security vulnerabilities by scanning container images?",
+      "answers": [
+        { "text": "Azure AD Integration", "isCorrect": false },
+        { "text": "Managed Cluster", "isCorrect": false },
+        { "text": "Container Registry Integration with Azure Security Center", "isCorrect": true },
+        { "text": "Custom Node Pools", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to expose your AKS-hosted applications to the internet securely. What AKS feature can you use for this purpose?",
+      "answers": [
+        { "text": "Azure Bastion", "isCorrect": false },
+        { "text": "Azure Virtual Network", "isCorrect": false },
+        { "text": "Azure API Management", "isCorrect": false },
+        { "text": "Azure Kubernetes Service Ingress Controller", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your team wants to leverage Azure DevOps for CI/CD to AKS. What should you integrate into your DevOps pipeline for seamless AKS deployments?",
+      "answers": [
+        { "text": "Jenkins", "isCorrect": false },
+        { "text": "Travis CI", "isCorrect": false },
+        { "text": "Azure Container Registry (ACR) Tasks", "isCorrect": true },
+        { "text": "GitHub Actions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application requires persistent storage in AKS. What AKS feature allows you to dynamically provision and manage storage volumes?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure Files", "isCorrect": false },
+        { "text": "Azure Managed Disks", "isCorrect": false },
+        { "text": "Azure Kubernetes Service Volumes (AKSV)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You have a microservices application with multiple components deployed on AKS. How can you efficiently manage and monitor the entire application?",
+      "answers": [
+        { "text": "Use individual Azure Monitor instances for each component", "isCorrect": false },
+        { "text": "Deploy separate AKS clusters for each component", "isCorrect": false },
+        { "text": "Use Azure Kubernetes Service (AKS) to create a single cluster for all components", "isCorrect": true },
+        { "text": "Monitor components independently without centralization", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization requires high availability for AKS. What feature can you leverage to distribute workloads across multiple datacenters?",
+      "answers": [
+        { "text": "Availability Zones", "isCorrect": true },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Virtual Network Peering", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your team is using Azure DevOps for CI/CD, and you want to automate the deployment of AKS manifests. What is the recommended approach for this task?",
+      "answers": [
+        { "text": "Use Azure CLI commands in the release pipeline", "isCorrect": false },
+        { "text": "Use Helm charts for deployment", "isCorrect": true },
+        { "text": "Manually apply YAML manifests in the release pipeline", "isCorrect": false },
+        { "text": "Use Kubernetes kubectl commands in the release pipeline", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your AKS application relies on Azure AD for authentication. How can you integrate Azure AD with AKS to achieve seamless user authentication and authorization?",
+      "answers": [
+        { "text": "Manually configure OAuth in AKS", "isCorrect": false },
+        { "text": "Use Azure AD B2B for AKS authentication", "isCorrect": false },
+        { "text": "Enable Azure AD Integration during AKS cluster creation", "isCorrect": true },
+        { "text": "Integrate AKS with Azure AD using Kubernetes manifests", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your AKS application requires SSL termination at the Ingress level. What AKS feature allows you to manage SSL certificates and terminate HTTPS traffic?",
+      "answers": [
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Ingress Controllers with Secrets for AKS", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization needs to deploy AKS clusters across multiple subscriptions. What is the recommended approach to achieve this?",
+      "answers": [
+        { "text": "Manually create AKS clusters in each subscription", "isCorrect": false },
+        { "text": "Use Azure CLI commands for cross-subscription AKS deployment", "isCorrect": false },
+        { "text": "Leverage Azure Policy for cross-subscription AKS management", "isCorrect": false },
+        { "text": "Use Azure Lighthouse for centralized cross-subscription AKS management", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your team needs to configure custom domain names for AKS Ingress. What Azure service can you integrate with AKS to achieve this?",
+      "answers": [
+        { "text": "Azure DNS", "isCorrect": true },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your AKS application requires an identity to access Azure resources securely. What is the recommended way to manage identities for AKS workloads?",
+      "answers": [
+        { "text": "Azure AD B2B for Service Principals", "isCorrect": false },
+        { "text": "Manual configuration of identities in AKS manifests", "isCorrect": false },
+        { "text": "Azure AD Pod Identity with Managed Identity", "isCorrect": true },
+        { "text": "Use Kubernetes Secrets for identity management", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization needs to enforce network policies for AKS workloads. What AKS feature allows you to define and enforce network policies?",
+      "answers": [
+        { "text": "Azure Firewall", "isCorrect": false },
+        { "text": "Network Security Groups (NSGs)", "isCorrect": false },
+        { "text": "Azure Policy", "isCorrect": false },
+        { "text": "Azure CNI (Container Network Interface) with Network Policies", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your AKS application requires access to Azure Key Vault secrets securely. What is the recommended approach to achieve this?",
+      "answers": [
+        { "text": "Embed secrets directly in AKS manifests", "isCorrect": false },
+        { "text": "Use Azure CLI commands for secret retrieval", "isCorrect": false },
+        { "text": "Integrate AKS with Azure Key Vault using Azure AD Pod Identity", "isCorrect": true },
+        { "text": "Store secrets in Azure Blob Storage and access them from AKS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your AKS application needs to scale based on demand and automatically manage load balancing for incoming traffic. What AKS feature can achieve this?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Horizontal Pod Autoscaling (HPA)", "isCorrect": true },
+        { "text": "Azure Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization is using Azure Monitor for monitoring AKS clusters. What specific resource in Azure Monitor can provide insights into AKS performance?",
+      "answers": [
+        { "text": "Azure Insights", "isCorrect": false },
+        { "text": "Azure Metrics", "isCorrect": true },
+        { "text": "Azure Log Analytics", "isCorrect": false },
+        { "text": "Azure Activity Log", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your AKS application requires integration with Azure Active Directory for secure authentication and authorization. What is the recommended approach to enable this integration?",
+      "answers": [
+        { "text": "Azure AD B2C", "isCorrect": false },
+        { "text": "Azure AD B2B", "isCorrect": false },
+        { "text": "Azure AD Pod Identity", "isCorrect": false },
+        { "text": "Azure AD Integration during AKS cluster creation", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization requires a multi-region AKS deployment with high availability. What AKS feature can you leverage to distribute workloads across different datacenters?",
+      "answers": [
+        { "text": "Availability Zones", "isCorrect": true },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Virtual Network Peering", "isCorrect": false }
+      ]
+    }
+]

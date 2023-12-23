@@ -1,0 +1,398 @@
+[
+    {
+      "question": "What does CDN stand for?",
+      "answers": [
+        { "text": "Content Delivery Network", "isCorrect": true },
+        { "text": "Cloud Data Network", "isCorrect": false },
+        { "text": "Centralized Domain Network", "isCorrect": false },
+        { "text": "Continuous Deployment Node", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Azure CDN?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To store large amounts of data", "isCorrect": false },
+        { "text": "To deliver content quickly to users", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of content is commonly delivered through CDN?",
+      "answers": [
+        { "text": "Databases", "isCorrect": false },
+        { "text": "Static web content, images, and videos", "isCorrect": true },
+        { "text": "Executable files", "isCorrect": false },
+        { "text": "Virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of using Azure CDN for global content delivery?",
+      "answers": [
+        { "text": "Lowering storage costs", "isCorrect": false },
+        { "text": "Increasing database performance", "isCorrect": false },
+        { "text": "Reducing latency and improving load times for users around the world", "isCorrect": true },
+        { "text": "Enhancing virtual machine security", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service can be integrated with Azure CDN to deliver dynamic content?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure App Service", "isCorrect": true },
+        { "text": "Azure SQL Database", "isCorrect": false },
+        { "text": "Azure Virtual Network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an 'Origin' in Azure CDN?",
+      "answers": [
+        { "text": "To define CDN policies", "isCorrect": false },
+        { "text": "To specify the destination of content, typically an Azure service or an external endpoint", "isCorrect": true },
+        { "text": "To configure caching rules", "isCorrect": false },
+        { "text": "To manage access control", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which HTTP status code indicates a cache hit in CDN?",
+      "answers": [
+        { "text": "200 OK", "isCorrect": true },
+        { "text": "404 Not Found", "isCorrect": false },
+        { "text": "503 Service Unavailable", "isCorrect": false },
+        { "text": "302 Found", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Edge Servers' in CDN architecture?",
+      "answers": [
+        { "text": "To store original copies of content", "isCorrect": false },
+        { "text": "To manage CDN configurations", "isCorrect": false },
+        { "text": "To cache and serve content to end-users from geographically distributed locations", "isCorrect": true },
+        { "text": "To provide authentication for CDN resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the 'Pop' in CDN?",
+      "answers": [
+        { "text": "Point of Presence; It's a location where content is cached and served to users", "isCorrect": true },
+        { "text": "Protocol of Origin; It specifies the communication method with the origin server", "isCorrect": false },
+        { "text": "Provider of Proxies; It handles user requests for proxy services", "isCorrect": false },
+        { "text": "Policy of Parameters; It defines the caching policies for CDN resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of CDN 'Caching Rules'?",
+      "answers": [
+        { "text": "To define access control policies", "isCorrect": false },
+        { "text": "To configure CDN billing information", "isCorrect": false },
+        { "text": "To specify how content is cached and for how long", "isCorrect": true },
+        { "text": "To manage CDN configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure CDN product is suitable for delivering content for web applications with dynamic content?",
+      "answers": [
+        { "text": "Azure CDN from Microsoft", "isCorrect": false },
+        { "text": "Azure CDN from Verizon", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Azure CDN from Verizon Premium' offering?",
+      "answers": [
+        { "text": "To provide basic CDN services", "isCorrect": false },
+        { "text": "To offer advanced features such as rules engine and real-time analytics", "isCorrect": true },
+        { "text": "To serve only static content", "isCorrect": false },
+        { "text": "To optimize database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure CDN product offers advanced features like real-time analytics, rules engine, and HTTPS load balancing?",
+      "answers": [
+        { "text": "Azure CDN from Microsoft", "isCorrect": false },
+        { "text": "Azure CDN from Verizon Premium", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of CDN 'Geo-Filtering'?",
+      "answers": [
+        { "text": "To filter content based on file types", "isCorrect": false },
+        { "text": "To filter content based on geographical locations", "isCorrect": true },
+        { "text": "To filter content based on user agents", "isCorrect": false },
+        { "text": "To filter content based on HTTP methods", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure CDN help improve website performance?",
+      "answers": [
+        { "text": "By reducing the number of supported file types", "isCorrect": false },
+        { "text": "By optimizing database queries", "isCorrect": false },
+        { "text": "By caching and delivering content from the nearest edge server to end-users", "isCorrect": true },
+        { "text": "By increasing the number of origin servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Azure CDN from Akamai'?",
+      "answers": [
+        { "text": "To provide basic CDN services", "isCorrect": false },
+        { "text": "To offer advanced features like real-time analytics and rules engine", "isCorrect": false },
+        { "text": "To deliver content quickly to users with a focus on security and scalability", "isCorrect": true },
+        { "text": "To serve only static content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure CDN product is suitable for delivering content with a focus on security and scalability?",
+      "answers": [
+        { "text": "Azure CDN from Microsoft", "isCorrect": false },
+        { "text": "Azure CDN from Verizon Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": true },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure CDN help protect against distributed denial of service (DDoS) attacks?",
+      "answers": [
+        { "text": "By blocking access to the CDN", "isCorrect": false },
+        { "text": "By increasing the number of edge servers", "isCorrect": false },
+        { "text": "By absorbing and mitigating DDoS traffic", "isCorrect": true },
+        { "text": "By enforcing strict access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of CDN 'Purge' or 'Invalidation'?",
+      "answers": [
+        { "text": "To delete CDN configurations", "isCorrect": false },
+        { "text": "To remove content from CDN caches before the expiration time", "isCorrect": true },
+        { "text": "To configure CDN billing information", "isCorrect": false },
+        { "text": "To configure caching rules", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Azure CDN Standard Microsoft'?",
+      "answers": [
+        { "text": "To provide basic CDN services", "isCorrect": true },
+        { "text": "To offer advanced features like real-time analytics and rules engine", "isCorrect": false },
+        { "text": "To serve only static content", "isCorrect": false },
+        { "text": "To deliver content quickly to users with a focus on security and scalability", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is Azure CDN billed?",
+      "answers": [
+        { "text": "Based on the number of CDN configurations", "isCorrect": false },
+        { "text": "Based on the amount of content delivered and data transferred", "isCorrect": true },
+        { "text": "Based on the number of origin servers", "isCorrect": false },
+        { "text": "Based on the number of edge servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a web application hosted in Azure, and you want to improve its performance by reducing latency for users worldwide. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Storage", "isCorrect": false },
+        { "text": "Azure CDN", "isCorrect": true },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your web application serves static assets, such as images and videos, and you want to ensure faster delivery to users by caching these assets at edge locations. What Azure CDN feature should you leverage?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You want to deliver video content efficiently to users, and you need a solution that supports dynamic packaging and encryption. Which Azure CDN feature is designed for this purpose?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company has a global presence, and you want to ensure that users are directed to the nearest available server to reduce latency. Which Azure service should you use in conjunction with Azure CDN to achieve this?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are hosting a secure website, and you want to use HTTPS to encrypt data in transit for users accessing your content. Which Azure CDN offering supports HTTPS by default?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": true },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your web application has users in China, and you want to optimize the delivery of content to these users. Which Azure CDN product is designed specifically for optimizing content delivery in China?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization is concerned about protecting sensitive content from unauthorized access and wants to restrict access to certain files. Which Azure CDN feature can you use to enforce token authentication or shared access signatures (SAS) for content access?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a web application with frequently changing content, and you want to ensure that the latest content is served to users without delays. Which Azure CDN feature provides real-time content purging and instant cache invalidation?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": true },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization wants detailed analytics and reporting on content delivery performance, including data on user requests, data transfer, and cache usage. Which Azure CDN offering includes advanced analytics features?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application has a large number of small files, and you want to optimize the delivery of these files with features like minification and bundling. Which Azure CDN product provides these optimization features?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": true },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization is using Azure DevOps for CI/CD, and you want to integrate Azure CDN into your release pipelines for automatic content deployment. Which Azure CDN offering provides integration with Azure DevOps?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": true },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company has a partnership with Akamai, and you want to leverage their global network for content delivery. Which Azure CDN offering allows you to use Akamai's CDN services?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are building a serverless application and want to integrate Azure CDN with Azure Functions to cache and deliver dynamic content efficiently. Which Azure CDN feature supports this integration?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": true },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application serves large media files, and you want to enable smooth streaming experiences for users. Which Azure CDN feature is specifically designed for media delivery with features like HTTP Live Streaming (HLS) and Dynamic Adaptive Streaming over HTTP (DASH)?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": true },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization has a strict content update policy, and you want to ensure that updates are reflected in user requests immediately. Which Azure CDN feature allows you to enforce a cache duration of zero seconds?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": true },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN Blob Storage Caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to serve content over IPv6, and you want to ensure that your CDN supports IPv6 endpoints. Which Azure CDN offerings provide IPv6 support?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": true },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization is concerned about DDoS attacks and wants a CDN solution that includes DDoS protection by default. Which Azure CDN offering provides built-in DDoS protection?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": true },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are building a web application that requires custom SSL certificates for secure connections. Which Azure CDN offerings allow you to use custom SSL certificates?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": true },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization has specific compliance requirements, and you need a CDN solution that offers a dedicated network with isolated resources. Which Azure CDN offering provides a dedicated and isolated CDN network?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to use rules and optimizations to control the behavior of your CDN, such as URL rewriting, request collapsing, and cookie management. Which Azure CDN offering provides these advanced rule-based features?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": true },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": false },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company is operating in a hybrid environment with on-premises data centers, and you want to ensure seamless integration between your on-premises applications and Azure CDN. Which Azure CDN offering supports hybrid connections and provides a secure tunnel between on-premises and Azure?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your organization requires advanced logging and monitoring capabilities for your CDN, including detailed insights into user requests, cache hits, and cache status. Which Azure CDN offering provides enhanced analytics and logging features?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your company is considering a CDN solution that allows you to customize and extend CDN functionality using Azure Functions. Which Azure CDN offering provides integration with Azure Functions?",
+      "answers": [
+        { "text": "Azure CDN Standard Verizon", "isCorrect": false },
+        { "text": "Azure CDN Standard Microsoft", "isCorrect": false },
+        { "text": "Azure CDN Premium", "isCorrect": true },
+        { "text": "Azure CDN from Akamai", "isCorrect": false }
+      ]
+    }
+]  

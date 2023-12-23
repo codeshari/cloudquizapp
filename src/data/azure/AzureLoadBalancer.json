@@ -1,0 +1,425 @@
+[
+    {
+      "question": "What is the primary purpose of Azure Load Balancer?",
+      "answers": [
+        { "text": "To store and manage files in the cloud", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": true },
+        { "text": "To manage virtual machines in Azure", "isCorrect": false },
+        { "text": "To provide identity and access management services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which types of Azure Load Balancer are available?",
+      "answers": [
+        { "text": "Basic Load Balancer only", "isCorrect": false },
+        { "text": "Standard Load Balancer only", "isCorrect": false },
+        { "text": "Both Basic and Standard Load Balancer", "isCorrect": true },
+        { "text": "Advanced Load Balancer only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the key difference between Azure Basic Load Balancer and Standard Load Balancer?",
+      "answers": [
+        { "text": "Basic Load Balancer is free, while Standard Load Balancer incurs charges", "isCorrect": true },
+        { "text": "Standard Load Balancer is free, while Basic Load Balancer incurs charges", "isCorrect": false },
+        { "text": "Basic Load Balancer supports more features than Standard Load Balancer", "isCorrect": false },
+        { "text": "Standard Load Balancer is suitable only for small-scale applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In which Azure service category does Azure Load Balancer fall?",
+      "answers": [
+        { "text": "Compute", "isCorrect": true },
+        { "text": "Storage", "isCorrect": false },
+        { "text": "Networking", "isCorrect": false },
+        { "text": "Identity and Access Management", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol does Azure Load Balancer use for load balancing?",
+      "answers": [
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "TCP and UDP", "isCorrect": true },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Load Balancer health probe?",
+      "answers": [
+        { "text": "To block malicious traffic", "isCorrect": false },
+        { "text": "To monitor the health of backend instances", "isCorrect": true },
+        { "text": "To provide encryption for data in transit", "isCorrect": false },
+        { "text": "To route traffic based on content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which load balancing rule is used to distribute incoming traffic to backend pool instances?",
+      "answers": [
+        { "text": "Routing Rule", "isCorrect": false },
+        { "text": "Distribution Rule", "isCorrect": false },
+        { "text": "Load Balancing Rule", "isCorrect": true },
+        { "text": "Target Rule", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary difference between an Azure Load Balancer and an Azure Application Gateway?",
+      "answers": [
+        { "text": "Azure Application Gateway is for layer 4 (TCP/UDP) load balancing, while Azure Load Balancer is for layer 7 (HTTP) load balancing", "isCorrect": false },
+        { "text": "Azure Load Balancer is for layer 4 (TCP/UDP) load balancing, while Azure Application Gateway is for layer 7 (HTTP) load balancing", "isCorrect": true },
+        { "text": "There is no difference; both serve the same purpose", "isCorrect": false },
+        { "text": "Azure Load Balancer is for internal load balancing, while Azure Application Gateway is for external load balancing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a frontend IP configuration in Azure Load Balancer?",
+      "answers": [
+        { "text": "To store SSL certificates for encryption", "isCorrect": false },
+        { "text": "To define the IP address and port used to receive incoming traffic", "isCorrect": true },
+        { "text": "To configure backend instances", "isCorrect": false },
+        { "text": "To establish a VPN connection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Load Balancer SKU provides the ability to configure inbound and outbound NAT rules?",
+      "answers": [
+        { "text": "Basic SKU", "isCorrect": false },
+        { "text": "Standard SKU", "isCorrect": true },
+        { "text": "Free SKU", "isCorrect": false },
+        { "text": "Advanced SKU", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the backend pool in Azure Load Balancer?",
+      "answers": [
+        { "text": "To define the IP address and port used to receive incoming traffic", "isCorrect": false },
+        { "text": "To configure NAT rules for outbound traffic", "isCorrect": false },
+        { "text": "To define the backend instances that will receive incoming traffic", "isCorrect": true },
+        { "text": "To establish a VPN connection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure Load Balancer handle incoming traffic when all backend instances are healthy?",
+      "answers": [
+        { "text": "Distributes traffic evenly among all backend instances", "isCorrect": true },
+        { "text": "Blocks incoming traffic", "isCorrect": false },
+        { "text": "Redirects traffic to another backend pool", "isCorrect": false },
+        { "text": "Routes traffic based on content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Session Persistence' feature in Azure Load Balancer?",
+      "answers": [
+        { "text": "To encrypt data in transit", "isCorrect": false },
+        { "text": "To maintain the user's session on the same backend instance", "isCorrect": true },
+        { "text": "To route traffic based on content", "isCorrect": false },
+        { "text": "To monitor the health of backend instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure Load Balancer handle incoming traffic when a backend instance becomes unhealthy?",
+      "answers": [
+        { "text": "Redirects traffic to another backend pool", "isCorrect": false },
+        { "text": "Distributes traffic evenly among all backend instances", "isCorrect": false },
+        { "text": "Blocks incoming traffic to the unhealthy instance", "isCorrect": true },
+        { "text": "Routes traffic based on content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is used in conjunction with Azure Load Balancer for global load balancing?",
+      "answers": [
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": true },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure CDN", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Floating IP' feature in Azure Load Balancer?",
+      "answers": [
+        { "text": "To assign a static IP address to a backend instance", "isCorrect": true },
+        { "text": "To block malicious traffic", "isCorrect": false },
+        { "text": "To route traffic based on content", "isCorrect": false },
+        { "text": "To monitor the health of backend instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following protocols is not supported by Azure Load Balancer?",
+      "answers": [
+        { "text": "TCP", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "FTP", "isCorrect": true },
+        { "text": "UDP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Outbound Rules' feature in Azure Load Balancer?",
+      "answers": [
+        { "text": "To define rules for incoming traffic", "isCorrect": false },
+        { "text": "To configure NAT rules for outbound traffic", "isCorrect": true },
+        { "text": "To route traffic based on content", "isCorrect": false },
+        { "text": "To maintain the user's session on the same backend instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Load Balancer SKU provides the ability to configure high availability across different Azure regions?",
+      "answers": [
+        { "text": "Basic SKU", "isCorrect": false },
+        { "text": "Standard SKU", "isCorrect": true },
+        { "text": "Free SKU", "isCorrect": false },
+        { "text": "Advanced SKU", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'SKU' in Azure Load Balancer?",
+      "answers": [
+        { "text": "To define the IP address and port used to receive incoming traffic", "isCorrect": false },
+        { "text": "To configure backend instances", "isCorrect": false },
+        { "text": "To specify the features and capabilities of the load balancer", "isCorrect": true },
+        { "text": "To establish a VPN connection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are designing a solution that requires distributing incoming network traffic across multiple virtual machines. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": true },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to create a load balancer that distributes traffic based on the source IP address of the incoming requests. Which load balancing rule should you use?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": false },
+        { "text": "Source IP Affinity", "isCorrect": true },
+        { "text": "Least Connections", "isCorrect": false },
+        { "text": "Port-based routing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have multiple virtual machines in an Azure virtual network, and you want to ensure that incoming traffic is evenly distributed among them. Which Azure Load Balancer SKU should you choose?",
+      "answers": [
+        { "text": "Basic", "isCorrect": true },
+        { "text": "Standard", "isCorrect": false },
+        { "text": "UltraPerformance", "isCorrect": false },
+        { "text": "Premium", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have an application that requires SSL termination at the load balancer. Which Azure service provides this capability?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to route traffic based on the URL path of incoming requests. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to configure a health probe to monitor the availability of your backend pool instances. What is the purpose of a health probe in Azure Load Balancer?",
+      "answers": [
+        { "text": "To distribute traffic evenly", "isCorrect": false },
+        { "text": "To monitor the health of backend pool instances", "isCorrect": true },
+        { "text": "To terminate SSL connections", "isCorrect": false },
+        { "text": "To route traffic based on URL paths", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application requires IP-based SSL offloading, and you want to terminate SSL at the load balancer. Which SKU of Azure Load Balancer supports this requirement?",
+      "answers": [
+        { "text": "Basic", "isCorrect": true },
+        { "text": "Standard", "isCorrect": false },
+        { "text": "UltraPerformance", "isCorrect": false },
+        { "text": "Premium", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have deployed virtual machines across multiple availability zones, and you want to ensure high availability and fault tolerance for your application. Which type of Azure Load Balancer should you use?",
+      "answers": [
+        { "text": "Internal Load Balancer", "isCorrect": false },
+        { "text": "Public Load Balancer", "isCorrect": false },
+        { "text": "Standard Load Balancer", "isCorrect": true },
+        { "text": "Basic Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to route traffic based on the incoming port number of requests. Which load balancing rule should you configure?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": false },
+        { "text": "Source IP Affinity", "isCorrect": false },
+        { "text": "Port-based routing", "isCorrect": true },
+        { "text": "Least Connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application uses multiple protocols, and you want to ensure that traffic is directed to the appropriate backend instances based on the protocol. Which Azure Load Balancer feature should you use?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": false },
+        { "text": "Protocol-based routing", "isCorrect": true },
+        { "text": "Least Connections", "isCorrect": false },
+        { "text": "Source IP Affinity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to route traffic based on the URL path and the incoming port number. Which Azure service allows you to achieve this?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to distribute incoming network traffic based on geographic location. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": true },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to route traffic based on the HTTP method of incoming requests. Which Azure service allows you to achieve this?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to implement session affinity to ensure that client requests are consistently directed to the same backend instance. Which load balancing rule should you use?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": false },
+        { "text": "Source IP Affinity", "isCorrect": false },
+        { "text": "Least Connections", "isCorrect": false },
+        { "text": "Client IP Affinity", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to route traffic based on the hostname of incoming requests. Which Azure service allows you to achieve this?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to implement URL-based routing for your application. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to configure a load balancer to distribute incoming traffic based on the least number of active connections. Which load balancing algorithm should you choose?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": false },
+        { "text": "Least Connections", "isCorrect": true },
+        { "text": "Source IP Affinity", "isCorrect": false },
+        { "text": "Client IP Affinity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that the load balancer is accessible only from within your virtual network. Which type of Azure Load Balancer should you use?",
+      "answers": [
+        { "text": "Internal Load Balancer", "isCorrect": true },
+        { "text": "Public Load Balancer", "isCorrect": false },
+        { "text": "Standard Load Balancer", "isCorrect": false },
+        { "text": "Basic Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application has specific requirements for handling incoming network traffic based on different URL paths. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that traffic is distributed based on the least number of active connections. Which load balancing rule should you configure?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": false },
+        { "text": "Least Connections", "isCorrect": true },
+        { "text": "Source IP Affinity", "isCorrect": false },
+        { "text": "Client IP Affinity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have deployed a web application that requires handling incoming traffic based on the HTTP headers. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: Your application requires high availability and automatic scaling. Which Azure service provides a fully managed load balancing solution?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You have deployed virtual machines in an availability set, and you want to distribute incoming network traffic evenly across them. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: Your application requires routing traffic based on the geographic location of users. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Front Door", "isCorrect": true },
+        { "text": "Azure Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have multiple backend instances for your application, and you want to ensure that each instance receives an equal share of incoming traffic. Which load balancing algorithm should you choose?",
+      "answers": [
+        { "text": "Round Robin", "isCorrect": true },
+        { "text": "Least Connections", "isCorrect": false },
+        { "text": "Source IP Affinity", "isCorrect": false },
+        { "text": "Client IP Affinity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to route traffic based on the URL path and distribute it among multiple backend instances. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a requirement to route traffic based on the incoming port number and the HTTP method of requests. Which Azure service allows you to achieve this?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": true },
+        { "text": "Azure Front Door", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    }
+]

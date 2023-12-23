@@ -1,0 +1,425 @@
+[
+    {
+      "question": "What is Microsoft Azure Logic Apps?",
+      "answers": [
+        { "text": "A cloud-based data storage service", "isCorrect": false },
+        { "text": "A cloud-based integration service", "isCorrect": true },
+        { "text": "A virtual machine management service", "isCorrect": false },
+        { "text": "A machine learning platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming language is used to define workflows in Azure Logic Apps?",
+      "answers": [
+        { "text": "JavaScript", "isCorrect": false },
+        { "text": "Python", "isCorrect": false },
+        { "text": "JSON (JavaScript Object Notation)", "isCorrect": true },
+        { "text": "C#", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of connectors in Azure Logic Apps?",
+      "answers": [
+        { "text": "To define workflow execution order", "isCorrect": false },
+        { "text": "To provide a way to connect to and interact with external services", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a trigger type in Azure Logic Apps?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Timer", "isCorrect": false },
+        { "text": "User Input", "isCorrect": true },
+        { "text": "Azure Blob Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a workflow in Azure Logic Apps?",
+      "answers": [
+        { "text": "A sequence of tasks performed by a virtual machine", "isCorrect": false },
+        { "text": "A series of steps executed to complete a specific task or process", "isCorrect": true },
+        { "text": "A machine learning model", "isCorrect": false },
+        { "text": "A web application hosted on Azure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is commonly used to store and retrieve data within Logic Apps?",
+      "answers": [
+        { "text": "Azure Logic Apps Storage", "isCorrect": false },
+        { "text": "Azure Blob Storage", "isCorrect": true },
+        { "text": "Azure SQL Database", "isCorrect": false },
+        { "text": "Azure Cosmos DB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Compose' action in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To combine outputs from multiple actions into a single output", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps feature enables conditional branching based on specified conditions?",
+      "answers": [
+        { "text": "Parallel Execution", "isCorrect": false },
+        { "text": "Switch Case", "isCorrect": true },
+        { "text": "Repetitions", "isCorrect": false },
+        { "text": "Exception Handling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'HTTP' trigger in Azure Logic Apps?",
+      "answers": [
+        { "text": "To trigger workflows based on an HTTP request", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To manage Azure storage accounts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you pass data between actions in Azure Logic Apps?",
+      "answers": [
+        { "text": "Using only predefined system variables", "isCorrect": false },
+        { "text": "By hardcoding values in each action", "isCorrect": false },
+        { "text": "By referencing outputs of previous actions", "isCorrect": true },
+        { "text": "By defining global variables in the Logic App definition", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'ForEach' action in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To iterate over a collection and perform actions on each item", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps feature is used to handle errors and exceptions in a workflow?",
+      "answers": [
+        { "text": "Retry Policy", "isCorrect": false },
+        { "text": "Exception Handling", "isCorrect": true },
+        { "text": "Error Notifications", "isCorrect": false },
+        { "text": "Fault Tolerance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Initialize Variable' action in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To declare and initialize variables for use in the workflow", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps trigger is used to respond to changes in an Azure Blob Storage container?",
+      "answers": [
+        { "text": "HTTP Trigger", "isCorrect": false },
+        { "text": "Timer Trigger", "isCorrect": false },
+        { "text": "Blob Trigger", "isCorrect": true },
+        { "text": "Queue Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Terminate' action in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To stop the execution of the workflow with a specified status", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps feature is used to create parallel branches in a workflow?",
+      "answers": [
+        { "text": "Switch Case", "isCorrect": false },
+        { "text": "Parallel Execution", "isCorrect": true },
+        { "text": "Repetitions", "isCorrect": false },
+        { "text": "Exception Handling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Response' action in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To send an HTTP response back to the calling application", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps trigger is used to respond to messages in an Azure Service Bus queue?",
+      "answers": [
+        { "text": "HTTP Trigger", "isCorrect": false },
+        { "text": "Timer Trigger", "isCorrect": false },
+        { "text": "Service Bus Queue Trigger", "isCorrect": true },
+        { "text": "Blob Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Scope' action in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To group actions together and define their scope", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps trigger is used to respond to changes in an Azure SQL Database?",
+      "answers": [
+        { "text": "HTTP Trigger", "isCorrect": false },
+        { "text": "Timer Trigger", "isCorrect": false },
+        { "text": "SQL Trigger", "isCorrect": true },
+        { "text": "Blob Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Retry Policy' feature in Azure Logic Apps?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To automatically retry failed actions based on specified conditions", "isCorrect": true },
+        { "text": "To define workflow execution order", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Logic Apps trigger is used to respond to changes in an Office 365 Outlook email?",
+      "answers": [
+        { "text": "HTTP Trigger", "isCorrect": false },
+        { "text": "Timer Trigger", "isCorrect": false },
+        { "text": "Office 365 Outlook Trigger", "isCorrect": true },
+        { "text": "Blob Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to design a workflow that triggers whenever a new file is added to an Azure Storage Blob container. Which Logic App trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Blob Storage - When a blob is added or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "File System - When a file is created or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to build a Logic App that sends an email notification whenever a new record is added to an Azure Cosmos DB collection. Which trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Cosmos DB - When an item is created or modified", "isCorrect": true },
+        { "text": "Database - When a record is added or updated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a Logic App to process messages from an Azure Service Bus queue. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a Logic App that runs every day at a specific time. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": true },
+        { "text": "Timer - At a specific time", "isCorrect": false },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a workflow to process tweets in real-time. Which Logic App trigger should you use to initiate the workflow when a new tweet is posted?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Twitter - When a new tweet is posted", "isCorrect": true },
+        { "text": "Custom Connector - Tweet Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to build a Logic App that runs when a new item is added to an Azure Queue Storage. Which trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": true },
+        { "text": "Blob Storage - When a blob is added or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a Logic App that processes data from an HTTP POST request. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request - When an HTTP request is received", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "HTTP Request - When a request is completed", "isCorrect": false },
+        { "text": "Custom Connector - HTTP Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to design a Logic App that triggers when a new record is added to an Azure SQL Database. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "SQL - When an item is created or modified", "isCorrect": true },
+        { "text": "Database - When a record is added or updated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are creating a Logic App to monitor changes to a specific folder in OneDrive for Business. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "OneDrive for Business - When a file is created or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "File System - When a file is created or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to design a Logic App that runs when a new record is added to an Azure Table Storage. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Table Storage - When an item is created or modified", "isCorrect": true },
+        { "text": "Blob Storage - When a blob is added or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building a Logic App that processes messages from an Azure Event Grid subscription. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Event Grid - When an event is received", "isCorrect": true },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a Logic App that runs on-demand based on an external event. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Custom Connector - Event Trigger", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a Logic App to process data from an Azure Queue Storage. What trigger should you use to start the workflow?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to build a Logic App that runs when a new record is added to an Azure Table Storage. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Table Storage - When an item is created or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Database - When a record is added or updated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a Logic App that processes data from an HTTP GET request. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request - When an HTTP request is received", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "HTTP Request - When a request is completed", "isCorrect": false },
+        { "text": "Custom Connector - HTTP Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a Logic App that processes data from an Azure Blob Storage container. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Blob Storage - When a blob is added or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create a Logic App that processes data from an Azure Event Hub. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Event Hub - When an event is available", "isCorrect": true },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building a Logic App that processes data from an Azure Table Storage. What trigger should you use to initiate the workflow?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Table Storage - When an item is created or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Database - When a record is added or updated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to design a workflow that triggers whenever a new file is added to an Azure Blob Storage container. Which Logic App trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Blob Storage - When a blob is added or modified", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "File System - When a file is created or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to build a Logic App that sends an email notification whenever a new record is added to an Azure Cosmos DB collection. Which trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Cosmos DB - When an item is created or modified", "isCorrect": true },
+        { "text": "Database - When a record is added or updated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a Logic App to process messages from an Azure Service Bus queue. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a Logic App that runs every day at a specific time. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": true },
+        { "text": "Timer - At a specific time", "isCorrect": false },
+        { "text": "Service Bus - When a message is received in a queue", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a workflow to process tweets in real-time. Which Logic App trigger should you use to initiate the workflow when a new tweet is posted?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Twitter - When a new tweet is posted", "isCorrect": true },
+        { "text": "Custom Connector - Tweet Trigger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to build a Logic App that runs when a new record is added to an Azure Queue Storage. Which trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request", "isCorrect": false },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "Queue Storage - When a message is enqueued or modified", "isCorrect": true },
+        { "text": "Blob Storage - When a blob is added or modified", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a Logic App that processes data from an HTTP POST request. What trigger should you use?",
+      "answers": [
+        { "text": "HTTP Request - When an HTTP request is received", "isCorrect": true },
+        { "text": "Recurrence", "isCorrect": false },
+        { "text": "HTTP Request - When a request is completed", "isCorrect": false },
+        { "text": "Custom Connector - HTTP Trigger", "isCorrect": false }
+      ]
+    }
+]

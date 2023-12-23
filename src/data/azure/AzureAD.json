@@ -1,0 +1,452 @@
+[
+    {
+      "question": "What is Azure Active Directory (Azure AD)?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A cloud-based identity and access management service", "isCorrect": true },
+        { "text": "A virtual machine service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication protocols does Azure AD support?",
+      "answers": [
+        { "text": "OAuth only", "isCorrect": false },
+        { "text": "SAML only", "isCorrect": false },
+        { "text": "OAuth and OpenID Connect", "isCorrect": true },
+        { "text": "LDAP only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure AD B2B?",
+      "answers": [
+        { "text": "To authenticate internal users", "isCorrect": false },
+        { "text": "To authenticate external users", "isCorrect": false },
+        { "text": "To enable external users to access resources in your organization", "isCorrect": true },
+        { "text": "To synchronize on-premises directories", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which role is required to manage Azure AD users and groups?",
+      "answers": [
+        { "text": "Global Administrator", "isCorrect": true },
+        { "text": "User Administrator", "isCorrect": false },
+        { "text": "Application Administrator", "isCorrect": false },
+        { "text": "Security Administrator", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Multi-Factor Authentication (MFA) used for in Azure AD?",
+      "answers": [
+        { "text": "To manage resource groups", "isCorrect": false },
+        { "text": "To enable conditional access policies", "isCorrect": false },
+        { "text": "To add an extra layer of security by requiring additional verification", "isCorrect": true },
+        { "text": "To configure virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD feature allows users to reset their passwords without administrator intervention?",
+      "answers": [
+        { "text": "Self-Service Password Reset (SSPR)", "isCorrect": true },
+        { "text": "Conditional Access", "isCorrect": false },
+        { "text": "Multi-Factor Authentication (MFA)", "isCorrect": false },
+        { "text": "Identity Protection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure AD Identity Protection?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To detect and respond to identity-based risks", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Azure AD Join used for?",
+      "answers": [
+        { "text": "To join on-premises Active Directory domains", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To join devices to Azure AD for simplified management", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD role is required to create and manage enterprise applications?",
+      "answers": [
+        { "text": "Application Administrator", "isCorrect": false },
+        { "text": "Application Developer", "isCorrect": false },
+        { "text": "Application Owner", "isCorrect": false },
+        { "text": "Application Administrator or Owner", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure AD Privileged Identity Management (PIM)?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To manage, control, and monitor access within Azure AD, Azure, and other Microsoft Online Services", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD feature provides single sign-on (SSO) to SaaS applications?",
+      "answers": [
+        { "text": "Azure AD B2B", "isCorrect": false },
+        { "text": "Azure AD Connect", "isCorrect": false },
+        { "text": "Azure AD Application Proxy", "isCorrect": false },
+        { "text": "Azure AD Single Sign-On", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure AD Application Proxy?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To enable secure remote access to on-premises applications", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD feature helps protect against the risk of compromised accounts?",
+      "answers": [
+        { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+        { "text": "Azure AD Identity Protection", "isCorrect": true },
+        { "text": "Azure AD B2B", "isCorrect": false },
+        { "text": "Azure AD Application Proxy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Conditional Access policies in Azure AD?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To control access to apps based on conditions", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD feature allows you to manage external identities and provide them access to your resources?",
+      "answers": [
+        { "text": "Azure AD Application Proxy", "isCorrect": false },
+        { "text": "Azure AD B2C", "isCorrect": true },
+        { "text": "Azure AD Identity Protection", "isCorrect": false },
+        { "text": "Azure AD Domain Services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure AD Domain Services?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To provide domain services without the need for domain controllers", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure AD B2C differ from Azure AD B2B?",
+      "answers": [
+        { "text": "Azure AD B2C is for managing external user identities, while Azure AD B2B is for managing guest user access to internal resources", "isCorrect": true },
+        { "text": "Azure AD B2B is for managing external user identities, while Azure AD B2C is for managing guest user access to internal resources", "isCorrect": false },
+        { "text": "Azure AD B2C is only for managing internal user identities", "isCorrect": false },
+        { "text": "Azure AD B2B is only for managing internal user identities", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Azure AD Join' feature?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To enable single sign-on for on-premises applications", "isCorrect": false },
+        { "text": "To join devices to Azure AD for simplified management", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD role is required to manage conditional access policies?",
+      "answers": [
+        { "text": "Security Administrator", "isCorrect": true },
+        { "text": "Global Administrator", "isCorrect": false },
+        { "text": "User Administrator", "isCorrect": false },
+        { "text": "Application Administrator", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Identity Protection' feature in Azure AD?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To detect, investigate, and respond to identity-based risks", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD feature allows you to track and manage privileged identities?",
+      "answers": [
+        { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": true },
+        { "text": "Azure AD Identity Protection", "isCorrect": false },
+        { "text": "Azure AD B2B", "isCorrect": false },
+        { "text": "Azure AD Application Proxy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Privileged Identity Management (PIM)' feature in Azure AD?",
+      "answers": [
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To manage, control, and monitor access within Azure AD, Azure, and other Microsoft Online Services", "isCorrect": true },
+        { "text": "To enable single sign-on for on-premises applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which role is required to manage Azure AD B2C policies?",
+      "answers": [
+        { "text": "Global Administrator", "isCorrect": false },
+        { "text": "User Administrator", "isCorrect": false },
+        { "text": "Policy Administrator", "isCorrect": true },
+        { "text": "Application Administrator", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Azure AD Application Proxy' feature?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To enable secure remote access to on-premises applications", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure AD feature helps protect against the risk of compromised accounts?",
+      "answers": [
+        { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+        { "text": "Azure AD Identity Protection", "isCorrect": true },
+        { "text": "Azure AD B2B", "isCorrect": false },
+        { "text": "Azure AD Application Proxy", "isCorrect": false }
+      ]
+    },
+      {
+        "question": "Scenario: Your organization has decided to implement Multi-Factor Authentication (MFA) for enhanced security. Which Azure AD feature will you use to enforce MFA for all users?",
+        "answers": [
+          { "text": "Azure AD B2B", "isCorrect": false },
+          { "text": "Azure AD Join", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": true },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company is expanding its team, and you need to provide access to external partners. Which Azure AD feature allows you to securely share your applications and resources with users from other organizations?",
+        "answers": [
+          { "text": "Azure AD Join", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD B2B", "isCorrect": true },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization wants to streamline access management and eliminate the need for separate usernames and passwords for different applications. What Azure AD feature can you implement to achieve single sign-on (SSO) for cloud applications?",
+        "answers": [
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false },
+          { "text": "Azure AD Single Sign-On (SSO)", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization needs to ensure that only devices registered with Azure AD can access company resources. What feature should you enable to achieve this?",
+        "answers": [
+          { "text": "Azure AD Join", "isCorrect": true },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is concerned about the security of privileged accounts and wants to monitor and control access within Azure AD, Azure, and other Microsoft Online Services. Which Azure AD feature should you use?",
+        "answers": [
+          { "text": "Azure AD Join", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Identity Protection", "isCorrect": true },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization needs to manage and control access to Azure resources based on specific conditions. What should you implement to achieve this?",
+        "answers": [
+          { "text": "Azure AD Join", "isCorrect": false },
+          { "text": "Azure AD Identity Protection", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "Scenario: Your company wants to allow users to reset their passwords without administrator intervention to improve productivity. What Azure AD feature should you enable?",
+        "answers": [
+          { "text": "Azure AD Identity Protection", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+          { "text": "Azure AD Self-Service Password Reset (SSPR)", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is planning to use Azure AD for centralized identity and access management. Which role in Azure AD is required to manage users and groups?",
+        "answers": [
+          { "text": "Application Administrator", "isCorrect": false },
+          { "text": "User Administrator", "isCorrect": true },
+          { "text": "Security Administrator", "isCorrect": false },
+          { "text": "Global Administrator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization needs to detect and respond to identity-based risks, such as suspicious activities. What Azure AD feature should you use?",
+        "answers": [
+          { "text": "Azure AD Join", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Identity Protection", "isCorrect": true },
+          { "text": "Azure AD B2B", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company wants to provide a seamless and secure sign-on experience for users accessing Azure AD-integrated applications. What feature should you implement for this purpose?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Single Sign-On (SSO)", "isCorrect": true },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is using on-premises Active Directory and wants to extend its reach to the cloud without replicating the entire directory. What Azure AD feature allows you to achieve this?",
+        "answers": [
+          { "text": "Azure AD Domain Services", "isCorrect": true },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD B2B", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company wants to track and manage privileged identities within Azure AD. What feature should you use for this purpose?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": true },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization needs to provide external users with access to specific resources without creating accounts in the corporate directory. What Azure AD feature should you use?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": true },
+          { "text": "Azure AD Identity Protection", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company wants to enable single sign-on for on-premises applications without exposing them to the internet. What Azure AD feature allows secure remote access to on-premises applications?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": true },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Identity Protection", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is concerned about compromised accounts and wants to protect against the risk of unauthorized access. What Azure AD feature should you implement?",
+        "answers": [
+          { "text": "Azure AD Identity Protection", "isCorrect": true },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company wants to implement policies that control access to applications based on conditions such as location and device state. What Azure AD feature should you use?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": true },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is planning to manage external user identities and provide them access to your resources. What Azure AD feature is designed for this purpose?",
+        "answers": [
+          { "text": "Azure AD B2B", "isCorrect": true },
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company wants to join devices to Azure AD for simplified management and control. What feature should you use for this purpose?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Join", "isCorrect": true },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is planning to create and manage enterprise applications within Azure AD. What role is required for this task?",
+        "answers": [
+          { "text": "Application Administrator", "isCorrect": false },
+          { "text": "Application Developer", "isCorrect": false },
+          { "text": "Application Administrator or Owner", "isCorrect": true },
+          { "text": "Application Owner", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company is looking to enhance security by managing, controlling, and monitoring access within Azure AD and other Microsoft Online Services. What feature should you implement?",
+        "answers": [
+          { "text": "Azure AD Conditional Access", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": true },
+          { "text": "Azure AD Identity Protection", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization wants to provide single sign-on (SSO) to Software as a Service (SaaS) applications. What Azure AD feature should you implement?",
+        "answers": [
+          { "text": "Azure AD B2B", "isCorrect": false },
+          { "text": "Azure AD Connect", "isCorrect": false },
+          { "text": "Azure AD Application Proxy", "isCorrect": false },
+          { "text": "Azure AD Single Sign-On (SSO)", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "Scenario: Your company needs to manage external identities and provide them access to your resources. What Azure AD feature is designed for this purpose?",
+        "answers": [
+          { "text": "Azure AD Application Proxy", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": true },
+          { "text": "Azure AD Identity Protection", "isCorrect": false },
+          { "text": "Azure AD Domain Services", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization is planning to provide domain services without the need for domain controllers. What Azure AD feature should you implement?",
+        "answers": [
+          { "text": "Azure AD Application Proxy", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Domain Services", "isCorrect": true },
+          { "text": "Azure AD Join", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your company is expanding its team and collaborating with external partners. What Azure AD feature allows you to invite external users to access resources in your organization?",
+        "answers": [
+          { "text": "Azure AD Application Proxy", "isCorrect": false },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD B2B", "isCorrect": true },
+          { "text": "Azure AD Identity Protection", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Scenario: Your organization wants to enable secure remote access to on-premises applications. What Azure AD feature should you implement?",
+        "answers": [
+          { "text": "Azure AD Application Proxy", "isCorrect": true },
+          { "text": "Azure AD B2C", "isCorrect": false },
+          { "text": "Azure AD Identity Protection", "isCorrect": false },
+          { "text": "Azure AD Privileged Identity Management (PIM)", "isCorrect": false }
+        ]
+      }    
+]

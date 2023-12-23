@@ -1,0 +1,434 @@
+[
+    {
+      "question": "What is Azure Blob Storage?",
+      "answers": [
+        { "text": "A relational database service", "isCorrect": false },
+        { "text": "A cloud-based object storage service", "isCorrect": true },
+        { "text": "A virtual machine service", "isCorrect": false },
+        { "text": "A file storage service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What are the three types of blobs in Azure Blob Storage?",
+      "answers": [
+        { "text": "Hot, Cool, and Archive", "isCorrect": false },
+        { "text": "Block, Page, and Append", "isCorrect": true },
+        { "text": "Standard, Premium, and Ultra", "isCorrect": false },
+        { "text": "Primary, Secondary, and Tertiary", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of blob in Azure Blob Storage is optimized for append operations?",
+      "answers": [
+        { "text": "Block Blob", "isCorrect": false },
+        { "text": "Page Blob", "isCorrect": false },
+        { "text": "Append Blob", "isCorrect": true },
+        { "text": "Standard Blob", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum size of a block blob in Azure Blob Storage?",
+      "answers": [
+        { "text": "1 TB", "isCorrect": false },
+        { "text": "100 GB", "isCorrect": false },
+        { "text": "4.75 TB", "isCorrect": true },
+        { "text": "10 GB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which storage access tier in Azure Blob Storage is suitable for frequently accessed data?",
+      "answers": [
+        { "text": "Cool Access Tier", "isCorrect": false },
+        { "text": "Archive Access Tier", "isCorrect": false },
+        { "text": "Hot Access Tier", "isCorrect": true },
+        { "text": "Standard Access Tier", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Shared Access Signature (SAS) in Azure Blob Storage?",
+      "answers": [
+        { "text": "To define blob types", "isCorrect": false },
+        { "text": "To provide temporary access to resources", "isCorrect": true },
+        { "text": "To specify storage account keys", "isCorrect": false },
+        { "text": "To configure storage firewalls", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service can be used to trigger events based on blob storage activity?",
+      "answers": [
+        { "text": "Azure Functions", "isCorrect": true },
+        { "text": "Azure Logic Apps", "isCorrect": false },
+        { "text": "Azure Event Grid", "isCorrect": false },
+        { "text": "Azure Notification Hubs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'immutable storage' feature in Azure Blob Storage?",
+      "answers": [
+        { "text": "To prevent the creation of new containers", "isCorrect": false },
+        { "text": "To prevent modification or deletion of data for a specified retention interval", "isCorrect": true },
+        { "text": "To limit the number of blobs in a storage account", "isCorrect": false },
+        { "text": "To restrict access to specific IP addresses", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Blob Storage feature allows you to automatically replicate data to another Azure region?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure File Sync", "isCorrect": false },
+        { "text": "Azure Blob Storage Geo-Redundant Storage (GRS)", "isCorrect": true },
+        { "text": "Azure Active Directory", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'soft delete' feature in Azure Blob Storage?",
+      "answers": [
+        { "text": "To permanently delete blobs", "isCorrect": false },
+        { "text": "To recover deleted blobs within a retention period", "isCorrect": true },
+        { "text": "To encrypt blobs at rest", "isCorrect": false },
+        { "text": "To replicate data to another region", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Blob Storage feature allows you to configure automatic versioning of blobs?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Triggers", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": true },
+        { "text": "Blob Snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'soft delete' feature in Azure Blob Storage?",
+      "answers": [
+        { "text": "To permanently delete blobs", "isCorrect": false },
+        { "text": "To recover deleted blobs within a retention period", "isCorrect": true },
+        { "text": "To encrypt blobs at rest", "isCorrect": false },
+        { "text": "To replicate data to another region", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Blob Storage feature allows you to configure automatic versioning of blobs?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Triggers", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": true },
+        { "text": "Blob Snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Blob Storage feature allows you to index the content of your blobs to perform full-text searches?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": true },
+        { "text": "Blob Triggers", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you optimize blob storage costs in Azure?",
+      "answers": [
+        { "text": "By using the 'Archive' access tier for infrequently accessed data", "isCorrect": true },
+        { "text": "By using the 'Hot' access tier for all blobs", "isCorrect": false },
+        { "text": "By disabling versioning for all blobs", "isCorrect": false },
+        { "text": "By enabling soft delete for all blobs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Blob Storage Lifecycle Management?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To automatically transition blobs between access tiers", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Blob Storage feature allows you to configure a rule to automatically delete blobs that match specific criteria?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Triggers", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Lifecycle Management", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Blob Indexer' feature in Azure Blob Storage?",
+      "answers": [
+        { "text": "To automatically delete blobs that match specific criteria", "isCorrect": false },
+        { "text": "To configure automatic versioning of blobs", "isCorrect": false },
+        { "text": "To index the content of your blobs for full-text searches", "isCorrect": true },
+        { "text": "To replicate data to another region", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Blob Storage feature allows you to create read-only snapshots of a blob's state at a specific point in time?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Triggers", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How can you secure access to blobs in Azure Blob Storage?",
+      "answers": [
+        { "text": "By using a Shared Access Signature (SAS)", "isCorrect": true },
+        { "text": "By enabling versioning for all blobs", "isCorrect": false },
+        { "text": "By disabling soft delete for all blobs", "isCorrect": false },
+        { "text": "By using Blob Triggers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Blob Storage Static Website feature?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To host static content and serve HTML, CSS, and JavaScript files", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to store and manage unstructured data, such as images and documents, in the cloud. Which Azure service is most suitable for this purpose?",
+      "answers": [
+        { "text": "Azure SQL Database", "isCorrect": false },
+        { "text": "Azure Blob Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your application requires a scalable and highly available storage solution to store large amounts of data for analysis. Which Azure storage service should you choose?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false },
+        { "text": "Azure Files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to serve images directly to a web browser without any server-side processing. Which access tier of Azure Blob Storage should you use?",
+      "answers": [
+        { "text": "Hot access tier", "isCorrect": true },
+        { "text": "Cool access tier", "isCorrect": false },
+        { "text": "Archive access tier", "isCorrect": false },
+        { "text": "Optimized for caching access tier", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your application needs to store data that will be retained for a long time but is rarely accessed. Which access tier of Azure Blob Storage is the most cost-effective for this scenario?",
+      "answers": [
+        { "text": "Hot access tier", "isCorrect": false },
+        { "text": "Cool access tier", "isCorrect": true },
+        { "text": "Archive access tier", "isCorrect": false },
+        { "text": "Optimized for caching access tier", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are developing an application that requires storage with hierarchical namespaces and directory structures. Which Azure storage service should you choose?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": true },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false },
+        { "text": "Azure Files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your organization requires versioning for data stored in the cloud, allowing you to access and recover previous versions of blobs. Which feature of Azure Blob Storage provides versioning?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": true },
+        { "text": "Blob Snapshots", "isCorrect": false },
+        { "text": "Blob Leases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to implement data archiving for regulatory compliance, and the data will be rarely accessed. Which feature of Azure Blob Storage should you use for archiving?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": false },
+        { "text": "Archive access tier", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Your application requires high-performance, low-latency access to files shared between multiple virtual machines. Which Azure storage service is suitable for this scenario?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false },
+        { "text": "Azure Files", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You are designing a backup solution, and you want to create point-in-time snapshots of your blobs. Which feature of Azure Blob Storage allows you to achieve this?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": true },
+        { "text": "Blob Leases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your application needs to store and retrieve small amounts of data that requires low latency and high throughput. Which Azure storage service is suitable for this scenario?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure Table Storage", "isCorrect": true },
+        { "text": "Azure Queue Storage", "isCorrect": false },
+        { "text": "Azure Files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enforce encryption for data at rest in Azure Blob Storage. Which feature should you enable?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": false },
+        { "text": "Blob Storage Service Encryption", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to allow clients to upload large files directly to Azure Blob Storage without passing through your web server. Which feature should you use?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Managed Disks", "isCorrect": false },
+        { "text": "Azure Blob Storage Direct to Storage", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You want to delegate access to a specific container in Azure Blob Storage to a third-party without sharing your storage account key. Which feature should you use?",
+      "answers": [
+        { "text": "Shared Access Signatures (SAS)", "isCorrect": true },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your application needs to trigger an Azure Function when a new blob is added to a specific container. Which Azure Blob Storage feature should you use?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Events", "isCorrect": true },
+        { "text": "Blob Snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enable access to your Azure Blob Storage data over HTTPS. Which feature should you configure?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": false },
+        { "text": "Blob Storage Service Encryption", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Your organization needs to monitor and analyze access patterns and trends for Azure Blob Storage. Which Azure service can you use for this purpose?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": true },
+        { "text": "Azure Security Center", "isCorrect": false },
+        { "text": "Azure Blob Storage Analytics", "isCorrect": false },
+        { "text": "Azure Storage Explorer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are planning to migrate your on-premises file shares to the cloud. Which Azure storage service should you consider for this migration?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure Table Storage", "isCorrect": false },
+        { "text": "Azure Queue Storage", "isCorrect": false },
+        { "text": "Azure Files", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You want to implement Azure Blob Storage lifecycle management to automatically transition blobs to the cool access tier after 30 days. Which feature should you configure?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Analytics", "isCorrect": false },
+        { "text": "Blob Lifecycle Management", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to provide secure and restricted access to specific containers in Azure Blob Storage for a limited time. Which feature should you use?",
+      "answers": [
+        { "text": "Shared Access Signatures (SAS)", "isCorrect": true },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Managed Disks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enforce a retention policy on certain blobs to ensure they are not deleted for a specified period. Which feature should you use?",
+      "answers": [
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Retention Policies", "isCorrect": true },
+        { "text": "Azure Blob Storage Analytics", "isCorrect": false },
+        { "text": "Blob Snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your organization requires real-time analytics on data stored in Azure Blob Storage. Which Azure service can you use for real-time analytics?",
+      "answers": [
+        { "text": "Azure Blob Storage Analytics", "isCorrect": false },
+        { "text": "Azure Monitor", "isCorrect": false },
+        { "text": "Azure Stream Analytics", "isCorrect": true },
+        { "text": "Azure Storage Explorer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to monitor and diagnose issues in your Azure Blob Storage account, such as failed requests and latency. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Blob Storage Analytics", "isCorrect": false },
+        { "text": "Azure Monitor", "isCorrect": true },
+        { "text": "Azure Stream Analytics", "isCorrect": false },
+        { "text": "Azure Storage Explorer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your application needs to ensure that blobs are only accessible by clients with valid authentication tokens. Which feature should you use to secure access to your blobs?",
+      "answers": [
+        { "text": "Azure Blob Storage SAS", "isCorrect": true },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Events", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to limit the maximum size of blobs that can be uploaded to a specific container in Azure Blob Storage. Which feature should you configure?",
+      "answers": [
+        { "text": "Azure Blob Storage SAS", "isCorrect": false },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Blob Size Limit", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to synchronize files between on-premises file servers and Azure Blob Storage. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Blob Storage Sync", "isCorrect": true },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Events", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enable logging for read, write, and delete operations on blobs in Azure Blob Storage. Which feature should you configure?",
+      "answers": [
+        { "text": "Azure Blob Storage Analytics", "isCorrect": false },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Logging with Azure Storage Analytics", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to enable cross-origin resource sharing (CORS) for a specific container in Azure Blob Storage. Which feature should you configure?",
+      "answers": [
+        { "text": "Azure Blob Storage CORS Rules", "isCorrect": true },
+        { "text": "Blob Indexer", "isCorrect": false },
+        { "text": "Blob Versioning", "isCorrect": false },
+        { "text": "Azure Blob Storage Events", "isCorrect": false }
+      ]
+    }  
+]

@@ -1,0 +1,290 @@
+[
+    {
+      "question": "What is Azure SQL Database?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A fully managed relational database service in the cloud", "isCorrect": true },
+        { "text": "A virtual machine service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication method is commonly used to connect to Azure SQL Database?",
+      "answers": [
+        { "text": "LDAP", "isCorrect": false },
+        { "text": "OAuth", "isCorrect": false },
+        { "text": "SQL Server Authentication", "isCorrect": true },
+        { "text": "Kerberos", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure SQL Database firewall?",
+      "answers": [
+        { "text": "To protect against SQL injection attacks", "isCorrect": false },
+        { "text": "To control access to the database based on IP addresses", "isCorrect": true },
+        { "text": "To encrypt data at rest", "isCorrect": false },
+        { "text": "To manage database replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which service tier in Azure SQL Database provides a 99.99% availability SLA?",
+      "answers": [
+        { "text": "Basic", "isCorrect": false },
+        { "text": "Standard", "isCorrect": true },
+        { "text": "Premium", "isCorrect": false },
+        { "text": "General Purpose", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Elastic Pool' feature in Azure SQL Database?",
+      "answers": [
+        { "text": "To scale up individual databases", "isCorrect": false },
+        { "text": "To pool resources and manage multiple databases with varying usage patterns", "isCorrect": true },
+        { "text": "To automate database backups", "isCorrect": false },
+        { "text": "To configure advanced security settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which deployment option is used for a fully managed instance of SQL Server in Azure?",
+      "answers": [
+        { "text": "Azure SQL Database Managed Instance", "isCorrect": true },
+        { "text": "Azure SQL Database Single Database", "isCorrect": false },
+        { "text": "Azure SQL Database Hyperscale", "isCorrect": false },
+        { "text": "Azure SQL Data Warehouse", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Transparent Data Encryption (TDE) in Azure SQL Database?",
+      "answers": [
+        { "text": "To enable multi-region deployment", "isCorrect": false },
+        { "text": "To secure data in transit", "isCorrect": false },
+        { "text": "To encrypt data at rest", "isCorrect": true },
+        { "text": "To control access to the database based on IP addresses", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which dynamic management view can be used to monitor query performance in Azure SQL Database?",
+      "answers": [
+        { "text": "sys.dm_db_index_usage_stats", "isCorrect": false },
+        { "text": "sys.dm_db_partition_stats", "isCorrect": false },
+        { "text": "sys.dm_exec_query_stats", "isCorrect": true },
+        { "text": "sys.dm_os_wait_stats", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Geo-Replication in Azure SQL Database?",
+      "answers": [
+        { "text": "To replicate data within the same region for high availability", "isCorrect": false },
+        { "text": "To replicate data across different regions for disaster recovery", "isCorrect": true },
+        { "text": "To replicate data between on-premises and the cloud", "isCorrect": false },
+        { "text": "To replicate data between databases in the same Elastic Pool", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which performance tier in Azure SQL Database is designed for heavy transactional workloads?",
+      "answers": [
+        { "text": "Basic", "isCorrect": false },
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Premium", "isCorrect": true },
+        { "text": "General Purpose", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Microsoft Azure SQL Database?",
+      "answers": [
+        { "text": "A NoSQL database service", "isCorrect": false },
+        { "text": "A managed relational database service in the cloud", "isCorrect": true },
+        { "text": "A file storage service", "isCorrect": false },
+        { "text": "A message queue service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which edition of Azure SQL Database provides a 99.99% availability SLA?",
+      "answers": [
+        { "text": "Basic", "isCorrect": false },
+        { "text": "Standard", "isCorrect": true },
+        { "text": "Premium", "isCorrect": false },
+        { "text": "Hyperscale", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DTU (Database Transaction Unit) in Azure SQL Database?",
+      "answers": [
+        { "text": "To measure database storage size", "isCorrect": false },
+        { "text": "To measure database performance and resources consumption", "isCorrect": true },
+        { "text": "To measure database backup frequency", "isCorrect": false },
+        { "text": "To measure database query complexity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which service tier in Azure SQL Database is best suited for production workloads with high performance requirements?",
+      "answers": [
+        { "text": "Basic", "isCorrect": false },
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Premium", "isCorrect": true },
+        { "text": "General Purpose", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Transparent Data Encryption (TDE) in Azure SQL Database?",
+      "answers": [
+        { "text": "A query optimization feature", "isCorrect": false },
+        { "text": "A security feature that encrypts database files at rest", "isCorrect": true },
+        { "text": "A data compression feature", "isCorrect": false },
+        { "text": "A performance monitoring feature", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication method is used to connect to Azure SQL Database?",
+      "answers": [
+        { "text": "LDAP Authentication", "isCorrect": false },
+        { "text": "AWS Identity and Access Management (IAM)", "isCorrect": false },
+        { "text": "Azure Active Directory (AAD) Authentication", "isCorrect": true },
+        { "text": "OAuth Authentication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Geo-Replication feature in Azure SQL Database?",
+      "answers": [
+        { "text": "To replicate databases within the same region", "isCorrect": false },
+        { "text": "To replicate databases between different Azure regions", "isCorrect": true },
+        { "text": "To replicate databases to an on-premises data center", "isCorrect": false },
+        { "text": "To replicate databases to another Azure subscription", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which service tier in Azure SQL Database is designed for large databases with high transaction rates?",
+      "answers": [
+        { "text": "Basic", "isCorrect": false },
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Premium", "isCorrect": false },
+        { "text": "Hyperscale", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Query Store in Azure SQL Database?",
+      "answers": [
+        { "text": "To store database backups", "isCorrect": false },
+        { "text": "To store database query history", "isCorrect": true },
+        { "text": "To store database audit logs", "isCorrect": false },
+        { "text": "To store database performance metrics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Elastic Pool in Azure SQL Database?",
+      "answers": [
+        { "text": "To store large blobs and files", "isCorrect": false },
+        { "text": "To store database backups", "isCorrect": false },
+        { "text": "To manage and allocate resources among multiple databases", "isCorrect": true },
+        { "text": "To provide high availability for databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure SQL Database deployment option provides a fully isolated, single-tenant database?",
+      "answers": [
+        { "text": "Single Database", "isCorrect": true },
+        { "text": "Managed Instance", "isCorrect": false },
+        { "text": "Elastic Pool", "isCorrect": false },
+        { "text": "Hyperscale", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Dynamic Data Masking in Azure SQL Database?",
+      "answers": [
+        { "text": "A feature to automatically resize database storage", "isCorrect": false },
+        { "text": "A security feature to hide sensitive data in query results", "isCorrect": true },
+        { "text": "A feature to dynamically adjust database performance", "isCorrect": false },
+        { "text": "A feature to dynamically adjust database pricing tier", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which service tier in Azure SQL Database is designed for small databases with basic performance needs?",
+      "answers": [
+        { "text": "Basic", "isCorrect": true },
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Premium", "isCorrect": false },
+        { "text": "General Purpose", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Azure SQL Database Hyperscale?",
+      "answers": [
+        { "text": "A service tier for low-performance workloads", "isCorrect": false },
+        { "text": "A service tier for high-performance workloads with scaling capabilities", "isCorrect": true },
+        { "text": "A service tier for in-memory databases", "isCorrect": false },
+        { "text": "A service tier for analytics and reporting", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure SQL Database firewall?",
+      "answers": [
+        { "text": "To block all incoming connections", "isCorrect": false },
+        { "text": "To allow only outgoing connections", "isCorrect": false },
+        { "text": "To control access to the database by allowing or blocking specific IP addresses", "isCorrect": true },
+        { "text": "To prevent database backups", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which command is used to scale up or down the performance level (DTUs) of an Azure SQL Database?",
+      "answers": [
+        { "text": "ALTER DATABASE", "isCorrect": false },
+        { "text": "SET PERFORMANCE", "isCorrect": false },
+        { "text": "ALTER SERVICE TIER", "isCorrect": false },
+        { "text": "ALTER DATABASE SCOPED CONFIGURATION", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure SQL Database Service Level Objective (SLO)?",
+      "answers": [
+        { "text": "To define database schemas", "isCorrect": false },
+        { "text": "To set security policies", "isCorrect": false },
+        { "text": "To specify the performance and availability requirements for a database", "isCorrect": true },
+        { "text": "To configure database replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure SQL Database feature allows you to recover from accidental data loss or corruption?",
+      "answers": [
+        { "text": "Database Sharding", "isCorrect": false },
+        { "text": "Point-in-Time Restore", "isCorrect": true },
+        { "text": "Database Snapshot", "isCorrect": false },
+        { "text": "Managed Backup", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure SQL Database Index Advisor?",
+      "answers": [
+        { "text": "To automatically create database indexes", "isCorrect": false },
+        { "text": "To provide recommendations for creating or removing indexes", "isCorrect": true },
+        { "text": "To monitor database performance", "isCorrect": false },
+        { "text": "To configure database replication", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure SQL Database Auditing?",
+      "answers": [
+        { "text": "To optimize database queries", "isCorrect": false },
+        { "text": "To monitor database performance", "isCorrect": false },
+        { "text": "To track database events and changes for compliance", "isCorrect": true },
+        { "text": "To automate database deployments", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure SQL Database feature allows you to optimize query performance by storing frequently used query results?",
+      "answers": [
+        { "text": "Database Sharding", "isCorrect": false },
+        { "text": "Materialized Views", "isCorrect": true },
+        { "text": "Database Snapshot", "isCorrect": false },
+        { "text": "Query Store", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure SQL Database Query Performance Insight feature?",
+      "answers": [
+        { "text": "To execute ad-hoc queries", "isCorrect": false },
+        { "text": "To monitor database performance", "isCorrect": true },
+        { "text": "To automatically optimize database queries", "isCorrect": false },
+        { "text": "To create database indexes", "isCorrect": false }
+      ]
+    }
+]  

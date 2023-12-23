@@ -1,0 +1,452 @@
+[
+    {
+      "question": "What is Microsoft Azure Cosmos DB?",
+      "answers": [
+        { "text": "A cloud-based file storage service", "isCorrect": false },
+        { "text": "A cloud-based relational database service", "isCorrect": false },
+        { "text": "A globally distributed, multi-model database service", "isCorrect": true },
+        { "text": "A cloud-based message queue service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which API in Azure Cosmos DB is designed for managing JSON documents?",
+      "answers": [
+        { "text": "Table API", "isCorrect": false },
+        { "text": "Cassandra API", "isCorrect": false },
+        { "text": "DocumentDB SQL API", "isCorrect": true },
+        { "text": "Gremlin API", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the consistency level in Azure Cosmos DB?",
+      "answers": [
+        { "text": "Low", "isCorrect": false },
+        { "text": "Strong", "isCorrect": false },
+        { "text": "Eventual", "isCorrect": false },
+        { "text": "Consistent Prefix, Session, Bounded Staleness, Strong", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Cosmos DB Data Explorer?",
+      "answers": [
+        { "text": "To configure security settings", "isCorrect": false },
+        { "text": "To visualize and query data", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure networking settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming languages are supported by the DocumentDB SQL API in Azure Cosmos DB?",
+      "answers": [
+        { "text": "JavaScript only", "isCorrect": false },
+        { "text": "Java only", "isCorrect": false },
+        { "text": "SQL (JavaScript and .NET SDKs)", "isCorrect": true },
+        { "text": "C# only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Cosmos DB Emulator?",
+      "answers": [
+        { "text": "To simulate global distribution of data", "isCorrect": false },
+        { "text": "To test applications locally without using an Azure Cosmos DB account", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure security settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which consistency level in Azure Cosmos DB guarantees the highest level of consistency but might have higher latency?",
+      "answers": [
+        { "text": "Strong", "isCorrect": true },
+        { "text": "Eventual", "isCorrect": false },
+        { "text": "Consistent Prefix", "isCorrect": false },
+        { "text": "Bounded Staleness", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Partition Key' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To define the primary key of a document", "isCorrect": false },
+        { "text": "To define the index of a document", "isCorrect": false },
+        { "text": "To determine the distribution of data across physical partitions", "isCorrect": true },
+        { "text": "To configure the replication factor of a container", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which API in Azure Cosmos DB is designed for managing graph databases?",
+      "answers": [
+        { "text": "Table API", "isCorrect": false },
+        { "text": "Cassandra API", "isCorrect": false },
+        { "text": "Gremlin API", "isCorrect": true },
+        { "text": "DocumentDB SQL API", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Throughput' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To measure latency", "isCorrect": false },
+        { "text": "To measure request units per second (RU/s)", "isCorrect": true },
+        { "text": "To measure storage size", "isCorrect": false },
+        { "text": "To configure security settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which operation in Azure Cosmos DB is used to create a new document or replace an existing one?",
+      "answers": [
+        { "text": "PATCH", "isCorrect": false },
+        { "text": "PUT", "isCorrect": true },
+        { "text": "DELETE", "isCorrect": false },
+        { "text": "GET", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Indexing Policy' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To define the partition key", "isCorrect": false },
+        { "text": "To configure the consistency level", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To control which properties of documents are indexed", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which API in Azure Cosmos DB is designed for managing wide-column stores?",
+      "answers": [
+        { "text": "Table API", "isCorrect": true },
+        { "text": "Cassandra API", "isCorrect": false },
+        { "text": "Gremlin API", "isCorrect": false },
+        { "text": "DocumentDB SQL API", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Request Unit (RU)' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To measure storage size", "isCorrect": false },
+        { "text": "To measure request latency", "isCorrect": false },
+        { "text": "To measure the cost of database operations", "isCorrect": true },
+        { "text": "To configure the partition key", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which operation in Azure Cosmos DB is used to delete a document by ID?",
+      "answers": [
+        { "text": "DELETE", "isCorrect": true },
+        { "text": "PATCH", "isCorrect": false },
+        { "text": "PUT", "isCorrect": false },
+        { "text": "GET", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Consistency Prefix' consistency level in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To guarantee the highest level of consistency", "isCorrect": false },
+        { "text": "To provide eventual consistency", "isCorrect": false },
+        { "text": "To provide strong consistency", "isCorrect": false },
+        { "text": "To provide a consistent prefix of reads", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which language is commonly used for querying data in Azure Cosmos DB?",
+      "answers": [
+        { "text": "SQL", "isCorrect": false },
+        { "text": "JavaScript", "isCorrect": false },
+        { "text": "Gremlin", "isCorrect": false },
+        { "text": "SQL-like syntax (DocumentDB SQL API)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Trigger' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To configure security settings", "isCorrect": false },
+        { "text": "To execute logic automatically before or after a document is inserted or updated", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure networking settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Cosmos DB feature is used for managing automatic and instant scalability of throughput?",
+      "answers": [
+        { "text": "Autoscale", "isCorrect": true },
+        { "text": "Manual Scale", "isCorrect": false },
+        { "text": "Throughput Policy", "isCorrect": false },
+        { "text": "Request Unit (RU) Scaling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Change Feed' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To measure request latency", "isCorrect": false },
+        { "text": "To capture changes to documents in a container", "isCorrect": true },
+        { "text": "To configure the consistency level", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Cosmos DB consistency level allows read access to the most recent version of the data?",
+      "answers": [
+        { "text": "Eventual", "isCorrect": false },
+        { "text": "Consistent Prefix", "isCorrect": false },
+        { "text": "Bounded Staleness", "isCorrect": false },
+        { "text": "Session", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Spatial Index' in Azure Cosmos DB?",
+      "answers": [
+        { "text": "To configure security settings", "isCorrect": false },
+        { "text": "To enable geographic and geometric indexing for spatial queries", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure networking settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a multi-region, globally distributed application. Which Azure Cosmos DB consistency level is recommended for low-latency reads and can tolerate eventual consistency?",
+      "answers": [
+        { "text": "Strong", "isCorrect": false },
+        { "text": "Bounded staleness", "isCorrect": false },
+        { "text": "Eventual", "isCorrect": true },
+        { "text": "Consistent prefix", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to scale your Azure Cosmos DB container automatically based on demand. What feature should you use?",
+      "answers": [
+        { "text": "Autopilot", "isCorrect": true },
+        { "text": "Throughput provisioning", "isCorrect": false },
+        { "text": "Manual scaling", "isCorrect": false },
+        { "text": "Reserved throughput", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a document-based data model for your Azure Cosmos DB container. Which API should you choose?",
+      "answers": [
+        { "text": "Core (SQL)", "isCorrect": true },
+        { "text": "Table", "isCorrect": false },
+        { "text": "MongoDB", "isCorrect": false },
+        { "text": "Cassandra", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to ensure that your Azure Cosmos DB data is encrypted at rest. What feature should you enable?",
+      "answers": [
+        { "text": "Virtual network service endpoints", "isCorrect": false },
+        { "text": "Role-based access control (RBAC)", "isCorrect": false },
+        { "text": "Encryption at rest", "isCorrect": true },
+        { "text": "Autopilot", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are developing an application that requires low-latency access to data and needs to be globally distributed. Which Azure Cosmos DB API should you choose?",
+      "answers": [
+        { "text": "Graph", "isCorrect": false },
+        { "text": "Table", "isCorrect": false },
+        { "text": "Core (SQL)", "isCorrect": true },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to design a partition key for your Azure Cosmos DB container. What should be considered when choosing a partition key?",
+      "answers": [
+        { "text": "Selecting a property with high write throughput", "isCorrect": false },
+        { "text": "Choosing a property with a high cardinality and even distribution", "isCorrect": true },
+        { "text": "Selecting a property with low read throughput", "isCorrect": false },
+        { "text": "Choosing a property with low cardinality", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enable automatic indexing in Azure Cosmos DB to improve query performance. What is the default indexing policy for Cosmos DB?",
+      "answers": [
+        { "text": "None", "isCorrect": false },
+        { "text": "Lazy", "isCorrect": false },
+        { "text": "Automatic", "isCorrect": true },
+        { "text": "Manual", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a partitioned collection in Azure Cosmos DB. What is the purpose of a partition key?",
+      "answers": [
+        { "text": "To define access control for the collection", "isCorrect": false },
+        { "text": "To determine the size of each partition", "isCorrect": false },
+        { "text": "To define the property used to distribute data across physical partitions", "isCorrect": true },
+        { "text": "To define the consistency level for the collection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building a real-time analytics solution using Azure Cosmos DB. Which consistency level should you choose for the lowest latency reads and can tolerate eventual consistency?",
+      "answers": [
+        { "text": "Eventual", "isCorrect": true },
+        { "text": "Consistent prefix", "isCorrect": false },
+        { "text": "Session", "isCorrect": false },
+        { "text": "Strong", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to configure a unique index on a property in your Azure Cosmos DB container. Which indexing mode should you choose?",
+      "answers": [
+        { "text": "Consistent", "isCorrect": false },
+        { "text": "Lazy", "isCorrect": false },
+        { "text": "None", "isCorrect": false },
+        { "text": "Unique", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You are designing an Azure Cosmos DB container for a highly read-intensive workload. Which consistency level should you choose to ensure low-latency reads?",
+      "answers": [
+        { "text": "Bounded staleness", "isCorrect": false },
+        { "text": "Eventual", "isCorrect": true },
+        { "text": "Consistent prefix", "isCorrect": false },
+        { "text": "Strong", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building a social media application where users can follow each other, and you want to model the relationships between users. Which Azure Cosmos DB API is best suited for this scenario?",
+      "answers": [
+        { "text": "Table", "isCorrect": false },
+        { "text": "Core (SQL)", "isCorrect": false },
+        { "text": "Graph", "isCorrect": true },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enforce a unique constraint on a property in your Azure Cosmos DB container. Which indexing mode should you choose?",
+      "answers": [
+        { "text": "Consistent", "isCorrect": false },
+        { "text": "Lazy", "isCorrect": false },
+        { "text": "None", "isCorrect": false },
+        { "text": "Unique", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You are designing an Azure Cosmos DB container with a fixed schema. Which API should you choose?",
+      "answers": [
+        { "text": "Core (SQL)", "isCorrect": true },
+        { "text": "Table", "isCorrect": false },
+        { "text": "Graph", "isCorrect": false },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to ensure that your Azure Cosmos DB container automatically scales throughput based on demand, but you want to set maximum limits. What feature should you use?",
+      "answers": [
+        { "text": "Throughput provisioning", "isCorrect": false },
+        { "text": "Manual scaling", "isCorrect": false },
+        { "text": "Autopilot", "isCorrect": true },
+        { "text": "Reserved throughput", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing an Azure Cosmos DB container for a global application. Which consistency level provides the highest level of read consistency but may have higher latency?",
+      "answers": [
+        { "text": "Strong", "isCorrect": true },
+        { "text": "Bounded staleness", "isCorrect": false },
+        { "text": "Session", "isCorrect": false },
+        { "text": "Eventual", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to ensure that your Azure Cosmos DB container can be queried using the MongoDB query language. Which API should you choose?",
+      "answers": [
+        { "text": "Core (SQL)", "isCorrect": false },
+        { "text": "Table", "isCorrect": false },
+        { "text": "Graph", "isCorrect": false },
+        { "text": "MongoDB", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You are designing an Azure Cosmos DB container for a gaming application where players have relationships with each other. Which Azure Cosmos DB API is best suited for modeling relationships?",
+      "answers": [
+        { "text": "Table", "isCorrect": false },
+        { "text": "Core (SQL)", "isCorrect": false },
+        { "text": "Graph", "isCorrect": true },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to ensure that your Azure Cosmos DB container can be queried using the SQL query language. Which API should you choose?",
+      "answers": [
+        { "text": "Core (SQL)", "isCorrect": true },
+        { "text": "Table", "isCorrect": false },
+        { "text": "Graph", "isCorrect": false },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building a chat application where messages between users need to be stored and queried efficiently. Which Azure Cosmos DB API is best suited for this scenario?",
+      "answers": [
+        { "text": "Table", "isCorrect": false },
+        { "text": "Core (SQL)", "isCorrect": true },
+        { "text": "Graph", "isCorrect": false },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing an Azure Cosmos DB container for a catalog of products with multiple categories. Which property should you consider as the partition key?",
+      "answers": [
+        { "text": "Product name", "isCorrect": false },
+        { "text": "Product ID", "isCorrect": true },
+        { "text": "Category", "isCorrect": false },
+        { "text": "Price", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to enforce a time-to-live (TTL) policy for documents in your Azure Cosmos DB container. Which property should you set for documents to automatically expire?",
+      "answers": [
+        { "text": "TTL property", "isCorrect": true },
+        { "text": "ExpiryDate property", "isCorrect": false },
+        { "text": "Expiration property", "isCorrect": false },
+        { "text": "TimeToLive property", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building an Azure Cosmos DB container for user profiles. Each user can have multiple addresses. Which data modeling approach is recommended?",
+      "answers": [
+        { "text": "Embedding addresses within the user profile document", "isCorrect": true },
+        { "text": "Creating a separate container for addresses and linking them with references", "isCorrect": false },
+        { "text": "Using a relational database for better normalization", "isCorrect": false },
+        { "text": "Storing addresses in a separate JSON file", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to monitor and analyze the performance of your Azure Cosmos DB container. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": true },
+        { "text": "Azure Security Center", "isCorrect": false },
+        { "text": "Azure Policy Insights", "isCorrect": false },
+        { "text": "Azure Policy Compliance Dashboard", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing an Azure Cosmos DB container to store sensor data from IoT devices. What is a recommended property to use as the partition key?",
+      "answers": [
+        { "text": "Timestamp", "isCorrect": false },
+        { "text": "Device ID", "isCorrect": true },
+        { "text": "Sensor Type", "isCorrect": false },
+        { "text": "Location", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are developing a web application that requires low-latency reads and writes to Azure Cosmos DB. What consistency level should you choose?",
+      "answers": [
+        { "text": "Eventual", "isCorrect": false },
+        { "text": "Strong", "isCorrect": false },
+        { "text": "Session", "isCorrect": false },
+        { "text": "Bounded staleness", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are building a recommendation engine that analyzes user preferences. Which Azure Cosmos DB API is best suited for this scenario?",
+      "answers": [
+        { "text": "Table", "isCorrect": false },
+        { "text": "Core (SQL)", "isCorrect": true },
+        { "text": "Graph", "isCorrect": false },
+        { "text": "MongoDB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to ensure that your Azure Cosmos DB container is highly available and resilient to regional failures. What feature should you enable?",
+      "answers": [
+        { "text": "Autopilot", "isCorrect": false },
+        { "text": "Multi-region writes", "isCorrect": true },
+        { "text": "Manual failover", "isCorrect": false },
+        { "text": "Single-region", "isCorrect": false }
+      ]
+    }
+]

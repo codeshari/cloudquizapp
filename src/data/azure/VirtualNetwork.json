@@ -1,0 +1,372 @@
+[
+    {
+      "question": "What is Azure Virtual Network?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A network infrastructure service that enables connectivity between Azure resources", "isCorrect": true },
+        { "text": "A virtualization service for running VMs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Azure Virtual Network?",
+      "answers": [
+        { "text": "To host virtual machines only", "isCorrect": false },
+        { "text": "To create a private, isolated, and securely connected network in Azure", "isCorrect": true },
+        { "text": "To store and manage data", "isCorrect": false },
+        { "text": "To deploy containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which component in Azure Virtual Network allows inbound and outbound traffic?",
+      "answers": [
+        { "text": "Subnet", "isCorrect": false },
+        { "text": "Virtual Network Gateway", "isCorrect": false },
+        { "text": "Network Security Group (NSG)", "isCorrect": true },
+        { "text": "Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Virtual Network Gateway?",
+      "answers": [
+        { "text": "To route traffic between subnets within a virtual network", "isCorrect": false },
+        { "text": "To provide a private connection to Azure from an on-premises network", "isCorrect": true },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false },
+        { "text": "To deploy and manage virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a Network Security Group (NSG) in Azure Virtual Network?",
+      "answers": [
+        { "text": "A service for managing DNS records", "isCorrect": false },
+        { "text": "A container for organizing subnets", "isCorrect": false },
+        { "text": "A group of rules that control inbound and outbound network traffic", "isCorrect": true },
+        { "text": "A service for load balancing network traffic", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure Virtual Network handle communication between virtual machines in different subnets?",
+      "answers": [
+        { "text": "Through the use of Network Security Groups (NSGs)", "isCorrect": false },
+        { "text": "By default, without any additional configuration", "isCorrect": false },
+        { "text": "By routing traffic through the Azure Virtual Network Gateway", "isCorrect": false },
+        { "text": "By using a Network Virtual Appliance (NVA)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Virtual Network peering?",
+      "answers": [
+        { "text": "To connect an on-premises network to Azure", "isCorrect": false },
+        { "text": "To create a high-availability architecture", "isCorrect": false },
+        { "text": "To allow traffic between two virtual networks in the same region", "isCorrect": true },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service provides a fully managed DNS service for Azure Virtual Network?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure DNS", "isCorrect": true },
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure CDN", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure VPN Gateway?",
+      "answers": [
+        { "text": "To route traffic between subnets within a virtual network", "isCorrect": false },
+        { "text": "To provide a private connection to Azure from an on-premises network", "isCorrect": true },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false },
+        { "text": "To deploy and manage virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is used for global load balancing of traffic across multiple Azure regions?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": true },
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure CDN", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Load Balancer?",
+      "answers": [
+        { "text": "To route traffic between subnets within a virtual network", "isCorrect": false },
+        { "text": "To provide a private connection to Azure from an on-premises network", "isCorrect": false },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": true },
+        { "text": "To deploy and manage virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you control traffic flow between subnets in Azure Virtual Network?",
+      "answers": [
+        { "text": "By default, all traffic is allowed between subnets", "isCorrect": false },
+        { "text": "By using Network Security Groups (NSGs) to define rules", "isCorrect": true },
+        { "text": "By configuring Azure Traffic Manager", "isCorrect": false },
+        { "text": "By using Azure VPN Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure ExpressRoute?",
+      "answers": [
+        { "text": "To provide a private connection to Azure from an on-premises network", "isCorrect": true },
+        { "text": "To create a private, isolated, and securely connected network in Azure", "isCorrect": false },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false },
+        { "text": "To deploy and manage virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service allows you to connect an on-premises network to Azure Virtual Network over the internet?",
+      "answers": [
+        { "text": "Azure VPN Gateway", "isCorrect": true },
+        { "text": "Azure ExpressRoute", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Application Gateway?",
+      "answers": [
+        { "text": "To route traffic between subnets within a virtual network", "isCorrect": false },
+        { "text": "To provide a private connection to Azure from an on-premises network", "isCorrect": false },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false },
+        { "text": "To load balance web traffic and provide SSL termination", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Azure service allows you to connect virtual networks across different Azure regions?",
+      "answers": [
+        { "text": "Azure Virtual Network Peering", "isCorrect": false },
+        { "text": "Azure ExpressRoute", "isCorrect": true },
+        { "text": "Azure VPN Gateway", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Traffic Manager?",
+      "answers": [
+        { "text": "To route traffic between subnets within a virtual network", "isCorrect": false },
+        { "text": "To provide a private connection to Azure from an on-premises network", "isCorrect": false },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false },
+        { "text": "To enable high-availability and load balancing for applications", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Azure service allows you to implement a private connection between Azure Virtual Network and an on-premises network?",
+      "answers": [
+        { "text": "Azure VPN Gateway", "isCorrect": true },
+        { "text": "Azure ExpressRoute", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure Virtual Network handle communication between on-premises networks and Azure?",
+      "answers": [
+        { "text": "Through Network Security Groups (NSGs)", "isCorrect": false },
+        { "text": "By default, without any additional configuration", "isCorrect": false },
+        { "text": "By routing traffic through the Azure Virtual Network Gateway", "isCorrect": true },
+        { "text": "By using Azure Traffic Manager", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Network Watcher?",
+      "answers": [
+        { "text": "To monitor and diagnose virtual network traffic", "isCorrect": true },
+        { "text": "To create and manage virtual machines", "isCorrect": false },
+        { "text": "To distribute traffic across multiple servers", "isCorrect": false },
+        { "text": "To route traffic between subnets within a virtual network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Azure Virtual Network?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A private, isolated network in Azure", "isCorrect": true },
+        { "text": "A machine learning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is used to create and manage Virtual Networks?",
+      "answers": [
+        { "text": "Azure Active Directory", "isCorrect": false },
+        { "text": "Azure Virtual Machines", "isCorrect": false },
+        { "text": "Azure Virtual Network", "isCorrect": true },
+        { "text": "Azure Blob Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of a subnet in Azure Virtual Network?",
+      "answers": [
+        { "text": "To store data", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To partition the IP address space of a VNet", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which IP addressing scheme is used in Azure Virtual Network?",
+      "answers": [
+        { "text": "Public IP addresses only", "isCorrect": false },
+        { "text": "Private IP addresses only", "isCorrect": false },
+        { "text": "Both public and private IP addresses", "isCorrect": true },
+        { "text": "Static IP addresses only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Network Security Group (NSG) in Azure?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To filter inbound and outbound traffic to network interfaces", "isCorrect": true },
+        { "text": "To store network configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service allows you to connect Virtual Networks across different regions?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure VPN Gateway", "isCorrect": true },
+        { "text": "Azure Application Gateway", "isCorrect": false },
+        { "text": "Azure Virtual WAN", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure VPN Gateway?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To establish secure connections between on-premises networks and Azure Virtual Networks", "isCorrect": true },
+        { "text": "To store network configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Azure Virtual WAN used for?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To establish private connections to Azure services", "isCorrect": false },
+        { "text": "To connect and manage multiple Azure Virtual Networks", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure DNS in the context of Virtual Networks?",
+      "answers": [
+        { "text": "To manage DNS settings for individual virtual machines", "isCorrect": false },
+        { "text": "To provide domain registration services", "isCorrect": false },
+        { "text": "To provide name resolution within Virtual Networks", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is used for dynamic, on-demand scalability for Virtual Networks?",
+      "answers": [
+        { "text": "Azure Load Balancer", "isCorrect": false },
+        { "text": "Azure Virtual Network Gateway", "isCorrect": false },
+        { "text": "Azure Virtual Network Peering", "isCorrect": false },
+        { "text": "Azure Virtual Network Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Virtual Network Peering?",
+      "answers": [
+        { "text": "To connect Virtual Networks across different regions", "isCorrect": false },
+        { "text": "To connect on-premises networks to Azure Virtual Networks", "isCorrect": false },
+        { "text": "To enable traffic between two Virtual Networks in the same region", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service is used for DNS resolution between on-premises networks and Azure Virtual Networks?",
+      "answers": [
+        { "text": "Azure DNS", "isCorrect": false },
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure VPN Gateway", "isCorrect": true },
+        { "text": "Azure Virtual Network Peering", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure ExpressRoute service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide scalable and secure load balancing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'User-Defined Routes' (UDR) in Azure Virtual Network?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To control the flow of network traffic within a Virtual Network", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Application Security Groups' (ASG) in Azure?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To simplify network security group rule management", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the Azure Load Balancer in Virtual Networks?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To establish secure connections between on-premises networks and Azure Virtual Networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure Load Balancer handle traffic distribution for Virtual Machines?",
+      "answers": [
+        { "text": "Round-robin", "isCorrect": false },
+        { "text": "Based on IP addresses", "isCorrect": false },
+        { "text": "Based on network traffic load", "isCorrect": false },
+        { "text": "All of the above", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Application Gateway?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To optimize and secure the delivery of web applications", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Azure Virtual Networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure service enables secure and private communication between Azure Virtual Networks?",
+      "answers": [
+        { "text": "Azure Traffic Manager", "isCorrect": false },
+        { "text": "Azure Virtual Network Gateway", "isCorrect": false },
+        { "text": "Azure Virtual Network Peering", "isCorrect": false },
+        { "text": "Azure Private Link", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Azure Traffic Manager?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Azure Virtual Networks", "isCorrect": false },
+        { "text": "To optimize and distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Bastion?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide secure and seamless RDP and SSH access to Virtual Machines", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Azure Virtual Networks", "isCorrect": false }
+      ]
+    }
+]
+  

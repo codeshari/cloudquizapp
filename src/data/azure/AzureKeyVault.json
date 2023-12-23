@@ -1,0 +1,308 @@
+[
+    {
+      "question": "What is Azure Key Vault?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud-based key management service", "isCorrect": true },
+        { "text": "A virtual machine service", "isCorrect": false },
+        { "text": "An identity and access management service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What types of secrets can be stored in Azure Key Vault?",
+      "answers": [
+        { "text": "Passwords only", "isCorrect": false },
+        { "text": "API keys only", "isCorrect": false },
+        { "text": "Certificates only", "isCorrect": false },
+        { "text": "Passwords, API keys, and certificates", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Azure service is commonly used to manage and access secrets stored in Azure Key Vault?",
+      "answers": [
+        { "text": "Azure Storage", "isCorrect": false },
+        { "text": "Azure Active Directory", "isCorrect": false },
+        { "text": "Azure Key Vault Managed HSM", "isCorrect": false },
+        { "text": "Azure Key Vault", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Key Vault Managed HSM?",
+      "answers": [
+        { "text": "To store and manage passwords", "isCorrect": false },
+        { "text": "To provide Hardware Security Module (HSM) protection for keys", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary benefit of using Azure Key Vault for secret management?",
+      "answers": [
+        { "text": "Reduced storage costs", "isCorrect": false },
+        { "text": "Increased application performance", "isCorrect": false },
+        { "text": "Centralized management and protection of secrets", "isCorrect": true },
+        { "text": "Enhanced network security", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you authenticate and authorize applications to access Azure Key Vault?",
+      "answers": [
+        { "text": "Using Azure AD Managed Identities", "isCorrect": true },
+        { "text": "Hardcoding access credentials in the application code", "isCorrect": false },
+        { "text": "Using API keys stored in Azure Key Vault", "isCorrect": false },
+        { "text": "Using Azure Storage Account keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Soft Delete' feature in Azure Key Vault?",
+      "answers": [
+        { "text": "To permanently delete keys", "isCorrect": false },
+        { "text": "To temporarily disable keys", "isCorrect": false },
+        { "text": "To recover accidentally deleted keys within a retention period", "isCorrect": true },
+        { "text": "To rotate keys automatically", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Key Vault feature allows you to rotate secrets automatically?",
+      "answers": [
+        { "text": "Secret Rotation Policy", "isCorrect": false },
+        { "text": "Secret Versioning", "isCorrect": false },
+        { "text": "Managed Identities", "isCorrect": false },
+        { "text": "Key Vault Managed HSM", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Key Vault's 'Access Policies'?",
+      "answers": [
+        { "text": "To define network access rules", "isCorrect": false },
+        { "text": "To configure encryption settings", "isCorrect": false },
+        { "text": "To grant permissions to users or applications to perform specific operations on key vaults", "isCorrect": true },
+        { "text": "To manage virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Key Vault feature allows you to monitor and audit key vault activity?",
+      "answers": [
+        { "text": "Activity Log", "isCorrect": false },
+        { "text": "Azure Monitor", "isCorrect": false },
+        { "text": "Diagnostic Logs", "isCorrect": false },
+        { "text": "Azure Key Vault Logging", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is Azure Key Vault Managed HSM primarily designed for?",
+      "answers": [
+        { "text": "Storing and managing secrets", "isCorrect": false },
+        { "text": "Providing Hardware Security Module (HSM) protection for keys", "isCorrect": true },
+        { "text": "Storing and managing certificates", "isCorrect": false },
+        { "text": "Managing virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you enable Soft Delete for a Key Vault?",
+      "answers": [
+        { "text": "It is enabled by default and cannot be disabled", "isCorrect": false },
+        { "text": "Using the Azure Portal only", "isCorrect": false },
+        { "text": "By updating the Key Vault configuration with the 'Soft Delete' setting", "isCorrect": true },
+        { "text": "Soft Delete is not supported in Azure Key Vault", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Key Vault Secrets Versioning?",
+      "answers": [
+        { "text": "To rotate secrets automatically", "isCorrect": false },
+        { "text": "To track changes to secrets over time", "isCorrect": true },
+        { "text": "To manage access policies for secrets", "isCorrect": false },
+        { "text": "To configure encryption settings for secrets", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Key Vault feature allows you to manage certificates and their lifecycle?",
+      "answers": [
+        { "text": "Azure Key Vault Managed HSM", "isCorrect": false },
+        { "text": "Key Rotation Policy", "isCorrect": false },
+        { "text": "Certificate Issuers", "isCorrect": false },
+        { "text": "Certificate Management", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How can you rotate a key or secret manually in Azure Key Vault?",
+      "answers": [
+        { "text": "It is not possible to rotate keys or secrets manually", "isCorrect": false },
+        { "text": "Using the Azure Portal only", "isCorrect": false },
+        { "text": "By updating the key or secret value", "isCorrect": false },
+        { "text": "By creating a new version of the key or secret", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Purge Protection' feature in Azure Key Vault?",
+      "answers": [
+        { "text": "To permanently delete keys or secrets", "isCorrect": false },
+        { "text": "To prevent accidental permanent deletion of keys or secrets", "isCorrect": true },
+        { "text": "To recover deleted keys or secrets within a retention period", "isCorrect": false },
+        { "text": "To rotate keys or secrets automatically", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Azure Key Vault Logging help with auditing?",
+      "answers": [
+        { "text": "It provides real-time monitoring of key vault operations", "isCorrect": false },
+        { "text": "It allows you to define access policies for users", "isCorrect": false },
+        { "text": "It logs key vault activity to Azure Storage or Azure Monitor", "isCorrect": true },
+        { "text": "It enables Soft Delete for key vaults", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming languages can be used to interact with Azure Key Vault?",
+      "answers": [
+        { "text": "Only .NET languages", "isCorrect": false },
+        { "text": "Only Python", "isCorrect": false },
+        { "text": "Multiple languages, including .NET, Python, Java, and Node.js", "isCorrect": true },
+        { "text": "Only Java", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Azure Key Vault Certificate Issuers?",
+      "answers": [
+        { "text": "To issue certificates manually", "isCorrect": false },
+        { "text": "To create a Key Vault Managed HSM", "isCorrect": false },
+        { "text": "To integrate with external certificate authorities for automated certificate issuance", "isCorrect": true },
+        { "text": "To enable Soft Delete for certificates", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Azure Key Vault feature allows you to manage and protect keys in a Hardware Security Module (HSM)?",
+      "answers": [
+        { "text": "Key Rotation Policy", "isCorrect": false },
+        { "text": "Key Vault Managed HSM", "isCorrect": true },
+        { "text": "Key Vault Certificate Issuers", "isCorrect": false },
+        { "text": "Purge Protection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you restrict access to Azure Key Vault based on the originating network?",
+      "answers": [
+        { "text": "By using Soft Delete", "isCorrect": false },
+        { "text": "By configuring network access policies", "isCorrect": true },
+        { "text": "By using Azure AD Managed Identities", "isCorrect": false },
+        { "text": "By enabling Purge Protection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to securely store and manage sensitive information such as API keys and passwords. Which Azure service should you use?",
+      "answers": [
+        { "text": "Azure Blob Storage", "isCorrect": false },
+        { "text": "Azure Key Vault", "isCorrect": true },
+        { "text": "Azure SQL Database", "isCorrect": false },
+        { "text": "Azure Virtual Network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your application requires secrets to connect to a third-party API. Which feature of Azure Key Vault should you use to store these secrets?",
+      "answers": [
+        { "text": "Key Management", "isCorrect": false },
+        { "text": "Secrets Management", "isCorrect": true },
+        { "text": "Certificate Management", "isCorrect": false },
+        { "text": "Role-Based Access Control (RBAC)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to rotate the keys in Azure Key Vault automatically. Which feature should you configure?",
+      "answers": [
+        { "text": "Key Versioning", "isCorrect": false },
+        { "text": "Key Rotation", "isCorrect": true },
+        { "text": "Key Expiry", "isCorrect": false },
+        { "text": "Key Backup", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are developing an application that needs to access a database connection string securely. What type of object in Azure Key Vault is suitable for storing this information?",
+      "answers": [
+        { "text": "Keys", "isCorrect": false },
+        { "text": "Secrets", "isCorrect": true },
+        { "text": "Certificates", "isCorrect": false },
+        { "text": "Access Policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your organization needs to ensure that all secrets in Azure Key Vault are regularly reviewed and updated. Which Azure service can help you achieve this?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": true },
+        { "text": "Azure Sentinel", "isCorrect": false },
+        { "text": "Azure Security Center", "isCorrect": false },
+        { "text": "Azure Policy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to restrict access to specific operations within Azure Key Vault. What should you configure?",
+      "answers": [
+        { "text": "Resource Locks", "isCorrect": false },
+        { "text": "Azure AD Authentication", "isCorrect": false },
+        { "text": "Key Policies", "isCorrect": true },
+        { "text": "Azure Policy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Your organization has a compliance requirement that mandates encryption of sensitive data at rest. Which Azure Key Vault feature helps you achieve this?",
+      "answers": [
+        { "text": "Key Versioning", "isCorrect": false },
+        { "text": "Soft Delete", "isCorrect": false },
+        { "text": "Managed HSM", "isCorrect": false },
+        { "text": "Transparent Data Encryption (TDE)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to securely store and manage cryptographic keys for your application. Which type of object in Azure Key Vault should you use?",
+      "answers": [
+        { "text": "Secrets", "isCorrect": false },
+        { "text": "Certificates", "isCorrect": false },
+        { "text": "Keys", "isCorrect": true },
+        { "text": "Access Policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to ensure that only authorized applications can access keys in Azure Key Vault. What should you configure?",
+      "answers": [
+        { "text": "Role-Based Access Control (RBAC)", "isCorrect": false },
+        { "text": "Key Policies", "isCorrect": true },
+        { "text": "Azure AD Conditional Access", "isCorrect": false },
+        { "text": "Azure Policy", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are designing a solution that requires secure storage of SSL/TLS certificates. What Azure service should you use?",
+      "answers": [
+        { "text": "Azure Storage", "isCorrect": false },
+        { "text": "Azure Key Vault", "isCorrect": true },
+        { "text": "Azure AD B2C", "isCorrect": false },
+        { "text": "Azure SQL Database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to audit all operations performed on keys within Azure Key Vault. What feature should you enable?",
+      "answers": [
+        { "text": "Azure Monitor", "isCorrect": false },
+        { "text": "Azure Security Center", "isCorrect": false },
+        { "text": "Azure Policy", "isCorrect": false },
+        { "text": "Key Vault Logging", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Your organization needs to ensure that keys are stored in hardware security modules (HSMs) to meet compliance requirements. Which Azure Key Vault feature should you use?",
+      "answers": [
+        { "text": "Managed HSM", "isCorrect": true },
+        { "text": "Key Rotation", "isCorrect": false },
+        { "text": "Azure Policy", "isCorrect": false },
+        { "text": "Soft Delete", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are tasked with implementing a solution that ensures the backup and recovery of keys. What Azure Key Vault feature provides this capability?",
+      "answers": [
+        { "text": "Key Rotation", "isCorrect": false },
+        { "text": "Soft Delete", "isCorrect": false },
+        { "text": "Key Backup", "isCorrect": true },
+        { "text": "Managed HSM", "isCorrect": false }
+      ]
+    }
+]
