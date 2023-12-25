@@ -1,0 +1,443 @@
+[
+    {
+      "question": "What is Oracle Identity and Access Management (IAM)?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A database management system", "isCorrect": false },
+        { "text": "A comprehensive security solution for managing user identities and access to resources", "isCorrect": true },
+        { "text": "A machine learning platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which component of Oracle IAM is responsible for user authentication and authorization?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Identity Manager (OIM) in IAM?",
+      "answers": [
+        { "text": "To manage access policies", "isCorrect": false },
+        { "text": "To provide single sign-on (SSO)", "isCorrect": false },
+        { "text": "To manage user identities and their access privileges", "isCorrect": true },
+        { "text": "To store and manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component is responsible for providing web single sign-on (SSO) capabilities?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the function of Oracle Security Token Service (STS) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To issue and validate security tokens for authentication", "isCorrect": true },
+        { "text": "To provide access control policies", "isCorrect": false },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides directory services and LDAP support?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is Oracle Adaptive Access Manager (OAAM) used for in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To enhance authentication and fraud detection", "isCorrect": true },
+        { "text": "To manage access policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component is responsible for managing and enforcing access policies?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Mobile and Social in IAM?",
+      "answers": [
+        { "text": "To manage cryptographic keys", "isCorrect": false },
+        { "text": "To provide single sign-on (SSO)", "isCorrect": false },
+        { "text": "To extend IAM capabilities to mobile and social applications", "isCorrect": true },
+        { "text": "To manage user identities", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides centralized policy administration and enforcement?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Privileged Account Manager (PAM) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To manage and monitor privileged accounts and access", "isCorrect": true },
+        { "text": "To provide access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides user provisioning and de-provisioning capabilities?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": true },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Unified Directory (OUD) in IAM?",
+      "answers": [
+        { "text": "To manage cryptographic keys", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To provide a scalable and high-performance directory for identity information", "isCorrect": true },
+        { "text": "To manage user accounts", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component is responsible for managing digital identities and credentials?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Virtual Directory (OVD)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Access Management Suite Plus (AOM) in IAM?",
+      "answers": [
+        { "text": "To provide single sign-on (SSO)", "isCorrect": true },
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To manage cryptographic keys", "isCorrect": false },
+        { "text": "To enforce access policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides a scalable and secure identity and access management infrastructure?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Identity Cloud Service (IDCS)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Identity Cloud Service (IDCS) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To provide a comprehensive identity management solution in the cloud", "isCorrect": true },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides real-time, risk-based authentication?",
+      "answers": [
+        { "text": "Oracle Adaptive Access Manager (OAAM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Identity Gateway (OIG) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To simplify integration between Oracle and non-Oracle environments", "isCorrect": true },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides fine-grained authorization for applications?",
+      "answers": [
+        { "text": "Oracle Authorization Policy Manager (APM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Authorization Policy Manager (APM) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To define and enforce fine-grained authorization policies for applications", "isCorrect": true },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides identity governance and lifecycle management?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": true },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Identity Federation (OIF) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To enable secure identity sharing and single sign-on across multiple organizations", "isCorrect": true },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides a scalable and secure identity federation solution?",
+      "answers": [
+        { "text": "Oracle Identity Manager (OIM)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Identity Federation (OIF)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Identity Cloud Service (IDCS) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To provide a comprehensive identity management solution in the cloud", "isCorrect": true },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle IAM component provides risk-based authentication and fraud detection?",
+      "answers": [
+        { "text": "Oracle Adaptive Access Manager (OAAM)", "isCorrect": true },
+        { "text": "Oracle Security Token Service (STS)", "isCorrect": false },
+        { "text": "Oracle Access Manager (OAM)", "isCorrect": false },
+        { "text": "Oracle Internet Directory (OID)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Internet Directory (OID) in IAM?",
+      "answers": [
+        { "text": "To manage user accounts", "isCorrect": false },
+        { "text": "To provide web single sign-on (SSO)", "isCorrect": false },
+        { "text": "To provide directory services and LDAP support", "isCorrect": true },
+        { "text": "To manage cryptographic keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM)?",
+      "answers": [
+        { "text": "To provision and manage compute instances", "isCorrect": false },
+        { "text": "To establish private connections between on-premises networks and OCI", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) IAM Groups?",
+      "answers": [
+        { "text": "To perform analytics on cloud usage", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": false },
+        { "text": "To organize users with similar job functions and access requirements", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) IAM service allows you to define policies for fine-grained access control?",
+      "answers": [
+        { "text": "OCI Identity Federation", "isCorrect": false },
+        { "text": "OCI Access Gateway", "isCorrect": false },
+        { "text": "OCI Policy Management", "isCorrect": true },
+        { "text": "OCI Compute AutoScaling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Identity Federation?",
+      "answers": [
+        { "text": "To establish private connections between on-premises networks and OCI", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": true },
+        { "text": "To store and manage Docker container images", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Access Gateway?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To provide secure access to OCI resources from on-premises networks", "isCorrect": true },
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Dynamic Groups?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) for OCI resources", "isCorrect": false },
+        { "text": "To dynamically group resources based on matching criteria for policy application", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) IAM component is responsible for user authentication?",
+      "answers": [
+        { "text": "OCI Groups", "isCorrect": false },
+        { "text": "OCI Dynamic Groups", "isCorrect": false },
+        { "text": "OCI Identity Federation", "isCorrect": false },
+        { "text": "OCI Identity Providers", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Identity Providers?",
+      "answers": [
+        { "text": "To provide secure key storage and management services", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) for OCI resources", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Customer Managed Keys?",
+      "answers": [
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": true },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) IAM service allows you to audit and monitor user activity?",
+      "answers": [
+        { "text": "OCI Identity Federation", "isCorrect": false },
+        { "text": "OCI Access Gateway", "isCorrect": false },
+        { "text": "OCI Policy Management", "isCorrect": false },
+        { "text": "OCI Audit", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Policy Management?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access to OCI resources from on-premises networks", "isCorrect": false },
+        { "text": "To define policies for fine-grained access control", "isCorrect": true },
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) IAM Compartments?",
+      "answers": [
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": false },
+        { "text": "To isolate and manage resources within a tenancy for better organization", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) IAM Policies?",
+      "answers": [
+        { "text": "To define policies for fine-grained access control", "isCorrect": true },
+        { "text": "To enable single sign-on (SSO) for OCI resources", "isCorrect": false },
+        { "text": "To dynamically group resources based on matching criteria for policy application", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) IAM component allows you to grant access permissions to resources?",
+      "answers": [
+        { "text": "OCI Dynamic Groups", "isCorrect": false },
+        { "text": "OCI Identity Providers", "isCorrect": false },
+        { "text": "OCI IAM Users", "isCorrect": true },
+        { "text": "OCI Customer Managed Keys", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) IAM Federation?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": true },
+        { "text": "To provide secure key storage and management services", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) IAM Tags?",
+      "answers": [
+        { "text": "To provide secure access to OCI resources from on-premises networks", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To dynamically group resources based on matching criteria for policy application", "isCorrect": false },
+        { "text": "To label and organize resources for easier management and resource tracking", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) IAM Federation?",
+      "answers": [
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": true },
+        { "text": "To isolate and manage resources within a tenancy for better organization", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) IAM component is responsible for user authentication?",
+      "answers": [
+        { "text": "OCI Identity Providers", "isCorrect": true },
+        { "text": "OCI Access Gateway", "isCorrect": false },
+        { "text": "OCI Dynamic Groups", "isCorrect": false },
+        { "text": "OCI IAM Users", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) IAM Password Policies?",
+      "answers": [
+        { "text": "To define policies for fine-grained access control", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) for OCI resources", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": false },
+        { "text": "To enforce password complexity requirements for IAM users", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) IAM Federation over Identity Providers?",
+      "answers": [
+        { "text": "To label and organize resources for easier management and resource tracking", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) to OCI resources using external identity providers", "isCorrect": true },
+        { "text": "To dynamically group resources based on matching criteria for policy application", "isCorrect": false },
+        { "text": "To provide secure access to OCI resources from on-premises networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) IAM OAuth 2.0?",
+      "answers": [
+        { "text": "To dynamically group resources based on matching criteria for policy application", "isCorrect": false },
+        { "text": "To enable single sign-on (SSO) for OCI resources", "isCorrect": true },
+        { "text": "To label and organize resources for easier management and resource tracking", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) IAM User Groups?",
+      "answers": [
+        { "text": "To isolate and manage resources within a tenancy for better organization", "isCorrect": false },
+        { "text": "To enforce password complexity requirements for IAM users", "isCorrect": false },
+        { "text": "To label and organize resources for easier management and resource tracking", "isCorrect": false },
+        { "text": "To organize users with similar job functions and access requirements", "isCorrect": true }
+      ]
+    }
+]

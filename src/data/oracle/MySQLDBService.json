@@ -1,0 +1,560 @@
+[
+    {
+      "question": "What is Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A fully managed MySQL database service on Oracle Cloud Infrastructure", "isCorrect": true },
+        { "text": "An object storage service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which cloud provider hosts Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "AWS", "isCorrect": false },
+        { "text": "Microsoft Azure", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure", "isCorrect": true },
+        { "text": "Google Cloud Platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary database engine used by Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Oracle Database", "isCorrect": false },
+        { "text": "MySQL", "isCorrect": true },
+        { "text": "SQL Server", "isCorrect": false },
+        { "text": "PostgreSQL", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which deployment option is supported by Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "On-premises only", "isCorrect": false },
+        { "text": "Cloud only", "isCorrect": false },
+        { "text": "Both on-premises and cloud deployments", "isCorrect": true },
+        { "text": "Edge computing only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Shell in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide a command-line interface for MySQL", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming languages are commonly used to interact with Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Java and C#", "isCorrect": false },
+        { "text": "Python and Ruby", "isCorrect": false },
+        { "text": "PHP and JavaScript", "isCorrect": true },
+        { "text": "C++ and Swift", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Router in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide a proxy for MySQL connections", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which authentication methods are supported by Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Username and password only", "isCorrect": false },
+        { "text": "SSH key authentication only", "isCorrect": false },
+        { "text": "Both username/password and SSH key authentication", "isCorrect": true },
+        { "text": "Biometric authentication only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL InnoDB storage engine?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide high-performance transaction processing", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which encryption options are available for data at rest in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "SSL only", "isCorrect": false },
+        { "text": "Transparent Data Encryption (TDE) only", "isCorrect": false },
+        { "text": "Both SSL and Transparent Data Encryption (TDE)", "isCorrect": true },
+        { "text": "No encryption options are available", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Performance Schema?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To provide a performance monitoring and analysis tool", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which feature allows you to automatically scale the compute resources for Oracle MySQL Database Service based on demand?",
+      "answers": [
+        { "text": "Auto Scaling", "isCorrect": true },
+        { "text": "Manual Scaling", "isCorrect": false },
+        { "text": "Dynamic Scaling", "isCorrect": false },
+        { "text": "Static Scaling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Enterprise Backup feature in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To perform hot and consistent backups of MySQL databases", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which monitoring and logging tools are available for Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Oracle Cloud Monitoring only", "isCorrect": false },
+        { "text": "MySQL Enterprise Monitor only", "isCorrect": false },
+        { "text": "Both Oracle Cloud Monitoring and MySQL Enterprise Monitor", "isCorrect": true },
+        { "text": "No monitoring or logging tools are available", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Workbench in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To provide a visual database design tool and SQL development environment", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which backup and recovery options are available for Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Manual backups only", "isCorrect": false },
+        { "text": "Automated backups only", "isCorrect": false },
+        { "text": "Both manual and automated backups", "isCorrect": true },
+        { "text": "No backup options are available", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Router in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide a proxy for MySQL connections", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming languages are commonly used to interact with Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Java and C#", "isCorrect": false },
+        { "text": "Python and Ruby", "isCorrect": false },
+        { "text": "PHP and JavaScript", "isCorrect": true },
+        { "text": "C++ and Swift", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Enterprise Audit in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide detailed audit trail and logging capabilities for MySQL databases", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which high availability feature is available for Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Replication only", "isCorrect": false },
+        { "text": "Automatic Failover only", "isCorrect": false },
+        { "text": "Both Replication and Automatic Failover", "isCorrect": true },
+        { "text": "No high availability features are available", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Enterprise Firewall in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To protect against SQL injection attacks", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which storage engine is recommended for read-intensive workloads in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "MyISAM", "isCorrect": true },
+        { "text": "InnoDB", "isCorrect": false },
+        { "text": "Memory", "isCorrect": false },
+        { "text": "CSV", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Query Analyzer in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To analyze and optimize SQL queries", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which security feature is available for Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "Database Activity Monitoring (DAM) only", "isCorrect": false },
+        { "text": "Transparent Data Encryption (TDE) only", "isCorrect": false },
+        { "text": "Both Database Activity Monitoring (DAM) and Transparent Data Encryption (TDE)", "isCorrect": true },
+        { "text": "No security features are available", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Enterprise Thread Pool in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To improve the efficiency of database connections", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which edition of Oracle MySQL Database Service offers advanced features like automatic scaling and backup?",
+      "answers": [
+        { "text": "Standard Edition", "isCorrect": false },
+        { "text": "Enterprise Edition", "isCorrect": true },
+        { "text": "Community Edition", "isCorrect": false },
+        { "text": "Express Edition", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Enterprise Monitor in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide real-time monitoring and alerting for MySQL databases", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which feature allows you to isolate and control access to Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "MySQL Firewall", "isCorrect": false },
+        { "text": "MySQL Enterprise Audit", "isCorrect": false },
+        { "text": "MySQL VPC Peering", "isCorrect": true },
+        { "text": "MySQL InnoDB Encryption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Enterprise Backup feature in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To perform hot and consistent backups of MySQL databases", "isCorrect": true },
+        { "text": "To configure network settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle MySQL Database Service over traditional MySQL installations?",
+      "answers": [
+        { "text": "To store and manage static website data", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To run highly available and scalable MySQL databases in the cloud", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle MySQL Database Service in terms of scalability?",
+      "answers": [
+        { "text": "To scale vertically by adding more CPU and memory to a single instance", "isCorrect": false },
+        { "text": "To scale horizontally by adding read replicas to the primary instance", "isCorrect": true },
+        { "text": "To scale by providing additional storage to the existing instance", "isCorrect": false },
+        { "text": "To scale by increasing the network bandwidth of the MySQL database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service feature provides automated backups and point-in-time recovery?",
+      "answers": [
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "MySQL Router", "isCorrect": false },
+        { "text": "MySQL Shell", "isCorrect": false },
+        { "text": "Automatic Backup and Point-in-Time Recovery", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL InnoDB Cluster in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide automated backups and recovery", "isCorrect": false },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": true },
+        { "text": "To manage DNS settings for MySQL databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Shell in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To scale vertically by adding more CPU and memory to a single instance", "isCorrect": false },
+        { "text": "To interact with and manage MySQL databases programmatically", "isCorrect": true },
+        { "text": "To provide secure access control to MySQL resources", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and MySQL", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL Router in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To store and manage static website data", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": true },
+        { "text": "To scale horizontally by adding read replicas to the primary instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service feature enables you to isolate and manage different MySQL workloads?",
+      "answers": [
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "MySQL Router", "isCorrect": false },
+        { "text": "MySQL Shell", "isCorrect": false },
+        { "text": "MySQL HeatWave", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using MySQL HeatWave in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false },
+        { "text": "To scale horizontally by adding read replicas to the primary instance", "isCorrect": false },
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": true },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Database Service Dedicated versus MySQL Database Service Shared?",
+      "answers": [
+        { "text": "For small-scale, non-production workloads with resource sharing", "isCorrect": false },
+        { "text": "For large-scale, production workloads with dedicated resources", "isCorrect": true },
+        { "text": "To provide secure access control to MySQL resources", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and MySQL", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the MySQL Database Service Security Zone?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false },
+        { "text": "To enhance security by isolating and managing MySQL database resources", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which feature of Oracle MySQL Database Service allows you to offload read-intensive queries to a highly optimized, in-memory analytics engine?",
+      "answers": [
+        { "text": "MySQL Router", "isCorrect": false },
+        { "text": "MySQL Shell", "isCorrect": false },
+        { "text": "MySQL HeatWave", "isCorrect": true },
+        { "text": "Automatic Backup and Point-in-Time Recovery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you choose to use a custom MySQL configuration in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "For simplicity and ease of management", "isCorrect": false },
+        { "text": "To ensure compatibility with third-party tools", "isCorrect": false },
+        { "text": "To meet specific performance or customization requirements", "isCorrect": true },
+        { "text": "For automatic failover and high availability", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What role does MySQL Shell play in Oracle MySQL Database Service?",
+      "answers": [
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": false },
+        { "text": "To interact with and manage MySQL databases programmatically", "isCorrect": true },
+        { "text": "To scale horizontally by adding read replicas to the primary instance", "isCorrect": false },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service component provides a secure, private connection to your MySQL databases from your on-premises network?",
+      "answers": [
+        { "text": "MySQL Router", "isCorrect": false },
+        { "text": "MySQL Shell", "isCorrect": false },
+        { "text": "OCI FastConnect", "isCorrect": true },
+        { "text": "Automatic Backup and Point-in-Time Recovery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Oracle MySQL Database Service, what does the term 'Instance' refer to?",
+      "answers": [
+        { "text": "A single MySQL Server deployment within a cluster", "isCorrect": true },
+        { "text": "A physical server in the data center", "isCorrect": false },
+        { "text": "A read replica connected to the primary MySQL Server", "isCorrect": false },
+        { "text": "A database schema within a MySQL Server", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL Database Service HeatWave Auto Indexing?",
+      "answers": [
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false },
+        { "text": "To automatically create indexes for optimal query performance", "isCorrect": true },
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": false },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Database Service Analytics Engine?",
+      "answers": [
+        { "text": "To scale vertically by adding more CPU and memory to a single instance", "isCorrect": false },
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": true },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service feature allows you to deploy MySQL databases in different geographic regions for disaster recovery?",
+      "answers": [
+        { "text": "MySQL HeatWave", "isCorrect": false },
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "Global Deployments", "isCorrect": true },
+        { "text": "MySQL Database Service Dedicated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of MySQL Database Service HeatWave Bulk Data Loading?",
+      "answers": [
+        { "text": "To automatically create indexes for optimal query performance", "isCorrect": false },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false },
+        { "text": "To accelerate the loading of large volumes of data into HeatWave", "isCorrect": true },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Database Service for Development and Testing?",
+      "answers": [
+        { "text": "For large-scale, production workloads with dedicated resources", "isCorrect": false },
+        { "text": "For small-scale, non-production workloads with resource sharing", "isCorrect": true },
+        { "text": "To ensure compatibility with third-party tools", "isCorrect": false },
+        { "text": "To provide secure access control to MySQL resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL Database Service Maintenance Windows?",
+      "answers": [
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false },
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": false },
+        { "text": "To define time periods for system maintenance activities", "isCorrect": true },
+        { "text": "To automatically create indexes for optimal query performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Oracle MySQL Database Service, what is the role of the InnoDB storage engine?",
+      "answers": [
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": false },
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false },
+        { "text": "To provide secure access control to MySQL resources", "isCorrect": false },
+        { "text": "To manage data storage and retrieval within MySQL databases", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service feature allows you to clone a MySQL instance for testing purposes without impacting production?",
+      "answers": [
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "MySQL HeatWave Bulk Data Loading", "isCorrect": false },
+        { "text": "MySQL Database Service Cloning", "isCorrect": true },
+        { "text": "MySQL Database Service Dedicated", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of MySQL Database Service Firewall Rules?",
+      "answers": [
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false },
+        { "text": "To define rules for allowing or denying traffic to MySQL databases", "isCorrect": true },
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Database Service Data Masking?",
+      "answers": [
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false },
+        { "text": "To provide secure access control to MySQL resources", "isCorrect": false },
+        { "text": "To mask sensitive data in non-production environments", "isCorrect": true },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service feature allows you to customize the network configuration of your MySQL instance?",
+      "answers": [
+        { "text": "MySQL HeatWave Auto Indexing", "isCorrect": false },
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "Custom Network Configuration", "isCorrect": true },
+        { "text": "MySQL Database Service Analytics Engine", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL Database Service Backups?",
+      "answers": [
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false },
+        { "text": "To provide secure access control to MySQL resources", "isCorrect": false },
+        { "text": "To create and manage backups for disaster recovery and data retention", "isCorrect": true },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Database Service Resource Manager?",
+      "answers": [
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false },
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": false },
+        { "text": "To manage resources and allocate capacity for different MySQL workloads", "isCorrect": true },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service feature allows you to automatically scale resources based on workload demands?",
+      "answers": [
+        { "text": "MySQL Database Service Cloning", "isCorrect": false },
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "MySQL Database Service Auto Scaling", "isCorrect": true },
+        { "text": "MySQL HeatWave Auto Indexing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL Database Service Auditing?",
+      "answers": [
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false },
+        { "text": "To automatically create indexes for optimal query performance", "isCorrect": false },
+        { "text": "To track and log database activity for compliance and security", "isCorrect": true },
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use MySQL Database Service Cross-Region Replication?",
+      "answers": [
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false },
+        { "text": "To route client requests to the appropriate MySQL Server instance in a cluster", "isCorrect": false },
+        { "text": "To replicate data across different geographic regions for disaster recovery", "isCorrect": true },
+        { "text": "To accelerate query performance and enable real-time analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle MySQL Database Service component is responsible for automatically managing and optimizing indexes for performance?",
+      "answers": [
+        { "text": "MySQL InnoDB Cluster", "isCorrect": false },
+        { "text": "MySQL HeatWave Auto Indexing", "isCorrect": true },
+        { "text": "MySQL Database Service Firewall Rules", "isCorrect": false },
+        { "text": "MySQL Database Service Cloning", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of MySQL Database Service Automated MySQL Updates?",
+      "answers": [
+        { "text": "To provide automated backups and point-in-time recovery", "isCorrect": false },
+        { "text": "To automatically create indexes for optimal query performance", "isCorrect": false },
+        { "text": "To ensure that your MySQL instance is running the latest updates and patches", "isCorrect": true },
+        { "text": "To enable high availability and fault tolerance with automatic failover", "isCorrect": false }
+      ]
+    }
+]

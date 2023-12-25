@@ -1,0 +1,443 @@
+[
+    {
+      "question": "What is Oracle File Storage Service?",
+      "answers": [
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A scalable and secure file storage solution in Oracle Cloud", "isCorrect": true },
+        { "text": "A machine learning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides file storage that can be mounted on multiple compute instances?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Block Storage", "isCorrect": false },
+        { "text": "OCI File Storage", "isCorrect": true },
+        { "text": "OCI Archive Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary protocol used by Oracle File Storage Service for file access?",
+      "answers": [
+        { "text": "FTP", "isCorrect": false },
+        { "text": "NFS (Network File System)", "isCorrect": true },
+        { "text": "SMB (Server Message Block)", "isCorrect": false },
+        { "text": "HTTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which file systems are supported by Oracle File Storage Service?",
+      "answers": [
+        { "text": "Only NTFS", "isCorrect": false },
+        { "text": "Only ext4", "isCorrect": false },
+        { "text": "NFS and SMB", "isCorrect": true },
+        { "text": "Only FAT32", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum storage capacity of a single file system in Oracle File Storage Service?",
+      "answers": [
+        { "text": "10 TB", "isCorrect": false },
+        { "text": "100 TB", "isCorrect": false },
+        { "text": "1 PB", "isCorrect": true },
+        { "text": "50 GB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is data in Oracle File Storage Service protected at rest?",
+      "answers": [
+        { "text": "Using password-based encryption", "isCorrect": false },
+        { "text": "Using SSL/TLS encryption", "isCorrect": false },
+        { "text": "Using Transparent Data Encryption (TDE)", "isCorrect": true },
+        { "text": "Using IPsec", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Identity and Access Management (IAM) service is used to control access to Oracle File Storage Service?",
+      "answers": [
+        { "text": "OCI Policy Manager", "isCorrect": false },
+        { "text": "OCI Security Lists", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Network (VCN)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Cloud Infrastructure (OCI) Console for Oracle File Storage Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To administer file systems and monitor performance", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the maximum number of mount targets that can be created per Oracle File Storage Service?",
+      "answers": [
+        { "text": "5", "isCorrect": false },
+        { "text": "10", "isCorrect": false },
+        { "text": "50", "isCorrect": false },
+        { "text": "100", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle File Storage Service snapshots?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide point-in-time copies of file systems", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the default retention period for Oracle File Storage Service snapshots?",
+      "answers": [
+        { "text": "7 days", "isCorrect": false },
+        { "text": "14 days", "isCorrect": false },
+        { "text": "30 days", "isCorrect": true },
+        { "text": "60 days", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides centralized logging for Oracle File Storage Service?",
+      "answers": [
+        { "text": "OCI Logging Service", "isCorrect": false },
+        { "text": "OCI Monitoring Service", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Audit Service", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle File Storage Service client tools?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To enable easy access and management of file systems", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle File Storage Service data transfer options?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To enable efficient data transfer to and from Oracle Cloud", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle File Storage Service feature allows you to enable access to your file systems from on-premises networks securely?",
+      "answers": [
+        { "text": "OCI VPN Gateway", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI FastConnect", "isCorrect": true },
+        { "text": "OCI NAT Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle File Storage Service Data Guard feature?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To provide high availability for file systems", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle File Storage Service performance class designed for?",
+      "answers": [
+        { "text": "To store infrequently accessed data", "isCorrect": false },
+        { "text": "To provide the highest levels of throughput and I/O", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle File Storage Service tags?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To label and organize resources for management and billing purposes", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle File Storage Service feature allows you to set up automatic file system backups?",
+      "answers": [
+        { "text": "OCI Data Transfer Service", "isCorrect": false },
+        { "text": "OCI File Storage Backup", "isCorrect": true },
+        { "text": "OCI File Storage Sync", "isCorrect": false },
+        { "text": "OCI VPN Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle File Storage Service Audit service?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To provide detailed logs for file system activity", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle File Storage Service maximum throughput per mount target?",
+      "answers": [
+        { "text": "1 Gbps", "isCorrect": false },
+        { "text": "5 Gbps", "isCorrect": false },
+        { "text": "10 Gbps", "isCorrect": true },
+        { "text": "20 Gbps", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle File Storage Service maximum IOPS per mount target?",
+      "answers": [
+        { "text": "1000 IOPS", "isCorrect": false },
+        { "text": "5000 IOPS", "isCorrect": false },
+        { "text": "10,000 IOPS", "isCorrect": true },
+        { "text": "20,000 IOPS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is used for monitoring and alerting on Oracle File Storage Service?",
+      "answers": [
+        { "text": "OCI Monitoring Service", "isCorrect": true },
+        { "text": "OCI Logging Service", "isCorrect": false },
+        { "text": "OCI File Storage Sync", "isCorrect": false },
+        { "text": "OCI VPN Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle File Storage Service availability SLA?",
+      "answers": [
+        { "text": "99.5%", "isCorrect": false },
+        { "text": "99.9%", "isCorrect": true },
+        { "text": "99.99%", "isCorrect": false },
+        { "text": "99.999%", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) region supports Oracle File Storage Service?",
+      "answers": [
+        { "text": "Only US East (Ashburn)", "isCorrect": false },
+        { "text": "All OCI regions", "isCorrect": true },
+        { "text": "Only Europe West (London)", "isCorrect": false },
+        { "text": "Only Asia Pacific (Mumbai)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle File Storage Service Console?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To administer file systems and monitor performance", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle File Storage Service minimum file system size?",
+      "answers": [
+        { "text": "1 TB", "isCorrect": true },
+        { "text": "100 GB", "isCorrect": false },
+        { "text": "10 TB", "isCorrect": false },
+        { "text": "50 GB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is used for data transfer between on-premises environments and Oracle File Storage Service?",
+      "answers": [
+        { "text": "OCI Data Transfer Service", "isCorrect": false },
+        { "text": "OCI File Storage Backup", "isCorrect": false },
+        { "text": "OCI FastConnect", "isCorrect": true },
+        { "text": "OCI VPN Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle File Storage Service security rules?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To optimize file storage performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) File Storage?",
+      "answers": [
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) File Storage snapshots?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To capture point-in-time copies of file systems for backup and recovery", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you choose Oracle Cloud Infrastructure (OCI) File Storage over Object Storage?",
+      "answers": [
+        { "text": "For storing large amounts of unstructured data", "isCorrect": false },
+        { "text": "For sharing files across multiple compute instances", "isCorrect": true },
+        { "text": "For archiving data for long-term retention", "isCorrect": false },
+        { "text": "For providing scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum file size supported by Oracle Cloud Infrastructure (OCI) File Storage?",
+      "answers": [
+        { "text": "10 GB", "isCorrect": false },
+        { "text": "50 GB", "isCorrect": false },
+        { "text": "100 TB", "isCorrect": true },
+        { "text": "500 GB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of using Oracle Cloud Infrastructure (OCI) File Storage for enterprise applications?",
+      "answers": [
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) File Storage Mount Targets?",
+      "answers": [
+        { "text": "To capture point-in-time copies of file systems for backup and recovery", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": true },
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) File Storage Lifecycle Policies?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To automate file system management tasks based on defined rules", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) File Storage ensure data durability?",
+      "answers": [
+        { "text": "By creating point-in-time copies of file systems", "isCorrect": false },
+        { "text": "By automatically replicating data across multiple Availability Domains", "isCorrect": true },
+        { "text": "By archiving data for long-term retention", "isCorrect": false },
+        { "text": "By providing scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) File Storage in high-performance computing scenarios?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide a shared file system for parallel file processing", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) File Storage handle file locking?",
+      "answers": [
+        { "text": "By allowing multiple instances to write to the same file simultaneously", "isCorrect": false },
+        { "text": "By providing a centralized file locking mechanism to prevent conflicting writes", "isCorrect": true },
+        { "text": "By creating point-in-time copies of file systems", "isCorrect": false },
+        { "text": "By distributing file locks across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of Oracle Cloud Infrastructure (OCI) File Storage Quotas?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To control and limit the amount of storage consumed by file systems", "isCorrect": true },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) File Storage Data Transfers?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To transfer large volumes of data to and from OCI File Storage", "isCorrect": true },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) File Storage support NFSv4?",
+      "answers": [
+        { "text": "By providing a shared file system for parallel file processing", "isCorrect": false },
+        { "text": "By allowing multiple instances to write to the same file simultaneously", "isCorrect": false },
+        { "text": "By supporting the Network File System version 4 protocol", "isCorrect": true },
+        { "text": "By archiving data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) File Storage Replicas?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To automatically create point-in-time copies of file systems", "isCorrect": false },
+        { "text": "To replicate data across multiple Availability Domains for high availability", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is Oracle Cloud Infrastructure (OCI) File Storage Cross-Mount Available?",
+      "answers": [
+        { "text": "To capture point-in-time copies of file systems for backup and recovery", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": true },
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) File Storage Mount Options?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To control file system behavior during mount operations", "isCorrect": true },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) File Storage integrate with Identity and Access Management (IAM)?",
+      "answers": [
+        { "text": "By providing scalable object storage", "isCorrect": false },
+        { "text": "By allowing multiple instances to write to the same file simultaneously", "isCorrect": false },
+        { "text": "By supporting role-based access control for secure file system access", "isCorrect": true },
+        { "text": "By archiving data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) File Storage Data Encryption?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To encrypt data at rest and in transit for enhanced security", "isCorrect": true },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) File Storage support backup and recovery?",
+      "answers": [
+        { "text": "By automatically replicating data across multiple Availability Domains", "isCorrect": false },
+        { "text": "By allowing multiple instances to write to the same file simultaneously", "isCorrect": false },
+        { "text": "By providing a snapshot capability for point-in-time copies", "isCorrect": true },
+        { "text": "By archiving data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of using Oracle Cloud Infrastructure (OCI) File Storage Replication?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To replicate data across multiple regions for disaster recovery", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    }
+]

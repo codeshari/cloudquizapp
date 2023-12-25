@@ -1,0 +1,443 @@
+[
+    {
+      "question": "What is Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "A relational database service", "isCorrect": false },
+        { "text": "A cloud-based file storage service", "isCorrect": false },
+        { "text": "A scalable and durable object storage service for archiving data", "isCorrect": true },
+        { "text": "A virtual machine service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of data is commonly stored in Object Storage Archive Service?",
+      "answers": [
+        { "text": "Real-time transactional data", "isCorrect": false },
+        { "text": "Archived and infrequently accessed data", "isCorrect": true },
+        { "text": "Structured relational data", "isCorrect": false },
+        { "text": "Virtual machine images", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using Object Storage Archive Service over regular Object Storage?",
+      "answers": [
+        { "text": "Lower durability", "isCorrect": false },
+        { "text": "Faster retrieval times", "isCorrect": false },
+        { "text": "Lower storage costs for infrequently accessed data", "isCorrect": true },
+        { "text": "Better support for real-time data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the storage class used for data in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Standard", "isCorrect": false },
+        { "text": "Infrequent Access", "isCorrect": false },
+        { "text": "Archive", "isCorrect": true },
+        { "text": "Premium", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is data retrieval different in Oracle Object Storage Archive Service compared to regular Object Storage?",
+      "answers": [
+        { "text": "Data retrieval is instantaneous", "isCorrect": false },
+        { "text": "Data retrieval requires multiple authentication steps", "isCorrect": true },
+        { "text": "Data retrieval has a fixed and predictable cost", "isCorrect": false },
+        { "text": "Data retrieval is limited to a specific time window", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the minimum storage duration for data stored in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "30 days", "isCorrect": false },
+        { "text": "60 days", "isCorrect": false },
+        { "text": "90 days", "isCorrect": true },
+        { "text": "180 days", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Archive Standard' tier in Oracle Cloud Infrastructure Object Storage?",
+      "answers": [
+        { "text": "To store frequently accessed data", "isCorrect": false },
+        { "text": "To provide a lower-cost storage option for archived data", "isCorrect": false },
+        { "text": "To balance between cost and performance for infrequently accessed data", "isCorrect": false },
+        { "text": "There is no 'Archive Standard' tier in Oracle Object Storage Archive Service", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How is data charged in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Charged only for storage, retrieval is free", "isCorrect": false },
+        { "text": "Charged based on storage, retrieval, and additional retrieval fees", "isCorrect": true },
+        { "text": "Charged based on the number of objects stored", "isCorrect": false },
+        { "text": "Charged only for retrieval, storage is free", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Restore Speed' option in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To increase data durability", "isCorrect": false },
+        { "text": "To accelerate the retrieval speed of archived data", "isCorrect": true },
+        { "text": "To reduce storage costs", "isCorrect": false },
+        { "text": "To limit data retrieval to specific time windows", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you manage data lifecycle policies in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Through the Oracle Cloud Console only", "isCorrect": false },
+        { "text": "Using the Oracle Cloud CLI and SDKs", "isCorrect": true },
+        { "text": "By contacting Oracle Support", "isCorrect": false },
+        { "text": "Through a third-party storage management tool", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which API is commonly used for interacting with Oracle Object Storage Archive Service programmatically?",
+      "answers": [
+        { "text": "REST API", "isCorrect": true },
+        { "text": "GraphQL API", "isCorrect": false },
+        { "text": "SOAP API", "isCorrect": false },
+        { "text": "JSON-RPC API", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Freeze Data Retrieval' option in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To prevent data retrieval for security reasons", "isCorrect": false },
+        { "text": "To temporarily suspend data retrieval operations", "isCorrect": true },
+        { "text": "To optimize data retrieval performance", "isCorrect": false },
+        { "text": "To reduce retrieval costs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure component provides a comprehensive, web-based user interface for managing Object Storage Archive Service?",
+      "answers": [
+        { "text": "Oracle Cloud CLI", "isCorrect": false },
+        { "text": "Oracle Cloud SDK", "isCorrect": false },
+        { "text": "Oracle Cloud Console", "isCorrect": true },
+        { "text": "Oracle Cloud Container Registry", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Rehydrate' operation in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To increase data durability", "isCorrect": false },
+        { "text": "To accelerate data retrieval speed", "isCorrect": false },
+        { "text": "To restore archived data to the 'Standard' storage class", "isCorrect": true },
+        { "text": "To reduce storage costs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which encryption mechanism is used to secure data at rest in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Transport Layer Security (TLS)", "isCorrect": false },
+        { "text": "Data Encryption Standard (DES)", "isCorrect": false },
+        { "text": "Advanced Encryption Standard (AES)", "isCorrect": true },
+        { "text": "Secure Sockets Layer (SSL)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Bucket Lock' feature in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To lock the entire Object Storage account", "isCorrect": false },
+        { "text": "To prevent deletion of objects from a bucket for a specified retention period", "isCorrect": true },
+        { "text": "To lock the archive storage class", "isCorrect": false },
+        { "text": "To enforce strict access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service allows you to configure data lifecycle policies for Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Oracle Cloud Functions", "isCorrect": false },
+        { "text": "Oracle Cloud Resource Manager", "isCorrect": false },
+        { "text": "Oracle Cloud Object Storage", "isCorrect": true },
+        { "text": "Oracle Cloud Data Flow", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Storage Management Policies' in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To restrict access to specific buckets", "isCorrect": false },
+        { "text": "To automate data storage and retrieval operations based on predefined rules", "isCorrect": true },
+        { "text": "To encrypt data in transit", "isCorrect": false },
+        { "text": "To enable versioning for objects", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does Oracle Object Storage Archive Service provide for ensuring data durability?",
+      "answers": [
+        { "text": "Daily backups", "isCorrect": false },
+        { "text": "Replication across multiple regions", "isCorrect": false },
+        { "text": "Triple data redundancy within a region", "isCorrect": true },
+        { "text": "Hourly snapshots", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Object Storage Archive Service handle data retrieval fees?",
+      "answers": [
+        { "text": "There are no retrieval fees", "isCorrect": false },
+        { "text": "Fees are charged based on the amount of data retrieved and the retrieval speed", "isCorrect": true },
+        { "text": "Fees are charged based on the number of retrieval requests", "isCorrect": false },
+        { "text": "Fees are charged only during business hours", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Data Resiliency' option in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To prevent data retrieval for security reasons", "isCorrect": false },
+        { "text": "To optimize data retrieval performance", "isCorrect": false },
+        { "text": "To increase data durability", "isCorrect": true },
+        { "text": "To reduce retrieval costs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service allows you to create and manage access policies for Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Oracle Cloud Resource Manager", "isCorrect": false },
+        { "text": "Oracle Cloud Identity and Access Management (IAM)", "isCorrect": true },
+        { "text": "Oracle Cloud Functions", "isCorrect": false },
+        { "text": "Oracle Cloud Load Balancing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Object Versioning' feature in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To prevent deletion of objects", "isCorrect": false },
+        { "text": "To automatically create backups of objects", "isCorrect": false },
+        { "text": "To maintain previous versions of objects when updated or deleted", "isCorrect": true },
+        { "text": "To synchronize objects across multiple regions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Object Storage Archive Service support compliance with data retention policies?",
+      "answers": [
+        { "text": "By automatically deleting all data after a specified period", "isCorrect": false },
+        { "text": "By encrypting all data at rest", "isCorrect": false },
+        { "text": "By enabling the 'Bucket Lock' feature for specified retention periods", "isCorrect": true },
+        { "text": "By replicating data across multiple regions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Retry' operation in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To automatically retry failed data retrieval attempts", "isCorrect": false },
+        { "text": "To retry failed data retrieval attempts manually", "isCorrect": true },
+        { "text": "To restore archived data to the 'Infrequent Access' storage class", "isCorrect": false },
+        { "text": "To reset data lifecycle policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service provides detailed billing and usage reports for Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Oracle Cloud Resource Manager", "isCorrect": false },
+        { "text": "Oracle Cloud Identity and Access Management (IAM)", "isCorrect": false },
+        { "text": "Oracle Cloud Cost Management and Billing", "isCorrect": true },
+        { "text": "Oracle Cloud Data Flow", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Cross-Region Copy' feature in Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "To copy data within the same region", "isCorrect": false },
+        { "text": "To replicate data across multiple regions", "isCorrect": false },
+        { "text": "To copy data to a different region for redundancy or data migration", "isCorrect": true },
+        { "text": "To synchronize data between on-premises and the cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is it appropriate to use Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "For frequently accessed data with low latency requirements", "isCorrect": false },
+        { "text": "For long-term retention of data with infrequent access", "isCorrect": true },
+        { "text": "For real-time analytics processing", "isCorrect": false },
+        { "text": "For storing temporary, volatile data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using Oracle Object Storage Archive Service over Standard Object Storage?",
+      "answers": [
+        { "text": "Lower durability", "isCorrect": false },
+        { "text": "Higher cost per GB stored", "isCorrect": false },
+        { "text": "Lower latency for data retrieval", "isCorrect": false },
+        { "text": "Lower storage costs for data with infrequent access", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "In which scenario would you choose Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "For a high-performance database that requires frequent data access", "isCorrect": false },
+        { "text": "For backing up critical data that requires quick restores", "isCorrect": false },
+        { "text": "For archiving data that is rarely accessed after an initial period", "isCorrect": true },
+        { "text": "For hosting a dynamic website with regularly updated content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Object Storage Archive Service achieve cost savings compared to Standard Object Storage?",
+      "answers": [
+        { "text": "By providing faster data retrieval times", "isCorrect": false },
+        { "text": "By reducing the overall durability of stored data", "isCorrect": false },
+        { "text": "By lowering the storage cost for infrequently accessed data", "isCorrect": true },
+        { "text": "By offering unlimited storage capacity at a fixed cost", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the main consideration when planning to use Oracle Object Storage Archive Service for data storage?",
+      "answers": [
+        { "text": "Frequent data access and real-time processing", "isCorrect": false },
+        { "text": "Low-cost storage for data with infrequent access", "isCorrect": true },
+        { "text": "High-performance requirements for data processing", "isCorrect": false },
+        { "text": "Temporary and volatile data storage needs", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of data is best suited for Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Real-time transactional data", "isCorrect": false },
+        { "text": "Frequently accessed multimedia files", "isCorrect": false },
+        { "text": "Infrequently accessed archival data", "isCorrect": true },
+        { "text": "Temporary cache data for application performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When designing a data storage strategy, why would you choose Oracle Object Storage Archive Service for certain datasets?",
+      "answers": [
+        { "text": "To increase the durability of data", "isCorrect": false },
+        { "text": "To achieve lower storage costs for infrequently accessed data", "isCorrect": true },
+        { "text": "To provide faster data retrieval times", "isCorrect": false },
+        { "text": "To ensure real-time processing of data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the key benefit of using Oracle Object Storage Archive Service for long-term data retention?",
+      "answers": [
+        { "text": "Higher performance and lower latency", "isCorrect": false },
+        { "text": "Reduced storage capacity", "isCorrect": false },
+        { "text": "Lower storage costs for infrequently accessed data", "isCorrect": true },
+        { "text": "Improved data durability", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In which scenario would Oracle Object Storage Archive Service be less suitable?",
+      "answers": [
+        { "text": "For data that requires frequent access and low latency", "isCorrect": true },
+        { "text": "For archiving data with minimal access requirements", "isCorrect": false },
+        { "text": "For long-term data retention with occasional access", "isCorrect": false },
+        { "text": "For storing large multimedia files with infrequent access", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Object Storage Archive Service contribute to data archiving best practices?",
+      "answers": [
+        { "text": "By optimizing for real-time data processing", "isCorrect": false },
+        { "text": "By offering unlimited storage capacity", "isCorrect": false },
+        { "text": "By providing low-latency access for frequently accessed data", "isCorrect": false },
+        { "text": "By lowering storage costs for archival data with infrequent access", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When considering Oracle Object Storage Archive Service, what factor should be taken into account for data retrieval?",
+      "answers": [
+        { "text": "Low retrieval costs with real-time access", "isCorrect": false },
+        { "text": "Potential additional retrieval costs and longer retrieval times", "isCorrect": true },
+        { "text": "Unlimited and free data retrieval", "isCorrect": false },
+        { "text": "Faster retrieval times than Standard Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In what scenario would you consider using Oracle Object Storage Archive Service for regulatory compliance?",
+      "answers": [
+        { "text": "For frequently accessed data with low latency requirements", "isCorrect": false },
+        { "text": "For long-term retention of data with infrequent access", "isCorrect": false },
+        { "text": "For real-time analytics processing", "isCorrect": false },
+        { "text": "For ensuring data immutability and regulatory compliance", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the impact of retrieval time on Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "Retrieval time is always fast, regardless of the data access frequency", "isCorrect": false },
+        { "text": "Retrieval time is slower for infrequently accessed data", "isCorrect": true },
+        { "text": "Retrieval time is faster compared to Standard Object Storage", "isCorrect": false },
+        { "text": "Retrieval time is the same as Standard Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When might you choose to use Oracle Object Storage Archive Service for data that requires encryption at rest?",
+      "answers": [
+        { "text": "For real-time transactional data", "isCorrect": false },
+        { "text": "For temporary cache data for application performance", "isCorrect": false },
+        { "text": "For long-term retention of sensitive data with infrequent access", "isCorrect": true },
+        { "text": "For frequently accessed multimedia files", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which factor makes Oracle Object Storage Archive Service an ideal choice for storing large datasets that are rarely accessed?",
+      "answers": [
+        { "text": "Low durability and high retrieval costs", "isCorrect": false },
+        { "text": "Faster retrieval times compared to Standard Object Storage", "isCorrect": false },
+        { "text": "Lower storage costs for infrequently accessed data", "isCorrect": true },
+        { "text": "Unlimited storage capacity for all data types", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary consideration when planning for data retrieval from Oracle Object Storage Archive Service?",
+      "answers": [
+        { "text": "No retrieval costs and instant access", "isCorrect": false },
+        { "text": "Potential additional retrieval costs and longer retrieval times", "isCorrect": true },
+        { "text": "Unlimited free retrieval for all data", "isCorrect": false },
+        { "text": "Faster retrieval times than Standard Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In which use case would Oracle Object Storage Archive Service be less suitable?",
+      "answers": [
+        { "text": "For archiving data that is rarely accessed after an initial period", "isCorrect": false },
+        { "text": "For storing large multimedia files with infrequent access", "isCorrect": true },
+        { "text": "For long-term data retention with occasional access", "isCorrect": false },
+        { "text": "For temporary cache data for application performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why might you choose Oracle Object Storage Archive Service for data backup?",
+      "answers": [
+        { "text": "To ensure high durability of stored backup data", "isCorrect": false },
+        { "text": "To provide faster data retrieval times for backups", "isCorrect": false },
+        { "text": "To achieve lower storage costs for backup data with infrequent access", "isCorrect": true },
+        { "text": "To store temporary data generated during the backup process", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When considering Oracle Object Storage Archive Service, what factor should be considered for data retrieval?",
+      "answers": [
+        { "text": "Low retrieval costs with real-time access", "isCorrect": false },
+        { "text": "Potential additional retrieval costs and longer retrieval times", "isCorrect": true },
+        { "text": "Unlimited and free data retrieval", "isCorrect": false },
+        { "text": "Faster retrieval times than Standard Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Object Storage Archive Service contribute to cost optimization in a data storage strategy?",
+      "answers": [
+        { "text": "By providing unlimited storage capacity at a fixed cost", "isCorrect": false },
+        { "text": "By reducing overall durability of stored data", "isCorrect": false },
+        { "text": "By lowering storage costs for infrequently accessed data", "isCorrect": true },
+        { "text": "By increasing retrieval costs for all data types", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In which scenario might you choose Oracle Object Storage Archive Service for data with regulatory compliance requirements?",
+      "answers": [
+        { "text": "For frequently accessed data with low latency requirements", "isCorrect": false },
+        { "text": "For long-term retention of data with infrequent access", "isCorrect": false },
+        { "text": "For real-time analytics processing", "isCorrect": false },
+        { "text": "For ensuring data immutability and regulatory compliance", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the key advantage of Oracle Object Storage Archive Service in terms of data durability?",
+      "answers": [
+        { "text": "Higher durability for all types of data", "isCorrect": false },
+        { "text": "Reduced durability for infrequently accessed data", "isCorrect": false },
+        { "text": "Lower storage costs for archival data with infrequent access", "isCorrect": true },
+        { "text": "Unlimited storage capacity with maximum durability", "isCorrect": false }
+      ]
+    }
+]

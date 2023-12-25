@@ -1,0 +1,425 @@
+[
+    {
+      "question": "What is Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud-based relational database service", "isCorrect": true },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A machine learning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which cloud provider offers Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "Microsoft Azure", "isCorrect": false },
+        { "text": "Amazon Web Services (AWS)", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI)", "isCorrect": true },
+        { "text": "Google Cloud Platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of database does Oracle Exadata Cloud Service support?",
+      "answers": [
+        { "text": "Only NoSQL databases", "isCorrect": false },
+        { "text": "Only graph databases", "isCorrect": false },
+        { "text": "Only relational databases", "isCorrect": true },
+        { "text": "Both NoSQL and relational databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the key advantage of Oracle Exadata Cloud Service for performance?",
+      "answers": [
+        { "text": "Uses traditional hard disk drives (HDDs)", "isCorrect": false },
+        { "text": "Employs serverless architecture", "isCorrect": false },
+        { "text": "Utilizes Exadata Storage Servers for high-performance storage", "isCorrect": true },
+        { "text": "Runs on low-memory configurations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud deployment model is Oracle Exadata Cloud Service based on?",
+      "answers": [
+        { "text": "On-Premises", "isCorrect": false },
+        { "text": "Private Cloud", "isCorrect": false },
+        { "text": "Public Cloud", "isCorrect": false },
+        { "text": "Oracle Cloud at Customer", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is Oracle Exadata Cloud Service's approach to scalability?",
+      "answers": [
+        { "text": "Vertical scaling only", "isCorrect": false },
+        { "text": "Horizontal scaling only", "isCorrect": false },
+        { "text": "Both vertical and horizontal scaling", "isCorrect": true },
+        { "text": "No scaling options available", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Exadata Storage Server in Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "To manage user access and authentication", "isCorrect": false },
+        { "text": "To store backup copies of the database", "isCorrect": false },
+        { "text": "To offload database processing and accelerate performance", "isCorrect": true },
+        { "text": "To handle network routing within the cloud service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of storage is used by Oracle Exadata Cloud Service for database files?",
+      "answers": [
+        { "text": "Object Storage", "isCorrect": false },
+        { "text": "Block Storage", "isCorrect": false },
+        { "text": "Exadata Smart Flash Cache", "isCorrect": false },
+        { "text": "Exadata Smart Provisioning", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service allows you to automate the management of Oracle Exadata Cloud Service instances?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Networking", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Database", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Resource Manager", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Exadata Cloud Service Console?",
+      "answers": [
+        { "text": "To process database queries", "isCorrect": false },
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To monitor and administer Oracle Exadata Cloud Service instances", "isCorrect": true },
+        { "text": "To configure networking options", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service ensure high availability?",
+      "answers": [
+        { "text": "By using single-instance configurations", "isCorrect": false },
+        { "text": "By manual failover procedures", "isCorrect": false },
+        { "text": "By leveraging Oracle Real Application Clusters (RAC)", "isCorrect": true },
+        { "text": "By disabling backup options", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure Identity and Access Management (OCI IAM) in Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "To process database queries", "isCorrect": false },
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To monitor and administer Oracle Exadata Cloud Service instances", "isCorrect": false },
+        { "text": "To control access and permissions for Oracle Cloud resources", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What security feature does Oracle Exadata Cloud Service provide for data at rest?",
+      "answers": [
+        { "text": "Encryption using SSL/TLS", "isCorrect": false },
+        { "text": "Encryption using IPsec", "isCorrect": false },
+        { "text": "Transparent Data Encryption (TDE)", "isCorrect": true },
+        { "text": "Access Control Lists (ACLs)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of databases are supported by Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "Only Oracle databases", "isCorrect": false },
+        { "text": "Only NoSQL databases", "isCorrect": false },
+        { "text": "Both Oracle and non-Oracle databases", "isCorrect": true },
+        { "text": "Only MySQL databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Object Storage in the context of Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "To process database queries", "isCorrect": false },
+        { "text": "To store database backups", "isCorrect": true },
+        { "text": "To configure networking options", "isCorrect": false },
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What feature does Oracle Exadata Cloud Service provide for automated backups?",
+      "answers": [
+        { "text": "Manual backup initiation only", "isCorrect": false },
+        { "text": "Automated backups using Oracle Recovery Manager (RMAN)", "isCorrect": true },
+        { "text": "Backup using third-party tools", "isCorrect": false },
+        { "text": "Backup through Oracle Cloud Infrastructure Object Storage only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service is used for deploying applications alongside Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Networking", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Database", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service handle patching and updates?",
+      "answers": [
+        { "text": "Patching is manual and requires downtime", "isCorrect": false },
+        { "text": "Automated patching with no downtime", "isCorrect": true },
+        { "text": "Patching is not supported", "isCorrect": false },
+        { "text": "Patching is performed by users with superuser privileges", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure FastConnect in the context of Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "To process database queries", "isCorrect": false },
+        { "text": "To configure networking options", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Oracle Cloud", "isCorrect": true },
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What feature does Oracle Exadata Cloud Service provide for automated scaling?",
+      "answers": [
+        { "text": "Manual scaling only", "isCorrect": false },
+        { "text": "Automated scaling based on resource usage", "isCorrect": true },
+        { "text": "Scaling is not supported", "isCorrect": false },
+        { "text": "Automated scaling based on a fixed schedule", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Exadata Cloud Service's integration with Oracle Cloud Infrastructure Monitoring?",
+      "answers": [
+        { "text": "To process database queries", "isCorrect": false },
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To configure networking options", "isCorrect": false },
+        { "text": "To monitor the performance and health of Exadata instances", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service enhance database performance?",
+      "answers": [
+        { "text": "By using low-memory configurations", "isCorrect": false },
+        { "text": "By offloading database processing to Exadata Storage Servers", "isCorrect": true },
+        { "text": "By using traditional hard disk drives (HDDs)", "isCorrect": false },
+        { "text": "By disabling caching mechanisms", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Exadata Cloud Service's integration with Oracle Cloud Infrastructure Key Management?",
+      "answers": [
+        { "text": "To manage user access and authentication", "isCorrect": false },
+        { "text": "To store backup copies of the database", "isCorrect": false },
+        { "text": "To enable centralized key management for data encryption", "isCorrect": true },
+        { "text": "To handle network routing within the cloud service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the Oracle Exadata Cloud Service's Autonomous Database feature?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide automated database management with minimal user intervention", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To establish secure connections between on-premises networks and Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What security feature does Oracle Exadata Cloud Service provide for data in transit?",
+      "answers": [
+        { "text": "IPsec encryption", "isCorrect": false },
+        { "text": "SSL/TLS encryption", "isCorrect": true },
+        { "text": "Access Control Lists (ACLs)", "isCorrect": false },
+        { "text": "Transparent Data Encryption (TDE)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Resource Manager in the context of Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "To process database queries", "isCorrect": false },
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To configure networking options", "isCorrect": false },
+        { "text": "To automate the provisioning and lifecycle management of Oracle Exadata environments", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What type of workload is Oracle Exadata Cloud Service optimized for?",
+      "answers": [
+        { "text": "Only OLAP workloads", "isCorrect": false },
+        { "text": "Only OLTP workloads", "isCorrect": false },
+        { "text": "Both OLAP and OLTP workloads", "isCorrect": true },
+        { "text": "Data warehousing workloads only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To deliver extreme performance for Oracle databases", "isCorrect": true },
+        { "text": "To host virtual machines", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why would an organization choose Oracle Exadata Cloud Service over traditional database solutions?",
+      "answers": [
+        { "text": "To save costs on hardware procurement", "isCorrect": false },
+        { "text": "To achieve higher performance and lower latency for Oracle databases", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Smart Scan in the context of Oracle Exadata Cloud Service?",
+      "answers": [
+        { "text": "A feature for scanning documents and images", "isCorrect": false },
+        { "text": "An intelligent storage processing feature that offloads data-intensive database processing to storage servers", "isCorrect": true },
+        { "text": "A tool for managing network security policies", "isCorrect": false },
+        { "text": "A service for automating backups and restores", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Exadata Cloud Service over traditional on-premises database solutions?",
+      "answers": [
+        { "text": "For hosting general-purpose applications", "isCorrect": false },
+        { "text": "When extreme performance, high availability, and scalability for Oracle databases are crucial", "isCorrect": true },
+        { "text": "For archiving data for long-term retention", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Exadata Storage Server in the Exadata architecture?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To offload database processing and accelerate data-intensive queries", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service enhance database performance?",
+      "answers": [
+        { "text": "By providing unlimited storage capacity", "isCorrect": false },
+        { "text": "Through Smart Scan, storage indexes, and offloading of database processing to storage servers", "isCorrect": true },
+        { "text": "By automating routine database tasks", "isCorrect": false },
+        { "text": "By isolating and managing network traffic within the cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Exadata Cloud Service's InfiniBand network?",
+      "answers": [
+        { "text": "To connect on-premises data centers to the cloud", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To deliver low-latency, high-bandwidth communication between database servers and storage servers", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Exadata Cloud Service's Oracle Data Guard feature?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "For disaster recovery and high availability of Oracle databases", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of Oracle Exadata Cloud Service's Online Database Migration feature?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To achieve higher performance for Oracle databases", "isCorrect": false },
+        { "text": "To simplify and accelerate the migration of on-premises databases to the cloud", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service ensure data security?",
+      "answers": [
+        { "text": "By automatically backing up data to external storage", "isCorrect": false },
+        { "text": "Through encryption of data at rest and in transit, and integration with Oracle Cloud Identity and Access Management", "isCorrect": true },
+        { "text": "By providing network load balancing services", "isCorrect": false },
+        { "text": "By isolating and managing network traffic within the cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Exadata Cloud Service's Smart Flash Cache?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To accelerate read and write operations by utilizing flash storage", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Exadata Cloud Service's Hybrid Columnar Compression?",
+      "answers": [
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": false },
+        { "text": "To achieve higher performance for Oracle databases", "isCorrect": false },
+        { "text": "To compress and optimize storage for data warehousing workloads", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Exadata Cloud Service's Oracle Enterprise Manager (OEM)?",
+      "answers": [
+        { "text": "To connect on-premises data centers to the cloud", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To monitor and manage Exadata Cloud Service resources, databases, and performance", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service handle backup and recovery operations?",
+      "answers": [
+        { "text": "By providing network load balancing services", "isCorrect": false },
+        { "text": "Through automatic and efficient backup to Oracle Cloud Object Storage", "isCorrect": true },
+        { "text": "By isolating and managing network traffic within the cloud", "isCorrect": false },
+        { "text": "To achieve higher performance for Oracle databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of Oracle Exadata Cloud Service's automated patching and updates?",
+      "answers": [
+        { "text": "To compress and optimize storage for data warehousing workloads", "isCorrect": false },
+        { "text": "To simplify and accelerate the patching process while minimizing downtime", "isCorrect": true },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Exadata Cloud Service's Elastic Configurations?",
+      "answers": [
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To dynamically scale compute and storage resources based on workload demands", "isCorrect": true },
+        { "text": "To achieve higher performance for Oracle databases", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What role does Oracle Exadata Cloud Service's Oracle Real Application Clusters (RAC) play?",
+      "answers": [
+        { "text": "To accelerate read and write operations by utilizing flash storage", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": false },
+        { "text": "To provide high availability and scalability by clustering databases across multiple servers", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service ensure high availability for databases?",
+      "answers": [
+        { "text": "By automatically backing up data to external storage", "isCorrect": false },
+        { "text": "Through Oracle Data Guard for disaster recovery and failover", "isCorrect": true },
+        { "text": "By providing network load balancing services", "isCorrect": false },
+        { "text": "To compress and optimize storage for data warehousing workloads", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Exadata Cloud Service's Automatic SQL Tuning?",
+      "answers": [
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To automate the process of provisioning and updating resources", "isCorrect": false },
+        { "text": "To optimize SQL statements and improve database performance", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Exadata Cloud Service utilize Exadata Smart Flash Log?",
+      "answers": [
+        { "text": "To provide high availability and scalability by clustering databases across multiple servers", "isCorrect": false },
+        { "text": "To accelerate read and write operations by utilizing flash storage", "isCorrect": false },
+        { "text": "To offload and accelerate redo log write operations", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    }
+]

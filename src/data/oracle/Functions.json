@@ -1,0 +1,443 @@
+[
+    {
+      "question": "What is Oracle Functions?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A serverless compute service", "isCorrect": true },
+        { "text": "A relational database service", "isCorrect": false },
+        { "text": "An analytics platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming languages are supported by Oracle Functions?",
+      "answers": [
+        { "text": "Java only", "isCorrect": false },
+        { "text": "JavaScript only", "isCorrect": false },
+        { "text": "Java, JavaScript, and Python", "isCorrect": true },
+        { "text": "Python only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the Oracle Cloud Infrastructure (OCI) in Oracle Functions?",
+      "answers": [
+        { "text": "OCI is not required for Oracle Functions", "isCorrect": false },
+        { "text": "OCI provides the underlying infrastructure for running serverless functions", "isCorrect": true },
+        { "text": "OCI is used for managing relational databases", "isCorrect": false },
+        { "text": "OCI is used for machine learning tasks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is the billing for Oracle Functions calculated?",
+      "answers": [
+        { "text": "Based on the number of function invocations and execution time", "isCorrect": true },
+        { "text": "A fixed monthly subscription fee", "isCorrect": false },
+        { "text": "Based on the amount of storage used", "isCorrect": false },
+        { "text": "Per user license fee", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the maximum allowed duration for a single invocation of Oracle Functions?",
+      "answers": [
+        { "text": "30 seconds", "isCorrect": false },
+        { "text": "5 minutes", "isCorrect": false },
+        { "text": "15 minutes", "isCorrect": true },
+        { "text": "1 hour", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Functions Developer Kit (Fn Project)?",
+      "answers": [
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To develop and deploy serverless functions locally and on Oracle Cloud", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false },
+        { "text": "To administer Oracle Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the trigger mechanism for invoking Oracle Functions?",
+      "answers": [
+        { "text": "HTTP requests only", "isCorrect": false },
+        { "text": "Cloud Events only", "isCorrect": false },
+        { "text": "Both HTTP requests and Cloud Events", "isCorrect": true },
+        { "text": "Scheduled intervals", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How are dependencies managed in Oracle Functions?",
+      "answers": [
+        { "text": "Dependencies are not supported in Oracle Functions", "isCorrect": false },
+        { "text": "Automatically resolved based on function code", "isCorrect": true },
+        { "text": "Manually specified in a configuration file", "isCorrect": false },
+        { "text": "Dependencies are managed through a separate service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle Functions Application?",
+      "answers": [
+        { "text": "A separate billing service", "isCorrect": false },
+        { "text": "A container for grouping functions and resources", "isCorrect": true },
+        { "text": "An authentication service", "isCorrect": false },
+        { "text": "A database management service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is logging handled in Oracle Functions?",
+      "answers": [
+        { "text": "Logging is not supported", "isCorrect": false },
+        { "text": "Functions must implement their own logging mechanism", "isCorrect": false },
+        { "text": "Logging is automatically integrated with Oracle Cloud Infrastructure Logging", "isCorrect": true },
+        { "text": "Logging is handled through a separate log service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `func.yaml` file in Oracle Functions?",
+      "answers": [
+        { "text": "To store sensitive configuration information", "isCorrect": false },
+        { "text": "To define function dependencies", "isCorrect": false },
+        { "text": "To configure function settings and define triggers", "isCorrect": true },
+        { "text": "To specify the billing details for a function", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the Oracle Functions Invoker?",
+      "answers": [
+        { "text": "A separate function execution service", "isCorrect": false },
+        { "text": "A tool for invoking functions locally during development", "isCorrect": true },
+        { "text": "An authentication service", "isCorrect": false },
+        { "text": "A container for running serverless functions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Functions support secrets management?",
+      "answers": [
+        { "text": "Secrets must be hardcoded in the function code", "isCorrect": false },
+        { "text": "Secrets are automatically managed by Oracle Cloud Infrastructure", "isCorrect": false },
+        { "text": "Secrets can be stored and retrieved from Oracle Cloud Infrastructure Vault", "isCorrect": true },
+        { "text": "Secrets are managed through a separate secrets service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Functions Monitoring service?",
+      "answers": [
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To monitor the performance and execution of functions", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false },
+        { "text": "To administer Oracle Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure service can be integrated with Oracle Functions for storing artifacts?",
+      "answers": [
+        { "text": "Oracle Cloud Object Storage", "isCorrect": true },
+        { "text": "Oracle Cloud Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Database", "isCorrect": false },
+        { "text": "Oracle Cloud Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Functions Application?",
+      "answers": [
+        { "text": "A separate billing service", "isCorrect": false },
+        { "text": "A container for grouping functions and resources", "isCorrect": true },
+        { "text": "An authentication service", "isCorrect": false },
+        { "text": "A database management service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the `func init` command in Oracle Functions development?",
+      "answers": [
+        { "text": "To deploy a function to production", "isCorrect": false },
+        { "text": "To initialize a new Oracle Functions project", "isCorrect": true },
+        { "text": "To create a new function", "isCorrect": false },
+        { "text": "To install dependencies for a function", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure service can be used for deploying containerized Oracle Functions?",
+      "answers": [
+        { "text": "Oracle Container Registry", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Object Storage", "isCorrect": false },
+        { "text": "Oracle Cloud Functions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Functions Application Dependencies?",
+      "answers": [
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To define dependencies required by functions", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false },
+        { "text": "To administer Oracle Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Functions support automatic scaling?",
+      "answers": [
+        { "text": "Automatic scaling is not supported", "isCorrect": false },
+        { "text": "Functions must be manually scaled based on demand", "isCorrect": false },
+        { "text": "Functions automatically scale based on incoming traffic", "isCorrect": true },
+        { "text": "Scaling is handled through a separate service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the `fn deploy` command in Oracle Functions development?",
+      "answers": [
+        { "text": "To initialize a new Oracle Functions project", "isCorrect": false },
+        { "text": "To create a new function", "isCorrect": false },
+        { "text": "To deploy a function to Oracle Cloud", "isCorrect": true },
+        { "text": "To install dependencies for a function", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is error handling implemented in Oracle Functions?",
+      "answers": [
+        { "text": "Error handling is not supported", "isCorrect": false },
+        { "text": "Functions must implement their own error handling logic", "isCorrect": false },
+        { "text": "Oracle Functions provides built-in error handling and logging", "isCorrect": true },
+        { "text": "Error handling is managed through a separate error service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Functions Application Policies?",
+      "answers": [
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To define access control policies for functions", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false },
+        { "text": "To administer Oracle Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Functions handle security and access control?",
+      "answers": [
+        { "text": "Security is the responsibility of the function developer", "isCorrect": false },
+        { "text": "Oracle Functions uses Oracle Cloud Identity and Access Management (IAM) for security", "isCorrect": true },
+        { "text": "Security is managed through a separate security service", "isCorrect": false },
+        { "text": "Access control is not supported", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Functions Application Triggers?",
+      "answers": [
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To define triggers for function invocations", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false },
+        { "text": "To administer Oracle Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How is versioning handled in Oracle Functions?",
+      "answers": [
+        { "text": "Versioning is not supported", "isCorrect": false },
+        { "text": "Functions must implement their own versioning mechanism", "isCorrect": false },
+        { "text": "Oracle Functions provides automatic versioning for function deployments", "isCorrect": true },
+        { "text": "Versioning is managed through a separate versioning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Functions Application Network Configurations?",
+      "answers": [
+        { "text": "To manage Oracle Cloud Infrastructure resources", "isCorrect": false },
+        { "text": "To configure network settings for functions", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false },
+        { "text": "To administer Oracle Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Functions support integration with external services?",
+      "answers": [
+        { "text": "Integration is not supported", "isCorrect": false },
+        { "text": "Functions must implement their own integration logic", "isCorrect": false },
+        { "text": "Oracle Functions provides built-in triggers and connectors for popular services", "isCorrect": true },
+        { "text": "Integration is managed through a separate integration service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Oracle Functions service?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To execute code in response to events without managing infrastructure", "isCorrect": true },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you choose Oracle Functions over traditional compute instances?",
+      "answers": [
+        { "text": "For running continuous, long-lived processes", "isCorrect": false },
+        { "text": "For scenarios where you need to manually manage the underlying infrastructure", "isCorrect": false },
+        { "text": "For event-driven, serverless execution of code", "isCorrect": true },
+        { "text": "For managing large datasets and performing analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service integrates seamlessly with Oracle Functions for event-driven computing?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Container Registry", "isCorrect": false },
+        { "text": "OCI Streaming", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of triggers in Oracle Functions?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To initiate the execution of a function in response to an event", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Functions for data processing?",
+      "answers": [
+        { "text": "For storing large amounts of unstructured data", "isCorrect": false },
+        { "text": "For managing database schemas", "isCorrect": false },
+        { "text": "For event-driven data processing without provisioning servers", "isCorrect": true },
+        { "text": "For providing shared storage for multiple compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Functions Application?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To host web applications", "isCorrect": false },
+        { "text": "To group related functions and their dependencies", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use the Oracle Functions Application subnet?",
+      "answers": [
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and OCI", "isCorrect": false },
+        { "text": "To control access to functions and resources within an Oracle Functions application", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Functions feature allows you to define and manage the resources needed by your function?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Resource Manager", "isCorrect": false },
+        { "text": "OCI Functions Application", "isCorrect": false },
+        { "text": "OCI Resource Principal", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of OCI Streaming in the context of Oracle Functions?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish a dedicated, private connection between on-premises networks and OCI", "isCorrect": false },
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To ingest and process streaming data for event-driven functions", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you choose Oracle Functions for handling HTTP requests?",
+      "answers": [
+        { "text": "For running continuous, long-lived processes", "isCorrect": false },
+        { "text": "For executing code in response to events without managing infrastructure", "isCorrect": false },
+        { "text": "For building serverless APIs and handling HTTP traffic", "isCorrect": true },
+        { "text": "For managing large datasets and performing analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of OCI Resource Principal in Oracle Functions?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To authenticate and authorize access to Oracle Functions", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use the OCI Functions Invoke API?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To invoke functions from external applications or services", "isCorrect": true },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Functions Monitoring?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To monitor the performance and troubleshoot issues in Oracle Functions", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use OCI Resource Manager with Oracle Functions?",
+      "answers": [
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To automate the provisioning of Oracle Functions and related resources", "isCorrect": true },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Functions Resource Limits?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and OCI", "isCorrect": false },
+        { "text": "To define constraints on the resources used by Oracle Functions", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use OCI Functions with custom network configurations?",
+      "answers": [
+        { "text": "For running continuous, long-lived processes", "isCorrect": false },
+        { "text": "For executing code in response to events without managing infrastructure", "isCorrect": false },
+        { "text": "For scenarios that require specific network connectivity for functions", "isCorrect": true },
+        { "text": "For managing large datasets and performing analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Functions Secrets?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To securely store and manage sensitive information for functions", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Functions with custom dependencies?",
+      "answers": [
+        { "text": "For managing database schemas", "isCorrect": false },
+        { "text": "For executing code in response to events without managing infrastructure", "isCorrect": false },
+        { "text": "For scenarios that require additional libraries or packages for functions", "isCorrect": true },
+        { "text": "For providing shared storage for multiple compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of OCI Functions and Applications Logs?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To capture and analyze logs generated by Oracle Functions", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Functions with custom environment variables?",
+      "answers": [
+        { "text": "For running continuous, long-lived processes", "isCorrect": false },
+        { "text": "For executing code in response to events without managing infrastructure", "isCorrect": false },
+        { "text": "For providing configuration values to functions", "isCorrect": true },
+        { "text": "For managing large datasets and performing analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Functions Dead Letter Queue (DLQ)?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To capture and store failed function invocations for analysis", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    }
+]

@@ -1,0 +1,434 @@
+[
+    {
+      "question": "What is Oracle Container Engine for Kubernetes (OKE)?",
+      "answers": [
+        { "text": "A relational database service", "isCorrect": false },
+        { "text": "A managed Kubernetes service on Oracle Cloud", "isCorrect": true },
+        { "text": "A file storage service", "isCorrect": false },
+        { "text": "A serverless computing service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How can you deploy containerized applications on OKE?",
+      "answers": [
+        { "text": "Using Oracle Functions", "isCorrect": false },
+        { "text": "Using Oracle Cloud Infrastructure Compute instances", "isCorrect": false },
+        { "text": "By creating and managing Kubernetes clusters", "isCorrect": true },
+        { "text": "By using Oracle Cloud Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary benefit of using OKE for container orchestration?",
+      "answers": [
+        { "text": "Automated backups", "isCorrect": false },
+        { "text": "Automatic scaling of virtual machines", "isCorrect": false },
+        { "text": "Simplified deployment and management of containerized applications", "isCorrect": true },
+        { "text": "Integration with Oracle Cloud Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which container orchestration platform is used by OKE?",
+      "answers": [
+        { "text": "Docker Swarm", "isCorrect": false },
+        { "text": "Kubernetes", "isCorrect": true },
+        { "text": "Amazon ECS", "isCorrect": false },
+        { "text": "OpenShift", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Kubernetes cluster in OKE?",
+      "answers": [
+        { "text": "To store and manage container images", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage and deploy containerized applications", "isCorrect": true },
+        { "text": "To provide object storage for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of the Oracle Cloud Infrastructure Registry in OKE?",
+      "answers": [
+        { "text": "To manage networking for Kubernetes clusters", "isCorrect": false },
+        { "text": "To store and manage container images", "isCorrect": true },
+        { "text": "To provide block storage for containers", "isCorrect": false },
+        { "text": "To manage load balancing for containerized applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Helm in the context of OKE?",
+      "answers": [
+        { "text": "To monitor Kubernetes clusters", "isCorrect": false },
+        { "text": "To provide persistent storage for containers", "isCorrect": false },
+        { "text": "To simplify the deployment and management of Kubernetes applications", "isCorrect": true },
+        { "text": "To configure network security for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Kubernetes namespaces in OKE?",
+      "answers": [
+        { "text": "To manage user authentication", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To provide isolated environments within a Kubernetes cluster", "isCorrect": true },
+        { "text": "To manage object storage for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service is integrated with OKE for managing databases?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "Oracle Database Cloud Service", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Databases", "isCorrect": true },
+        { "text": "Oracle Cloud Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Cloud Infrastructure Monitoring service in OKE?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To monitor and alert on the performance of Kubernetes clusters", "isCorrect": true },
+        { "text": "To manage network security for containers", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does OKE handle automatic scaling of applications?",
+      "answers": [
+        { "text": "By manually adjusting the number of container instances", "isCorrect": false },
+        { "text": "By integrating with Oracle Cloud Functions", "isCorrect": false },
+        { "text": "By using Kubernetes Horizontal Pod Autoscaling (HPA)", "isCorrect": true },
+        { "text": "By configuring load balancing policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Networking in OKE?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure and manage network resources for Kubernetes clusters", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does OKE provide high availability for containerized applications?",
+      "answers": [
+        { "text": "By using Oracle Cloud Object Storage", "isCorrect": false },
+        { "text": "By replicating container images across multiple regions", "isCorrect": false },
+        { "text": "By deploying applications across multiple availability domains", "isCorrect": true },
+        { "text": "By using Oracle Cloud Infrastructure Monitoring", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Cloud Infrastructure Logging service in OKE?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To store and analyze logs generated by Kubernetes clusters", "isCorrect": true },
+        { "text": "To manage object storage for containers", "isCorrect": false },
+        { "text": "To configure network security for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service is used for container networking in OKE?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Registry", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Networking", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Identity and Access Management (IAM) in OKE?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To control access to OKE resources and services", "isCorrect": true },
+        { "text": "To provide object storage for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does OKE handle security for containerized applications?",
+      "answers": [
+        { "text": "By using Oracle Cloud Infrastructure Monitoring", "isCorrect": false },
+        { "text": "By integrating with Oracle Cloud Key Management Service", "isCorrect": false },
+        { "text": "By leveraging Kubernetes RBAC and network security policies", "isCorrect": true },
+        { "text": "By using Oracle Cloud Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Cloud Infrastructure File Storage service in OKE?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To provide shared file systems for containers", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service provides load balancing for containerized applications in OKE?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Networking", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Load Balancer", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Compute in OKE?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false },
+        { "text": "To run and manage containerized applications", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of the Oracle Cloud Infrastructure Block Volume service in OKE?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To provide scalable and high-performance block storage for containers", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does OKE handle application scaling based on demand?",
+      "answers": [
+        { "text": "By manually adjusting the number of container instances", "isCorrect": false },
+        { "text": "By using Oracle Cloud Infrastructure Compute", "isCorrect": false },
+        { "text": "By leveraging Kubernetes Horizontal Pod Autoscaling (HPA)", "isCorrect": true },
+        { "text": "By using Oracle Cloud Infrastructure Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Key Management in OKE?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false },
+        { "text": "To manage encryption keys for containerized applications", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service provides container monitoring and observability in OKE?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Logging", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Monitoring", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Registry", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Networking", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure Object Storage in OKE?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": true },
+        { "text": "To manage network security for containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does OKE handle data persistence for containerized applications?",
+      "answers": [
+        { "text": "By using Oracle Cloud Infrastructure Registry", "isCorrect": false },
+        { "text": "By replicating data across multiple regions", "isCorrect": false },
+        { "text": "By leveraging Kubernetes Persistent Volumes (PV)", "isCorrect": true },
+        { "text": "By using Oracle Cloud Infrastructure Block Volume", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Cloud Infrastructure Container Engine for Kubernetes (CEK) service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide object storage for containers", "isCorrect": false },
+        { "text": "CEK is an incorrect term; the correct term is Oracle Container Engine for Kubernetes (OKE)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service enables secure and seamless RDP and SSH access to Virtual Machines in OKE?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Networking", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Registry", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Bastion", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why would you use Oracle Container Engine for Kubernetes (OKE) instead of managing your own Kubernetes cluster?",
+      "answers": [
+        { "text": "To store and manage persistent data for containers", "isCorrect": false },
+        { "text": "To have more control over the underlying infrastructure", "isCorrect": false },
+        { "text": "To easily deploy, manage, and scale containerized applications", "isCorrect": true },
+        { "text": "To establish VPN connections between containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Registry in the context of OKE?",
+      "answers": [
+        { "text": "To manage DNS settings for Kubernetes services", "isCorrect": false },
+        { "text": "To provide scalable object storage for container images", "isCorrect": false },
+        { "text": "To store and manage Docker container images for Kubernetes deployments", "isCorrect": true },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Kubernetes ConfigMaps in Oracle Container Engine for Kubernetes (OKE)?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To configure environment variables for containerized applications", "isCorrect": true },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false },
+        { "text": "To provide shared storage for multiple containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Networking in an OKE environment?",
+      "answers": [
+        { "text": "To perform analytics on cloud usage", "isCorrect": false },
+        { "text": "To connect on-premises data centers to the cloud", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the OKE cluster", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OKE component is responsible for automatically adjusting the number of nodes in a node pool based on demand?",
+      "answers": [
+        { "text": "Kubernetes ConfigMaps", "isCorrect": false },
+        { "text": "OCI Container Registry", "isCorrect": false },
+        { "text": "Horizontal Pod Autoscaler (HPA)", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Helm charts in the context of Oracle Container Engine for Kubernetes (OKE)?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false },
+        { "text": "To define, install, and upgrade even the most complex Kubernetes applications", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in OKE?",
+      "answers": [
+        { "text": "To provide scalable object storage for container images", "isCorrect": false },
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To enable persistent storage for applications running in containers", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service provides an identity management solution for OKE, allowing fine-grained access control to Kubernetes resources?",
+      "answers": [
+        { "text": "OCI Networking", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": true },
+        { "text": "OCI FastConnect", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Events in OKE?",
+      "answers": [
+        { "text": "To provide scalable object storage for container images", "isCorrect": false },
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To enable the monitoring and auditing of changes to OKE resources", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Service Broker in OKE?",
+      "answers": [
+        { "text": "To establish VPN connections between containers", "isCorrect": false },
+        { "text": "To provide shared storage for multiple containers", "isCorrect": false },
+        { "text": "To easily access and use OCI services from within Kubernetes applications", "isCorrect": true },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Monitoring in the context of OKE?",
+      "answers": [
+        { "text": "To provide scalable object storage for container images", "isCorrect": false },
+        { "text": "To store and manage Docker container images", "isCorrect": false },
+        { "text": "To monitor and manage the performance of OKE resources", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Horizontal Pod Autoscaler (HPA) in an OKE environment?",
+      "answers": [
+        { "text": "To configure environment variables for containerized applications", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false },
+        { "text": "To automatically adjust the number of pods based on demand", "isCorrect": true },
+        { "text": "To enable persistent storage for applications running in containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Resource Manager in managing OKE resources?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OKE resources", "isCorrect": false },
+        { "text": "To automate the process of provisioning and updating OKE resources", "isCorrect": true },
+        { "text": "To configure environment variables for containerized applications", "isCorrect": false },
+        { "text": "To provide scalable object storage for container images", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use OCI Networking Load Balancer with OKE?",
+      "answers": [
+        { "text": "To configure environment variables for containerized applications", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false },
+        { "text": "To enable load balancing for services within the OKE cluster", "isCorrect": true },
+        { "text": "To establish VPN connections between containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Resource Manager Terraform stacks in OKE?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false },
+        { "text": "To automate the process of provisioning and updating OKE resources", "isCorrect": true },
+        { "text": "To configure environment variables for containerized applications", "isCorrect": false },
+        { "text": "To provide scalable object storage for container images", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Vault with OKE?",
+      "answers": [
+        { "text": "To establish VPN connections between containers", "isCorrect": false },
+        { "text": "To provide shared storage for multiple containers", "isCorrect": false },
+        { "text": "To securely store and manage sensitive information used in OKE applications", "isCorrect": true },
+        { "text": "To enable persistent storage for applications running in containers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Logging in an OKE environment?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To monitor and manage the performance of OKE resources", "isCorrect": false },
+        { "text": "To enable centralized logging and analysis of OKE cluster events", "isCorrect": true },
+        { "text": "To provide scalable object storage for container images", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Streaming with OKE?",
+      "answers": [
+        { "text": "To enable load balancing for services within the OKE cluster", "isCorrect": false },
+        { "text": "To provide scalable and reliable email delivery", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false },
+        { "text": "To process and analyze real-time data generated by OKE applications", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) API Gateway in the context of OKE?",
+      "answers": [
+        { "text": "To establish VPN connections between containers", "isCorrect": false },
+        { "text": "To enable load balancing for services within the OKE cluster", "isCorrect": false },
+        { "text": "To provide an entry point for managing and securing APIs used by OKE applications", "isCorrect": true },
+        { "text": "To configure environment variables for containerized applications", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Health Checks with OKE?",
+      "answers": [
+        { "text": "To enable load balancing for services within the OKE cluster", "isCorrect": true },
+        { "text": "To provide scalable and reliable email delivery", "isCorrect": false },
+        { "text": "To monitor and manage the performance of OKE resources", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple OKE clusters", "isCorrect": false }
+      ]
+    }
+]

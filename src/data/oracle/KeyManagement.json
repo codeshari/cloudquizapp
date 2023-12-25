@@ -1,0 +1,434 @@
+[
+    {
+      "question": "What is Oracle Key Management Service (KMS)?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud-based identity and access management service", "isCorrect": false },
+        { "text": "A service for managing encryption keys in Oracle Cloud", "isCorrect": true },
+        { "text": "A machine learning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which encryption standard does Oracle Key Management Service support?",
+      "answers": [
+        { "text": "MD5", "isCorrect": false },
+        { "text": "AES (Advanced Encryption Standard)", "isCorrect": true },
+        { "text": "DES (Data Encryption Standard)", "isCorrect": false },
+        { "text": "RSA", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of encryption keys in Oracle KMS?",
+      "answers": [
+        { "text": "To manage user access", "isCorrect": false },
+        { "text": "To secure network traffic", "isCorrect": false },
+        { "text": "To protect data by encrypting it", "isCorrect": true },
+        { "text": "To optimize database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS help in key lifecycle management?",
+      "answers": [
+        { "text": "By deleting keys automatically after a certain period", "isCorrect": false },
+        { "text": "By rotating keys to enhance security", "isCorrect": true },
+        { "text": "By generating keys only once during setup", "isCorrect": false },
+        { "text": "By storing keys in plaintext for easy retrieval", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle KMS in securing data stored in Oracle Cloud Storage?",
+      "answers": [
+        { "text": "To classify data based on sensitivity", "isCorrect": false },
+        { "text": "To encrypt and decrypt data using encryption keys", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud services can benefit from Oracle Key Management Service for data encryption?",
+      "answers": [
+        { "text": "Oracle Database Cloud Service", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Compute Service", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Object Storage", "isCorrect": true },
+        { "text": "Oracle Cloud HCM (Human Capital Management)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Transparent Data Encryption (TDE) in Oracle Database with respect to Oracle KMS?",
+      "answers": [
+        { "text": "To enable dynamic scaling of database resources", "isCorrect": false },
+        { "text": "To encrypt sensitive data at the column level", "isCorrect": false },
+        { "text": "To automatically encrypt entire database tablespaces", "isCorrect": true },
+        { "text": "To manage user access to the database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS ensure secure and centralized key storage?",
+      "answers": [
+        { "text": "By distributing keys across multiple regions", "isCorrect": false },
+        { "text": "By using a hardware security module (HSM)", "isCorrect": true },
+        { "text": "By storing keys in plaintext within the database", "isCorrect": false },
+        { "text": "By relying on external key management solutions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of Bring Your Own Key (BYOK) in Oracle KMS?",
+      "answers": [
+        { "text": "To allow users to create keys on-demand", "isCorrect": false },
+        { "text": "To enable users to import their own encryption keys for use in Oracle Cloud", "isCorrect": true },
+        { "text": "To automate the key rotation process", "isCorrect": false },
+        { "text": "To classify data based on sensitivity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which key management feature in Oracle KMS helps in meeting compliance requirements?",
+      "answers": [
+        { "text": "Automatic key deletion", "isCorrect": false },
+        { "text": "Key versioning", "isCorrect": false },
+        { "text": "Key history tracking", "isCorrect": true },
+        { "text": "Key rotation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS support multi-cloud scenarios?",
+      "answers": [
+        { "text": "By limiting key usage to a specific cloud provider", "isCorrect": false },
+        { "text": "By providing APIs for integration with various cloud platforms", "isCorrect": true },
+        { "text": "By storing keys exclusively in Oracle Cloud", "isCorrect": false },
+        { "text": "By requiring separate key management solutions for each cloud provider", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of key versioning in Oracle KMS?",
+      "answers": [
+        { "text": "To automatically rotate keys", "isCorrect": false },
+        { "text": "To enable rollback to a previous key version", "isCorrect": true },
+        { "text": "To limit key usage to specific regions", "isCorrect": false },
+        { "text": "To classify data based on sensitivity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using Oracle KMS for key management in Oracle Cloud?",
+      "answers": [
+        { "text": "To simplify network configuration", "isCorrect": false },
+        { "text": "To enable automatic key generation", "isCorrect": false },
+        { "text": "To meet regulatory and compliance requirements for data encryption", "isCorrect": true },
+        { "text": "To optimize database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS support the secure storage and retrieval of cryptographic keys?",
+      "answers": [
+        { "text": "By storing keys in plaintext in the database", "isCorrect": false },
+        { "text": "By leveraging hardware security modules (HSMs)", "isCorrect": true },
+        { "text": "By allowing public access to encryption keys", "isCorrect": false },
+        { "text": "By relying on external key management solutions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service integrates with Oracle KMS to provide encryption for data at rest?",
+      "answers": [
+        { "text": "Oracle Cloud HCM (Human Capital Management)", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Object Storage", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure Compute Service", "isCorrect": false },
+        { "text": "Oracle Cloud Application Container", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle KMS in securing sensitive data in transit?",
+      "answers": [
+        { "text": "To encrypt data stored in databases", "isCorrect": false },
+        { "text": "To establish secure connections between applications", "isCorrect": false },
+        { "text": "To provide encryption keys for SSL/TLS connections", "isCorrect": true },
+        { "text": "To optimize and distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle KMS feature allows users to view and manage key usage history?",
+      "answers": [
+        { "text": "Key rotation", "isCorrect": false },
+        { "text": "Key versioning", "isCorrect": false },
+        { "text": "Key history tracking", "isCorrect": true },
+        { "text": "Key deletion", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle KMS REST API?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To programmatically manage encryption keys", "isCorrect": true },
+        { "text": "To optimize database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS support compliance with data protection regulations?",
+      "answers": [
+        { "text": "By providing encryption keys with short lifetimes", "isCorrect": false },
+        { "text": "By encrypting data only during transit", "isCorrect": false },
+        { "text": "By enabling users to bring their own keys", "isCorrect": false },
+        { "text": "By offering key management features like key versioning and history tracking", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service can be integrated with Oracle KMS to achieve end-to-end encryption for data in transit and at rest?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure Compute Service", "isCorrect": false },
+        { "text": "Oracle Cloud HCM (Human Capital Management)", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure Object Storage", "isCorrect": true },
+        { "text": "Oracle Cloud Application Container", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of the 'Key Deletion Protection' feature in Oracle KMS?",
+      "answers": [
+        { "text": "To prevent automatic key rotation", "isCorrect": false },
+        { "text": "To protect keys from unauthorized deletion", "isCorrect": true },
+        { "text": "To limit key usage to specific regions", "isCorrect": false },
+        { "text": "To enable rollback to a previous key version", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS support high availability and disaster recovery?",
+      "answers": [
+        { "text": "By limiting key storage to a single data center", "isCorrect": false },
+        { "text": "By automatically replicating keys across multiple regions", "isCorrect": false },
+        { "text": "By using a distributed and redundant architecture", "isCorrect": true },
+        { "text": "By relying on external key management solutions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Key Rotation' feature in Oracle KMS?",
+      "answers": [
+        { "text": "To generate new encryption keys", "isCorrect": false },
+        { "text": "To automatically delete old encryption keys", "isCorrect": false },
+        { "text": "To enhance security by regularly replacing encryption keys", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS support the secure generation of random cryptographic keys?",
+      "answers": [
+        { "text": "By using predictable algorithms for key generation", "isCorrect": false },
+        { "text": "By allowing users to specify key values", "isCorrect": false },
+        { "text": "By leveraging hardware security modules (HSMs)", "isCorrect": true },
+        { "text": "By storing keys in plaintext within the database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of the 'Key History Tracking' feature in Oracle KMS?",
+      "answers": [
+        { "text": "To automatically delete old key versions", "isCorrect": false },
+        { "text": "To enable rollback to a previous key version", "isCorrect": false },
+        { "text": "To track and view the usage history of encryption keys", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle KMS handle key deletion requests?",
+      "answers": [
+        { "text": "By immediately deleting the key from the database", "isCorrect": false },
+        { "text": "By moving the key to a 'Deleted' state before permanent deletion", "isCorrect": true },
+        { "text": "By requiring manual intervention for key deletion", "isCorrect": false },
+        { "text": "By notifying all users before key deletion", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using Oracle KMS over managing encryption keys on-premises?",
+      "answers": [
+        { "text": "To reduce network latency", "isCorrect": false },
+        { "text": "To simplify access control policies", "isCorrect": false },
+        { "text": "To meet regulatory and compliance requirements", "isCorrect": true },
+        { "text": "To optimize database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Oracle Key Management Service (KMS)?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Key Management Service (KMS) over a local key management solution?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To centralize and manage cryptographic keys in the cloud", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What role does Oracle Key Management Service (KMS) play in data security?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To protect sensitive data by managing encryption keys", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) services can benefit from Oracle Key Management Service (KMS)?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": true },
+        { "text": "OCI Compute Instances", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of key rotation in Oracle Key Management Service (KMS)?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To periodically change cryptographic keys for enhanced security", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Key Management Service (KMS) for data encryption?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To encrypt sensitive data stored in OCI Object Storage", "isCorrect": true },
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of using Oracle Key Management Service (KMS) for key generation and storage?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To centralize key management and enhance security", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Key Management Service (KMS) contribute to regulatory compliance?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To facilitate the management of encryption keys for compliance requirements", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Key Management Service (KMS) in data residency and sovereignty?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To help organizations control the location of their encryption keys", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Key Management Service (KMS) for transparent data encryption in databases?",
+      "answers": [
+        { "text": "To encrypt sensitive data stored in OCI Object Storage", "isCorrect": false },
+        { "text": "To manage database schemas", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of Oracle Key Management Service (KMS) integration with Oracle Cloud Infrastructure (OCI) Logging?",
+      "answers": [
+        { "text": "To facilitate the management of encryption keys for compliance requirements", "isCorrect": false },
+        { "text": "To centralize key management and enhance security", "isCorrect": false },
+        { "text": "To monitor and audit key usage for enhanced security and compliance", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Key Management Service (KMS) in multi-cloud deployments?",
+      "answers": [
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To centrally manage encryption keys across multiple cloud providers", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Key Management Service (KMS) for securing data in transit?",
+      "answers": [
+        { "text": "To encrypt sensitive data stored in OCI Object Storage", "isCorrect": false },
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To protect data as it travels between systems using encryption keys", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of Oracle Key Management Service (KMS) integration with Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM)?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": true },
+        { "text": "To centralize key management and enhance security", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Key Management Service (KMS) contribute to data privacy in cloud environments?",
+      "answers": [
+        { "text": "To facilitate the management of encryption keys for compliance requirements", "isCorrect": false },
+        { "text": "To protect sensitive data by managing encryption keys", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Key Management Service (KMS) for protecting data at rest?",
+      "answers": [
+        { "text": "To encrypt sensitive data stored in OCI Object Storage", "isCorrect": true },
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Key Management Service (KMS) in securing data for compliance with industry regulations?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To facilitate the management of encryption keys for compliance requirements", "isCorrect": true },
+        { "text": "To centralize key management and enhance security", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Key Management Service (KMS) contribute to disaster recovery strategies?",
+      "answers": [
+        { "text": "To centrally manage encryption keys across multiple cloud providers", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To backup and manage cryptographic keys for recovery purposes", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the significance of Oracle Key Management Service (KMS) integration with Oracle Cloud Infrastructure (OCI) Audit?",
+      "answers": [
+        { "text": "To facilitate the management of encryption keys for compliance requirements", "isCorrect": false },
+        { "text": "To centralize key management and enhance security", "isCorrect": false },
+        { "text": "To monitor and log key usage for enhanced security and compliance", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Key Management Service (KMS) for securing communication between microservices in a cloud-native architecture?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To encrypt sensitive data stored in OCI Object Storage", "isCorrect": false },
+        { "text": "To protect data in transit between microservices using encryption keys", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Key Management Service (KMS) in protecting sensitive information in databases?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To encrypt data in databases using managed encryption keys", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    }
+]

@@ -1,0 +1,418 @@
+[
+    {
+      "question": "What does DNS stand for?",
+      "answers": [
+        { "text": "Domain Name System", "isCorrect": true },
+        { "text": "Dynamic Network Service", "isCorrect": false },
+        { "text": "Data Naming System", "isCorrect": false },
+        { "text": "Distributed Naming Service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of DNS?",
+      "answers": [
+        { "text": "To manage virtual machines", "isCorrect": false },
+        { "text": "To provide secure access to databases", "isCorrect": false },
+        { "text": "To translate human-readable domain names to IP addresses", "isCorrect": true },
+        { "text": "To create virtual networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an A record in DNS?",
+      "answers": [
+        { "text": "Alias record", "isCorrect": false },
+        { "text": "Authorization record", "isCorrect": false },
+        { "text": "Address record", "isCorrect": true },
+        { "text": "Access record", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of DNS record is used to map a domain to an IPv6 address?",
+      "answers": [
+        { "text": "AAAA record", "isCorrect": true },
+        { "text": "A record", "isCorrect": false },
+        { "text": "CNAME record", "isCorrect": false },
+        { "text": "MX record", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is a CNAME record used for in DNS?",
+      "answers": [
+        { "text": "Canonical Name record, used for aliasing one domain to another", "isCorrect": true },
+        { "text": "Connection Name record, used for establishing secure connections", "isCorrect": false },
+        { "text": "Content Name record, used for specifying content delivery networks", "isCorrect": false },
+        { "text": "Conditional Name record, used for setting conditional access policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an MX record in DNS?",
+      "answers": [
+        { "text": "Mail Exchanger record, used for specifying mail servers for the domain", "isCorrect": true },
+        { "text": "Managed Exchange record, used for managing Microsoft Exchange servers", "isCorrect": false },
+        { "text": "Media Exchange record, used for multimedia content delivery", "isCorrect": false },
+        { "text": "Message Exchange record, used for sending secure messages", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a PTR record in DNS?",
+      "answers": [
+        { "text": "Primary Target record, used for specifying the primary server in a domain", "isCorrect": false },
+        { "text": "Pointer record, used for reverse DNS lookups to map an IP address to a domain name", "isCorrect": true },
+        { "text": "Public Target record, used for specifying public-facing servers", "isCorrect": false },
+        { "text": "Private Target record, used for specifying private servers within a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a TXT record in DNS?",
+      "answers": [
+        { "text": "Text record, used for storing human-readable text", "isCorrect": true },
+        { "text": "Transaction record, used for tracking transactions in a database", "isCorrect": false },
+        { "text": "Technical record, used for specifying technical details of a domain", "isCorrect": false },
+        { "text": "Token record, used for authentication tokens", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is DNSSEC?",
+      "answers": [
+        { "text": "Domain Name System Security Extensions, a suite of extensions to DNS to add an additional layer of security", "isCorrect": true },
+        { "text": "Dynamic Name System Encryption and Compression, a method for securing dynamic DNS updates", "isCorrect": false },
+        { "text": "Distributed Network Security Configuration, a configuration system for securing distributed networks", "isCorrect": false },
+        { "text": "Domain Network Security and Encryption, a security protocol for domain networks", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of DNS forwarding?",
+      "answers": [
+        { "text": "To forward DNS requests to multiple authoritative servers", "isCorrect": false },
+        { "text": "To forward DNS requests to a designated server for resolution", "isCorrect": true },
+        { "text": "To forward DNS updates to secondary servers", "isCorrect": false },
+        { "text": "To forward DNS zone transfers to authoritative servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of an authoritative DNS server?",
+      "answers": [
+        { "text": "To cache DNS records for faster resolution", "isCorrect": false },
+        { "text": "To provide recursive DNS resolution", "isCorrect": false },
+        { "text": "To store and provide authoritative information about domain names and IP addresses", "isCorrect": true },
+        { "text": "To forward DNS requests to other authoritative servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the SOA record in DNS?",
+      "answers": [
+        { "text": "Service of Authority record, used for specifying service details for a domain", "isCorrect": false },
+        { "text": "Start of Authority record, used for storing information about the domain and the zone", "isCorrect": true },
+        { "text": "State of the Art record, used for specifying cutting-edge technology details", "isCorrect": false },
+        { "text": "System of Action record, used for specifying action plans for a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the TTL (Time-To-Live) in DNS?",
+      "answers": [
+        { "text": "The total time a domain has been active", "isCorrect": false },
+        { "text": "The time it takes for a DNS record to be updated", "isCorrect": false },
+        { "text": "The maximum time a DNS record can be cached by resolver servers", "isCorrect": true },
+        { "text": "The time it takes for a DNS request to travel from client to server", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the NS record in DNS?",
+      "answers": [
+        { "text": "Network Security record, used for specifying security details of a domain", "isCorrect": false },
+        { "text": "Name Server record, used for specifying authoritative DNS servers for the domain", "isCorrect": true },
+        { "text": "Namespace Security record, used for securing namespaces within a domain", "isCorrect": false },
+        { "text": "Node Server record, used for specifying node details in a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a recursive DNS resolver?",
+      "answers": [
+        { "text": "To provide authoritative information about domain names and IP addresses", "isCorrect": false },
+        { "text": "To forward DNS requests to authoritative servers", "isCorrect": false },
+        { "text": "To perform the recursive process of querying authoritative servers to resolve DNS queries", "isCorrect": true },
+        { "text": "To store DNS records for faster resolution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the AAAA record in DNS?",
+      "answers": [
+        { "text": "Authorization record, used for granting access to resources", "isCorrect": false },
+        { "text": "Alias Address record, used for aliasing one domain to another", "isCorrect": false },
+        { "text": "IPv6 Address record, used for mapping a domain to an IPv6 address", "isCorrect": true },
+        { "text": "Action and Authentication record, used for recording actions and authentications in a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DNS Anycast?",
+      "answers": [
+        { "text": "To provide multiple authoritative DNS servers for redundancy", "isCorrect": true },
+        { "text": "To encrypt DNS traffic for security", "isCorrect": false },
+        { "text": "To resolve DNS queries in a recursive manner", "isCorrect": false },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of DNS over HTTPS (DoH)?",
+      "answers": [
+        { "text": "To provide secure domain hosting", "isCorrect": false },
+        { "text": "To encrypt DNS traffic over HTTPS for privacy and security", "isCorrect": true },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false },
+        { "text": "To optimize DNS resolution speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DNS over TLS (DoT)?",
+      "answers": [
+        { "text": "To provide secure domain hosting", "isCorrect": false },
+        { "text": "To encrypt DNS traffic over TLS for privacy and security", "isCorrect": true },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false },
+        { "text": "To optimize DNS resolution speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the EDNS (Extension Mechanisms for DNS) protocol?",
+      "answers": [
+        { "text": "To extend the lifespan of DNS records", "isCorrect": false },
+        { "text": "To enhance the capabilities of DNS by adding extension mechanisms", "isCorrect": true },
+        { "text": "To encrypt DNS traffic for security", "isCorrect": false },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DNS Sinkhole?",
+      "answers": [
+        { "text": "To manage DNS settings for a domain", "isCorrect": false },
+        { "text": "To prevent access to malicious domains by redirecting DNS queries", "isCorrect": true },
+        { "text": "To optimize DNS resolution speed", "isCorrect": false },
+        { "text": "To provide authoritative DNS services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is DNS Filtering used for?",
+      "answers": [
+        { "text": "To filter DNS records based on content", "isCorrect": false },
+        { "text": "To filter DNS queries based on specified criteria, such as categories or domain names", "isCorrect": true },
+        { "text": "To encrypt DNS traffic for security", "isCorrect": false },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DNS Root Server?",
+      "answers": [
+        { "text": "To provide authoritative information about top-level domain names", "isCorrect": true },
+        { "text": "To cache DNS records for faster resolution", "isCorrect": false },
+        { "text": "To forward DNS requests to authoritative servers", "isCorrect": false },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a Secondary DNS server?",
+      "answers": [
+        { "text": "To provide authoritative information about domain names and IP addresses", "isCorrect": false },
+        { "text": "To store a copy of DNS zone data from a primary DNS server for redundancy", "isCorrect": true },
+        { "text": "To forward DNS requests to authoritative servers", "isCorrect": false },
+        { "text": "To cache DNS records for faster resolution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DNS Query?",
+      "answers": [
+        { "text": "To update DNS records in a zone", "isCorrect": false },
+        { "text": "To resolve a domain name to an IP address", "isCorrect": true },
+        { "text": "To manage DNS settings for a domain", "isCorrect": false },
+        { "text": "To provide authoritative information about domain names and IP addresses", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the DNS Response?",
+      "answers": [
+        { "text": "To send DNS queries to authoritative servers", "isCorrect": false },
+        { "text": "To provide authoritative information about domain names and IP addresses", "isCorrect": true },
+        { "text": "To forward DNS requests to other authoritative servers", "isCorrect": false },
+        { "text": "To cache DNS records for faster resolution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary function of Oracle Cloud Infrastructure (OCI) DNS?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To translate human-readable domain names into IP addresses", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Traffic Management?",
+      "answers": [
+        { "text": "To store backup data", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To control and optimize the routing of DNS traffic based on policies", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) DNS Steering Policies?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To define rules for directing traffic to different endpoints based on various criteria", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) DNS Zone Management?",
+      "answers": [
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To define and manage the DNS records for a domain", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service allows you to register and manage domain names?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Domain Registration", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) DNS Resolution?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false },
+        { "text": "To provide a recursive DNS resolver for translating domain names into IP addresses", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Health Checks for DNS?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To monitor and automatically respond to changes in the health of endpoints", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) DNS feature allows you to route traffic based on the geographic location of the user?",
+      "answers": [
+        { "text": "OCI Traffic Management", "isCorrect": false },
+        { "text": "OCI DNS Steering Policies", "isCorrect": true },
+        { "text": "OCI DNS Zone Management", "isCorrect": false },
+        { "text": "OCI DNS Resolution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) DNS Query Analytics?",
+      "answers": [
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To analyze and gain insights into DNS query traffic patterns", "isCorrect": true },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) DNS TSIG (Transaction Signature) Key?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To secure DNS data transfers between servers", "isCorrect": true },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) DNS Monitoring?",
+      "answers": [
+        { "text": "To translate human-readable domain names into IP addresses", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To monitor the performance and availability of DNS resolution", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) DNS Anycast?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To route DNS traffic to the nearest available data center for better performance", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) DNS Rate Limiting?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To protect against Distributed Denial of Service (DDoS) attacks on DNS infrastructure", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) DNS Secondary Zone?",
+      "answers": [
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To create a read-only copy of a DNS zone for disaster recovery or load distribution", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) DNS feature allows you to create private DNS zones for internal use?",
+      "answers": [
+        { "text": "OCI Traffic Management", "isCorrect": false },
+        { "text": "OCI DNS Steering Policies", "isCorrect": false },
+        { "text": "OCI Private DNS", "isCorrect": true },
+        { "text": "OCI DNS Zone Management", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) DNS Policies?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false },
+        { "text": "To define rules for processing DNS queries based on specified criteria", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) DNS Security?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To protect against DNS-based attacks such as cache poisoning", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) DNS Key Management?",
+      "answers": [
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To securely store and manage cryptographic keys used in DNSSEC (DNS Security Extensions)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) DNS Global Anycast Steering?",
+      "answers": [
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To route DNS traffic to the nearest available data center based on global health checks", "isCorrect": true },
+        { "text": "To translate IP addresses into human-readable domain names", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides DNS resolution for Oracle Cloud Infrastructure resources?",
+      "answers": [
+        { "text": "OCI Traffic Management", "isCorrect": false },
+        { "text": "OCI DNS Resolution", "isCorrect": true },
+        { "text": "OCI DNS Zone Management", "isCorrect": false },
+        { "text": "OCI DNS Policies", "isCorrect": false }
+      ]
+    }
+]
+   
+  

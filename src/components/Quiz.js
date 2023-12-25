@@ -131,7 +131,7 @@ const Quiz = ({ questions, onConceptChange }) => {
             {currentQuestion < shuffledQuestions.length - 1 && (
               <button onClick={handleNext} disabled={userAnswers[currentQuestion] === null}>
                 Next
-              </button>
+              </button>   
             )}
           </div>
           {currentQuestion === shuffledQuestions.length - 1 && (

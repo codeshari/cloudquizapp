@@ -1,0 +1,443 @@
+[
+    {
+      "question": "What is Oracle Content Delivery Network (CDN)?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A content delivery service for accelerating web content", "isCorrect": true },
+        { "text": "A database management service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of a Content Delivery Network (CDN)?",
+      "answers": [
+        { "text": "To store and manage databases", "isCorrect": false },
+        { "text": "To accelerate the delivery of web content to end-users", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service is associated with Oracle CDN?",
+      "answers": [
+        { "text": "Oracle Database Cloud Service", "isCorrect": false },
+        { "text": "Oracle Compute Service", "isCorrect": false },
+        { "text": "Oracle Content Delivery Network (CDN)", "isCorrect": true },
+        { "text": "Oracle Identity Cloud Service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What type of content can be accelerated using Oracle CDN?",
+      "answers": [
+        { "text": "Only static content", "isCorrect": false },
+        { "text": "Only dynamic content", "isCorrect": false },
+        { "text": "Both static and dynamic content", "isCorrect": true },
+        { "text": "Only video content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle CDN improve the delivery of web content?",
+      "answers": [
+        { "text": "By storing all content in a single data center", "isCorrect": false },
+        { "text": "By distributing content to multiple edge locations closer to end-users", "isCorrect": true },
+        { "text": "By encrypting all content for secure delivery", "isCorrect": false },
+        { "text": "By compressing content to reduce file sizes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of caching in Oracle CDN?",
+      "answers": [
+        { "text": "Increased latency", "isCorrect": false },
+        { "text": "Decreased availability", "isCorrect": false },
+        { "text": "Faster content delivery to end-users", "isCorrect": true },
+        { "text": "Reduced content security", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol is commonly used for delivering content over Oracle CDN?",
+      "answers": [
+        { "text": "FTP", "isCorrect": false },
+        { "text": "HTTP/HTTPS", "isCorrect": true },
+        { "text": "SMTP", "isCorrect": false },
+        { "text": "DNS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of SSL/TLS in Oracle CDN?",
+      "answers": [
+        { "text": "To manage databases", "isCorrect": false },
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To encrypt data in transit for secure content delivery", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is often integrated with Oracle CDN for secure access control?",
+      "answers": [
+        { "text": "OCI Compute", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": true },
+        { "text": "OCI Networking", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle CDN Analytics?",
+      "answers": [
+        { "text": "To manage databases", "isCorrect": false },
+        { "text": "To analyze and monitor the performance of content delivery", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature allows you to define rules for caching content based on specific criteria?",
+      "answers": [
+        { "text": "Cache Poisoning", "isCorrect": false },
+        { "text": "Edge Rules", "isCorrect": true },
+        { "text": "Content Encryption", "isCorrect": false },
+        { "text": "CDN Policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Cache Invalidation in Oracle CDN?",
+      "answers": [
+        { "text": "To increase cache hit ratio", "isCorrect": false },
+        { "text": "To reduce latency", "isCorrect": false },
+        { "text": "To remove outdated or stale content from the cache", "isCorrect": true },
+        { "text": "To encrypt content at rest", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature allows you to customize and control the behavior of your web applications at the edge?",
+      "answers": [
+        { "text": "Edge Rules", "isCorrect": false },
+        { "text": "Cache Invalidation", "isCorrect": false },
+        { "text": "Content Encryption", "isCorrect": false },
+        { "text": "CDN Policies", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle CDN Origin in content delivery?",
+      "answers": [
+        { "text": "To encrypt content at rest", "isCorrect": false },
+        { "text": "To define rules for caching content", "isCorrect": false },
+        { "text": "To specify the origin server where the content is hosted", "isCorrect": true },
+        { "text": "To manage databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature allows you to create customized URLs for cached content?",
+      "answers": [
+        { "text": "Cache Invalidation", "isCorrect": false },
+        { "text": "Content Encryption", "isCorrect": false },
+        { "text": "URL Signing", "isCorrect": true },
+        { "text": "Edge Rules", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of URL Signing in Oracle CDN?",
+      "answers": [
+        { "text": "To manage databases", "isCorrect": false },
+        { "text": "To encrypt content at rest", "isCorrect": false },
+        { "text": "To create secure URLs with a time-limited signature for protected content", "isCorrect": true },
+        { "text": "To define rules for caching content", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature helps protect against unauthorized access to cached content?",
+      "answers": [
+        { "text": "Edge Rules", "isCorrect": false },
+        { "text": "Cache Invalidation", "isCorrect": false },
+        { "text": "Content Encryption", "isCorrect": false },
+        { "text": "URL Signing", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle CDN Rules Language?",
+      "answers": [
+        { "text": "To define rules for caching content", "isCorrect": false },
+        { "text": "To manage databases", "isCorrect": false },
+        { "text": "To customize and control the behavior of web applications at the edge", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle CDN handle large media files or video streaming?",
+      "answers": [
+        { "text": "By compressing the files before delivery", "isCorrect": false },
+        { "text": "By distributing the files to multiple edge locations for efficient streaming", "isCorrect": true },
+        { "text": "By encrypting the files for secure delivery", "isCorrect": false },
+        { "text": "By creating virtual machines dedicated to media delivery", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle CDN Edge Services?",
+      "answers": [
+        { "text": "To manage databases", "isCorrect": false },
+        { "text": "To optimize and secure the delivery of web applications", "isCorrect": true },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle CDN support secure and encrypted content delivery?",
+      "answers": [
+        { "text": "By using only unencrypted HTTP for content delivery", "isCorrect": false },
+        { "text": "By integrating with Oracle Cloud Security services", "isCorrect": false },
+        { "text": "By supporting SSL/TLS for encrypted content delivery", "isCorrect": true },
+        { "text": "By creating virtual machines with built-in encryption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature enables you to define policies for caching and delivery of content?",
+      "answers": [
+        { "text": "Content Encryption", "isCorrect": false },
+        { "text": "Cache Invalidation", "isCorrect": false },
+        { "text": "URL Signing", "isCorrect": false },
+        { "text": "CDN Policies", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle CDN's DDoS Protection?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false },
+        { "text": "To protect against Distributed Denial of Service (DDoS) attacks", "isCorrect": true },
+        { "text": "To manage databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle CDN help improve the availability and reliability of web applications?",
+      "answers": [
+        { "text": "By using a single data center for content delivery", "isCorrect": false },
+        { "text": "By implementing complex access control policies", "isCorrect": false },
+        { "text": "By distributing content to multiple edge locations for redundancy", "isCorrect": true },
+        { "text": "By compressing all content to reduce file sizes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature allows you to create custom rules for content delivery?",
+      "answers": [
+        { "text": "Edge Rules", "isCorrect": true },
+        { "text": "Cache Invalidation", "isCorrect": false },
+        { "text": "Content Encryption", "isCorrect": false },
+        { "text": "URL Signing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle CDN Logs?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To monitor and analyze content delivery performance", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To manage databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle CDN feature allows you to define policies for content delivery based on user characteristics?",
+      "answers": [
+        { "text": "Edge Rules", "isCorrect": false },
+        { "text": "Cache Invalidation", "isCorrect": false },
+        { "text": "CDN Policies", "isCorrect": true },
+        { "text": "URL Signing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle CDN's Real-Time Statistics?",
+      "answers": [
+        { "text": "To configure access control policies", "isCorrect": false },
+        { "text": "To analyze content delivery performance after the fact", "isCorrect": false },
+        { "text": "To monitor content delivery performance in real-time", "isCorrect": true },
+        { "text": "To manage databases", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is commonly used in conjunction with Oracle CDN for secure access control?",
+      "answers": [
+        { "text": "OCI Compute", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": true },
+        { "text": "OCI Networking", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A website hosted on Oracle Cloud Infrastructure (OCI) is experiencing slow loading times for users in different geographical regions. What Oracle CDN feature can help improve the website's performance?",
+      "answers": [
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI DNS", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN)", "isCorrect": true },
+        { "text": "OCI Database service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: An e-commerce website with a global user base wants to reduce latency for users by serving static content, such as images and videos, from edge locations closest to the users. Which Oracle service can achieve this goal?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN)", "isCorrect": true },
+        { "text": "OCI Virtual Machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A media streaming company wants to ensure that its content is securely delivered to users while preventing unauthorized access. Which Oracle CDN feature can help in securing the content?",
+      "answers": [
+        { "text": "OCI Web Application Firewall (WAF)", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with HTTPS support", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company has a website with dynamic content that is personalized for each user. However, the company wants to cache static assets like images and stylesheets at the edge to improve performance. Which Oracle CDN caching strategy would be appropriate?",
+      "answers": [
+        { "text": "No caching", "isCorrect": false },
+        { "text": "Static caching", "isCorrect": true },
+        { "text": "Dynamic caching", "isCorrect": false },
+        { "text": "Full-site caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company is running a marketing campaign that involves sharing a large number of promotional videos. To handle the increased demand and deliver videos quickly to users worldwide, which Oracle CDN feature can be utilized?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN)", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Streaming service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A business has confidential PDF documents that should only be accessible to authenticated users. Which Oracle CDN feature can help enforce access control for these documents?",
+      "answers": [
+        { "text": "OCI Web Application Firewall (WAF)", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with signed URLs", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: An e-learning platform is delivering video lectures to users worldwide. The platform wants to ensure that users experience minimal buffering and fast playback. Which Oracle CDN feature can optimize video delivery?",
+      "answers": [
+        { "text": "OCI Streaming service", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with video optimization", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company has a website with a mix of static and dynamic content. The company wants to cache the static content at the edge while ensuring that dynamic content is always fetched from the origin server. Which Oracle CDN caching mode should be used?",
+      "answers": [
+        { "text": "Caching Disabled", "isCorrect": false },
+        { "text": "Caching Enabled", "isCorrect": true },
+        { "text": "Caching Override", "isCorrect": false },
+        { "text": "Caching Origin", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A news website publishes articles that are frequently updated. The website wants to ensure that users always see the latest version of articles without caching. Which Oracle CDN caching strategy should be applied?",
+      "answers": [
+        { "text": "No caching", "isCorrect": true },
+        { "text": "Static caching", "isCorrect": false },
+        { "text": "Dynamic caching", "isCorrect": false },
+        { "text": "Full-site caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company is running an online shopping website and wants to protect against DDoS attacks. Which Oracle CDN feature can help mitigate DDoS attacks by inspecting and filtering incoming traffic?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with DDoS protection", "isCorrect": true },
+        { "text": "OCI Web Application Firewall (WAF)", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company is migrating its website to Oracle Cloud Infrastructure and wants to ensure that users experience low latency by serving content from the closest edge location. Which Oracle CDN feature can achieve this?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with global edge locations", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Streaming service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company hosts a software download page and wants to reduce the load on its origin server by caching software installation files at the edge locations. Which Oracle CDN caching strategy should be applied?",
+      "answers": [
+        { "text": "No caching", "isCorrect": false },
+        { "text": "Static caching", "isCorrect": true },
+        { "text": "Dynamic caching", "isCorrect": false },
+        { "text": "Full-site caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company has a website with a mix of public and private content. Public content should be cached at the edge locations, while private content should always be fetched from the origin server. Which Oracle CDN caching mode should be used?",
+      "answers": [
+        { "text": "Caching Disabled", "isCorrect": false },
+        { "text": "Caching Enabled", "isCorrect": false },
+        { "text": "Caching Override", "isCorrect": true },
+        { "text": "Caching Origin", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: An organization is hosting a live streaming event and wants to ensure low latency and high-quality streaming for viewers worldwide. Which Oracle CDN service is specifically designed for video streaming?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with video optimization", "isCorrect": false },
+        { "text": "OCI Streaming service", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company wants to implement security measures to protect against unauthorized access to sensitive data. Which Oracle CDN feature can be used to create temporary, time-bound URLs for accessing protected content?",
+      "answers": [
+        { "text": "OCI Web Application Firewall (WAF)", "isCorrect": false },
+        { "text": "OCI Identity and Access Management (IAM)", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with signed URLs", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company is running a marketing campaign and expects a significant increase in website traffic. To handle the surge in demand and ensure a smooth user experience, which Oracle CDN feature can be used?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with caching", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with origin pooling", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: A company is concerned about the security of its web applications and wants to protect against common web vulnerabilities. Which Oracle CDN feature can help in mitigating SQL injection, cross-site scripting, and other attacks?",
+      "answers": [
+        { "text": "OCI Content Delivery Network (CDN) with HTTPS support", "isCorrect": false },
+        { "text": "OCI Web Application Firewall (WAF)", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: A company has a website with a global audience, and it wants to ensure that users experience low latency by delivering content from the nearest edge location. Which Oracle CDN feature can achieve this?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with regional edge locations", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with global edge locations", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: A company has an application with real-time updates, and it wants to ensure that users always see the latest data without caching. Which Oracle CDN caching strategy should be applied?",
+      "answers": [
+        { "text": "No caching", "isCorrect": true },
+        { "text": "Static caching", "isCorrect": false },
+        { "text": "Dynamic caching", "isCorrect": false },
+        { "text": "Full-site caching", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: An organization is hosting a webinar that will be accessed by participants worldwide. The organization wants to ensure low latency and high-quality video streaming. Which Oracle CDN service is suitable for hosting live webinars?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Content Delivery Network (CDN) with video optimization", "isCorrect": false },
+        { "text": "OCI Streaming service", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    }
+]

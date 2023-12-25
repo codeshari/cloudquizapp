@@ -1,0 +1,407 @@
+[
+    {
+      "question": "What is Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "A cloud storage service", "isCorrect": false },
+        { "text": "A cloud computing platform", "isCorrect": false },
+        { "text": "A fully-managed Oracle Database service in the cloud", "isCorrect": true },
+        { "text": "A machine learning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is used to provision Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "OCI Compute", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Database", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What deployment options are available for Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "On-premises only", "isCorrect": false },
+        { "text": "Cloud-only", "isCorrect": false },
+        { "text": "Both on-premises and in the cloud", "isCorrect": false },
+        { "text": "On the Oracle Cloud Infrastructure (OCI) only", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Database Cloud Service Virtual Machine (DB System)?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To host Oracle Database instances in a dedicated VM", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which version(s) of Oracle Database can be provisioned in Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "Only the latest version", "isCorrect": false },
+        { "text": "Any version supported by Oracle Cloud", "isCorrect": true },
+        { "text": "Only Oracle Database 19c", "isCorrect": false },
+        { "text": "Only Oracle Database 12c", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Autonomous Database, and how does it relate to Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "They are two separate services with no relation", "isCorrect": false },
+        { "text": "Oracle Autonomous Database is a part of Oracle Database Cloud Service offering fully automated database management", "isCorrect": true },
+        { "text": "Oracle Database Cloud Service is an on-premises solution, while Oracle Autonomous Database is a cloud-only service", "isCorrect": false },
+        { "text": "Oracle Autonomous Database is an older version of Oracle Database Cloud Service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which tool is commonly used to manage and monitor Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "Oracle SQL Developer", "isCorrect": false },
+        { "text": "Oracle Enterprise Manager (OEM)", "isCorrect": true },
+        { "text": "Toad for Oracle", "isCorrect": false },
+        { "text": "SQL*Plus", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Load Balancer in the context of Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple database instances", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Database Cloud Service High Availability?",
+      "answers": [
+        { "text": "A service that only supports low availability", "isCorrect": false },
+        { "text": "A service that provides automatic failover and redundancy", "isCorrect": true },
+        { "text": "A service for managing Oracle Cloud DNS", "isCorrect": false },
+        { "text": "A service for optimizing database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Database Cloud Service feature allows automatic backups and point-in-time recovery?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure (OCI) Vault", "isCorrect": false },
+        { "text": "Oracle Data Guard", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Object Storage", "isCorrect": false },
+        { "text": "Automated Database Backup and Recovery (ABR)", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does Oracle Database Cloud Service handle security of data in transit?",
+      "answers": [
+        { "text": "It doesn't provide any encryption for data in transit", "isCorrect": false },
+        { "text": "It uses SSL/TLS encryption for data in transit", "isCorrect": true },
+        { "text": "It relies on the security of the underlying network only", "isCorrect": false },
+        { "text": "It encrypts data in transit using custom encryption algorithms", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Transparent Data Encryption (TDE), and how does it enhance security in Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "It is a separate encryption service unrelated to Oracle Database Cloud Service", "isCorrect": false },
+        { "text": "It encrypts entire database tablespaces, including backups and archives", "isCorrect": true },
+        { "text": "It is used for managing user authentication in Oracle Cloud", "isCorrect": false },
+        { "text": "It is a backup and recovery service for Oracle Database Cloud Service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Key Management in Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To securely store and manage encryption keys", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Database Cloud Service Backup and Restore?",
+      "answers": [
+        { "text": "A manual backup process", "isCorrect": false },
+        { "text": "A feature for scheduling automatic backups and restores", "isCorrect": true },
+        { "text": "A service for managing Oracle Cloud DNS", "isCorrect": false },
+        { "text": "A service for optimizing database performance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) Vault contribute to security in Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "It is used for managing user authentication in Oracle Cloud", "isCorrect": false },
+        { "text": "It provides a secure repository for storing database credentials and other secrets", "isCorrect": true },
+        { "text": "It is a separate encryption service unrelated to Oracle Database Cloud Service", "isCorrect": false },
+        { "text": "It is used for managing DNS settings in Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle GoldenGate, and how is it relevant to Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "It is a separate cloud service unrelated to Oracle Database Cloud Service", "isCorrect": false },
+        { "text": "It is a data integration and replication tool used for real-time data movement", "isCorrect": true },
+        { "text": "It is a backup and recovery service for Oracle Database Cloud Service", "isCorrect": false },
+        { "text": "It is used for managing DNS settings in Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is used for automated patching of Oracle Database in Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "OCI Compute", "isCorrect": false },
+        { "text": "OCI Database", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Database Cloud Service ensure high availability?",
+      "answers": [
+        { "text": "By relying on the customer to configure high availability manually", "isCorrect": false },
+        { "text": "By using Oracle Data Guard for automatic failover", "isCorrect": true },
+        { "text": "By providing multiple availability zones within a region", "isCorrect": false },
+        { "text": "By using third-party tools for high availability", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Data Guard, and how does it contribute to Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "A backup and recovery service", "isCorrect": false },
+        { "text": "An automatic patching service", "isCorrect": false },
+        { "text": "A feature for automatic failover and data protection", "isCorrect": true },
+        { "text": "A tool for managing DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Real Application Clusters (RAC) in Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "To create virtual machines", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide high availability and scalability for database workloads", "isCorrect": true },
+        { "text": "To establish secure connections between on-premises networks and Oracle Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Database Cloud Service support multi-tenancy?",
+      "answers": [
+        { "text": "It doesn't support multi-tenancy", "isCorrect": false },
+        { "text": "By allowing multiple databases to run on a single database instance", "isCorrect": false },
+        { "text": "By providing a dedicated database instance for each tenant", "isCorrect": true },
+        { "text": "By using virtualization to isolate tenants", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Exadata in the context of Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "A backup and recovery service", "isCorrect": false },
+        { "text": "An automatic patching service", "isCorrect": false },
+        { "text": "A high-performance hardware platform optimized for Oracle Database workloads", "isCorrect": true },
+        { "text": "A tool for managing DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) Dedicated Region Cloud@Customer?",
+      "answers": [
+        { "text": "A backup and recovery service", "isCorrect": false },
+        { "text": "An on-premises cloud solution", "isCorrect": true },
+        { "text": "A high-performance hardware platform optimized for Oracle Database workloads", "isCorrect": false },
+        { "text": "A tool for managing DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Oracle Cloud Infrastructure (OCI) GoldenGate Cloud Service?",
+      "answers": [
+        { "text": "A data integration and replication tool used for real-time data movement", "isCorrect": true },
+        { "text": "A backup and recovery service", "isCorrect": false },
+        { "text": "A high-performance hardware platform optimized for Oracle Database workloads", "isCorrect": false },
+        { "text": "A tool for managing DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Database Cloud Service handle backup retention and archival?",
+      "answers": [
+        { "text": "By relying on the customer to manage backups manually", "isCorrect": false },
+        { "text": "By using Oracle Cloud Infrastructure (OCI) Object Storage for backup retention and archival", "isCorrect": true },
+        { "text": "By automatically deleting backups after a fixed period", "isCorrect": false },
+        { "text": "By using third-party backup solutions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you choose Oracle Database Cloud Service over an on-premises database?",
+      "answers": [
+        { "text": "To manage network security policies", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To leverage a fully managed database in the cloud", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Database Backup service?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": true },
+        { "text": "To establish VPN connections", "isCorrect": false },
+        { "text": "To host virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is Oracle Cloud Infrastructure (OCI) Database Cloud Service - Virtual Machine (DBCS-VM) preferred over Database Cloud Service - Bare Metal (DBCS-BM)?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": false },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "For a more cost-effective solution with moderate performance requirements", "isCorrect": true },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Autonomous Database?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": true },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Exadata Cloud Service?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "For a cost-effective solution with moderate performance requirements", "isCorrect": false },
+        { "text": "For extreme performance and scalability requirements", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Database Options?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide additional features and capabilities for Oracle Databases", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed MySQL database?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Autonomous MySQL Database", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Data Safe?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To protect sensitive data in OCI databases", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Functions?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To execute code in response to events without managing infrastructure", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is designed to accelerate the deployment of applications?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Resource Manager", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Networks (VCN)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Database Gateway?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To connect Oracle Cloud Databases with on-premises databases", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Data Flow?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "For extreme performance and scalability requirements", "isCorrect": false },
+        { "text": "To process large volumes of data using Apache Spark", "isCorrect": true },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Database Management?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide tools and services for database monitoring and performance tuning", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) GoldenGate service?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To replicate data in real-time between databases", "isCorrect": true },
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "To host virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Data Integration?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To enable data movement and transformation between different sources and targets", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is Oracle Cloud Infrastructure (OCI) Database Cloud Service - Bare Metal (DBCS-BM) preferred over Database Cloud Service - Virtual Machine (DBCS-VM)?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": true },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "For a more cost-effective solution with moderate performance requirements", "isCorrect": false },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Application Migration?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "To migrate on-premises applications to the cloud", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Database Cloud Service - Exadata?",
+      "answers": [
+        { "text": "For a cost-effective solution with moderate performance requirements", "isCorrect": false },
+        { "text": "For extreme performance and scalability requirements with Oracle Exadata technology", "isCorrect": true },
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) SQL Developer Web?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": true },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To enable data movement and transformation between different sources and targets", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Database Cloud Service - Virtual Machine (DBCS-VM) with Bring Your Own License (BYOL) option?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": false },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "When you have existing Oracle Database licenses and want to use them in the cloud", "isCorrect": true },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    }
+]

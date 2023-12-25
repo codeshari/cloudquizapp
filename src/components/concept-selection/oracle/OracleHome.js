@@ -21,7 +21,7 @@ const OracleHome = () => {
         setSelectedConcept(concept);
 
         // Load quiz data dynamically based on the selected concept name
-        import(`../../../data/${concept.fileName}.json`)
+        import(`../../../data/oracle/${concept.fileName}.json`)
             .then((quizData) => setQuestions(quizData.default))
             .catch((error) => console.error('Error loading quiz data:', error));
 

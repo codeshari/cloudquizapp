@@ -1,0 +1,569 @@
+[
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) Compute?",
+      "answers": [
+        { "text": "A database service", "isCorrect": false },
+        { "text": "A serverless computing platform", "isCorrect": false },
+        { "text": "A service that provides virtual machine instances", "isCorrect": true },
+        { "text": "A networking service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle service is used to provision and manage virtual machines in the cloud?",
+      "answers": [
+        { "text": "Oracle Cloud Database", "isCorrect": false },
+        { "text": "Oracle Compute Cloud", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Compute", "isCorrect": true },
+        { "text": "Oracle Networking Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of an Oracle Compute instance?",
+      "answers": [
+        { "text": "To store data", "isCorrect": false },
+        { "text": "To deploy containerized applications", "isCorrect": false },
+        { "text": "To run applications and workloads on virtual machines", "isCorrect": true },
+        { "text": "To configure access control policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which operating systems are supported on Oracle Compute instances?",
+      "answers": [
+        { "text": "Linux only", "isCorrect": false },
+        { "text": "Windows only", "isCorrect": false },
+        { "text": "Both Linux and Windows", "isCorrect": true },
+        { "text": "macOS only", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is an Oracle Compute shape?",
+      "answers": [
+        { "text": "The size and configuration of a virtual machine", "isCorrect": true },
+        { "text": "A security group for networking", "isCorrect": false },
+        { "text": "A database schema", "isCorrect": false },
+        { "text": "A compute cluster in the cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which networking component allows communication between Oracle Compute instances within the same Virtual Cloud Network (VCN)?",
+      "answers": [
+        { "text": "Internet Gateway", "isCorrect": false },
+        { "text": "Dynamic Routing Gateway", "isCorrect": false },
+        { "text": "Security Lists", "isCorrect": false },
+        { "text": "Subnet", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of an Oracle Compute image?",
+      "answers": [
+        { "text": "To store backup data", "isCorrect": false },
+        { "text": "To create snapshots of virtual machines", "isCorrect": false },
+        { "text": "To capture a pre-configured virtual machine template", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which storage option is commonly used for boot volumes of Oracle Compute instances?",
+      "answers": [
+        { "text": "Object Storage", "isCorrect": false },
+        { "text": "File Storage", "isCorrect": false },
+        { "text": "Block Volume Storage", "isCorrect": true },
+        { "text": "Archival Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an Oracle Compute instance's private IP address?",
+      "answers": [
+        { "text": "To communicate over the internet", "isCorrect": false },
+        { "text": "To identify the instance within the Virtual Cloud Network (VCN)", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide an external endpoint for the instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Autonomous Linux?",
+      "answers": [
+        { "text": "A version of Linux developed by Oracle", "isCorrect": true },
+        { "text": "A database service", "isCorrect": false },
+        { "text": "A container orchestration platform", "isCorrect": false },
+        { "text": "A serverless computing platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an Oracle Compute instance's public IP address?",
+      "answers": [
+        { "text": "To communicate over the internet", "isCorrect": true },
+        { "text": "To identify the instance within the Virtual Cloud Network (VCN)", "isCorrect": false },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To provide an external endpoint for the instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Compute feature allows you to automate the deployment and scaling of applications?",
+      "answers": [
+        { "text": "Oracle Compute Image", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Autoscaling", "isCorrect": true },
+        { "text": "Oracle Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) Instance Configuration?",
+      "answers": [
+        { "text": "A database service", "isCorrect": false },
+        { "text": "A configuration management service for virtual machines", "isCorrect": true },
+        { "text": "A serverless computing platform", "isCorrect": false },
+        { "text": "A container orchestration platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which component of Oracle Cloud Infrastructure (OCI) Compute allows you to define networking policies for instances?",
+      "answers": [
+        { "text": "Dynamic Routing Gateway", "isCorrect": false },
+        { "text": "Security Lists", "isCorrect": true },
+        { "text": "Internet Gateway", "isCorrect": false },
+        { "text": "Subnet", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Local NVMe storage?",
+      "answers": [
+        { "text": "A scalable object storage service", "isCorrect": false },
+        { "text": "A block volume storage option", "isCorrect": false },
+        { "text": "Temporary storage for the instance's data", "isCorrect": true },
+        { "text": "A managed file storage service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) feature allows you to define fine-grained access policies?",
+      "answers": [
+        { "text": "Oracle Identity Cloud Service", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM)", "isCorrect": true },
+        { "text": "Oracle Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) Dedicated Virtual Machine Host?",
+      "answers": [
+        { "text": "A service for managing containerized applications", "isCorrect": false },
+        { "text": "A serverless computing platform", "isCorrect": false },
+        { "text": "A service that provides dedicated hosts for virtual machines", "isCorrect": true },
+        { "text": "A scalable object storage service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Compute feature enables you to create custom images for virtual machines?",
+      "answers": [
+        { "text": "Oracle Compute Image", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Image Registry", "isCorrect": true },
+        { "text": "Oracle Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) Image Registry used for?",
+      "answers": [
+        { "text": "To store backup data", "isCorrect": false },
+        { "text": "To create snapshots of virtual machines", "isCorrect": false },
+        { "text": "To capture and store container images", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) FastConnect?",
+      "answers": [
+        { "text": "A container orchestration platform", "isCorrect": false },
+        { "text": "A service for managing containerized applications", "isCorrect": false },
+        { "text": "A dedicated network connection between on-premises and Oracle Cloud", "isCorrect": true },
+        { "text": "A serverless computing platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) feature allows you to automate resource provisioning and management?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure (OCI) Compute", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Resource Manager", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM)", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Compute Fleet?",
+      "answers": [
+        { "text": "A service for managing containerized applications", "isCorrect": false },
+        { "text": "A serverless computing platform", "isCorrect": false },
+        { "text": "A collection of virtual machine instances managed as a group", "isCorrect": true },
+        { "text": "A scalable object storage service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Remote Block Volume?",
+      "answers": [
+        { "text": "A scalable object storage service", "isCorrect": false },
+        { "text": "A block volume storage option", "isCorrect": false },
+        { "text": "Remote storage option for virtual machine instances", "isCorrect": true },
+        { "text": "A managed file storage service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) feature provides scalable and secure load balancing for applications?",
+      "answers": [
+        { "text": "Oracle Load Balancer", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Load Balancer", "isCorrect": true },
+        { "text": "Oracle Cloud Infrastructure (OCI) FastConnect", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Virtual Network Gateway", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is Oracle Cloud Infrastructure (OCI) Block Volume used for?",
+      "answers": [
+        { "text": "A scalable object storage service", "isCorrect": false },
+        { "text": "Temporary storage for the instance's data", "isCorrect": false },
+        { "text": "Persistent block storage for virtual machines", "isCorrect": true },
+        { "text": "A serverless computing platform", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) feature allows you to create private networks within a Virtual Cloud Network (VCN)?",
+      "answers": [
+        { "text": "Oracle VPN Connect", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) FastConnect", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Virtual Cloud Network (VCN)", "isCorrect": false },
+        { "text": "Oracle Cloud Infrastructure (OCI) Local Peering Gateway", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Load Balancer?",
+      "answers": [
+        { "text": "To store backup data", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Cloud Infrastructure (OCI) Load Balancer handle traffic distribution for Virtual Machines?",
+      "answers": [
+        { "text": "Round-robin", "isCorrect": true },
+        { "text": "Based on IP addresses", "isCorrect": false },
+        { "text": "Based on network traffic load", "isCorrect": false },
+        { "text": "All of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Block Volumes?",
+      "answers": [
+        { "text": "To host a static website", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": true },
+        { "text": "To speed up content delivery through caching", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Compute Instances?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service would you use to scale compute resources automatically based on demand?",
+      "answers": [
+        { "text": "OCI Networking", "isCorrect": false },
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute AutoScaling", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Virtual Cloud Networks (VCN)?",
+      "answers": [
+        { "text": "To perform analytics on cloud usage", "isCorrect": false },
+        { "text": "To connect on-premises data centers to the cloud", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides fully managed, scalable, and highly available databases?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Autonomous Database", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Load Balancer?",
+      "answers": [
+        { "text": "To store backup data", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Object Storage?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To manage network security policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed Kubernetes container orchestration service?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Container Registry", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Networks (VCN)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Block Volumes?",
+      "answers": [
+        { "text": "To host a static website", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": true },
+        { "text": "To speed up content delivery through caching", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Compute Instances?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service would you use to scale compute resources automatically based on demand?",
+      "answers": [
+        { "text": "OCI Networking", "isCorrect": false },
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute AutoScaling", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Virtual Cloud Networks (VCN)?",
+      "answers": [
+        { "text": "To perform analytics on cloud usage", "isCorrect": false },
+        { "text": "To connect on-premises data centers to the cloud", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides fully managed, scalable, and highly available databases?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Autonomous Database", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Load Balancer?",
+      "answers": [
+        { "text": "To store backup data", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": true },
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Object Storage?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To manage network security policies", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed Kubernetes container orchestration service?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Container Registry", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Networks (VCN)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Container Registry?",
+      "answers": [
+        { "text": "To manage network security policies", "isCorrect": false },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To host virtual machines", "isCorrect": false },
+        { "text": "To store and manage Docker container images", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) File Storage?",
+      "answers": [
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service allows you to archive data for long-term retention?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Data Transfer Service", "isCorrect": false },
+        { "text": "OCI Archive Storage", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM)?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To connect on-premises data centers to the cloud", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) FastConnect?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To establish a dedicated, private connection between on-premises networks and OCI", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed, highly scalable NoSQL database?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Autonomous NoSQL Database", "isCorrect": true },
+        { "text": "OCI Load Balancer", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Data Transfer Service?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To transfer large volumes of data to and from OCI", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Load Balancer over Traffic Management?",
+      "answers": [
+        { "text": "To manage DNS settings", "isCorrect": false },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": true },
+        { "text": "To establish dedicated, private connections between on-premises networks and Azure", "isCorrect": false },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary function of Oracle Cloud Infrastructure (OCI) Monitoring service?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed, highly scalable relational database?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Autonomous Database", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Networking service?",
+      "answers": [
+        { "text": "To transfer large volumes of data to and from OCI", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To isolate and manage network traffic within the cloud", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) WAF (Web Application Firewall)?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To protect web applications from online threats and attacks", "isCorrect": true },
+        { "text": "To host a static website", "isCorrect": false },
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Key Management?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide secure key storage and management services", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is designed to accelerate the deployment of applications?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Resource Manager", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Networks (VCN)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Data Safe?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To protect sensitive data in OCI databases", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Functions?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To execute code in response to events without managing infrastructure", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed MySQL database?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Autonomous MySQL Database", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary function of Oracle Cloud Infrastructure (OCI) Resource Manager?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To automate the process of provisioning and updating resources", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Email Delivery?",
+      "answers": [
+        { "text": "To archive data for long-term retention", "isCorrect": false },
+        { "text": "To transfer large volumes of data to and from OCI", "isCorrect": false },
+        { "text": "To provide scalable and reliable email delivery", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    }
+]

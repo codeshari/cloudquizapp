@@ -1,0 +1,488 @@
+[
+    {
+      "question": "What is Oracle Streaming Service?",
+      "answers": [
+        { "text": "A database management system", "isCorrect": false },
+        { "text": "A cloud-based streaming data platform by Oracle", "isCorrect": true },
+        { "text": "An application development framework", "isCorrect": false },
+        { "text": "A machine learning service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides streaming data capabilities?",
+      "answers": [
+        { "text": "Oracle Database", "isCorrect": false },
+        { "text": "Oracle Cloud Functions", "isCorrect": false },
+        { "text": "Oracle Streaming Service", "isCorrect": true },
+        { "text": "Oracle Cloud Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary use case for Oracle Streaming Service?",
+      "answers": [
+        { "text": "Relational database management", "isCorrect": false },
+        { "text": "Batch processing of data", "isCorrect": false },
+        { "text": "Real-time processing and analysis of streaming data", "isCorrect": true },
+        { "text": "Data archival and storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What streaming data formats are supported by Oracle Streaming Service?",
+      "answers": [
+        { "text": "Only JSON", "isCorrect": false },
+        { "text": "Only XML", "isCorrect": false },
+        { "text": "Both JSON and Avro", "isCorrect": true },
+        { "text": "Only CSV", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a stream in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To store relational data", "isCorrect": false },
+        { "text": "To organize and manage batches of data", "isCorrect": false },
+        { "text": "To represent a continuous flow of data records", "isCorrect": true },
+        { "text": "To perform data analytics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI resource is used to define the schema for the data in an Oracle Stream?",
+      "answers": [
+        { "text": "OCI Database", "isCorrect": false },
+        { "text": "OCI Stream Analytics", "isCorrect": false },
+        { "text": "OCI Data Flow", "isCorrect": false },
+        { "text": "OCI Stream Pool", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of a consumer group in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To manage data storage in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To group and manage consumers of a stream", "isCorrect": true },
+        { "text": "To analyze streaming data in real-time", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service is used for writing code to process and analyze streaming data in Oracle Streaming Service?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Container Engine for Kubernetes", "isCorrect": false },
+        { "text": "OCI Streaming Analytics", "isCorrect": true },
+        { "text": "OCI Data Catalog", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Streaming Service ensure the durability of streaming data?",
+      "answers": [
+        { "text": "By replicating data across multiple availability domains", "isCorrect": true },
+        { "text": "By compressing data records", "isCorrect": false },
+        { "text": "By encrypting data at rest", "isCorrect": false },
+        { "text": "By partitioning the stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a partition key in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false },
+        { "text": "To determine how data is distributed among partitions", "isCorrect": true },
+        { "text": "To organize data records in a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud service can be integrated with Oracle Streaming Service for serverless functions?",
+      "answers": [
+        { "text": "Oracle Cloud Infrastructure (OCI) Functions", "isCorrect": true },
+        { "text": "Oracle Cloud Container Engine for Kubernetes", "isCorrect": false },
+        { "text": "Oracle Cloud Data Flow", "isCorrect": false },
+        { "text": "Oracle Cloud Data Catalog", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Time-to-Live' (TTL) attribute in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To determine how long data records are retained in the stream", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of an Oracle Stream Analytics application in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To analyze and process streaming data in real-time", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol is commonly used for communication between producers and consumers in Oracle Streaming Service?",
+      "answers": [
+        { "text": "HTTP", "isCorrect": false },
+        { "text": "FTP", "isCorrect": false },
+        { "text": "Apache Kafka", "isCorrect": true },
+        { "text": "SMTP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Watermark' in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To track the progress of time in a stream", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service is used for creating and managing event-driven applications in Oracle Cloud?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Container Engine for Kubernetes", "isCorrect": false },
+        { "text": "OCI Streaming Analytics", "isCorrect": false },
+        { "text": "OCI Events", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Stream Pool' in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To group and manage multiple streams", "isCorrect": true },
+        { "text": "To analyze and process streaming data in real-time", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Streaming Service handle data ingestion from multiple sources?",
+      "answers": [
+        { "text": "By rejecting data from non-approved sources", "isCorrect": false },
+        { "text": "By replicating data across multiple availability domains", "isCorrect": false },
+        { "text": "By using producers to publish data to a stream", "isCorrect": true },
+        { "text": "By storing data in multiple partitions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Retention Time' in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To determine how long data records are retained in the stream", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service is used for event-driven serverless computing?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Container Engine for Kubernetes", "isCorrect": false },
+        { "text": "OCI Streaming Analytics", "isCorrect": false },
+        { "text": "OCI Functions", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the role of an Oracle Stream Analytics notebook in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To analyze and visualize streaming data interactively", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service allows you to manage, monitor, and troubleshoot streaming applications?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Monitoring", "isCorrect": true },
+        { "text": "OCI Streaming Analytics", "isCorrect": false },
+        { "text": "OCI Data Flow", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Dead Letter Queue' in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To store messages that cannot be processed successfully", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service is used for creating and managing Oracle Stream Analytics applications?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Container Engine for Kubernetes", "isCorrect": false },
+        { "text": "OCI Streaming Analytics", "isCorrect": true },
+        { "text": "OCI Data Catalog", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does Oracle Streaming Service handle data security?",
+      "answers": [
+        { "text": "By encrypting data only at rest", "isCorrect": false },
+        { "text": "By using producers to publish data to a stream", "isCorrect": false },
+        { "text": "By using Oracle Cloud Infrastructure Identity and Access Management (IAM) for access control", "isCorrect": true },
+        { "text": "By replicating data across multiple partitions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Seek' operation in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To move the cursor to a specific point in a stream", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which OCI service is used for managing and accessing streaming data from Oracle Cloud Infrastructure?",
+      "answers": [
+        { "text": "OCI Object Storage", "isCorrect": false },
+        { "text": "OCI Streaming Analytics", "isCorrect": false },
+        { "text": "OCI Data Integration", "isCorrect": true },
+        { "text": "OCI Functions", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Cursor' in Oracle Streaming Service?",
+      "answers": [
+        { "text": "To organize data records in a stream", "isCorrect": false },
+        { "text": "To define the schema for the data", "isCorrect": false },
+        { "text": "To keep track of the position in a stream", "isCorrect": true },
+        { "text": "To group and manage consumers of a stream", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary benefit of using Oracle Database Cloud Service?",
+      "answers": [
+        { "text": "To manage network security policies", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To leverage a fully managed database in the cloud", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you choose Oracle Database Cloud Service over an on-premises database?",
+      "answers": [
+        { "text": "To manage network security policies", "isCorrect": false },
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To leverage a fully managed database in the cloud", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Database Backup service?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": true },
+        { "text": "To establish VPN connections", "isCorrect": false },
+        { "text": "To host virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is Oracle Cloud Infrastructure (OCI) Database Cloud Service - Virtual Machine (DBCS-VM) preferred over Database Cloud Service - Bare Metal (DBCS-BM)?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": false },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "For a more cost-effective solution with moderate performance requirements", "isCorrect": true },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Autonomous Database?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To run applications and workloads on the cloud", "isCorrect": false },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": true },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Exadata Cloud Service?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "For a cost-effective solution with moderate performance requirements", "isCorrect": false },
+        { "text": "For extreme performance and scalability requirements", "isCorrect": true },
+        { "text": "To store and retrieve large amounts of unstructured data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Database Options?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide additional features and capabilities for Oracle Databases", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service provides a fully managed MySQL database?",
+      "answers": [
+        { "text": "OCI Block Volumes", "isCorrect": false },
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Autonomous MySQL Database", "isCorrect": true },
+        { "text": "OCI Object Storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Data Safe?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To protect sensitive data in OCI databases", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Functions?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To execute code in response to events without managing infrastructure", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is designed to accelerate the deployment of applications?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Resource Manager", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Networks (VCN)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) SQL Developer Web?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": true },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To enable data movement and transformation between different sources and targets", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Database Gateway?",
+      "answers": [
+        { "text": "To store and manage persistent data for compute instances", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To connect Oracle Cloud Databases with on-premises databases", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is Oracle Cloud Infrastructure (OCI) Database Cloud Service - Bare Metal (DBCS-BM) preferred over Database Cloud Service - Virtual Machine (DBCS-VM)?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": true },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "For a more cost-effective solution with moderate performance requirements", "isCorrect": false },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Application Migration?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "To migrate on-premises applications to the cloud", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Database Cloud Service - Virtual Machine (DBCS-VM) with Bring Your Own License (BYOL) option?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": false },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "When you have existing Oracle Database licenses and want to use them in the cloud", "isCorrect": true },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Data Flow?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "For extreme performance and scalability requirements", "isCorrect": false },
+        { "text": "To process large volumes of data using Apache Spark", "isCorrect": true },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Database Management?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide tools and services for database monitoring and performance tuning", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) GoldenGate service?",
+      "answers": [
+        { "text": "To provide shared storage for multiple compute instances", "isCorrect": false },
+        { "text": "To replicate data in real-time between databases", "isCorrect": true },
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "To host virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of Oracle Cloud Infrastructure (OCI) Data Integration?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To enable data movement and transformation between different sources and targets", "isCorrect": true },
+        { "text": "To distribute incoming network traffic across multiple servers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) SQL Developer Web?",
+      "answers": [
+        { "text": "To manage database schemas", "isCorrect": true },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To enable data movement and transformation between different sources and targets", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Database Cloud Service - Virtual Machine (DBCS-VM) with Bring Your Own License (BYOL) option?",
+      "answers": [
+        { "text": "For maximum performance and resource isolation", "isCorrect": false },
+        { "text": "When high availability is a top priority", "isCorrect": false },
+        { "text": "When you have existing Oracle Database licenses and want to use them in the cloud", "isCorrect": true },
+        { "text": "When running complex analytical queries", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Application Migration?",
+      "answers": [
+        { "text": "To backup and restore Oracle Databases in the cloud", "isCorrect": false },
+        { "text": "To migrate on-premises applications to the cloud", "isCorrect": true },
+        { "text": "To provide a fully managed, self-repairing, and self-securing database", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Oracle Cloud Infrastructure (OCI) Data Safe?",
+      "answers": [
+        { "text": "To monitor and manage the performance of OCI resources", "isCorrect": false },
+        { "text": "To provide secure access control to OCI resources", "isCorrect": false },
+        { "text": "To protect sensitive data in OCI databases", "isCorrect": true },
+        { "text": "To deploy virtual machines", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use Oracle Cloud Infrastructure (OCI) Functions?",
+      "answers": [
+        { "text": "To host a web application", "isCorrect": false },
+        { "text": "To execute code in response to events without managing infrastructure", "isCorrect": true },
+        { "text": "To provide scalable object storage", "isCorrect": false },
+        { "text": "To establish VPN connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which Oracle Cloud Infrastructure (OCI) service is designed to accelerate the deployment of applications?",
+      "answers": [
+        { "text": "OCI Compute Instances", "isCorrect": false },
+        { "text": "OCI Load Balancer", "isCorrect": false },
+        { "text": "OCI Resource Manager", "isCorrect": true },
+        { "text": "OCI Virtual Cloud Networks (VCN)", "isCorrect": false }
+      ]
+    }
+]
