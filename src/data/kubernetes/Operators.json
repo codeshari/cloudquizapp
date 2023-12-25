@@ -1,0 +1,462 @@
+[
+    {
+      "question": "In a Kubernetes environment, what is the primary purpose of a Custom Resource Definition (CRD)?",
+      "answers": [
+        { "text": "To define a new Kubernetes cluster", "isCorrect": false },
+        { "text": "To extend the Kubernetes API and define custom resources", "isCorrect": true },
+        { "text": "To create a custom DNS configuration for pods", "isCorrect": false },
+        { "text": "To configure network policies for the entire cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a Helm chart in Kubernetes?",
+      "answers": [
+        { "text": "To schedule cron jobs within the cluster", "isCorrect": false },
+        { "text": "To define the cluster's networking policies", "isCorrect": false },
+        { "text": "To package, version, and deploy Kubernetes applications", "isCorrect": true },
+        { "text": "To manage the underlying infrastructure resources of a cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When deploying a StatefulSet in Kubernetes, what is the significance of the 'serviceName' field?",
+      "answers": [
+        { "text": "It specifies the DNS name for the StatefulSet", "isCorrect": false },
+        { "text": "It sets the name of the underlying Docker container", "isCorrect": false },
+        { "text": "It determines the name of the associated PersistentVolumeClaim (PVC)", "isCorrect": true },
+        { "text": "It defines the namespace in which the StatefulSet will be deployed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Kubernetes environment, what does the term 'Operator' refer to?",
+      "answers": [
+        { "text": "A built-in Kubernetes controller for handling scaling operations", "isCorrect": false },
+        { "text": "An entity responsible for managing the overall cluster security", "isCorrect": false },
+        { "text": "A method of extending Kubernetes to manage complex applications", "isCorrect": true },
+        { "text": "A specialized container image used for debugging purposes", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When is it appropriate to use a Helm Operator in Kubernetes?",
+      "answers": [
+        { "text": "To manage container logs within a pod", "isCorrect": false },
+        { "text": "To automate the installation and management of Helm charts", "isCorrect": true },
+        { "text": "To define role-based access controls for Kubernetes resources", "isCorrect": false },
+        { "text": "To configure network policies for a specific pod", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a Kubernetes ConfigMap?",
+      "answers": [
+        { "text": "To store confidential information like API keys", "isCorrect": false },
+        { "text": "To configure security policies for the entire cluster", "isCorrect": false },
+        { "text": "To store non-confidential configuration data in key-value pairs", "isCorrect": true },
+        { "text": "To define the Docker image to be used by a specific pod", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use a Kubernetes PodDisruptionBudget?",
+      "answers": [
+        { "text": "To control the rate of incoming network traffic to a pod", "isCorrect": false },
+        { "text": "To manage the disruption caused by voluntary disruptions such as scaling down", "isCorrect": true },
+        { "text": "To set resource limits for containers within a pod", "isCorrect": false },
+        { "text": "To define which nodes are eligible for pod scheduling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of Kubernetes HorizontalPodAutoscaler (HPA)?",
+      "answers": [
+        { "text": "To automatically scale the number of pods based on CPU or memory utilization", "isCorrect": true },
+        { "text": "To horizontally scale the number of nodes in a Kubernetes cluster", "isCorrect": false },
+        { "text": "To manage the lifecycle of pods within a namespace", "isCorrect": false },
+        { "text": "To control the network traffic routing within the cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Kubernetes StatefulSet, what is the significance of the 'serviceName' field?",
+      "answers": [
+        { "text": "It specifies the DNS name for the StatefulSet", "isCorrect": false },
+        { "text": "It sets the name of the underlying Docker container", "isCorrect": false },
+        { "text": "It determines the name of the associated Headless Service used for stable network identities", "isCorrect": true },
+        { "text": "It defines the namespace in which the StatefulSet will be deployed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When deploying an application in Kubernetes, what is the primary role of a PersistentVolume (PV)?",
+      "answers": [
+        { "text": "To provide ephemeral storage for a specific pod", "isCorrect": false },
+        { "text": "To manage the overall security of the Kubernetes cluster", "isCorrect": false },
+        { "text": "To offer persistent, shared storage that can be accessed by multiple pods", "isCorrect": true },
+        { "text": "To define the CPU and memory resources for a specific pod", "isCorrect": false }
+      ]
+    },
+    {
+        "question": "In Kubernetes, what is the purpose of an Admission Controller?",
+        "answers": [
+          { "text": "To control access to the Kubernetes API server", "isCorrect": false },
+          { "text": "To authenticate users before granting access to the cluster", "isCorrect": false },
+          { "text": "To intercept requests to the Kubernetes API server and enforce policies", "isCorrect": true },
+          { "text": "To manage the deployment of Helm charts within the cluster", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When deploying a StatefulSet with an Operator, what role does the 'spec.replicas' field play?",
+        "answers": [
+          { "text": "It defines the number of parallel pods to run in the StatefulSet", "isCorrect": false },
+          { "text": "It specifies the desired number of replicas for the StatefulSet", "isCorrect": true },
+          { "text": "It sets the maximum number of pods that can run concurrently", "isCorrect": false },
+          { "text": "It determines the scaling behavior of the StatefulSet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the function of the 'status' subresource?",
+        "answers": [
+          { "text": "To store sensitive information like API keys", "isCorrect": false },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To provide read-only information about the current state of the custom resource", "isCorrect": true },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When defining a Custom Resource (CR) in a Kubernetes Operator, what role does the 'spec' field play?",
+        "answers": [
+          { "text": "It specifies the namespace in which the CR will be deployed", "isCorrect": false },
+          { "text": "It defines the Docker image to be used by the CR", "isCorrect": false },
+          { "text": "It contains the desired state for the resource, defining how it should behave", "isCorrect": true },
+          { "text": "It determines the scaling behavior of the CR within the cluster", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of Kubernetes Pod Presets?",
+        "answers": [
+          { "text": "To set resource limits for containers within a pod", "isCorrect": false },
+          { "text": "To define role-based access controls for Kubernetes resources", "isCorrect": false },
+          { "text": "To automate the injection of specific configurations into pods", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When using a Helm chart with a Kubernetes Operator, what is the role of the 'values.yaml' file?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To set default values for the Helm chart's configuration", "isCorrect": true },
+          { "text": "To control the rate of incoming network traffic to a pod", "isCorrect": false },
+          { "text": "To automate the deployment of Helm charts within the cluster", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the purpose of the 'finalizers' field in the 'metadata' section?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To set resource limits for containers within a pod", "isCorrect": false },
+          { "text": "To specify the order in which finalization tasks should be executed", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the role of a Kubernetes ClusterRoleBinding?",
+        "answers": [
+          { "text": "To configure security policies for the entire cluster", "isCorrect": false },
+          { "text": "To authenticate users before granting access to the cluster", "isCorrect": false },
+          { "text": "To associate a ClusterRole with a user, group, or service account within a namespace", "isCorrect": true },
+          { "text": "To define the Docker image to be used by a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When deploying an Operator, what is the role of the 'serviceAccount' field in the Operator Deployment?",
+        "answers": [
+          { "text": "It specifies the DNS name for the Operator", "isCorrect": false },
+          { "text": "It defines the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "It sets the maximum number of pods that can run concurrently", "isCorrect": false },
+          { "text": "It determines the service account used by the Operator pods", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the purpose of the 'roleRef' field in a RoleBinding?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To specify the role to be associated with the RoleBinding", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To set resource limits for containers within a pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When deploying an Operator in a Kubernetes cluster, what is the purpose of the 'ClusterRole'?",
+        "answers": [
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To grant permissions for the Operator to perform actions across the entire cluster", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the function of the 'finalizers' field in the 'metadata' section?",
+        "answers": [
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the order in which finalization tasks should be executed", "isCorrect": true },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To set resource limits for containers within a pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a Kubernetes Operator, what role does the 'controller-runtime' library play?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To provide a framework for building controllers in Go", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the 'Reconcile' function in a Kubernetes Operator?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To ensure the observed state matches the desired state for a resource", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a Kubernetes Operator, what is the significance of the 'WATCH_NAMESPACE' environment variable?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To specify the namespace in which the Operator will operate", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Helm Operator, what is the purpose of the 'release' object?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To represent a specific Helm release and its configuration", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When deploying a Helm Operator, what is the significance of the 'valuesFiles' field?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify additional values files for the Helm chart", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of 'Leader Election' in a Kubernetes Operator?",
+        "answers": [
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To ensure only one instance of the Operator is actively processing", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a Kubernetes Operator, what is the role of the 'generateName' field in the 'metadata' section?",
+        "answers": [
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To specify a prefix for the auto-generated name of the resources", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the purpose of the 'Watch' function?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To watch for changes to resources and trigger reconciliation", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When using the 'Operator Framework' for Kubernetes, what is the role of the 'Operator SDK'?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To assist in building, testing, and packaging Kubernetes Operators", "isCorrect": true },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When implementing a Kubernetes Operator, what is the purpose of the 'manager' package in the Go programming language?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false },
+          { "text": "To provide a runtime manager for the Operator's controllers", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the role of 'Finalizers' in the cleanup process?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the order in which finalization tasks should be executed during resource deletion", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When developing a Helm Operator, what is the purpose of the 'crds' field in the HelmRelease?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the CustomResourceDefinitions (CRDs) required for the Helm chart", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, what is the purpose of a 'Leader Election' in the context of Operators?",
+        "answers": [
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To ensure only one instance of the Operator is actively processing and leading", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When building a Kubernetes Operator using Ansible, what is the role of the 'tasks' section in the Ansible playbook?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the sequence of actions to be performed during reconciliation", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the significance of the 'serviceAccountName' field in a Kubernetes Operator Deployment?",
+        "answers": [
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To set the name of the ServiceAccount associated with the Operator pods", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When deploying a Helm Operator, what is the purpose of the 'syncPolicy' field in the HelmRelease?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify when the Helm chart should be synchronized during reconciliation", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the role of the 'strategy' field in a CustomResource (CR)?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the update strategy for the Operator", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a Kubernetes Operator, what is the purpose of the 'Reconcile' loop?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To continuously ensure the observed state matches the desired state for resources", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the role of 'ownerReferences' in a Kubernetes Operator?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To establish a relationship between resources and enable garbage collection", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the role of the 'watchLabels' field in a HelmRelease?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify labels used for filtering resources to be watched by the HelmRelease", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When implementing a Kubernetes Operator using the Operator SDK, what is the purpose of the 'k8s.io/client-go' package?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To provide a client library for interacting with the Kubernetes API", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, what is the function of 'CustomResourceDefinition' (CRD) in the context of Operators?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To extend the Kubernetes API and define custom resources for the Operator", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When using the 'operator-sdk' to create a new Operator, what is the purpose of the 'scaffold' subcommand?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To generate the basic directory structure and files for an Operator project", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Helm Operator, what is the significance of the 'helmVersion' field in the HelmRelease?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the version of Helm to be used for managing the Helm chart", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a Kubernetes Operator, what is the purpose of the 'initContainers' field in a PodSpec?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify a list of init containers that must run before the main containers start", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the role of 'RoleBindings' and 'ClusterRoleBindings' in a Kubernetes Operator?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To associate roles with users, groups, or service accounts and grant permissions", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When building a Helm Operator, what is the purpose of the 'targetNamespace' field in the HelmRelease?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify the namespace in which the Helm chart should be installed", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes Operator, what is the purpose of the 'scaleDown' annotation?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify conditions under which the Operator should scale down resources", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When developing a Helm Operator, what is the role of the 'values' field in the HelmRelease?",
+        "answers": [
+          { "text": "To define the Docker image to be used by the Operator pods", "isCorrect": false },
+          { "text": "To configure network policies for a specific pod", "isCorrect": false },
+          { "text": "To specify custom values for the Helm chart during installation", "isCorrect": true },
+          { "text": "To manage the overall security policies of the Operator", "isCorrect": false }
+        ]
+      }
+  ]
+  

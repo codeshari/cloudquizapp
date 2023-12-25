@@ -1,0 +1,570 @@
+[
+    {
+      "question": "You are deploying a microservices application in Kubernetes. To ensure optimal performance, which resource should you consider scaling?",
+      "answers": [
+        { "text": "CPU", "isCorrect": true },
+        { "text": "Memory", "isCorrect": false },
+        { "text": "Storage", "isCorrect": false },
+        { "text": "Network bandwidth", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Kubernetes cluster, what is the purpose of a liveness probe?",
+      "answers": [
+        { "text": "To determine if a container is ready to start", "isCorrect": false },
+        { "text": "To restart a container if it becomes unresponsive", "isCorrect": true },
+        { "text": "To check the health of a node", "isCorrect": false },
+        { "text": "To scale the number of replicas in a deployment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a stateful application deployed in Kubernetes. What storage type is suitable for maintaining persistent data between pod restarts?",
+      "answers": [
+        { "text": "EmptyDir", "isCorrect": false },
+        { "text": "Persistent Volume (PV)", "isCorrect": true },
+        { "text": "ConfigMap", "isCorrect": false },
+        { "text": "Secret", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to expose your Kubernetes service externally. Which service type should you use?",
+      "answers": [
+        { "text": "ClusterIP", "isCorrect": false },
+        { "text": "NodePort", "isCorrect": false },
+        { "text": "LoadBalancer", "isCorrect": true },
+        { "text": "ExternalName", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to roll back a faulty deployment in Kubernetes. What command should you use?",
+      "answers": [
+        { "text": "kubectl restart", "isCorrect": false },
+        { "text": "kubectl rollback", "isCorrect": false },
+        { "text": "kubectl apply -f rollback.yaml", "isCorrect": true },
+        { "text": "kubectl undo deployment", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When deploying a Kubernetes pod, what is the purpose of the init container?",
+      "answers": [
+        { "text": "To initialize the node's environment variables", "isCorrect": false },
+        { "text": "To pre-warm the pod for faster startup", "isCorrect": false },
+        { "text": "To perform setup tasks before the main container starts", "isCorrect": true },
+        { "text": "To manage pod scaling and replicas", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to restrict a pod's access to only a specific set of nodes in a Kubernetes cluster. What should you use?",
+      "answers": [
+        { "text": "Network Policy", "isCorrect": true },
+        { "text": "Role-Based Access Control (RBAC)", "isCorrect": false },
+        { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+        { "text": "ServiceAccount", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Kubernetes environment, what is the role of the kube-proxy component?",
+      "answers": [
+        { "text": "To manage pod scaling and replicas", "isCorrect": false },
+        { "text": "To load balance traffic between pods in a service", "isCorrect": true },
+        { "text": "To authenticate and authorize users", "isCorrect": false },
+        { "text": "To store and manage configuration data for pods", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a multi-container pod in Kubernetes, and you want to share data between containers. What is the recommended approach?",
+      "answers": [
+        { "text": "Use environment variables", "isCorrect": false },
+        { "text": "Use shared volumes", "isCorrect": true },
+        { "text": "Use inter-process communication", "isCorrect": false },
+        { "text": "Use ConfigMaps", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are deploying a stateful application in Kubernetes that requires stable network identifiers. Which resource should you use?",
+      "answers": [
+        { "text": "Service", "isCorrect": false },
+        { "text": "Pod", "isCorrect": false },
+        { "text": "Persistent Volume (PV)", "isCorrect": false },
+        { "text": "StatefulSet", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to scale a deployment in Kubernetes based on CPU utilization. What should you use?",
+      "answers": [
+        { "text": "HorizontalPodAutoscaler (HPA)", "isCorrect": true },
+        { "text": "VerticalPodAutoscaler (VPA)", "isCorrect": false },
+        { "text": "PodAffinity", "isCorrect": false },
+        { "text": "PodDisruptionBudget", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to deploy a Kubernetes application with the ability to perform rolling updates with zero downtime. What deployment strategy should you choose?",
+      "answers": [
+        { "text": "Recreate", "isCorrect": false },
+        { "text": "RollingUpdate", "isCorrect": true },
+        { "text": "Blue-Green", "isCorrect": false },
+        { "text": "Canary", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are running multiple microservices in a Kubernetes cluster. To ensure secure communication, what should you use?",
+      "answers": [
+        { "text": "Network Policies", "isCorrect": false },
+        { "text": "Ingress Controllers", "isCorrect": false },
+        { "text": "Service Mesh (e.g., Istio)", "isCorrect": true },
+        { "text": "PodSecurityPolicy (PSP)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to deploy a Kubernetes pod that needs access to specific AWS resources. What should you use to grant the necessary permissions?",
+      "answers": [
+        { "text": "AWS Identity and Access Management (IAM) roles", "isCorrect": true },
+        { "text": "ServiceAccount", "isCorrect": false },
+        { "text": "Secrets", "isCorrect": false },
+        { "text": "PodSecurityPolicy (PSP)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are deploying a Kubernetes cluster on-premises and need to enable external access to services. What should you use?",
+      "answers": [
+        { "text": "LoadBalancer service type", "isCorrect": false },
+        { "text": "Ingress resource", "isCorrect": false },
+        { "text": "NodePort service type", "isCorrect": true },
+        { "text": "ExternalName service type", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to schedule a Kubernetes pod to run on nodes with a specific label. What should you use?",
+      "answers": [
+        { "text": "PodDisruptionBudget", "isCorrect": false },
+        { "text": "NodeSelector", "isCorrect": true },
+        { "text": "Taints and Tolerations", "isCorrect": false },
+        { "text": "PodAffinity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are deploying a stateless application in Kubernetes and need to manage its configuration data. What resource should you use?",
+      "answers": [
+        { "text": "Secret", "isCorrect": false },
+        { "text": "ConfigMap", "isCorrect": true },
+        { "text": "Persistent Volume (PV)", "isCorrect": false },
+        { "text": "Service", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to restrict egress traffic for pods in a Kubernetes namespace. What should you use?",
+      "answers": [
+        { "text": "Network Policies", "isCorrect": true },
+        { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+        { "text": "ServiceAccount", "isCorrect": false },
+        { "text": "Ingress Controllers", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to store sensitive information, such as API keys, for a Kubernetes pod. What resource should you use?",
+      "answers": [
+        { "text": "Persistent Volume (PV)", "isCorrect": false },
+        { "text": "Secret", "isCorrect": true },
+        { "text": "ConfigMap", "isCorrect": false },
+        { "text": "ServiceAccount", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a Kubernetes deployment with multiple replicas. How can you ensure that only one pod receives traffic at a time during a rolling update?",
+      "answers": [
+        { "text": "Use a canary deployment strategy", "isCorrect": false },
+        { "text": "Set maxSurge to 0 in the deployment", "isCorrect": false },
+        { "text": "Use a PodDisruptionBudget", "isCorrect": false },
+        { "text": "Set maxUnavailable to 1 in the deployment", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You are deploying a Kubernetes pod that needs access to AWS S3. What authentication method should you use?",
+      "answers": [
+        { "text": "IAM roles for service accounts", "isCorrect": true },
+        { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+        { "text": "ServiceAccount", "isCorrect": false },
+        { "text": "ConfigMap", "isCorrect": false }
+      ]
+    },
+    {
+        "question": "You have a Kubernetes pod that requires access to a specific host's network namespace. What feature should you leverage?",
+        "answers": [
+          { "text": "HostNetwork field in PodSpec", "isCorrect": true },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "NodeSelector", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a Kubernetes deployment, what is the purpose of a readiness probe?",
+        "answers": [
+          { "text": "To restart a container if it becomes unresponsive", "isCorrect": false },
+          { "text": "To check if a container is ready to start", "isCorrect": true },
+          { "text": "To scale the number of replicas in a deployment", "isCorrect": false },
+          { "text": "To authenticate and authorize users", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to scale a Kubernetes deployment based on custom metrics such as queue length. What should you use?",
+        "answers": [
+          { "text": "PodDisruptionBudget", "isCorrect": false },
+          { "text": "HorizontalPodAutoscaler (HPA) with custom metrics", "isCorrect": true },
+          { "text": "VerticalPodAutoscaler (VPA)", "isCorrect": false },
+          { "text": "PodAffinity", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes application that requires separate storage for each replica. What resource should you use?",
+        "answers": [
+          { "text": "Persistent Volume (PV)", "isCorrect": true },
+          { "text": "StatefulSet", "isCorrect": false },
+          { "text": "ReplicaSet", "isCorrect": false },
+          { "text": "DaemonSet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to ensure that a Kubernetes pod is always scheduled on a node with specific hardware characteristics. What should you use?",
+        "answers": [
+          { "text": "NodeSelector", "isCorrect": true },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "Taints and Tolerations", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a microservices architecture in Kubernetes. How can you manage communication between services?",
+        "answers": [
+          { "text": "Use hostNetwork in PodSpec", "isCorrect": false },
+          { "text": "Use Ingress Controllers", "isCorrect": false },
+          { "text": "Use Service Mesh (e.g., Istio)", "isCorrect": true },
+          { "text": "Use PodDisruptionBudget", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to deploy a Kubernetes pod that should run on nodes with specific hardware characteristics. What should you use?",
+        "answers": [
+          { "text": "PodDisruptionBudget", "isCorrect": false },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "NodeSelector", "isCorrect": true },
+          { "text": "Taints and Tolerations", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to enforce resource limits for containers in a Kubernetes pod. What resource should you set?",
+        "answers": [
+          { "text": "CPU only", "isCorrect": false },
+          { "text": "Memory only", "isCorrect": false },
+          { "text": "Both CPU and Memory", "isCorrect": true },
+          { "text": "Network bandwidth", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a Kubernetes pod that needs to run a specific script before starting the main container. What should you use?",
+        "answers": [
+          { "text": "Init container", "isCorrect": true },
+          { "text": "Sidecar container", "isCorrect": false },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "PodDisruptionBudget", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a stateful application in Kubernetes, and you want to ensure ordered and unique pod naming. What resource should you use?",
+        "answers": [
+          { "text": "StatefulSet", "isCorrect": true },
+          { "text": "ReplicaSet", "isCorrect": false },
+          { "text": "Deployment", "isCorrect": false },
+          { "text": "DaemonSet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to expose a Kubernetes service to external clients securely. What resource should you use?",
+        "answers": [
+          { "text": "LoadBalancer service type", "isCorrect": false },
+          { "text": "Ingress resource", "isCorrect": true },
+          { "text": "NodePort service type", "isCorrect": false },
+          { "text": "ExternalName service type", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes application that requires secure communication between pods. What resource should you use to enforce encryption in transit?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": false },
+          { "text": "TLS certificates in Ingress", "isCorrect": true },
+          { "text": "Service Mesh (e.g., Istio)", "isCorrect": false },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to deploy a stateful application in Kubernetes with persistent storage that survives pod termination. What resource should you use?",
+        "answers": [
+          { "text": "Persistent Volume (PV)", "isCorrect": true },
+          { "text": "StatefulSet", "isCorrect": false },
+          { "text": "ReplicaSet", "isCorrect": false },
+          { "text": "DaemonSet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to prevent pods in a Kubernetes namespace from accessing external services. What should you use?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": true },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "Ingress Controllers", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes application with multiple environments (dev, staging, prod). How can you manage environment-specific configurations?",
+        "answers": [
+          { "text": "Environment variables in PodSpec", "isCorrect": true },
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "Secret", "isCorrect": false },
+          { "text": "Ingress resource", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to ensure that a Kubernetes pod is scheduled only on nodes with specific hardware accelerators (e.g., GPUs). What should you use?",
+        "answers": [
+          { "text": "NodeSelector", "isCorrect": true },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "Taints and Tolerations", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to deploy a Kubernetes application with the ability to roll back to a previous version in case of issues. What deployment strategy should you choose?",
+        "answers": [
+          { "text": "Recreate", "isCorrect": false },
+          { "text": "RollingUpdate", "isCorrect": true },
+          { "text": "Blue-Green", "isCorrect": false },
+          { "text": "Canary", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a microservices architecture in Kubernetes, and you want to ensure that one pod can communicate with another only if they share the same labels. What should you use?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": false },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "Taints and Tolerations", "isCorrect": false },
+          { "text": "PodSelector", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "You need to deploy a Kubernetes pod with a specific set of environment variables. What resource should you use?",
+        "answers": [
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "Secret", "isCorrect": false },
+          { "text": "PodSpec", "isCorrect": true },
+          { "text": "Persistent Volume (PV)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a stateless application in Kubernetes that requires access to AWS services. What authentication method should you use?",
+        "answers": [
+          { "text": "IAM roles for service accounts", "isCorrect": true },
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to ensure that a Kubernetes pod is scheduled only on nodes with specific hardware characteristics. What should you use?",
+        "answers": [
+          { "text": "NodeSelector", "isCorrect": true },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "Taints and Tolerations", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes pod that needs to access AWS S3. What resource should you use to securely store AWS credentials?",
+        "answers": [
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "Secret", "isCorrect": true },
+          { "text": "PodSpec", "isCorrect": false },
+          { "text": "Persistent Volume (PV)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a Kubernetes pod that requires access to a private container registry. What resource should you use to securely store authentication credentials?",
+        "answers": [
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "Secret", "isCorrect": true },
+          { "text": "Ingress resource", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to restrict traffic to a Kubernetes service based on IP addresses. What resource should you use?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": true },
+          { "text": "Ingress resource", "isCorrect": false },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "PodSelector", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes application that requires granular control over traffic routing based on path prefixes. What resource should you use?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": false },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "Ingress resource with annotations", "isCorrect": true },
+          { "text": "PodSelector", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to automate the creation and management of Kubernetes resources. What should you use?",
+        "answers": [
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "Helm charts", "isCorrect": true },
+          { "text": "Secret", "isCorrect": false },
+          { "text": "PodDisruptionBudget", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a stateful application in Kubernetes that requires storage with different performance tiers. What resource should you use?",
+        "answers": [
+          { "text": "Persistent Volume (PV)", "isCorrect": false },
+          { "text": "StatefulSet with StorageClasses", "isCorrect": true },
+          { "text": "ReplicaSet", "isCorrect": false },
+          { "text": "DaemonSet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to expose a Kubernetes service only within the cluster. What service type should you use?",
+        "answers": [
+          { "text": "ClusterIP", "isCorrect": true },
+          { "text": "NodePort", "isCorrect": false },
+          { "text": "LoadBalancer", "isCorrect": false },
+          { "text": "ExternalName", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a Kubernetes pod that requires a specific set of kernel capabilities. What should you use?",
+        "answers": [
+          { "text": "PodDisruptionBudget", "isCorrect": false },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "SecurityContext in PodSpec", "isCorrect": true },
+          { "text": "ServiceAccount", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes pod that needs access to specific AWS resources. What authentication method should you use?",
+        "answers": [
+          { "text": "AWS Identity and Access Management (IAM) roles", "isCorrect": true },
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "Secret", "isCorrect": false },
+          { "text": "ConfigMap", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to schedule a Kubernetes pod to run only on nodes with certain hardware capabilities, and if not available, the pod should remain unscheduled. What should you use?",
+        "answers": [
+          { "text": "NodeSelector", "isCorrect": true },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "PodDisruptionBudget", "isCorrect": false },
+          { "text": "Taints and Tolerations", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes application with components that communicate over HTTP. What resource should you use for secure communication?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": false },
+          { "text": "Ingress resource with TLS termination", "isCorrect": true },
+          { "text": "Service Mesh (e.g., Istio)", "isCorrect": false },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to restrict egress traffic for pods in a Kubernetes namespace. What should you use?",
+        "answers": [
+          { "text": "Network Policies", "isCorrect": true },
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "Ingress Controllers", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to deploy a Kubernetes pod that requires access to a specific host's resources, such as devices or files. What resource should you use?",
+        "answers": [
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "HostPath in PodSpec", "isCorrect": true },
+          { "text": "PodAffinity", "isCorrect": false },
+          { "text": "PodDisruptionBudget", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to expose multiple services over a single IP address and port combination in a Kubernetes cluster. What should you use?",
+        "answers": [
+          { "text": "NodePort service type", "isCorrect": false },
+          { "text": "Ingress resource", "isCorrect": true },
+          { "text": "LoadBalancer service type", "isCorrect": false },
+          { "text": "ExternalName service type", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to deploy a Kubernetes pod that requires a specific Linux kernel version. What resource should you use?",
+        "answers": [
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "NodeSelector", "isCorrect": false },
+          { "text": "SecurityContext in PodSpec", "isCorrect": true },
+          { "text": "Taints and Tolerations", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a stateful application in Kubernetes, and you need to ensure that each pod has a unique identity and network hostname. What resource should you use?",
+        "answers": [
+          { "text": "StatefulSet", "isCorrect": true },
+          { "text": "ReplicaSet", "isCorrect": false },
+          { "text": "Deployment", "isCorrect": false },
+          { "text": "DaemonSet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to enforce CPU and memory resource limits for containers in a Kubernetes pod. What resource should you use?",
+        "answers": [
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "LimitRange", "isCorrect": false },
+          { "text": "ResourceQuota", "isCorrect": false },
+          { "text": "Resource limits in PodSpec", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "You need to deploy a Kubernetes pod that requires access to a specific AWS service without exposing AWS credentials in the pod configuration. What should you use?",
+        "answers": [
+          { "text": "AWS Identity and Access Management (IAM) roles", "isCorrect": true },
+          { "text": "ServiceAccount", "isCorrect": false },
+          { "text": "Secret", "isCorrect": false },
+          { "text": "ConfigMap", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a Kubernetes pod that needs access to a database with sensitive credentials. How should you securely provide these credentials?",
+        "answers": [
+          { "text": "Environment variables in PodSpec", "isCorrect": false },
+          { "text": "ConfigMap", "isCorrect": false },
+          { "text": "Secret", "isCorrect": true },
+          { "text": "Persistent Volume (PV)", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You are deploying a Kubernetes pod that requires a specific Linux kernel capability. What resource should you use?",
+        "answers": [
+          { "text": "PodSecurityPolicy (PSP)", "isCorrect": false },
+          { "text": "NodeSelector", "isCorrect": false },
+          { "text": "SecurityContext in PodSpec", "isCorrect": true },
+          { "text": "Taints and Tolerations", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to expose a Kubernetes service externally with SSL termination at the load balancer. What service type should you use?",
+        "answers": [
+          { "text": "NodePort service type", "isCorrect": false },
+          { "text": "Ingress resource with TLS termination", "isCorrect": false },
+          { "text": "LoadBalancer service type", "isCorrect": true },
+          { "text": "ExternalName service type", "isCorrect": false }
+        ]
+      }
+  ]
+  

@@ -1,0 +1,570 @@
+[
+    {
+      "question": "In a Kubernetes cluster, what is the primary purpose of CustomResourceDefinitions (CRDs)?",
+      "answers": [
+        { "text": "To define custom API versions for native Kubernetes objects", "isCorrect": false },
+        { "text": "To extend the Kubernetes API and create custom resources", "isCorrect": true },
+        { "text": "To modify the behavior of existing Kubernetes controllers", "isCorrect": false },
+        { "text": "To manage network policies within the cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When would you use a CustomResourceDefinition (CRD) for managing applications in Kubernetes?",
+      "answers": [
+        { "text": "To deploy standard Kubernetes pods", "isCorrect": false },
+        { "text": "To define a new custom resource for your application", "isCorrect": true },
+        { "text": "To scale the number of nodes in the cluster", "isCorrect": false },
+        { "text": "To create persistent volumes for storage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a CustomResourceDefinition (CRD) controller in Kubernetes?",
+      "answers": [
+        { "text": "To manage the Kubernetes control plane components", "isCorrect": false },
+        { "text": "To define access control policies for custom resources", "isCorrect": false },
+        { "text": "To watch for changes to custom resources and reconcile the desired state", "isCorrect": true },
+        { "text": "To expose custom resources directly as Kubernetes API endpoints", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When creating a CustomResourceDefinition (CRD), what is the purpose of the `spec` field?",
+      "answers": [
+        { "text": "To specify the API version of the CRD", "isCorrect": false },
+        { "text": "To define the structure and validation rules for the custom resource", "isCorrect": true },
+        { "text": "To describe the status of the custom resource", "isCorrect": false },
+        { "text": "To indicate the namespace in which the CRD should be deployed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What happens if you update the `spec` field of an existing CustomResourceDefinition (CRD)?",
+      "answers": [
+        { "text": "The CRD is deleted and must be recreated", "isCorrect": false },
+        { "text": "Existing custom resources of that type are deleted", "isCorrect": false },
+        { "text": "The changes are applied to new custom resources of that type", "isCorrect": true },
+        { "text": "The changes have no effect on the existing or new custom resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When creating a CustomResource (CR) instance, what is the purpose of the `status` field?",
+      "answers": [
+        { "text": "To define the desired state of the custom resource", "isCorrect": false },
+        { "text": "To store metadata information about the CR instance", "isCorrect": false },
+        { "text": "To describe the observed state of the custom resource", "isCorrect": true },
+        { "text": "To specify access control policies for the CR instance", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a Kubernetes cluster, what is the significance of the `kubectl apply` command when working with CustomResourceDefinitions (CRDs)?",
+      "answers": [
+        { "text": "It installs the `kubectl` command-line tool", "isCorrect": false },
+        { "text": "It creates instances of the CRD", "isCorrect": false },
+        { "text": "It applies changes to existing CRDs and their instances", "isCorrect": true },
+        { "text": "It initializes a new Kubernetes cluster", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When designing a CustomResource (CR) schema, why is it essential to include validation?",
+      "answers": [
+        { "text": "To improve the performance of the Kubernetes control plane", "isCorrect": false },
+        { "text": "To enforce consistency and prevent invalid data in CR instances", "isCorrect": true },
+        { "text": "To enable CRs to interact with external systems", "isCorrect": false },
+        { "text": "To define access control policies for CR instances", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a webhook in the context of CustomResourceDefinitions (CRDs)?",
+      "answers": [
+        { "text": "To handle authentication for custom resources", "isCorrect": false },
+        { "text": "To extend the Kubernetes API server functionality", "isCorrect": true },
+        { "text": "To manage the deployment of CRD controllers", "isCorrect": false },
+        { "text": "To provide external access to custom resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When should you use a subresource like `status` in a CustomResourceDefinition (CRD)?",
+      "answers": [
+        { "text": "To define the structure of the CRD", "isCorrect": false },
+        { "text": "To store metadata information about the CRD", "isCorrect": false },
+        { "text": "To enable fine-grained control over updates to specific fields", "isCorrect": true },
+        { "text": "To expose the CRD as a top-level resource in the Kubernetes API", "isCorrect": false }
+      ]
+    },
+    {
+        "question": "In Kubernetes, what is the purpose of the `kubectl get crd` command?",
+        "answers": [
+          { "text": "To list all available CRDs in the cluster", "isCorrect": true },
+          { "text": "To create a new CRD", "isCorrect": false },
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To update the schema of an existing CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When deploying a CustomResourceDefinition (CRD), what is the significance of the `spec.scope` field?",
+        "answers": [
+          { "text": "It defines the access control policies for the CRD", "isCorrect": false },
+          { "text": "It specifies the API version of the CRD", "isCorrect": false },
+          { "text": "It determines the scope of namespaced or cluster-wide resources", "isCorrect": true },
+          { "text": "It sets the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the primary difference between a CustomResourceDefinition (CRD) and a Kubernetes native resource?",
+        "answers": [
+          { "text": "CRDs are designed for managing external databases", "isCorrect": false },
+          { "text": "CRDs extend the Kubernetes API to introduce custom resources", "isCorrect": true },
+          { "text": "Kubernetes native resources are limited to standard API versions", "isCorrect": false },
+          { "text": "Kubernetes native resources cannot be modified at runtime", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When defining a CustomResourceDefinition (CRD), what role does the `versions` field play?",
+        "answers": [
+          { "text": "It specifies the Kubernetes version compatibility of the CRD", "isCorrect": false },
+          { "text": "It defines the API versions for the CRD", "isCorrect": true },
+          { "text": "It determines the versions of the custom resource instances", "isCorrect": false },
+          { "text": "It sets the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl describe crd` command in Kubernetes?",
+        "answers": [
+          { "text": "To list all custom resources in the cluster", "isCorrect": false },
+          { "text": "To describe the details and status of a specific CRD", "isCorrect": true },
+          { "text": "To update the schema of an existing CRD", "isCorrect": false },
+          { "text": "To delete a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a CustomResourceDefinition (CRD), what is the role of the `additionalPrinterColumns` field?",
+        "answers": [
+          { "text": "To add extra columns to the CRD definition", "isCorrect": false },
+          { "text": "To define additional validation for custom resource instances", "isCorrect": false },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": true },
+          { "text": "To manage access control policies for the CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResourceDefinition (CRD), what does the `names` field define?",
+        "answers": [
+          { "text": "It specifies the allowed names for custom resource instances", "isCorrect": false },
+          { "text": "It determines the namespaced or cluster-wide scope of the CRD", "isCorrect": false },
+          { "text": "It sets the plural and singular forms of the CRD names", "isCorrect": true },
+          { "text": "It defines the naming conventions for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When using CustomResourceDefinitions (CRDs) in Kubernetes, what is the significance of OpenAPI validation?",
+        "answers": [
+          { "text": "It provides authentication for custom resource instances", "isCorrect": false },
+          { "text": "It allows for additional fields in the CRD schema", "isCorrect": false },
+          { "text": "It enforces validation of custom resource instances based on the schema", "isCorrect": true },
+          { "text": "It defines access control policies for the CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the recommended approach for versioning CustomResourceDefinitions (CRDs) in a Kubernetes cluster?",
+        "answers": [
+          { "text": "Using the `kubectl version` command", "isCorrect": false },
+          { "text": "Embedding the version in the CRD names", "isCorrect": false },
+          { "text": "Using the `apiVersion` field in the CRD definition", "isCorrect": true },
+          { "text": "Versioning is not applicable to CRDs", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResource (CR) instance, what role does the `finalizers` field play?",
+        "answers": [
+          { "text": "To specify the final state of the CR instance", "isCorrect": false },
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To specify cleanup tasks before the CR instance is deleted", "isCorrect": true },
+          { "text": "To configure additional API versions for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl explain` command when working with CustomResourceDefinitions (CRDs) in Kubernetes?",
+        "answers": [
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To generate documentation for the CRD schema", "isCorrect": true },
+          { "text": "To apply changes to existing CRDs", "isCorrect": false },
+          { "text": "To describe the details of a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResourceDefinition (CRD), what is the role of the `subresources` field?",
+        "answers": [
+          { "text": "To define access control policies for custom resources", "isCorrect": false },
+          { "text": "To specify the API version of the CRD", "isCorrect": false },
+          { "text": "To enable or disable specific subresources for custom resources", "isCorrect": true },
+          { "text": "To set the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What happens if you modify the `spec.scope` field of an existing CustomResourceDefinition (CRD)?",
+        "answers": [
+          { "text": "It has no effect on the existing or new custom resources", "isCorrect": false },
+          { "text": "Existing custom resources of that type are deleted", "isCorrect": false },
+          { "text": "The changes are applied to new custom resources of that type", "isCorrect": true },
+          { "text": "The CRD is deleted and must be recreated", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, what is the purpose of the `kubectl get` command with the `-o custom-columns` option when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To filter custom resources based on specific criteria", "isCorrect": false },
+          { "text": "To create a new custom resource instance", "isCorrect": false },
+          { "text": "To display custom resources with user-defined columns in the output", "isCorrect": true },
+          { "text": "To delete a specific custom resource", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResourceDefinition (CRD), what is the significance of the `preserveUnknownFields` field?",
+        "answers": [
+          { "text": "It allows any additional fields in custom resource instances", "isCorrect": true },
+          { "text": "It restricts custom resource instances to predefined fields", "isCorrect": false },
+          { "text": "It controls the order in which fields are processed during validation", "isCorrect": false },
+          { "text": "It sets the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the role of the `kubectl edit` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To create a new CRD", "isCorrect": false },
+          { "text": "To update the schema of an existing CRD", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a CustomResourceDefinition (CRD), what is the purpose of the `validation.openAPIV3Schema` field?",
+        "answers": [
+          { "text": "To specify the Kubernetes version compatibility of the CRD", "isCorrect": false },
+          { "text": "To define access control policies for custom resources", "isCorrect": false },
+          { "text": "To set the validation rules for custom resource instances", "isCorrect": true },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResource (CR) instance, what is the purpose of the `metadata.finalizers` field?",
+        "answers": [
+          { "text": "To specify the final state of the CR instance", "isCorrect": false },
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To specify cleanup tasks before the CR instance is deleted", "isCorrect": true },
+          { "text": "To configure additional API versions for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResource (CR) instance, what is the role of the `spec.finalizers` field?",
+        "answers": [
+          { "text": "To specify the final state of the CR instance", "isCorrect": false },
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To specify cleanup tasks before the CR instance is deleted", "isCorrect": true },
+          { "text": "To configure additional API versions for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl apply -f` command when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To create a new CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": true },
+          { "text": "To generate documentation for the CRD schema", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When defining a CustomResource (CR) instance, what is the purpose of the `apiVersion` field?",
+        "answers": [
+          { "text": "To define access control policies for the CR instance", "isCorrect": false },
+          { "text": "To specify the Kubernetes version compatibility of the CR instance", "isCorrect": false },
+          { "text": "To indicate the API version of the CRD to which the instance belongs", "isCorrect": true },
+          { "text": "To enable or disable specific subresources for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, how does the `kubectl delete` command behave when removing a CustomResourceDefinition (CRD)?",
+        "answers": [
+          { "text": "It deletes all custom resources of that type", "isCorrect": false },
+          { "text": "It deletes only the CRD definition, leaving custom resources intact", "isCorrect": false },
+          { "text": "It deletes the CRD and all custom resources of that type", "isCorrect": true },
+          { "text": "It has no effect on existing CRDs or custom resources", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResourceDefinition (CRD), what is the role of the `validation.openAPIV3Schema.properties` field?",
+        "answers": [
+          { "text": "To specify the Kubernetes version compatibility of the CRD", "isCorrect": false },
+          { "text": "To define access control policies for custom resources", "isCorrect": false },
+          { "text": "To set the validation rules for specific properties in custom resource instances", "isCorrect": true },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl convert` command when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To convert a CRD to a native Kubernetes resource", "isCorrect": false },
+          { "text": "To transform custom resources to adhere to a different CRD schema", "isCorrect": false },
+          { "text": "To migrate a CRD to a different API version", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a CustomResourceDefinition (CRD), what is the role of the `spec.subresources` field?",
+        "answers": [
+          { "text": "To define access control policies for custom resources", "isCorrect": false },
+          { "text": "To enable or disable specific subresources for custom resources", "isCorrect": true },
+          { "text": "To specify the API version of the CRD", "isCorrect": false },
+          { "text": "To set the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResourceDefinition (CRD), what is the significance of the `status.subresource` field?",
+        "answers": [
+          { "text": "To define the API version of the CRD", "isCorrect": false },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false },
+          { "text": "To enable or disable specific subresources for custom resources", "isCorrect": true },
+          { "text": "To specify the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl patch` command when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To update the schema of an existing CRD", "isCorrect": false },
+          { "text": "To modify specific fields in a CRD definition", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResourceDefinition (CRD), what is the purpose of the `status.preserveUnknownFields` field?",
+        "answers": [
+          { "text": "To allow any additional fields in custom resource instances", "isCorrect": true },
+          { "text": "To restrict custom resource instances to predefined fields", "isCorrect": false },
+          { "text": "To control the order in which fields are processed during validation", "isCorrect": false },
+          { "text": "To set the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the recommended approach for managing RBAC (Role-Based Access Control) for CustomResourceDefinitions (CRDs) in a Kubernetes cluster?",
+        "answers": [
+          { "text": "To grant cluster-wide access to all CRDs", "isCorrect": false },
+          { "text": "To use Kubernetes' built-in RBAC rules for CRDs", "isCorrect": true },
+          { "text": "To disable RBAC for CRDs to simplify access control", "isCorrect": false },
+          { "text": "To manage access control policies within each CRD definition", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl rollout` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To roll back changes to an earlier version of a CRD", "isCorrect": false },
+          { "text": "To update the schema of an existing CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResource (CR) instance, what is the role of the `spec.scope` field?",
+        "answers": [
+          { "text": "To determine the scope of namespaced or cluster-wide resources", "isCorrect": false },
+          { "text": "To define the access control policies for the CR instance", "isCorrect": false },
+          { "text": "To specify the API version of the CR instance", "isCorrect": false },
+          { "text": "To indicate whether the CR instance is namespaced or cluster-wide", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl scale` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To scale the number of nodes in the cluster", "isCorrect": false },
+          { "text": "To adjust the number of replicas of a specific custom resource instance", "isCorrect": true },
+          { "text": "To create additional custom resource instances", "isCorrect": false },
+          { "text": "To delete a specific custom resource instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the role of the `kubectl rollout history` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To roll back changes to an earlier version of a CRD", "isCorrect": false },
+          { "text": "To view the revision history of a specific CRD", "isCorrect": true },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": false },
+          { "text": "To delete a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResource (CR) instance, what is the purpose of the `status.observedGeneration` field?",
+        "answers": [
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To specify the cleanup tasks before the CR instance is deleted", "isCorrect": false },
+          { "text": "To indicate the generation of the most recently observed state", "isCorrect": true },
+          { "text": "To configure additional API versions for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl replace` command when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To replace a CRD with a different API version", "isCorrect": false },
+          { "text": "To update the schema of an existing CRD", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, what is the recommended approach for handling CustomResourceDefinitions (CRDs) across multiple namespaces?",
+        "answers": [
+          { "text": "To create a separate CRD for each namespace", "isCorrect": false },
+          { "text": "To use a single CRD with namespaced custom resource instances", "isCorrect": true },
+          { "text": "To disable namespaces for CRDs to simplify management", "isCorrect": false },
+          { "text": "To grant cluster-wide access to all CRDs", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When defining a CustomResourceDefinition (CRD), what is the purpose of the `validation.maximum` field?",
+        "answers": [
+          { "text": "To set the maximum allowed instances of the CRD", "isCorrect": false },
+          { "text": "To specify the Kubernetes version compatibility of the CRD", "isCorrect": false },
+          { "text": "To limit the maximum value for a numeric property in custom resource instances", "isCorrect": true },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the significance of the `kubectl rollout restart` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To roll back changes to an earlier version of a CRD", "isCorrect": false },
+          { "text": "To restart all instances of a specific custom resource", "isCorrect": true },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": false },
+          { "text": "To delete a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResourceDefinition (CRD), what is the purpose of the `validation.format` field?",
+        "answers": [
+          { "text": "To specify the Kubernetes version compatibility of the CRD", "isCorrect": false },
+          { "text": "To define access control policies for custom resources", "isCorrect": false },
+          { "text": "To set the format validation rules for string properties in custom resource instances", "isCorrect": true },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a CustomResourceDefinition (CRD), what is the purpose of the `metadata.annotations` field?",
+        "answers": [
+          { "text": "To specify the API version of the CRD", "isCorrect": false },
+          { "text": "To add arbitrary non-identifying metadata to the CRD", "isCorrect": true },
+          { "text": "To define the structure and validation rules for the custom resource", "isCorrect": false },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the recommended practice for handling versioning in CustomResourceDefinitions (CRDs) when evolving APIs in Kubernetes?",
+        "answers": [
+          { "text": "To create a new CRD for each API version", "isCorrect": false },
+          { "text": "To embed the version in the CRD names", "isCorrect": false },
+          { "text": "To use the `apiVersion` field in the CRD definition", "isCorrect": true },
+          { "text": "Versioning is not applicable to CRDs", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResource (CR) instance, what is the purpose of the `metadata.creationTimestamp` field?",
+        "answers": [
+          { "text": "To indicate the API version of the CR instance", "isCorrect": false },
+          { "text": "To specify the cleanup tasks before the CR instance is deleted", "isCorrect": false },
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To record the timestamp when the CR instance was created", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl annotate` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To add arbitrary non-identifying metadata to the CRD", "isCorrect": true },
+          { "text": "To describe the details and status of a specific CRD", "isCorrect": false },
+          { "text": "To update the schema of an existing CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the purpose of the `kubectl convert` command when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To convert a CRD to a native Kubernetes resource", "isCorrect": false },
+          { "text": "To transform custom resources to adhere to a different CRD schema", "isCorrect": false },
+          { "text": "To migrate a CRD to a different API version", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In a CustomResourceDefinition (CRD), what is the role of the `spec.validation` field?",
+        "answers": [
+          { "text": "To specify the Kubernetes version compatibility of the CRD", "isCorrect": false },
+          { "text": "To define access control policies for custom resources", "isCorrect": false },
+          { "text": "To set the validation rules for custom resource instances", "isCorrect": true },
+          { "text": "To configure custom columns in the `kubectl get` output for CR instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What happens if you modify the `spec.preserveUnknownFields` field of an existing CustomResourceDefinition (CRD)?",
+        "answers": [
+          { "text": "It has no effect on existing or new custom resources", "isCorrect": false },
+          { "text": "Existing custom resources of that type are deleted", "isCorrect": false },
+          { "text": "The changes are applied to new custom resources of that type", "isCorrect": true },
+          { "text": "The CRD is deleted and must be recreated", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResourceDefinition (CRD), what is the purpose of the `status.preserveUnknownFields` field?",
+        "answers": [
+          { "text": "To allow any additional fields in custom resource instances", "isCorrect": true },
+          { "text": "To restrict custom resource instances to predefined fields", "isCorrect": false },
+          { "text": "To control the order in which fields are processed during validation", "isCorrect": false },
+          { "text": "To set the validation rules for custom resource instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the role of the `kubectl patch` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To update the schema of an existing CRD", "isCorrect": false },
+          { "text": "To modify specific fields in a CRD definition", "isCorrect": true },
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To apply changes to existing CRDs and their instances", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When creating a CustomResource (CR) instance, what is the purpose of the `metadata.finalizers` field?",
+        "answers": [
+          { "text": "To specify the final state of the CR instance", "isCorrect": false },
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To specify cleanup tasks before the CR instance is deleted", "isCorrect": true },
+          { "text": "To configure additional API versions for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, what is the purpose of the `kubectl explain` command when working with CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To delete a specific CRD", "isCorrect": false },
+          { "text": "To generate documentation for the CRD schema", "isCorrect": true },
+          { "text": "To apply changes to existing CRDs", "isCorrect": false },
+          { "text": "To describe the details of a specific CRD", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "When designing a CustomResource (CR) instance, what is the role of the `metadata.resourceVersion` field?",
+        "answers": [
+          { "text": "To specify the cleanup tasks before the CR instance is deleted", "isCorrect": false },
+          { "text": "To define the order in which CR operations are finalized", "isCorrect": false },
+          { "text": "To record the version of the CR instance for optimistic concurrency control", "isCorrect": true },
+          { "text": "To configure additional API versions for the CR instance", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the recommended approach for managing RBAC (Role-Based Access Control) for CustomResourceDefinitions (CRDs) in a Kubernetes cluster?",
+        "answers": [
+          { "text": "To grant cluster-wide access to all CRDs", "isCorrect": false },
+          { "text": "To use Kubernetes' built-in RBAC rules for CRDs", "isCorrect": true },
+          { "text": "To disable RBAC for CRDs to simplify access control", "isCorrect": false },
+          { "text": "To manage access control policies within each CRD definition", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "In Kubernetes, what is the purpose of the `kubectl scale` command when managing CustomResourceDefinitions (CRDs)?",
+        "answers": [
+          { "text": "To scale the number of nodes in the cluster", "isCorrect": false },
+          { "text": "To adjust the number of replicas of a specific custom resource instance", "isCorrect": true },
+          { "text": "To create additional custom resource instances", "isCorrect": false },
+          { "text": "To delete a specific custom resource instance", "isCorrect": false }
+        ]
+      }
+  ]
+  

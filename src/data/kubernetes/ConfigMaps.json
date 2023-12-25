@@ -1,0 +1,643 @@
+[
+    {
+      "question": "In a Kubernetes environment, what is the primary purpose of ConfigMaps?",
+      "answers": [
+        { "text": "To store and manage container logs", "isCorrect": false },
+        { "text": "To define environment variables for pods", "isCorrect": true },
+        { "text": "To create persistent storage for application data", "isCorrect": false },
+        { "text": "To configure network policies for services", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to store a configuration file in a ConfigMap. What Kubernetes command would you use?",
+      "answers": [
+        { "text": "kubectl create configmap", "isCorrect": true },
+        { "text": "kubectl apply configmap", "isCorrect": false },
+        { "text": "kubectl configmap create", "isCorrect": false },
+        { "text": "kubectl configmap apply", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When deploying a pod, you need to inject configuration data from a ConfigMap into a specific path in the container. What field in the pod specification should you use?",
+      "answers": [
+        { "text": "envVars", "isCorrect": false },
+        { "text": "configFiles", "isCorrect": false },
+        { "text": "volumes", "isCorrect": true },
+        { "text": "secrets", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following scenarios best describes the use of ConfigMaps in Kubernetes?",
+      "answers": [
+        { "text": "Storing sensitive data such as passwords and API keys", "isCorrect": false },
+        { "text": "Defining global environment variables for all pods in a namespace", "isCorrect": false },
+        { "text": "Managing configuration settings separately from application code", "isCorrect": true },
+        { "text": "Providing secure access control to Kubernetes resources", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a multi-container pod, and you want to share the same ConfigMap between both containers. What approach should you take?",
+      "answers": [
+        { "text": "Create a separate ConfigMap for each container", "isCorrect": false },
+        { "text": "Use environment variables to share data between containers", "isCorrect": false },
+        { "text": "Mount the ConfigMap as a volume in both containers", "isCorrect": true },
+        { "text": "Define the ConfigMap in the pod's initContainers section", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You are troubleshooting an issue in a pod, and suspect that the ConfigMap data is not being loaded correctly. What command can you use to view the ConfigMap data for a specific pod?",
+      "answers": [
+        { "text": "kubectl describe pod", "isCorrect": false },
+        { "text": "kubectl get configmap", "isCorrect": false },
+        { "text": "kubectl describe configmap", "isCorrect": false },
+        { "text": "kubectl get pod <pod-name> -o jsonpath='{.spec.volumes}'", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You need to update the data in an existing ConfigMap without restarting the associated pods. What command should you use?",
+      "answers": [
+        { "text": "kubectl apply -f configmap.yaml", "isCorrect": false },
+        { "text": "kubectl update configmap", "isCorrect": false },
+        { "text": "kubectl edit configmap", "isCorrect": false },
+        { "text": "kubectl create configmap --dry-run=client -o yaml | kubectl apply -f -", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "In a Kubernetes cluster, you have multiple namespaces, each with its own ConfigMap named 'app-config'. How can a pod in a specific namespace reference the 'app-config' ConfigMap?",
+      "answers": [
+        { "text": "Automatically uses the ConfigMap in the same namespace", "isCorrect": true },
+        { "text": "Specify the namespace in the ConfigMap name (e.g., 'namespace/app-config')", "isCorrect": false },
+        { "text": "Reference the ConfigMap using its full path (e.g., '/namespace/app-config')", "isCorrect": false },
+        { "text": "Use a ConfigMapSelector to explicitly specify the namespace", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to delete a ConfigMap but keep the associated pods running without interruption. What is the recommended approach?",
+      "answers": [
+        { "text": "Manually update the ConfigMap data to empty values", "isCorrect": false },
+        { "text": "Delete and recreate the ConfigMap with the same name", "isCorrect": true },
+        { "text": "Use 'kubectl scale' to zero replicas, delete the ConfigMap, then scale back up", "isCorrect": false },
+        { "text": "Use 'kubectl drain' on the nodes to gracefully terminate pods", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a ConfigMap named 'app-config' with key-value pairs for various settings. How can a pod access a specific key from this ConfigMap as an environment variable?",
+      "answers": [
+        { "text": "Use the 'envVars' field in the pod specification", "isCorrect": false },
+        { "text": "Define individual environment variables for each key", "isCorrect": true },
+        { "text": "Use 'kubectl exec' to manually set environment variables", "isCorrect": false },
+        { "text": "Reference the entire ConfigMap as a single environment variable", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create a ConfigMap from a file named 'config-file.properties'. What is the correct command?",
+      "answers": [
+        { "text": "kubectl create configmap app-config --from-file=config-file.properties", "isCorrect": true },
+        { "text": "kubectl create configmap app-config --from-file=config-file.properties --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+        { "text": "kubectl create configmap app-config --from-file=config-file.properties --dry-run -o yaml > configmap.yaml", "isCorrect": false },
+        { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a ConfigMap named 'app-config' in the 'development' namespace. How can you view its data?",
+      "answers": [
+        { "text": "kubectl get configmap app-config", "isCorrect": false },
+        { "text": "kubectl describe configmap app-config", "isCorrect": false },
+        { "text": "kubectl get configmap app-config -n development", "isCorrect": true },
+        { "text": "kubectl describe configmap app-config -n development", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to create a ConfigMap from literal values. What is the correct command?",
+      "answers": [
+        { "text": "kubectl create configmap app-config --from-literal=key1=value1,key2=value2", "isCorrect": true },
+        { "text": "kubectl create configmap app-config --from-literal=key1=value1 --from-literal=key2=value2", "isCorrect": false },
+        { "text": "kubectl apply -f configmap.yaml", "isCorrect": false },
+        { "text": "kubectl apply configmap app-config --from-literal=key1=value1,key2=value2", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to use ConfigMaps to manage environment variables for a pod, but you need to ensure that changes take effect immediately without restarting the pod. What approach should you take?",
+      "answers": [
+        { "text": "Restart the pod manually after updating the ConfigMap", "isCorrect": false },
+        { "text": "Use the 'kubectl rollout restart' command for the pod", "isCorrect": true },
+        { "text": "Update the ConfigMap, and the changes will apply automatically", "isCorrect": false },
+        { "text": "Delete and recreate the pod to force environment variable refresh", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You want to create a ConfigMap from multiple files in a directory. What is the correct command?",
+      "answers": [
+        { "text": "kubectl create configmap app-config --from-file=/path/to/directory", "isCorrect": true },
+        { "text": "kubectl create configmap app-config --from-file=/path/to/directory/*", "isCorrect": false },
+        { "text": "kubectl apply -f configmap.yaml", "isCorrect": false },
+        { "text": "kubectl apply configmap app-config --from-file=/path/to/directory", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You need to consume ConfigMap data in a pod as individual files. What should you include in the pod specification?",
+      "answers": [
+        { "text": "Use the 'envVars' field with file paths", "isCorrect": false },
+        { "text": "Mount the ConfigMap as a volume with 'subPath'", "isCorrect": true },
+        { "text": "Reference the ConfigMap in the 'volumes' field without specifying 'subPath'", "isCorrect": false },
+        { "text": "Use 'kubectl cp' to copy ConfigMap data to the pod", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You have a ConfigMap named 'app-config' with data in the 'default' namespace. How can a pod in the 'development' namespace reference this ConfigMap?",
+      "answers": [
+        { "text": "Automatically uses the ConfigMap in the same namespace", "isCorrect": false },
+        { "text": "Specify the namespace in the ConfigMap name (e.g., 'development/app-config')", "isCorrect": false },
+        { "text": "Reference the ConfigMap using its full path (e.g., '/default/app-config')", "isCorrect": false },
+        { "text": "Use 'kubectl get configmap -n default app-config -o yaml | kubectl apply -n development -f -'", "isCorrect": true }
+      ]
+    },
+    {
+        "question": "You have a ConfigMap named 'app-config' in the 'production' namespace. How can a pod in the 'staging' namespace reference this ConfigMap?",
+        "answers": [
+          { "text": "Automatically uses the ConfigMap in the same namespace", "isCorrect": false },
+          { "text": "Specify the namespace in the ConfigMap name (e.g., 'production/app-config')", "isCorrect": false },
+          { "text": "Reference the ConfigMap using its full path (e.g., '/production/app-config')", "isCorrect": false },
+          { "text": "Use 'kubectl get configmap -n production app-config -o yaml | kubectl apply -n staging -f -'", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "You need to consume ConfigMap data in a pod as environment variables. What should you include in the pod specification?",
+        "answers": [
+          { "text": "Use the 'envVars' field with key-value pairs", "isCorrect": false },
+          { "text": "Mount the ConfigMap as a volume and set environment variables in 'containers'", "isCorrect": false },
+          { "text": "Reference the ConfigMap in the 'env' field of the 'containers' section", "isCorrect": true },
+          { "text": "Use 'kubectl exec' to manually set environment variables", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to update a specific key in an existing ConfigMap without affecting other keys. What command should you use?",
+        "answers": [
+          { "text": "kubectl edit configmap", "isCorrect": false },
+          { "text": "kubectl apply -f updated-configmap.yaml", "isCorrect": false },
+          { "text": "kubectl create configmap --from-literal=updated-key=new-value", "isCorrect": true },
+          { "text": "kubectl patch configmap", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a ConfigMap named 'app-config' with key-value pairs for various settings. How can a pod access a specific key from this ConfigMap as a file?",
+        "answers": [
+          { "text": "Use 'kubectl exec' to copy the key-value pair to a file in the pod", "isCorrect": false },
+          { "text": "Mount the ConfigMap as a volume and specify 'subPath' for the key", "isCorrect": true },
+          { "text": "Use 'kubectl cp' to copy the entire ConfigMap to the pod", "isCorrect": false },
+          { "text": "Reference the ConfigMap as a single environment variable", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to create a ConfigMap from multiple files in different directories. What is the correct command?",
+        "answers": [
+          { "text": "kubectl create configmap app-config --from-file=/path/to/dir1,/path/to/dir2", "isCorrect": false },
+          { "text": "kubectl create configmap app-config --from-file=/path/to/dir1 --from-file=/path/to/dir2", "isCorrect": false },
+          { "text": "kubectl create configmap app-config --from-file=/path/to/dir1 --from-file=/path/to/dir2/*", "isCorrect": true },
+          { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you view the data of a specific key?",
+        "answers": [
+          { "text": "kubectl describe configmap app-config", "isCorrect": false },
+          { "text": "kubectl get configmap app-config -o jsonpath='{.data.keyName}'", "isCorrect": true },
+          { "text": "kubectl get configmap app-config -o yaml | grep keyName", "isCorrect": false },
+          { "text": "kubectl get configmap app-config -o=jsonpath='{.data['keyName']}' | base64 --decode", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a ConfigMap named 'app-config' with key-value pairs for sensitive information. How can you secure the ConfigMap data?",
+        "answers": [
+          { "text": "Use Kubernetes RBAC to restrict access to the ConfigMap", "isCorrect": true },
+          { "text": "Encrypt the ConfigMap using the 'kubectl encrypt' command", "isCorrect": false },
+          { "text": "Set the 'sensitive' field to true in the ConfigMap definition", "isCorrect": false },
+          { "text": "Create a secret instead of a ConfigMap for sensitive data", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You want to use ConfigMaps to configure an application that reads configuration files from a specific path. What approach should you take?",
+        "answers": [
+          { "text": "Update the application code to read ConfigMap data directly", "isCorrect": false },
+          { "text": "Mount the ConfigMap as a volume at the required path in the pod", "isCorrect": true },
+          { "text": "Embed the ConfigMap data in the application container image", "isCorrect": false },
+          { "text": "Use environment variables to pass configuration data to the application", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to create a ConfigMap named 'app-config' with key-value pairs from a file named 'config-data.txt'. What is the correct command?",
+        "answers": [
+          { "text": "kubectl create configmap app-config --from-file=config-data.txt", "isCorrect": true },
+          { "text": "kubectl create configmap app-config --from-file=config-data.txt --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+          { "text": "kubectl create configmap app-config --from-file=config-data.txt --dry-run -o yaml > configmap.yaml", "isCorrect": false },
+          { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have multiple ConfigMaps with overlapping key names. How does Kubernetes handle conflicts when mounting these ConfigMaps in a pod?",
+        "answers": [
+          { "text": "Fails to start the pod and logs an error", "isCorrect": false },
+          { "text": "Uses the data from the ConfigMap defined last in the pod specification", "isCorrect": true },
+          { "text": "Combines the data from all ConfigMaps into a single environment variable", "isCorrect": false },
+          { "text": "Randomly selects one of the ConfigMaps to use", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to rename it to 'new-config'. What command should you use?",
+        "answers": [
+          { "text": "kubectl rename configmap app-config new-config", "isCorrect": false },
+          { "text": "kubectl apply -f updated-configmap.yaml", "isCorrect": false },
+          { "text": "kubectl create configmap new-config --from-configmap=app-config", "isCorrect": true },
+          { "text": "kubectl edit configmap app-config", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You need to create a ConfigMap from multiple files with different file extensions (e.g., .yaml, .properties). What is the correct command?",
+        "answers": [
+          { "text": "kubectl create configmap app-config --from-file=/path/to/files/*", "isCorrect": false },
+          { "text": "kubectl create configmap app-config --from-file=/path/to/files", "isCorrect": false },
+          { "text": "kubectl create configmap app-config --from-file=/path/to/files/*.yaml --from-file=/path/to/files/*.properties", "isCorrect": true },
+          { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you update the value of a specific key without recreating the entire ConfigMap?",
+        "answers": [
+          { "text": "Use 'kubectl edit configmap' and manually update the key's value", "isCorrect": false },
+          { "text": "Create a new ConfigMap with the updated value and apply it", "isCorrect": false },
+          { "text": "Use 'kubectl patch configmap' to update the value of the specific key", "isCorrect": true },
+          { "text": "Delete and recreate the entire ConfigMap with the updated value", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you ensure that pods using this ConfigMap are automatically updated when the ConfigMap is modified?",
+        "answers": [
+          { "text": "Pods are automatically updated without any additional steps", "isCorrect": false },
+          { "text": "Use the 'kubectl rollout restart' command for each pod", "isCorrect": false },
+          { "text": "Manually delete and recreate each pod", "isCorrect": false },
+          { "text": "Set the 'configMapRef' field in the pod's 'containers' section", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "You want to use ConfigMaps to configure an application, but the application requires a specific directory structure for its configuration files. What should you consider when creating the ConfigMap?",
+        "answers": [
+          { "text": "Place all configuration files in a single key-value pair", "isCorrect": false },
+          { "text": "Embed the directory structure in the keys of the ConfigMap", "isCorrect": false },
+          { "text": "Create a ConfigMap for each subdirectory in the required structure", "isCorrect": true },
+          { "text": "Use environment variables instead of ConfigMaps for directory-based configurations", "isCorrect": false }
+        ]
+      },
+        {
+    "question": "You want to create a ConfigMap named 'app-config' with key-value pairs from environment variables on your local machine. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap app-config --from-env-file=env-vars.txt", "isCorrect": true },
+      { "text": "kubectl create configmap app-config --from-env-file=env-vars.txt --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-env-file=env-vars.txt --dry-run -o yaml > configmap.yaml", "isCorrect": false },
+      { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You need to create a ConfigMap named 'app-config' from a file named 'config-data.json', where the keys and values are in JSON format. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap app-config --from-file=config-data.json", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=config-data.json --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=config-data.json --dry-run -o yaml > configmap.yaml", "isCorrect": true },
+      { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+    ]
+  },
+
+  {
+    "question": "You want to use ConfigMaps to manage environment variables for a pod running a legacy application that reads settings from a .ini file. What approach should you take?",
+    "answers": [
+      { "text": "Embed the .ini file directly in the application container image", "isCorrect": false },
+      { "text": "Convert the .ini file to a ConfigMap and mount it as a volume in the pod", "isCorrect": true },
+      { "text": "Use environment variables to manually set each setting in the pod specification", "isCorrect": false },
+      { "text": "Update the application code to read ConfigMap data directly", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you ensure that the ConfigMap data is automatically updated in a pod when the ConfigMap is modified?",
+    "answers": [
+      { "text": "Pods are automatically updated without any additional steps", "isCorrect": false },
+      { "text": "Use the 'kubectl rollout restart' command for each pod", "isCorrect": false },
+      { "text": "Manually delete and recreate each pod", "isCorrect": false },
+      { "text": "Set the 'configMapRef' field in the pod's 'volumes' section", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' in the 'development' namespace. How can you view its data from a pod in the 'staging' namespace?",
+    "answers": [
+      { "text": "kubectl get configmap app-config -o jsonpath='{.data}' -n development", "isCorrect": false },
+      { "text": "kubectl get configmap app-config -n development -o yaml", "isCorrect": true },
+      { "text": "kubectl describe configmap app-config -n development", "isCorrect": false },
+      { "text": "kubectl get configmap app-config -o jsonpath='{.data}' -n staging", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs for various settings. How can you access all keys and values as environment variables in a pod?",
+    "answers": [
+      { "text": "Manually set each key as an environment variable in the pod specification", "isCorrect": false },
+      { "text": "Use the 'envVars' field in the pod specification", "isCorrect": false },
+      { "text": "Reference the ConfigMap in the 'env' field of the 'containers' section in the pod specification", "isCorrect": true },
+      { "text": "Use 'kubectl exec' to manually set each key as an environment variable in the running pod", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you update the value of a specific key in the ConfigMap without restarting the associated pods?",
+    "answers": [
+      { "text": "Manually update the ConfigMap data in the running pod", "isCorrect": false },
+      { "text": "Use 'kubectl exec' to modify the key's value in the running pod", "isCorrect": false },
+      { "text": "Create a new ConfigMap with the updated value and apply it", "isCorrect": false },
+      { "text": "Use 'kubectl patch configmap' to update the value of the specific key", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs for sensitive information. How can you prevent the sensitive data from being displayed in plain text when viewing the ConfigMap?",
+    "answers": [
+      { "text": "Use the 'kubectl decrypt' command to decrypt the sensitive data", "isCorrect": false },
+      { "text": "Set the 'sensitive' field to true in the ConfigMap definition", "isCorrect": false },
+      { "text": "Encrypt the entire ConfigMap using the 'kubectl encrypt' command", "isCorrect": false },
+      { "text": "Create a secret instead of a ConfigMap for sensitive data", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs for various settings. How can you update the ConfigMap data and ensure that the changes take effect immediately without restarting the associated pods?",
+    "answers": [
+      { "text": "Use 'kubectl rollout restart' for each pod using the ConfigMap", "isCorrect": false },
+      { "text": "Update the ConfigMap, and the changes will apply automatically", "isCorrect": false },
+      { "text": "Delete and recreate each pod to force ConfigMap data refresh", "isCorrect": false },
+      { "text": "Use the 'kubectl apply' command with the '--force' flag to update the ConfigMap in-place", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to create a new ConfigMap named 'new-config' with the same data. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap new-config --from-configmap=app-config", "isCorrect": true },
+      { "text": "kubectl apply -f app-config.yaml -n new-config", "isCorrect": false },
+      { "text": "kubectl copy configmap app-config new-config", "isCorrect": false },
+      { "text": "kubectl rename configmap app-config new-config", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's init container. How should you reference the ConfigMap in the pod specification?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the 'initContainers' section", "isCorrect": false },
+      { "text": "Mount the ConfigMap as a volume in the 'initContainers' section", "isCorrect": true },
+      { "text": "Set the 'configMapRef' field in the 'initContainers' section", "isCorrect": false },
+      { "text": "Use the 'kubectl exec' command to copy ConfigMap data to the init container", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure an application that reads settings from a file. How should you structure the ConfigMap?",
+    "answers": [
+      { "text": "Place all key-value pairs in a single line in the ConfigMap", "isCorrect": false },
+      { "text": "Embed the entire configuration file in a single key-value pair", "isCorrect": false },
+      { "text": "Create a separate key for each setting in the configuration file", "isCorrect": true },
+      { "text": "Use environment variables instead of ConfigMaps for file-based configurations", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's volumes. How should you reference the ConfigMap in the pod specification?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Mount the ConfigMap as a volume in the 'volumes' section", "isCorrect": true },
+      { "text": "Set the 'configMapRef' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Use the 'kubectl exec' command to copy ConfigMap data to the volume", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs in the 'development' namespace. How can you copy this ConfigMap to the 'staging' namespace?",
+    "answers": [
+      { "text": "kubectl copy configmap app-config -n development -n staging", "isCorrect": false },
+      { "text": "kubectl get configmap app-config -n development -o yaml | kubectl apply -n staging -f -", "isCorrect": true },
+      { "text": "kubectl create configmap app-config --from-configmap=app-config -n staging", "isCorrect": false },
+      { "text": "Use 'kubectl exec' to manually copy ConfigMap data from one namespace to another", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's init container. How can you ensure that the init container starts before the main container?",
+    "answers": [
+      { "text": "Use the 'initContainer' field in the pod specification to define the order", "isCorrect": false },
+      { "text": "Set the 'initContainer' field to true in the ConfigMap definition", "isCorrect": false },
+      { "text": "Define the init container first in the 'containers' section of the pod specification", "isCorrect": true },
+      { "text": "Manually adjust the start order in the Kubernetes dashboard", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You want to create a ConfigMap named 'app-config' with key-value pairs from environment variables on your local machine. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap app-config --from-env-file=env-vars.txt", "isCorrect": true },
+      { "text": "kubectl create configmap app-config --from-env-file=env-vars.txt --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-env-file=env-vars.txt --dry-run -o yaml > configmap.yaml", "isCorrect": false },
+      { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You need to create a ConfigMap named 'app-config' from a file named 'config-data.json', where the keys and values are in JSON format. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap app-config --from-file=config-data.json", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=config-data.json --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=config-data.json --dry-run -o yaml > configmap.yaml", "isCorrect": true },
+      { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You want to use ConfigMaps to manage environment variables for a pod running a legacy application that reads settings from a .ini file. What approach should you take?",
+    "answers": [
+      { "text": "Embed the .ini file directly in the application container image", "isCorrect": false },
+      { "text": "Convert the .ini file to a ConfigMap and mount it as a volume in the pod", "isCorrect": true },
+      { "text": "Use environment variables to manually set each setting in the pod specification", "isCorrect": false },
+      { "text": "Update the application code to read ConfigMap data directly", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you ensure that the ConfigMap data is automatically updated in a pod when the ConfigMap is modified?",
+    "answers": [
+      { "text": "Pods are automatically updated without any additional steps", "isCorrect": false },
+      { "text": "Use the 'kubectl rollout restart' command for each pod", "isCorrect": false },
+      { "text": "Manually delete and recreate each pod", "isCorrect": false },
+      { "text": "Set the 'configMapRef' field in the pod's 'volumes' section", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' in the 'development' namespace. How can you view its data from a pod in the 'staging' namespace?",
+    "answers": [
+      { "text": "kubectl get configmap app-config -o jsonpath='{.data}' -n development", "isCorrect": false },
+      { "text": "kubectl get configmap app-config -n development -o yaml", "isCorrect": true },
+      { "text": "kubectl describe configmap app-config -n development", "isCorrect": false },
+      { "text": "kubectl get configmap app-config -o jsonpath='{.data}' -n staging", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs for various settings. How can you access all keys and values as environment variables in a pod?",
+    "answers": [
+      { "text": "Manually set each key as an environment variable in the pod specification", "isCorrect": false },
+      { "text": "Use the 'envVars' field in the pod specification", "isCorrect": false },
+      { "text": "Reference the ConfigMap in the 'env' field of the 'containers' section in the pod specification", "isCorrect": true },
+      { "text": "Use 'kubectl exec' to manually set each key as an environment variable in the running pod", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you update the value of a specific key in the ConfigMap without restarting the associated pods?",
+    "answers": [
+      { "text": "Manually update the ConfigMap data in the running pod", "isCorrect": false },
+      { "text": "Use 'kubectl exec' to modify the key's value in the running pod", "isCorrect": false },
+      { "text": "Create a new ConfigMap with the updated value and apply it", "isCorrect": false },
+      { "text": "Use 'kubectl patch configmap' to update the value of the specific key", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs for sensitive information. How can you prevent the sensitive data from being displayed in plain text when viewing the ConfigMap?",
+    "answers": [
+      { "text": "Use the 'kubectl decrypt' command to decrypt the sensitive data", "isCorrect": false },
+      { "text": "Set the 'sensitive' field to true in the ConfigMap definition", "isCorrect": false },
+      { "text": "Encrypt the entire ConfigMap using the 'kubectl encrypt' command", "isCorrect": false },
+      { "text": "Create a secret instead of a ConfigMap for sensitive data", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs for various settings. How can you update the ConfigMap data and ensure that the changes take effect immediately without restarting the associated pods?",
+    "answers": [
+      { "text": "Use 'kubectl rollout restart' for each pod using the ConfigMap", "isCorrect": false },
+      { "text": "Update the ConfigMap, and the changes will apply automatically", "isCorrect": false },
+      { "text": "Delete and recreate each pod to force ConfigMap data refresh", "isCorrect": false },
+      { "text": "Use the 'kubectl apply' command with the '--force' flag to update the ConfigMap in-place", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to create a new ConfigMap named 'new-config' with the same data. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap new-config --from-configmap=app-config", "isCorrect": true },
+      { "text": "kubectl apply -f app-config.yaml -n new-config", "isCorrect": false },
+      { "text": "kubectl copy configmap app-config new-config", "isCorrect": false },
+      { "text": "kubectl rename configmap app-config new-config", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's init container. How should you reference the ConfigMap in the pod specification?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the 'initContainers' section", "isCorrect": false },
+      { "text": "Mount the ConfigMap as a volume in the 'initContainers' section", "isCorrect": true },
+      { "text": "Set the 'configMapRef' field in the 'initContainers' section", "isCorrect": false },
+      { "text": "Use the 'kubectl exec' command to copy ConfigMap data to the init container", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure an application that reads settings from a file. How should you structure the ConfigMap?",
+    "answers": [
+      { "text": "Place all key-value pairs in a single line in the ConfigMap", "isCorrect": false },
+      { "text": "Embed the entire configuration file in a single key-value pair", "isCorrect": false },
+      { "text": "Create a separate key for each setting in the configuration file", "isCorrect": true },
+      { "text": "Use environment variables instead of ConfigMaps for file-based configurations", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's volumes. How should you reference the ConfigMap in the pod specification?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Mount the ConfigMap as a volume in the 'volumes' section", "isCorrect": true },
+      { "text": "Set the 'configMapRef' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Use the 'kubectl exec' command to copy ConfigMap data to the volume", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs in the 'development' namespace. How can you copy this ConfigMap to the 'staging' namespace?",
+    "answers": [
+      { "text": "kubectl copy configmap app-config -n development -n staging", "isCorrect": false },
+      { "text": "kubectl get configmap app-config -n development -o yaml | kubectl apply -n staging -f -", "isCorrect": true },
+      { "text": "kubectl create configmap app-config --from-configmap=app-config -n staging", "isCorrect": false },
+      { "text": "Use 'kubectl exec' to manually copy ConfigMap data from one namespace to another", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's init container. How can you ensure that the init container starts before the main container?",
+    "answers": [
+      { "text": "Use the 'initContainer' field in the pod specification to define the order", "isCorrect": false },
+      { "text": "Set the 'initContainer' field to true in the ConfigMap definition", "isCorrect": false },
+      { "text": "Define the init container first in the 'containers' section of the pod specification", "isCorrect": true },
+      { "text": "Manually adjust the start order in the Kubernetes dashboard", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You want to create a ConfigMap named 'app-config' with key-value pairs from a file named 'config.ini', where each section in the .ini file represents a key in the ConfigMap. What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap app-config --from-file=config.ini", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=config.ini --dry-run -o yaml | kubectl apply -f -", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=config.ini --dry-run -o yaml > configmap.yaml", "isCorrect": true },
+      { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to update the value of a specific key without affecting other keys. What command should you use?",
+    "answers": [
+      { "text": "kubectl apply -f updated-configmap.yaml", "isCorrect": false },
+      { "text": "kubectl create configmap --from-literal=updated-key=new-value", "isCorrect": true },
+      { "text": "kubectl edit configmap", "isCorrect": false },
+      { "text": "kubectl patch configmap", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You need to create a ConfigMap from multiple files with different file extensions (e.g., .yaml, .env). What is the correct command?",
+    "answers": [
+      { "text": "kubectl create configmap app-config --from-file=/path/to/files/*", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=/path/to/files", "isCorrect": false },
+      { "text": "kubectl create configmap app-config --from-file=/path/to/files/*.yaml --from-file=/path/to/files/*.env", "isCorrect": true },
+      { "text": "kubectl apply -f configmap.yaml", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You want to use ConfigMaps to manage environment variables for a pod running a Node.js application. What approach should you take?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the pod specification", "isCorrect": false },
+      { "text": "Set the environment variables directly in the 'containers' section of the pod specification", "isCorrect": true },
+      { "text": "Embed the environment variables directly in the Node.js application code", "isCorrect": false },
+      { "text": "Create a separate JSON file for environment variables and mount it as a volume in the pod", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's volumes. How should you reference the ConfigMap in the pod specification?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Mount the ConfigMap as a volume in the 'volumes' section", "isCorrect": true },
+      { "text": "Set the 'configMapRef' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Use the 'kubectl exec' command to copy ConfigMap data to the volume", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's init container. How can you ensure that the init container starts before the main container?",
+    "answers": [
+      { "text": "Use the 'initContainer' field in the pod specification to define the order", "isCorrect": false },
+      { "text": "Set the 'initContainer' field to true in the ConfigMap definition", "isCorrect": false },
+      { "text": "Define the init container first in the 'containers' section of the pod specification", "isCorrect": true },
+      { "text": "Manually adjust the start order in the Kubernetes dashboard", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you update the value of a specific key without restarting the associated pods?",
+    "answers": [
+      { "text": "Manually update the ConfigMap data in the running pod", "isCorrect": false },
+      { "text": "Use 'kubectl exec' to modify the key's value in the running pod", "isCorrect": false },
+      { "text": "Create a new ConfigMap with the updated value and apply it", "isCorrect": false },
+      { "text": "Use 'kubectl patch configmap' to update the value of the specific key", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs. How can you ensure that pods using this ConfigMap are automatically updated when the ConfigMap is modified?",
+    "answers": [
+      { "text": "Pods are automatically updated without any additional steps", "isCorrect": false },
+      { "text": "Use the 'kubectl rollout restart' command for each pod", "isCorrect": false },
+      { "text": "Manually delete and recreate each pod", "isCorrect": false },
+      { "text": "Set the 'configMapRef' field in the pod's 'containers' section", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "You have a ConfigMap named 'app-config' with key-value pairs, and you want to use it to configure a pod's volumes. How should you reference the ConfigMap in the pod specification?",
+    "answers": [
+      { "text": "Use the 'envVars' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Mount the ConfigMap as a volume in the 'volumes' section", "isCorrect": true },
+      { "text": "Set the 'configMapRef' field in the 'volumes' section", "isCorrect": false },
+      { "text": "Use the 'kubectl exec' command to copy ConfigMap data to the volume", "isCorrect": false }
+    ]
+  }
+]
+  

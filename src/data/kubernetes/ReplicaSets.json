@@ -1,0 +1,200 @@
+[
+    {
+      "question": "Scenario: You have a Kubernetes application with a Replica Set configured. One of the pods in the Replica Set is not healthy. What action can you take to ensure that the Replica Set maintains the desired number of replicas?",
+      "answers": [
+        { "text": "Scale down the Replica Set", "isCorrect": false },
+        { "text": "Manually delete the unhealthy pod", "isCorrect": true },
+        { "text": "Update the Replica Set image version", "isCorrect": false },
+        { "text": "Restart the entire Replica Set", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to scale your application horizontally by increasing the number of replicas. Which command can be used to scale a Replica Set named 'my-replicaset' to 5 replicas?",
+      "answers": [
+        { "text": "kubectl scale replicaset my-replicaset --replicas=5", "isCorrect": true },
+        { "text": "kubectl resize replicaset my-replicaset --replicas=5", "isCorrect": false },
+        { "text": "kubectl set replicas my-replicaset 5", "isCorrect": false },
+        { "text": "kubectl update replicaset my-replicaset --replicas=5", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set managing a set of pods. You need to update the image version for all the pods. Which imperative command can be used to achieve this without changing the Replica Set definition?",
+      "answers": [
+        { "text": "kubectl set image", "isCorrect": true },
+        { "text": "kubectl edit replicaset", "isCorrect": false },
+        { "text": "kubectl apply -f", "isCorrect": false },
+        { "text": "kubectl rollout restart replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that your Replica Set uses the rolling update strategy to deploy a new version of your application. Which field in the Replica Set definition would you configure to achieve this?",
+      "answers": [
+        { "text": "strategyType", "isCorrect": false },
+        { "text": "updateStrategy", "isCorrect": false },
+        { "text": "updatePolicy", "isCorrect": false },
+        { "text": "strategy", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You are troubleshooting issues with your Replica Set pods, and you need to view the events associated with the Replica Set. Which command can help you achieve this?",
+      "answers": [
+        { "text": "kubectl describe rs my-replicaset", "isCorrect": true },
+        { "text": "kubectl logs rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl events rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl get events my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have updated the Replica Set, and you want to ensure that the new pods are rolled out smoothly while maintaining high availability. Which command can help you monitor the rollout status?",
+      "answers": [
+        { "text": "kubectl rollout watch my-replicaset", "isCorrect": true },
+        { "text": "kubectl rollout status my-replicaset", "isCorrect": false },
+        { "text": "kubectl get rollout my-replicaset", "isCorrect": false },
+        { "text": "kubectl describe rollout my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to update the Replica Set's environment variables without changing the pod template. Which command allows you to achieve this?",
+      "answers": [
+        { "text": "kubectl apply -f rs.yaml", "isCorrect": false },
+        { "text": "kubectl edit rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl set env rs my-replicaset", "isCorrect": true },
+        { "text": "kubectl update env rs my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set named 'web-replicaset' running multiple pods. You want to perform a rolling restart to apply changes. Which command achieves this while maintaining availability?",
+      "answers": [
+        { "text": "kubectl restart rs web-replicaset", "isCorrect": false },
+        { "text": "kubectl rollout restart rs web-replicaset", "isCorrect": true },
+        { "text": "kubectl scale rs web-replicaset --replicas=0", "isCorrect": false },
+        { "text": "kubectl delete pods --selector=my-label", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing a stateful application using a Replica Set. How can you perform a graceful scale-down without affecting the application's availability?",
+      "answers": [
+        { "text": "kubectl scale rs my-replicaset --replicas=0", "isCorrect": false },
+        { "text": "kubectl delete rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl drain my-replicaset-pod-0", "isCorrect": false },
+        { "text": "kubectl delete pod my-replicaset-pod-0", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You want to ensure that your Replica Set only schedules pods on nodes with specific labels. Which field in the Replica Set definition allows you to specify node affinity?",
+      "answers": [
+        { "text": "nodeAffinity", "isCorrect": true },
+        { "text": "nodeSelector", "isCorrect": false },
+        { "text": "affinity", "isCorrect": false },
+        { "text": "tolerations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to limit the number of pods that can be unavailable during a rolling update of your Replica Set. Which field in the Replica Set definition can you use to set this constraint?",
+      "answers": [
+        { "text": "maxUnavailable", "isCorrect": true },
+        { "text": "maxSurge", "isCorrect": false },
+        { "text": "updateStrategy", "isCorrect": false },
+        { "text": "rollingUpdate", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set managing your application, and you want to ensure that each pod has a unique hostname. Which field in the pod template allows you to achieve this?",
+      "answers": [
+        { "text": "hostname", "isCorrect": true },
+        { "text": "subdomain", "isCorrect": false },
+        { "text": "name", "isCorrect": false },
+        { "text": "uniqueName", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You want to update the image version of your Replica Set pods, but you want to ensure that the update is applied immediately without waiting for the default rolling update delay. What command can be used to achieve this?",
+      "answers": [
+        { "text": "kubectl rollout restart rs my-replicaset", "isCorrect": true },
+        { "text": "kubectl apply -f rs.yaml", "isCorrect": false },
+        { "text": "kubectl set image rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl edit rs my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing a stateful application using a Replica Set, and you need to update the storage class for the persistent volumes used by the pods. How can you achieve this without disrupting the application?",
+      "answers": [
+        { "text": "kubectl edit pv", "isCorrect": false },
+        { "text": "kubectl edit rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl patch pv", "isCorrect": true },
+        { "text": "kubectl patch rs my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set managing your application, and you need to roll back to the previous version due to issues with the latest update. What command can be used to initiate a rollback?",
+      "answers": [
+        { "text": "kubectl rollback rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl rollout undo rs my-replicaset", "isCorrect": true },
+        { "text": "kubectl apply -f rs.yaml --rollback", "isCorrect": false },
+        { "text": "kubectl edit rs my-replicaset --rollback", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set named 'app-replicaset' with three replicas. You want to gradually scale down to a single replica without impacting availability. What command can be used to achieve this?",
+      "answers": [
+        { "text": "kubectl scale rs app-replicaset --replicas=1", "isCorrect": false },
+        { "text": "kubectl rollout restart rs app-replicaset", "isCorrect": false },
+        { "text": "kubectl scale rs app-replicaset --replicas=0", "isCorrect": false },
+        { "text": "kubectl scale rs app-replicaset --replicas=1 --timeout=0s", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set managing your application, and you want to view the rollout history to identify recent changes. Which command can help you achieve this?",
+      "answers": [
+        { "text": "kubectl get rollout history my-replicaset", "isCorrect": true },
+        { "text": "kubectl rollout history my-replicaset", "isCorrect": false },
+        { "text": "kubectl describe rollout my-replicaset", "isCorrect": false },
+        { "text": "kubectl logs rollout my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You need to pause a rollout of your Replica Set to investigate an issue. What command can you use to achieve this?",
+      "answers": [
+        { "text": "kubectl pause rollout my-replicaset", "isCorrect": true },
+        { "text": "kubectl scale rs my-replicaset --replicas=0", "isCorrect": false },
+        { "text": "kubectl edit rs my-replicaset --pause", "isCorrect": false },
+        { "text": "kubectl annotate rs my-replicaset --pause", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You are managing a stateful application using a Replica Set, and you want to update the resource limits for the pods. Which command allows you to apply the changes without restarting the pods?",
+      "answers": [
+        { "text": "kubectl edit rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl apply -f rs.yaml", "isCorrect": true },
+        { "text": "kubectl set resources rs my-replicaset", "isCorrect": false },
+        { "text": "kubectl patch rs my-replicaset", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set named 'backend-replicaset' with anti-affinity rules to ensure that pods are scheduled on different nodes. How can you view the anti-affinity settings for the Replica Set?",
+      "answers": [
+        { "text": "kubectl get rs backend-replicaset -o yaml", "isCorrect": true },
+        { "text": "kubectl describe rs backend-replicaset", "isCorrect": false },
+        { "text": "kubectl get rs backend-replicaset", "isCorrect": false },
+        { "text": "kubectl get rs backend-replicaset -o json", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a stateful application managed by a Replica Set, and you need to change the storage class for the persistent volumes used by the pods. Which field in the Replica Set definition allows you to set the storage class?",
+      "answers": [
+        { "text": "storageClassName", "isCorrect": true },
+        { "text": "storageClass", "isCorrect": false },
+        { "text": "pv.storageClassName", "isCorrect": false },
+        { "text": "pv.storageClass", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Scenario: You have a Replica Set named 'api-replicaset' with a rolling update in progress. How can you pause the update temporarily?",
+      "answers": [
+        { "text": "kubectl rollout pause rs api-replicaset", "isCorrect": true },
+        { "text": "kubectl scale rs api-replicaset --replicas=0", "isCorrect": false },
+        { "text": "kubectl edit rs api-replicaset --pause", "isCorrect": false },
+        { "text": "kubectl annotate rs api-replicaset --pause", "isCorrect": false }
+      ]
+    }
+]
